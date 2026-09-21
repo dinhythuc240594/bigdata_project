@@ -1,0 +1,10 @@
+crawl-env/
+__pycache__/
+*.pyc
+*.log
+
+data/raw/*
+#data/cleaned/*
+
+.ipynb_checkpoints/
+.DS_Store
