@@ -1,0 +1,510 @@
+product_id,sku,name,brand,category,price_vnd,old_price_vnd,discount_amount_vnd,discount_percent,rating,review_count,url,source,crawl_date
+7438,1202903,Bàn phím Dell KB216-Black,Dell,keyboard,179000.0,179000.0,0.0,0.0,,,,phongvu,2026-09-21
+4288,1202937,Bàn phím Logitech K120,Logitech,keyboard,165000.0,165000.0,0.0,0.0,,,,phongvu,2026-09-21
+8211,1202938,Bàn phím Logitech K270,Logitech,keyboard,415000.0,415000.0,0.0,0.0,,,,phongvu,2026-09-21
+9080,1503133,Bàn phím Logitech K400 Plus không dây (Đen),Logitech,keyboard,699000.0,830000.0,131000.0,16.0,,,,phongvu,2026-09-21
+9088,1503243,Bàn phím Logitech Bluetooth K480 (Đen),Logitech,keyboard,800000.0,800000.0,0.0,0.0,,,,phongvu,2026-09-21
+9569,1602542,Bàn phím số R8 1810,R8,keyboard,100000.0,100000.0,0.0,0.0,,,,phongvu,2026-09-21
+3139,1701205,Bàn phím Logitech Gaming G213 (Đen) (920-008096),Logitech,keyboard,979000.0,990000.0,11000.0,1.0,,,,phongvu,2026-09-21
+6583,1703677,Bàn phím cơ Fuhlen Destroyer,Fuhlen,keyboard,899000.0,899000.0,0.0,0.0,,,,phongvu,2026-09-21
+6584,1703678,Bàn phím cơ Fuhlen Eraser - Optical Switch,Fuhlen,keyboard,799000.0,799000.0,0.0,0.0,,,,phongvu,2026-09-21
+6992,1703737,Bàn Phím Dareu LK145 Gaming đen,Dareu,keyboard,309000.0,360000.0,51000.0,14.0,,,,phongvu,2026-09-21
+190,1703750,Bàn phím Fuhlen L411 (Đen),Fuhlen,keyboard,199000.0,199000.0,0.0,0.0,,,,phongvu,2026-09-21
+5243,1703782,Bàn phím Newmen E340 đen,Newmen,keyboard,160000.0,160000.0,0.0,0.0,,,,phongvu,2026-09-21
+23471,1800231,Bàn Phím Dareu LK135 Gaming (Đen),Dareu,keyboard,199000.0,199000.0,0.0,0.0,,,,phongvu,2026-09-21
+33008,1808294,Bàn phím Fuhlen L500S (Đen),Fuhlen,keyboard,199000.0,219000.0,20000.0,9.0,,,,phongvu,2026-09-21
+34840,1810781,Bàn phím cơ HyperX Alloy Elite Gaming - Red Switch,HyperX,keyboard,3590000.0,3590000.0,0.0,0.0,,,,phongvu,2026-09-21
+37310,18110029,Bàn phím Dareu LK185 (Đen),Dareu,keyboard,159000.0,159000.0,0.0,0.0,,,,phongvu,2026-09-21
+40504,19040963,Bàn phím cơ Gaming DAREU EK1280 RGB Red D Switch (Đen),Dareu,keyboard,990000.0,990000.0,0.0,0.0,,,,phongvu,2026-09-21
+40504,19040964_SUB_1,Bàn phím cơ Gaming DAREU EK1280 RGB Brown D Switch (Đen) | Phong Vũ,DAREU,keyboard,990000.0,990000.0,0.0,0.0,,,,phongvu,2026-09-21
+41106,19050529,Bàn phím cơ Newmen GM819,Newmen,keyboard,1150000.0,1150000.0,0.0,0.0,,,,phongvu,2026-09-21
+69040,200300352,Bàn phím cơ gaming Logitech G512 GX (Tactile) (920-009354),Logitech,keyboard,1989000.0,2999000.0,1010000.0,34.0,,,,phongvu,2026-09-21
+69040,200300353,Bàn phím cơ gaming Logitech G512 GX (Linear) (920-009372),Logitech,keyboard,1989000.0,2999000.0,1010000.0,34.0,,,,phongvu,2026-09-21
+67249,200600655,Bàn phím cơ DareU EK1280s MULTI LED (Switch Blue) (Đen),Dareu,keyboard,790000.0,790000.0,0.0,0.0,,,,phongvu,2026-09-21
+69040,200700097,Bàn phím cơ gaming Logitech G512 GX (Clicky) (920-008949),Logitech,keyboard,1989000.0,2999000.0,1010000.0,34.0,,,,phongvu,2026-09-21
+80759,201000932,Bàn phím gaming Asus TUF K1 (Đen),Asus,keyboard,799000.0,1189000.0,390000.0,33.0,,,,phongvu,2026-09-21
+149445,210200598,Bàn phím không dây Logitech K580 (Đen),Logitech,keyboard,949000.0,1199000.0,250000.0,21.0,,,,phongvu,2026-09-21
+149445,210200599,Bàn phím không dây Logitech K580 (Trắng),Logitech,keyboard,999000.0,1199000.0,200000.0,17.0,,,,phongvu,2026-09-21
+296793,210700023,Bàn phím cơ không dây Newmen GM610 Global Black Axis (Trắng),Newmen,keyboard,1290000.0,1290000.0,0.0,0.0,,,,phongvu,2026-09-21
+296793,210700024,Bàn phím cơ không dây Newmen GM610 Global Red Axis (Trắng),Newmen,keyboard,1290000.0,1290000.0,0.0,0.0,,,,phongvu,2026-09-21
+296793,210700025,Bàn phím cơ không dây Newmen GM610 Global Blue Axis (Trắng),Newmen,keyboard,749000.0,1290000.0,541000.0,42.0,,,,phongvu,2026-09-21
+386914,211000720,Bàn phím cơ Corsair K100 RGB MX Speed (Đen),Corsair,keyboard,5280000.0,6300000.0,1020000.0,16.0,,,,phongvu,2026-09-21
+386914,211000721,Bàn phím cơ Corsair K100 RGB OPX Switch (Đen),Corsair,keyboard,5280000.0,6300000.0,1020000.0,16.0,,,,phongvu,2026-09-21
+390609,211003699,Bàn phím không dây Logitech MX Keys Mini (920-010505) (Đen),Logitech,keyboard,2699000.0,2699000.0,0.0,0.0,,,,phongvu,2026-09-21
+390609,211003701,Bàn phím không dây Logitech MX Keys Mini (920-010507) (Hồng),Logitech,keyboard,2699000.0,2699000.0,0.0,0.0,,,,phongvu,2026-09-21
+390612,211003702,Bàn phím không dây Logitech MX Keys Mini For Mac (920-010528) (xám),Logitech,keyboard,2699000.0,2699000.0,0.0,0.0,,,,phongvu,2026-09-21
+411429,220100318,Bàn phím cơ không dây Newmen GM840 Pro (KailhBox White Switch),Newmen,keyboard,1545000.0,2299000.0,754000.0,33.0,,,,phongvu,2026-09-21
+411429,220100319,Bàn phím cơ không dây Newmen GM840 Pro (KailhBox Red Switch),Newmen,keyboard,1899000.0,2299000.0,400000.0,17.0,,,,phongvu,2026-09-21
+411429,220100320,Bàn phím cơ không dây Newmen GM840 Pro (G-Pro Yellow Switch),Newmen,keyboard,1799000.0,2199000.0,400000.0,18.0,,,,phongvu,2026-09-21
+411431,220100321,Bàn phím cơ không dây Newmen GM1000 (G-Pro Yellow Axis Switch),Newmen,keyboard,1899000.0,2299000.0,400000.0,17.0,,,,phongvu,2026-09-21
+411431,220100323,Bàn phím cơ không dây Newmen GM1000 (KailhBox Red Axis Switch),Newmen,keyboard,1999000.0,2399000.0,400000.0,17.0,,,,phongvu,2026-09-21
+411431,220100324,Bàn phím cơ không dây Newmen GM1000 (KailhBox White Axis Switch),Newmen,keyboard,1999000.0,2399000.0,400000.0,17.0,,,,phongvu,2026-09-21
+414146,220103958,Bàn phím cơ Logitech G413 SE (Tactile Switch) (920-010439),Logitech,keyboard,1549000.0,1899000.0,350000.0,18.0,,,,phongvu,2026-09-21
+414147,220103959,Bàn phím cơ Logitech G413 SE TKL (Tactile Switch) (920-010448),Logitech,keyboard,1399000.0,1599000.0,200000.0,13.0,,,,phongvu,2026-09-21
+440587,220700067,Bàn phím không dây Logitech MX Mechanical,Logitech,keyboard,4099000.0,4699000.0,600000.0,13.0,,,,phongvu,2026-09-21
+442517,220706624,Bàn phím Corsair K70 PRO,Corsair,keyboard,3849000.0,3860000.0,11000.0,0.0,,,,phongvu,2026-09-21
+447749,220805960,Bàn phím cơ Razer DeathStalker V2 Pro Tenkeyless Wireless (Linear Red Switch),Razer,keyboard,2799000.0,4699000.0,1900000.0,40.0,,,,phongvu,2026-09-21
+447752,220805963,Bàn phím không dây Logitech K650 (920-010987) (Off-White),Logitech,keyboard,1049000.0,1349000.0,300000.0,22.0,,,,phongvu,2026-09-21
+447752,220805964,Bàn phím không dây Logitech K650 (920-010955) (Graphite),Logitech,keyboard,1049000.0,1349000.0,300000.0,22.0,,,,phongvu,2026-09-21
+465769,221002611,Bàn phím cơ gaming Razer Blackwidow 2019 Green Switch - RZ03-02860100-R3M1 - Demo,Razer,keyboard,990000.0,3100000.0,2110000.0,68.0,,,,phongvu,2026-09-21
+465773,221002615,Bàn phím cơ Gigabyte AORUS K9 - Demo,Gigabyte,keyboard,990000.0,3450000.0,2460000.0,71.0,,,,phongvu,2026-09-21
+465780,221002622,Bàn phím cơ Newmen GM550 - Demo,Newmen,keyboard,499000.0,1190000.0,691000.0,58.0,,,,phongvu,2026-09-21
+465800,221002642,Bàn phím FL ESports K188 - Demo,FL ESports,keyboard,1532000.0,1532000.0,0.0,0.0,,,,phongvu,2026-09-21
+466959,221003457,Bàn phím Trust GXT 890 Cada RGB Mechanical - Demo,Trust,keyboard,499000.0,1899000.0,1400000.0,74.0,,,,phongvu,2026-09-21
+470945,221201649,Bàn phím cơ Sumtax Gaming Robot - Demo,Sumtax,keyboard,565000.0,565000.0,0.0,0.0,,,,phongvu,2026-09-21
+471118,221201855,Bàn phím cơ không dây Newmen Dual Mode GM680 Jungle (Purple Switch),Newmen,keyboard,1399000.0,1770000.0,371000.0,21.0,,,,phongvu,2026-09-21
+471118,221201856,Bàn phím cơ không dây Newmen Dual Mode GM680 Jungle (Red Switch),Newmen,keyboard,1399000.0,1770000.0,371000.0,21.0,,,,phongvu,2026-09-21
+471118,221201857,Bàn phím cơ không dây Newmen Dual Mode GM680 Jungle (G-Pro Yellow switch),Newmen,keyboard,1599000.0,1830000.0,231000.0,13.0,,,,phongvu,2026-09-21
+498444,230105816,Bàn phím Logitech K375s - Demo,Logitech,keyboard,550000.0,550000.0,0.0,0.0,,,,phongvu,2026-09-21
+396961,230202445,"Bàn phím máy tính DARE-U EK810X Black-grey, Optical switch (Blue switch)",Dareu,keyboard,719000.0,799000.0,80000.0,10.0,,,,phongvu,2026-09-21
+502541,230203658,Bàn phím cơ Gaming Logitech G Pro X (920-009239) - Demo,Logitech,keyboard,1139000.0,3799000.0,2660000.0,70.0,,,,phongvu,2026-09-21
+502543,230203660,Bàn phím Corsair K70 MK.2 SE RGB MX Speed - Demo,Corsair,keyboard,1290000.0,4020000.0,2730000.0,68.0,,,,phongvu,2026-09-21
+502548,230203665,Bàn phím cơ Gaming DAREU EK1280 RGB Red D Switch (Đen) - Demo,Dareu,keyboard,990000.0,990000.0,0.0,0.0,,,,phongvu,2026-09-21
+504681,230300020,"Bàn phím máy tính DARE-U EK1280X Black-grey, Optical switch - BLUE",Dareu,keyboard,849000.0,999000.0,150000.0,15.0,,,,phongvu,2026-09-21
+507354,230302897,Bàn phím gaming có dây HyperX Alloy Origins Core - Aqua Switch (PBT Edition) (639N9AA),HyperX,keyboard,2390000.0,2390000.0,0.0,0.0,,,,phongvu,2026-09-21
+507354,230302898,Bàn phím gaming có dây HyperX Alloy Origins Core - Red Switch (PBT Edition) (639N7AA),HyperX,keyboard,2390000.0,2390000.0,0.0,0.0,,,,phongvu,2026-09-21
+508392,230304552,Bàn phím gaming Corsair K70 PRO-BLK-OPX Silver-RGB (CH-910941A-NA),Corsair,keyboard,3899000.0,4089000.0,190000.0,5.0,,,,phongvu,2026-09-21
+510987,230401900,Bàn phím cơ có dây Razer BlackWidow V4 Pro - Yellow Switch (RZ03-04681800-R3M1),Razer,keyboard,4899000.0,6199000.0,1300000.0,21.0,,,,phongvu,2026-09-21
+510987,230401901,Bàn phím cơ có dây Razer BlackWidow V4 Pro - Green Switch (RZ03-04680100-R3M1),Razer,keyboard,4649000.0,6199000.0,1550000.0,25.0,,,,phongvu,2026-09-21
+516743,230603109,Bàn phím cơ không dây AKKO 3087 RF Dragon Ball Z - Goku (AKKO switch v3 - Cream Blue),Akko,keyboard,1399000.0,1699000.0,300000.0,18.0,,,,phongvu,2026-09-21
+516743,230603110,Bàn phím cơ không dây AKKO 3087 RF Dragon Ball Z - Goku (AKKO switch v3 - Cream Yellow),Akko,keyboard,1099000.0,1699000.0,600000.0,35.0,,,,phongvu,2026-09-21
+516747,230603113,Bàn phím cơ không dây AKKO 3087 RF One Piece - Luffy (AKKO switch v3 - Cream Blue),Akko,keyboard,1099000.0,1699000.0,600000.0,35.0,,,,phongvu,2026-09-21
+516747,230603114,Bàn phím cơ không dây AKKO 3087 RF One Piece - Luffy (AKKO switch v3 - Cream Yellow),Akko,keyboard,1099000.0,1699000.0,600000.0,35.0,,,,phongvu,2026-09-21
+516749,230603115,Bàn phím cơ không dây AKKO 3108 RF Dragon Ball Z - Goku (AKKO switch v3 - Cream Blue),Akko,keyboard,1499000.0,1899000.0,400000.0,21.0,,,,phongvu,2026-09-21
+516749,230603116,Bàn phím cơ không dây AKKO 3108 RF Dragon Ball Z - Goku (AKKO switch v3 - Cream Yellow),Akko,keyboard,1499000.0,1899000.0,400000.0,21.0,,,,phongvu,2026-09-21
+517166,230603463,Bàn phím Newmen GM100 (Trắng xám) - Demo,Newmen,keyboard,440000.0,440000.0,0.0,0.0,,,,phongvu,2026-09-21
+517899,230604096,Bàn phím máy tính Genius RS2 KB-117 cổng USB màu đen (GK-190022) (31310016400),Genius,keyboard,199000.0,199000.0,0.0,0.0,,,,phongvu,2026-09-21
+519628,230701233,"Bàn phím không dây Logitech Bluetooth MX Keys S, màu than chì (920-011563)",Logitech,keyboard,2450000.0,3399000.0,949000.0,28.0,,,,phongvu,2026-09-21
+519628,230701234,"Bàn phím không dây Logitech Bluetooth MX Keys S, màu xám nhạt (920-011564)",Logitech,keyboard,2450000.0,3399000.0,949000.0,28.0,,,,phongvu,2026-09-21
+523431,230800431,Bàn phím cơ Gaming Razer BlackWidow V4 - Green Switch (RZ03-04690100-R3M1),Razer,keyboard,3599000.0,4590000.0,991000.0,22.0,,,,phongvu,2026-09-21
+523431,230800432,Bàn phím cơ Gaming Razer BlackWidow V4 - Yellow Switch (RZ03-04691800-R3M1),Razer,keyboard,3789000.0,4590000.0,801000.0,17.0,,,,phongvu,2026-09-21
+523433,230800433,Bàn phím cơ Gaming Razer BlackWidow V4 X - Green Switch (RZ03-04700100-R3M1),Razer,keyboard,2849000.0,3590000.0,741000.0,21.0,,,,phongvu,2026-09-21
+523433,230800434,Bàn phím cơ Gaming Razer BlackWidow V4 X - Yellow Switch (RZ03-04701800-R3M1),Razer,keyboard,2849000.0,3590000.0,741000.0,21.0,,,,phongvu,2026-09-21
+527659,230901160,Bàn Phím Cơ Gaming không dây Asus ROG Strix Scope II 96 Wireless /NX Snow/ABS/Đen (90MP037A-BKUA00),Asus,keyboard,3699000.0,4850000.0,1151000.0,24.0,,,,phongvu,2026-09-21
+528779,230903453,Bàn Phím Không Dây Logitech Pebble Keys 2 K380S Wireless/Bluetooth/Đen (Tonal Graphite) (920-011753),Logitech,keyboard,730000.0,1699000.0,969000.0,57.0,,,,phongvu,2026-09-21
+528779,230903454,Bàn Phím Không Dây Logitech Pebble Keys 2 K380S Wireless/Bluetooth/Hồng (Tonal Rose) (920-011755),Logitech,keyboard,730000.0,1699000.0,969000.0,57.0,,,,phongvu,2026-09-21
+528779,230903455,Bàn Phím Không Dây Logitech Pebble Keys 2 K380S Wireless/Bluetooth/Trắng (Tonal White) (920-011754),Logitech,keyboard,730000.0,1699000.0,969000.0,57.0,,,,phongvu,2026-09-21
+528783,230903458,Bàn Phím Cơ Không Dây Logitech G Pro X Tkl Lightspeed Tactile Gaming/Đen (Black) (920-012137),Logitech,keyboard,4099000.0,4799000.0,700000.0,15.0,,,,phongvu,2026-09-21
+528783,230903459,Bàn Phím Cơ Không Dây Logitech G Pro X Tkl Lightspeed Tactile Gaming/Trắng (White) (920-012149),Logitech,keyboard,4099000.0,4799000.0,700000.0,15.0,,,,phongvu,2026-09-21
+531646,231002801,Bàn Phím Công Thái Học Không Dây Logitech Wave Keys Wireless/Bluetooth/Trắng (Off-White) (920-012282),Logitech,keyboard,1349000.0,1649000.0,300000.0,18.0,,,,phongvu,2026-09-21
+531646,231002802,Bàn Phím Công Thái Học Không Dây Logitech Wave Keys Wireless/Bluetooth/Đen (Graphite) (920-012281),Logitech,keyboard,1349000.0,1649000.0,300000.0,18.0,,,,phongvu,2026-09-21
+531668,231002823,Bàn phím cơ Gaming Corsair K70 CORE-BLK-CRSR MX-RGB (CH-910971E-NA),Corsair,keyboard,1850000.0,2625000.0,775000.0,30.0,,,,phongvu,2026-09-21
+532962,231004191,Bàn phím Gaming không dây ASUS ROG AZOTH NX WL/BT/USB/Red Switch/OLED-SCR/ĐEN(90MP0316-BKUA01),Asus,keyboard,5949000.0,6990000.0,1041000.0,15.0,,,,phongvu,2026-09-21
+534836,231101830,Bàn phím cơ không dây DAREU EK75 PRO - BLACK GOLDEN _Dream switch (Linear),Dareu,keyboard,1089000.0,1290000.0,201000.0,16.0,,,,phongvu,2026-09-21
+534860,231101853,"Bàn phím cơ Gaming Newmen GM328 White-Grey, Red Switch",Newmen,keyboard,699000.0,699000.0,0.0,0.0,,,,phongvu,2026-09-21
+534860,231101854,"Bàn phím cơ Gaming Newmen GM328 Grey-White, Blue Switch",Newmen,keyboard,569000.0,699000.0,130000.0,19.0,,,,phongvu,2026-09-21
+534860,231101855,"Bàn phím cơ Gaming Newmen GM328 Purple-White, Red Switch",Newmen,keyboard,569000.0,699000.0,130000.0,19.0,,,,phongvu,2026-09-21
+534860,231101856,"Bàn phím cơ Gaming Newmen GM328, White - Purple, Blue Switch",Newmen,keyboard,569000.0,699000.0,130000.0,19.0,,,,phongvu,2026-09-21
+534862,231101857,"Bàn phím cơ Newmen GM326 White, Blue Switch",Newmen,keyboard,579000.0,750000.0,171000.0,23.0,,,,phongvu,2026-09-21
+534862,231101858,"Bàn phím cơ Newmen GM326 White, Red Switch",Newmen,keyboard,579000.0,750000.0,171000.0,23.0,,,,phongvu,2026-09-21
+535485,231103018,Bàn phím gaming Rapoo V50S RGB màu đen (214290V50100841),Rapoo,keyboard,299000.0,390000.0,91000.0,23.0,,,,phongvu,2026-09-21
+535498,231103025,Bàn phím số vi tính không dây MOFII X910 Pink/ Hồng (47707),Mofii,keyboard,229000.0,299000.0,70000.0,23.0,,,,phongvu,2026-09-21
+535498,231103026,Bàn phím số vi tính không dây MOFII X910 Blue/ Xanh Da Trời (47714),Mofii,keyboard,229000.0,299000.0,70000.0,23.0,,,,phongvu,2026-09-21
+535498,231103028,Bàn phím số vi tính không dây MOFII X910 Black (47691),Mofii,keyboard,229000.0,299000.0,70000.0,23.0,,,,phongvu,2026-09-21
+535498,231103029,Bàn phím số vi tính không dây MOFII X910 Milk Tea (49626),Mofii,keyboard,229000.0,299000.0,70000.0,23.0,,,,phongvu,2026-09-21
+535498,231103030,Bàn phím số vi tính không dây MOFII X910 Jasper (50226),Mofii,keyboard,229000.0,299000.0,70000.0,23.0,,,,phongvu,2026-09-21
+535498,231103031,Bàn phím số vi tính không dây MOFII X910 Purple (50233),Mofii,keyboard,229000.0,299000.0,70000.0,23.0,,,,phongvu,2026-09-21
+544144,240200110,Bàn phím cơ không dây DAREU EK75 PRO WBC_Dream switch (extra keycaps),Dareu,keyboard,799000.0,1290000.0,491000.0,38.0,,,,phongvu,2026-09-21
+544994,240201246,Bàn phím Gaming không dây ASUS ROG Falchion RX Low Profile Red Switch (90MP03EC-BKUA10),Asus,keyboard,3590000.0,4330000.0,740000.0,17.0,,,,phongvu,2026-09-21
+544994,240201247,Bàn phím Gaming không dây ASUS ROG Falchion RX Low Profile Blue Switch (90MP03ED-BKUA10),Asus,keyboard,3590000.0,4330000.0,740000.0,17.0,,,,phongvu,2026-09-21
+544995,240201248,Bàn phím Gaming không dây ASUS ROG Azoth NX Snow Switch - Đen (90MP031A-BKUA01),Asus,keyboard,5949000.0,7560000.0,1611000.0,21.0,,,,phongvu,2026-09-21
+544995,240201249,Bàn phím Gaming không dây ASUS ROG Azoth NX Storm Switch - Đen (90MP031B-BKUA01),Asus,keyboard,5949000.0,7560000.0,1611000.0,21.0,,,,phongvu,2026-09-21
+544995,240201250,Bàn phím Gaming không dây ASUS ROG Azoth NX Storm Switch - Trắng (90MP031B-BKUA11),Asus,keyboard,5949000.0,7560000.0,1611000.0,21.0,,,,phongvu,2026-09-21
+545327,240201251,Bàn phím Gaming không dây ASUS ROG Strix Scope II 96 WL NX Storm Switch (90MP037B-BKUA00),Asus,keyboard,3699000.0,4550000.0,851000.0,19.0,,,,phongvu,2026-09-21
+544999,240201252,Bàn phím Gaming ASUS ROG Strix Scope II NX Storm Switch (90MP036B-BKUA00),Asus,keyboard,3290000.0,3290000.0,0.0,0.0,,,,phongvu,2026-09-21
+545853,240300770,Bàn phím Rapoo NK8000 màu đen,Rapoo,keyboard,199000.0,250000.0,51000.0,20.0,,,,phongvu,2026-09-21
+547975,240302591,Bàn phím gaming có dây Apex 9 TKL SteelSeries,Steelseries,keyboard,4590000.0,4590000.0,0.0,0.0,,,,phongvu,2026-09-21
+548291,240303042,Bàn phím cơ AKKO 3098B Plus Black (Multimodes / RGB / Gasket mount / Akko switch v3 - Cream Yellow Pro),Akko,keyboard,1499000.0,1700000.0,201000.0,12.0,,,,phongvu,2026-09-21
+554173,240502373,Bàn Phím Cơ Không Dây Gaming Logitech Pro X 60 Lightspeed Wireless/Bluetooth Gaming/Tactile (Black)(920-011916),Logitech,keyboard,4099000.0,4590000.0,491000.0,11.0,,,,phongvu,2026-09-21
+554173,240502374,Bàn Phím Cơ Không Dây Gaming Logitech Pro X 60 Lightspeed Wireless/Bluetooth Gaming/Tactile (White)(920-011935),Logitech,keyboard,4099000.0,4590000.0,491000.0,11.0,,,,phongvu,2026-09-21
+554173,240502375,Bàn Phím Cơ Không Dây Gaming Logitech Pro X 60 Lightspeed Wireless/Bluetooth Gaming/Tactile (Rose)(920-011954),Logitech,keyboard,4590000.0,4590000.0,0.0,0.0,,,,phongvu,2026-09-21
+557178,240504993,Bàn phím cơ DAREU EK87L v2 Black Dream switch (Không Led),Dareu,keyboard,349000.0,499000.0,150000.0,30.0,,,,phongvu,2026-09-21
+557178,240504994,Bàn phím cơ DAREU EK87L v2 Black Firefly switch (Không Led),Dareu,keyboard,349000.0,499000.0,150000.0,30.0,,,,phongvu,2026-09-21
+557180,240504996,Bàn phím cơ Gaming DAREU EK98X Black grey Optical switch blue,Dareu,keyboard,889000.0,1099000.0,210000.0,19.0,,,,phongvu,2026-09-21
+561028,240602378,Bàn phím cơ Razer BlackWidow V4 75% (RZ03-05000100-R3M1),Razer,keyboard,3589000.0,3990000.0,401000.0,10.0,,,,phongvu,2026-09-21
+561028,240602389,Bàn phím cơ Razer BlackWidow V4 75% - White Edition (RZ03-05001700-R3M1),Razer,keyboard,3990000.0,4090000.0,100000.0,2.0,,,,phongvu,2026-09-21
+561832,240603270,Bàn Phím Cơ Gaming không dây AULA F99 (Xám+Trắng+Xám Đậm/Grey Wood V3 Switch),Aula,keyboard,1799000.0,2150000.0,351000.0,16.0,,,,phongvu,2026-09-21
+561832,240603274,Bàn Phím Cơ Gaming không dây AULA F99 (Xanh Dương + Trắng + Tím/Agile Switch),Aula,keyboard,1799000.0,2150000.0,351000.0,16.0,,,,phongvu,2026-09-21
+561832,240603279,Bàn Phím Cơ Gaming không dây AULA F99 (Đen+Trắng+Hồng/Grey Wood V3 Switch),Aula,keyboard,1799000.0,2150000.0,351000.0,16.0,,,,phongvu,2026-09-21
+561832,240603284,Bàn Phím Cơ Gaming không dây AULA F99 ( Xanh Dương+Trắng+Tím Đậm/Reaper Switch),Aula,keyboard,1799000.0,2150000.0,351000.0,16.0,,,,phongvu,2026-09-21
+561852,240603288,Bàn Phím Cơ Gaming không dây AULA F68 (Màu Trắng Trong Suốt),Aula,keyboard,1899000.0,2270000.0,371000.0,16.0,,,,phongvu,2026-09-21
+561852,240603293,Bàn Phím Cơ Gaming không dây AULA F68 (Màu Hồng Trong Suốt),Aula,keyboard,1899000.0,2270000.0,371000.0,16.0,,,,phongvu,2026-09-21
+561852,240603297,Bàn Phím Cơ Gaming không dây AULA F68 (Màu Tím Trong Suốt),Aula,keyboard,1899000.0,2270000.0,371000.0,16.0,,,,phongvu,2026-09-21
+561853,240603298,Bàn Phím Cơ Gaming không dây AULA F75 (Ice green/Tím nhạt+be+xanh lá/ Reaper switch),Aula,keyboard,1199000.0,1790000.0,591000.0,33.0,,,,phongvu,2026-09-21
+561852,240603302,Bàn Phím Cơ Gaming không dây AULA F68 (Màu Xanh Lá),Aula,keyboard,1999000.0,2490000.0,491000.0,20.0,,,,phongvu,2026-09-21
+561853,240603303,Bàn Phím Cơ Gaming không dây AULA F75 (Ice blue/xanh+trắng+tím đậm/ Ice vein switch),Aula,keyboard,1249000.0,1790000.0,541000.0,30.0,,,,phongvu,2026-09-21
+561853,240603307,Bàn Phím Cơ Gaming không dây AULA F75 (Ice blue/Xanh+trắng+tím đậm/ Reaper switch),Aula,keyboard,1249000.0,1790000.0,541000.0,30.0,,,,phongvu,2026-09-21
+561862,240603308,Bàn Phím Cơ Gaming không dây AULA F98 Pro (Màu Đen Trong Suốt),Aula,keyboard,1499000.0,2365000.0,866000.0,37.0,,,,phongvu,2026-09-21
+561853,240603313,Bàn Phím Cơ Gaming không dây AULA F75 (Tím nhạt + Be + Xanh lá/ Grey Wood V3 Switch),Aula,keyboard,1249000.0,1790000.0,541000.0,30.0,,,,phongvu,2026-09-21
+561862,240603314,Bàn Phím Cơ Gaming không dây AULA F98 Pro (Màu Trắng Trong Suốt),Aula,keyboard,1899000.0,2365000.0,466000.0,20.0,,,,phongvu,2026-09-21
+561853,240603319,Bàn Phím Cơ Gaming không dây AULA F75 (Xanh nhạt + Trắng + Xanh đậm/Mạch ngược/ Grey Wood V3 Switch),Aula,keyboard,1199000.0,1790000.0,591000.0,33.0,,,,phongvu,2026-09-21
+561853,240603325,Bàn Phím Cơ Gaming không dây AULA F75 (Đen + Xanh đậm + Cam/ Grey Wood V3 Switch),Aula,keyboard,1199000.0,1790000.0,591000.0,33.0,,,,phongvu,2026-09-21
+561883,240603328,Bàn Phím Cơ Gaming không dây AULA F75 Pro (Black Gradient/Mạch xuôi/Reaper Switch),Aula,keyboard,1860000.0,1860000.0,0.0,0.0,,,,phongvu,2026-09-21
+565856,240703710,Bàn phím cơ Newmen GM819 - Demo,Newmen,keyboard,349000.0,1150000.0,801000.0,70.0,,,,phongvu,2026-09-21
+565888,240703742,Bàn phím cơ Fuhlen Eraser - Optical Switch - Demo,Fuhlen,keyboard,799000.0,799000.0,0.0,0.0,,,,phongvu,2026-09-21
+566356,240704210,Bàn phím cơ Logitech Pro Gaming (GX Blue Clicky) (Đen) (920-009396) - Demo,Logitech,keyboard,990000.0,3269000.0,2279000.0,70.0,,,,phongvu,2026-09-21
+566423,240704273,Bàn phím gaming Asus ROG Strix Scope II NXSW (90MP036A-BKUA00),Asus,keyboard,3290000.0,3290000.0,0.0,0.0,,,,phongvu,2026-09-21
+566566,240704389,Bàn phím không dây HyperWork HyperOne Gen 2 HPW-KB1-G2,Hyper Work,keyboard,649000.0,790000.0,141000.0,18.0,,,,phongvu,2026-09-21
+566562,240704391,Bàn phím AKKO 3087 RF Black on White (AKKO sw v3 - Cream Blue),Akko,keyboard,989000.0,1399000.0,410000.0,29.0,,,,phongvu,2026-09-21
+566582,240704405,Bàn phím Logitech G515 TKL Lightspeed Wireless (Black) (920-012580),Logitech,keyboard,2749000.0,3499000.0,750000.0,21.0,,,,phongvu,2026-09-21
+566582,240704407,Bàn phím Logitech G515 TKL Lightspeed Wireless (White) (920-012581),Logitech,keyboard,2749000.0,3499000.0,750000.0,21.0,,,,phongvu,2026-09-21
+568213,240706054,Bàn phím cơ Gaming DAREU EK98 White-Black (Dream switch (Linear)/Multi-Led/PBT Double Shot OEM profile),Dareu,keyboard,699000.0,899000.0,200000.0,22.0,,,,phongvu,2026-09-21
+570735,240803304,Bàn phím không dây Logitech K950 Signature Slim (than chì) (920-012443),Logitech,keyboard,1849000.0,2099000.0,250000.0,12.0,,,,phongvu,2026-09-21
+570735,240803305,Bàn phím không dây Logitech K950 Signature Slim (trắng) (920-012444),Logitech,keyboard,2099000.0,2099000.0,0.0,0.0,,,,phongvu,2026-09-21
+570874,240803460,Bàn phím cơ AKKO MU01 Joy of Life Piano Pro (Switch V3 Piano Pro/RGB/Multi-Modes),Akko,keyboard,3190000.0,3290000.0,100000.0,3.0,,,,phongvu,2026-09-21
+570894,240803480,Bàn phím cơ AKKO 5075B Plus Horizon (Cream Yellow Pro/Hotswap/RGB/Multi-modes),Akko,keyboard,1349000.0,1490000.0,141000.0,9.0,,,,phongvu,2026-09-21
+573242,240805945,Bàn phím không dây đa chức năng Rapoo E9050G (xám đen),Rapoo,keyboard,890000.0,890000.0,0.0,0.0,,,,phongvu,2026-09-21
+573263,240805966,Bàn phím không dây HyperWork SilentKey,Hyper Work,keyboard,685000.0,790000.0,105000.0,13.0,,,,phongvu,2026-09-21
+573267,240805967,"Bàn phím cơ Gaming DAREU EK87 v2 White-black (2 sides RGB strip, Multi-Led, PBT Double Shot OEM profile, Dream switch (Linear))",Dareu,keyboard,589000.0,699000.0,110000.0,16.0,,,,phongvu,2026-09-21
+573267,240805970,"Bàn phím cơ Gaming DAREU EK87 v2 Gray-black (2 sides RGB strip, Multi-Led, PBT Double Shot OEM profile, Dream switch (Linear))",Dareu,keyboard,589000.0,699000.0,110000.0,16.0,,,,phongvu,2026-09-21
+575679,240902581,Bàn phím cơ gaming RAPOO V530 Black_HJ _11734 Led RGB,Rapoo,keyboard,1100000.0,1100000.0,0.0,0.0,,,,phongvu,2026-09-21
+582020,240908887,Bàn phím cơ Fuhlen D (Destroyer) Black 2024,Fuhlen,keyboard,939000.0,999000.0,60000.0,6.0,,,,phongvu,2026-09-21
+582030,240908895,Bàn phím Logitech G915 X Wired RGB Mechanical Gaming/Tactile (Black)(920-012944),Logitech,keyboard,3549000.0,4699000.0,1150000.0,24.0,,,,phongvu,2026-09-21
+582038,240908901,Bàn phím Logitech G915 X Tkl Lightspeed Wireless RGB Mechanical Gaming/Tactile (Black)(920-012726),Logitech,keyboard,4300000.0,5299000.0,999000.0,19.0,,,,phongvu,2026-09-21
+582038,240908908,Bàn phím Logitech G915 X Tkl Lightspeed Wireless RGB Mechanical Gaming/Tactile (White)(920-012738),Logitech,keyboard,4300000.0,5299000.0,999000.0,19.0,,,,phongvu,2026-09-21
+582059,240908921,Bàn phím có dây HP KBD 125 WD A/P (266C9AA),HP,keyboard,249000.0,300000.0,51000.0,17.0,,,,phongvu,2026-09-21
+582069,240908928,Bàn phím gaming RAPOO V750PRO-98 Black Grey Orange Optical Blue Switch,Rapoo,keyboard,979000.0,1100000.0,121000.0,11.0,,,,phongvu,2026-09-21
+584592,241002018,Bàn phím cơ gaming MSI FORGE GK300 (màu đen) (S11-04US20G-HH9),Msi,keyboard,849000.0,1190000.0,341000.0,29.0,,,,phongvu,2026-09-21
+584590,241002019,Bàn phím giả cơ gaming MSI FORGE GK100 (màu đen) (S11-04US20J-HH9),Msi,keyboard,375000.0,490000.0,115000.0,23.0,,,,phongvu,2026-09-21
+585061,241002398,Bàn phím cơ Asus TUF Gaming K3 Gen II (Red Switch),Asus,keyboard,1299000.0,1470000.0,171000.0,12.0,,,,phongvu,2026-09-21
+585060,241002403,Bàn phím gaming không dây ASUS ROG Azoth Extreme NX Storm Switch - Đen (90MP03MB-BKUA01),Asus,keyboard,14950000.0,14950000.0,0.0,0.0,,,,phongvu,2026-09-21
+585064,241002407,"Bàn phím cơ Gaming DAREU EK75 White-black (2 sides RGB strip, Multi-Led, PBT Double Shot OEM profile, Dream switch (Linear))",Dareu,keyboard,579000.0,699000.0,120000.0,17.0,,,,phongvu,2026-09-21
+585065,241002408,Bàn Phím Cơ Gaming không dây AULA F75 ( Xanh dương+trắng+tím/ Star Vector switch/Mạch xuôi),Aula,keyboard,1099000.0,1354000.0,255000.0,19.0,,,,phongvu,2026-09-21
+585060,241002412,Bàn phím gaming không dây ASUS ROG Azoth Extreme NX Snow Switch - Đen (90MP03MA-BKUA01),Asus,keyboard,12890000.0,14950000.0,2060000.0,14.0,,,,phongvu,2026-09-21
+585070,241002414,"Bàn phím cơ Gaming DAREU EK65s White-black (RGB, PBT Double Shot, Dream switch (Linear))",Dareu,keyboard,699000.0,799000.0,100000.0,13.0,,,,phongvu,2026-09-21
+586912,241004148,Bàn phím không dây Logitech Pop Icon Keys New Wireless (Graphite) (920-013083),Logitech,keyboard,1249000.0,1499000.0,250000.0,17.0,,,,phongvu,2026-09-21
+586912,241004155,Bàn phím không dây Logitech Pop Icon Keys New Wireless (Off-White) (920-013084),Logitech,keyboard,1049000.0,1499000.0,450000.0,30.0,,,,phongvu,2026-09-21
+586912,241004161,Bàn phím không dây Logitech Pop Icon Keys New Wireless (Rose) (920-013085),Logitech,keyboard,1049000.0,1499000.0,450000.0,30.0,,,,phongvu,2026-09-21
+586912,241004166,Bàn phím không dây Logitech Pop Icon Keys New Wireless (Lilac) (920-013086),Logitech,keyboard,1049000.0,1499000.0,450000.0,30.0,,,,phongvu,2026-09-21
+589534,241101258,Bàn phím cơ DareU EK1280s MULTI LED (Switch Blue) (Đen) - Demo,Dareu,keyboard,299000.0,790000.0,491000.0,62.0,,,,phongvu,2026-09-21
+592094,241105103,Bàn Phím Cơ Gaming không dây AULA F99 PRO (Xanh dương+trắng+tím đậm/ Star Vector switch),Aula,keyboard,1499000.0,1899000.0,400000.0,21.0,,,,phongvu,2026-09-21
+592094,241105110,Bàn Phím Cơ Gaming không dây AULA F99 PRO ( Xám + Đen gradient/ Greywood V3 switch),Aula,keyboard,2099000.0,2099000.0,0.0,0.0,,,,phongvu,2026-09-21
+593196,241106182,Bàn phím không dây AKKO 5098B Santorini (RGB / Hotswap / Akko V3 Piano Pro),Akko,keyboard,2489000.0,2890000.0,401000.0,14.0,,,,phongvu,2026-09-21
+593196,241106206,Bàn phím không dây AKKO 5098B Santorini (RGB / Hotswap / Akko V3 Piano Pro),Akko,keyboard,2290000.0,2890000.0,600000.0,21.0,,,,phongvu,2026-09-21
+593727,241106421,Bàn phím Gaming không dây ASUS ROG AZOTH NX WL/BT/USB/Brown Switch/OLED-SCR/ĐEN(90MP0317-BKUA01),Asus,keyboard,6990000.0,6990000.0,0.0,0.0,,,,phongvu,2026-09-21
+596351,241204512,Bàn Phím Cơ Gaming không dây AULA F87 PRO ( Xanh đậm+đen+xanh cổ vịt/Mạch ngược/ Greywood V4 switch),Aula,keyboard,1249000.0,1599000.0,350000.0,22.0,,,,phongvu,2026-09-21
+596357,241204513,Bàn Phím Cơ Gaming không dây AULA F75 ( Trắng + xanh dương gradient - Seiya/Mạch xuôi/Star Vector switch),Aula,keyboard,1249000.0,1890000.0,641000.0,34.0,,,,phongvu,2026-09-21
+596349,241204514,Bàn Phím Cơ Gaming không dây LEOBOG ALICE A75 ( xanh dương+be/Mạch ngược/Ramboo switch),Leobog,keyboard,2090000.0,2090000.0,0.0,0.0,,,,phongvu,2026-09-21
+596354,241204517,Bàn Phím Cơ Gaming không dây AULA F75 ( Xám+đen gradient/Mạch xuôi/Reaper switch),Aula,keyboard,1249000.0,1290000.0,41000.0,3.0,,,,phongvu,2026-09-21
+596352,241204518,Bàn Phím Cơ Gaming không dây AULA S98 PRO ( Xanh lá + trắng/Mạch xuôi/ Greywood V4 switch),Aula,keyboard,1599000.0,1890000.0,291000.0,15.0,,,,phongvu,2026-09-21
+596357,241204520,Bàn Phím Cơ Gaming không dây AULA F75 ( Trắng + tím gradient - Seiya/Mạch xuôi/ Star Vector switch),Aula,keyboard,1249000.0,1890000.0,641000.0,34.0,,,,phongvu,2026-09-21
+596358,241204522,Bàn Phím Cơ Gaming không dây LEOBOG Hi86 (Đen+Xanh dương+Trắng/Mạch xuôi/Nimbus V3 switch),Leobog,keyboard,2390000.0,2390000.0,0.0,0.0,,,,phongvu,2026-09-21
+596363,241204526,Bàn Phím Cơ Gaming không dây AULA S98 PRO ( Xanh dương + trắng + tím/Mạch xuôi/ Caramel Latte switch),Aula,keyboard,1599000.0,1890000.0,291000.0,15.0,,,,phongvu,2026-09-21
+597059,241205217,Bàn phím Logitech Pro X TKL Rapid Wired Gaming (White),Logitech,keyboard,3699000.0,4699000.0,1000000.0,21.0,,,,phongvu,2026-09-21
+597059,241205225,Bàn phím Logitech Pro X TKL Rapid Wired Gaming (Magenta),Logitech,keyboard,3699000.0,4699000.0,1000000.0,21.0,,,,phongvu,2026-09-21
+597059,241205229,Bàn phím Logitech Pro X TKL Rapid Wired Gaming (Black),Logitech,keyboard,3699000.0,4699000.0,1000000.0,21.0,,,,phongvu,2026-09-21
+599510,250100117,Bàn Phím Cơ Gaming không dây AULA AU75 (Tím+Be+Đỏ/Mạch xuôi/Star Vector Switch),Aula,keyboard,1119000.0,1599000.0,480000.0,30.0,,,,phongvu,2026-09-21
+599510,250100118,Bàn Phím Cơ Gaming không dây AULA AU75 (Đen+xám+cam/Mạch xuôi/Star Vector Switch),Aula,keyboard,1199000.0,1599000.0,400000.0,25.0,,,,phongvu,2026-09-21
+615654,250116321,Bàn phím cơ không dây Newmen GM610 Dual Mode (N-Box Blue-Grey),Newmen,keyboard,599000.0,1190000.0,591000.0,50.0,,,,phongvu,2026-09-21
+615654,250116322,Bàn phím cơ không dây Newmen GM610 Dual Mode (N-Box Red-Grey),Newmen,keyboard,599000.0,1190000.0,591000.0,50.0,,,,phongvu,2026-09-21
+615654,250116323,Bàn phím cơ không dây Newmen GM610 Dual Mode (N-Box Brown-Grey),Newmen,keyboard,599000.0,1190000.0,591000.0,50.0,,,,phongvu,2026-09-21
+615720,250116387,Bàn phím cơ không dây AKKO MOD007B-HE PC Tokyo Sakura Pink (Magnetic Switch / Rapid Trigger),Akko,keyboard,1740000.0,1990000.0,250000.0,13.0,,,,phongvu,2026-09-21
+615953,250116618,Bàn Phím Cơ Gaming không dây AULA S98 PRO (Xanh dương + trắng + tím/Mạch xuôi/Nimbus V3 switch),Aula,keyboard,1599000.0,1899000.0,300000.0,16.0,,,,phongvu,2026-09-21
+615953,250116619,Bàn Phím Cơ Gaming không dây AULA S98 PRO (Xanh dương + trắng + tím/Mạch xuôi/Nimbus V3 switch),Aula,keyboard,1599000.0,1899000.0,300000.0,16.0,,,,phongvu,2026-09-21
+615953,250116620,Bàn Phím Cơ Gaming không dây AULA S98 PRO (Xanh dương + trắng + tím/Mạch xuôi/Nimbus V3 switch),Aula,keyboard,1599000.0,1899000.0,300000.0,16.0,,,,phongvu,2026-09-21
+615953,250116621,Bàn Phím Cơ Gaming không dây AULA S98 PRO (Xanh dương + trắng + tím/Mạch xuôi/Nimbus V3 switch),Aula,keyboard,1599000.0,1899000.0,300000.0,16.0,,,,phongvu,2026-09-21
+615953,250116622,Bàn Phím Cơ Gaming không dây AULA S98 PRO (Xanh dương + trắng + tím/Mạch xuôi/Nimbus V3 switch),Aula,keyboard,1599000.0,1899000.0,300000.0,16.0,,,,phongvu,2026-09-21
+616581,250200076,Bàn Phím cơ Akko 3098S Matcha Red Bean V3 (Cream Yellow Pro/PBT Double Shot/Rainbow LED/cherry profile),Akko,keyboard,949000.0,990000.0,41000.0,4.0,,,,phongvu,2026-09-21
+616556,250200077,Bàn Phím cơ Akko 3098S Los Angeles V3 (Cream Yellow Pro/PBT Double Shot/Rainbow LED/ ASA profile),Akko,keyboard,839000.0,990000.0,151000.0,15.0,,,,phongvu,2026-09-21
+617782,250203160,Bàn phím cơ không dây E-DRA EK368L Alpha Yellow Switch (EK368L-AL-YE),E-Dra,keyboard,469000.0,499000.0,30000.0,6.0,,,,phongvu,2026-09-21
+617782,250203167,Bàn phím cơ không dây E-DRA EK368L Alpha Yellow Switch (EK368L-AL-YE),E-Dra,keyboard,469000.0,499000.0,30000.0,6.0,,,,phongvu,2026-09-21
+568225,250203275,Bàn phím cơ Gaming DAREU EK104 White-Black (Dream switch (Linear)/2 sides RGB strip/Multi-Led/PBT Double Shot OEM profile),Dareu,keyboard,699000.0,899000.0,200000.0,22.0,,,,phongvu,2026-09-21
+617898,250203279,Bàn phím cơ gaming Corsair K70 Core SE RGB Cherry Blossom (CH-9109C1E-NA),Corsair,keyboard,2949000.0,2990000.0,41000.0,1.0,,,,phongvu,2026-09-21
+619945,250206341,Bàn phím cơ gaming có dây AULA F75 (Black/Mạch ngược/Red Switch),Aula,keyboard,649000.0,790000.0,141000.0,18.0,,,,phongvu,2026-09-21
+619937,250206342,Bàn Phím Cơ Gaming không dây AULA F75 (Black+Pink/Mạch xuôi/Reaper Switch),Aula,keyboard,1149000.0,1790000.0,641000.0,36.0,,,,phongvu,2026-09-21
+619943,250206343,Bàn phím cơ AKKO 5075B Plus Horizon (AKKO Switch v3/Hotswap/RGB/Multi-modes),Akko,keyboard,1390000.0,1390000.0,0.0,0.0,,,,phongvu,2026-09-21
+619945,250206347,Bàn phím cơ gaming có dây AULA F75 (White/Mạch ngược/Red Switch),Aula,keyboard,649000.0,790000.0,141000.0,18.0,,,,phongvu,2026-09-21
+620476,250300509,"Bàn phím cơ Gaming DAREU EK75 Grey-Black (2 sides RGB strip, Multi-Led, PBT Double Shot OEM profile, Dream switch (Linear))",Dareu,keyboard,549000.0,699000.0,150000.0,21.0,,,,phongvu,2026-09-21
+620848,250300971,Bàn phím E-Dra EK375 Pro Alpha,E-Dra,keyboard,999000.0,1299000.0,300000.0,23.0,,,,phongvu,2026-09-21
+620850,250300972,Bàn phím cơ E-Dra không dây EK375 Pro Beta Blue Switch (EK375PRO-BE-BL),E-Dra,keyboard,999000.0,1299000.0,300000.0,23.0,,,,phongvu,2026-09-21
+620851,250300973,Bàn phím cơ E-Dra EK398PRO (Triple Mode/Brown Switch) (EK398PRO_BR),E-Dra,keyboard,889000.0,1290000.0,401000.0,31.0,,,,phongvu,2026-09-21
+620851,250300977,Bàn phím cơ E-Dra EK398PRO (Triple Mode/Blue Switch) (EK398PRO_BL),E-Dra,keyboard,889000.0,1290000.0,401000.0,31.0,,,,phongvu,2026-09-21
+621557,250301449,Bàn phím cơ không dây DareU EK106 Pro Triple Mode Haze-Blue (Cloud switch),Dareu,keyboard,1145000.0,1690000.0,545000.0,32.0,,,,phongvu,2026-09-21
+621558,250301450,Bàn phím không dây DareU LK150D Black-Orange (Dual Mode - Scissor sw),Dareu,keyboard,599000.0,599000.0,0.0,0.0,,,,phongvu,2026-09-21
+621561,250301451,Bàn phím cơ không dây DareU EK98 Pro Triple Mode Black-Golden (Cloud switch),Dareu,keyboard,1249000.0,1690000.0,441000.0,26.0,,,,phongvu,2026-09-21
+621563,250301452,Bàn phím cơ không dây DareU EK75 Pro Triple Mode Black-Golden (Cloud switch),Dareu,keyboard,1249000.0,1490000.0,241000.0,16.0,,,,phongvu,2026-09-21
+621564,250301453,Bàn phím không dây DareU LK160D_Black (Dual Mode - Scissor sw - TKL),Dareu,keyboard,599000.0,599000.0,0.0,0.0,,,,phongvu,2026-09-21
+621557,250301454,Bàn phím cơ không dây DareU EK106 Pro Triple Mode Black-Golden (Cloud switch),Dareu,keyboard,1145000.0,1690000.0,545000.0,32.0,,,,phongvu,2026-09-21
+621566,250301455,Bàn phím cơ DareU EK98L Grey Black Dream switch,Dareu,keyboard,599000.0,699000.0,100000.0,14.0,,,,phongvu,2026-09-21
+621567,250301456,Bàn phím cơ không dây DareU EK87 Pro Triple Mode Black-Golden (Cloud switch),Dareu,keyboard,1099000.0,1490000.0,391000.0,26.0,,,,phongvu,2026-09-21
+621639,250301528,Bàn phím cơ không dây Keychron K3 Max White Led (Gateron Sw) (K3M-A1),Khác,keyboard,2290000.0,2290000.0,0.0,0.0,,,,phongvu,2026-09-21
+621641,250301529,Bàn phím cơ Razer Huntsman V3 Pro Analog Optical (RZ03-04970100-R3M1),Razer,keyboard,5999000.0,6590000.0,591000.0,9.0,,,,phongvu,2026-09-21
+622354,250302272,Bàn phím cơ AKKO FUN60 Pro SP Black (Akko Glare Magnetic Switches / Rapid trigger) 5943,Akko,keyboard,649000.0,690000.0,41000.0,6.0,,,,phongvu,2026-09-21
+622401,250302318,Bàn phím cơ không dây AKKO FUN60 Max SP Black (Akko Glare Magnetic Switches / Rapid Trigger / Triple Mode),Akko,keyboard,999000.0,1090000.0,91000.0,8.0,,,,phongvu,2026-09-21
+626350,250306237,Bàn phím cơ không dây AKKO MOD007B-HE PC Santorini Sakura Pink (Magnetic Switch),Akko,keyboard,1949000.0,1990000.0,41000.0,2.0,,,,phongvu,2026-09-21
+626351,250306238,"Bàn phím cơ Gaming Newmen GM328 Grey-White, Red Switch",Newmen,keyboard,569000.0,695000.0,126000.0,18.0,,,,phongvu,2026-09-21
+632492,250400540,Bàn Phím Cơ Gaming không dây AULA F108 PRO ( Xám Đen gradient/ Nimbus V3 switch),Aula,keyboard,1699000.0,1990000.0,291000.0,15.0,,,,phongvu,2026-09-21
+632488,250400541,"Bàn phím cơ gaming 3 mode AULA F75 Max xám đen gradient, Reaper switch",Aula,keyboard,1499000.0,1790000.0,291000.0,16.0,,,,phongvu,2026-09-21
+632488,250400542,Bàn Phím Cơ Gaming không dây AULA F75 MAX (Xanh + trắng + tím đậm/ Reaper switch),Aula,keyboard,1299000.0,1790000.0,491000.0,27.0,,,,phongvu,2026-09-21
+632492,250400543,Bàn Phím Cơ Gaming không dây AULA F108 PRO ( Đen + xám + vàng/ Reaper switch),Aula,keyboard,1699000.0,1990000.0,291000.0,15.0,,,,phongvu,2026-09-21
+632492,250400545,Bàn Phím Cơ Gaming không dây AULA F108 PRO (Đen + hồng gradient/ Grey Wood V3 switch),Aula,keyboard,1990000.0,1990000.0,0.0,0.0,,,,phongvu,2026-09-21
+638843,250406853,Bàn phím ASUS M605 ROG FALCHION ACE Đen (90MP03VE-BKUA20),Asus,keyboard,4920000.0,4920000.0,0.0,0.0,,,,phongvu,2026-09-21
+638851,250406858,Bàn phím ROG Strix Scope RX TKL Wireless Deluxe (90MP02J0-BKUA00),Asus,keyboard,2990000.0,2990000.0,0.0,0.0,,,,phongvu,2026-09-21
+642544,250410571,Bàn phím Gaming Razer BlackWidow V4 X - Green Switch - Minecraft Edition (RZ03-04704100-R3M1),Razer,keyboard,3850000.0,4790000.0,940000.0,20.0,,,,phongvu,2026-09-21
+648653,250416611,Bàn phím cơ không dây Satechi SM1 Slim (Màu Light),Satechi,keyboard,2490000.0,2490000.0,0.0,0.0,,,,phongvu,2026-09-21
+648652,250416612,Bàn phím bluetooth Satechi Slim X2 có đèn nền (Màu Xám),Satechi,keyboard,1790000.0,1790000.0,0.0,0.0,,,,phongvu,2026-09-21
+648668,250416620,Bàn phím cơ không dây bluetooth Satechi SM3 màu Dark,Satechi,keyboard,2990000.0,2990000.0,0.0,0.0,,,,phongvu,2026-09-21
+648665,250416621,Bàn phím bluetooth Satechi Slim X3 có đèn nền (Màu Xám),Satechi,keyboard,1990000.0,1990000.0,0.0,0.0,,,,phongvu,2026-09-21
+648666,250416622,Bàn phím bluetooth Satechi Slim X1 có đèn nền (Màu Xám),Satechi,keyboard,1590000.0,1590000.0,0.0,0.0,,,,phongvu,2026-09-21
+648653,250416624,Bàn phím cơ không dây Satechi SM1 Slim (Màu Dark),Satechi,keyboard,2490000.0,2490000.0,0.0,0.0,,,,phongvu,2026-09-21
+648668,250416625,Bàn phím cơ không dây bluetooth Satechi SM3 màu Light,Satechi,keyboard,2990000.0,2990000.0,0.0,0.0,,,,phongvu,2026-09-21
+655074,250503270,Bàn phím Fuhlen L411 (Đen) - Đã sử dụng,Fuhlen,keyboard,170000.0,199000.0,29000.0,15.0,,,,phongvu,2026-09-21
+666220,250512186,Bàn Phím Cơ Gaming không dây AULA F99 Pro (Đen + hồng gradient/ Reaper switch),Aula,keyboard,1889000.0,1889000.0,0.0,0.0,,,,phongvu,2026-09-21
+666207,250512187,Bàn phím không dây Keychron B1P-K8 B1 Pro Ivory White,Keychron,keyboard,799000.0,890000.0,91000.0,10.0,,,,phongvu,2026-09-21
+666221,250512193,Bàn phím không dây Keychron B6P-K1 B6 Pro Space Gray,Keychron,keyboard,789000.0,1090000.0,301000.0,28.0,,,,phongvu,2026-09-21
+666215,250512195,Bàn Phím Cơ Gaming không dây AULA F75 (3 modes/ Đen contour/ Seiya - Star Vector Switch),Aula,keyboard,1519000.0,1519000.0,0.0,0.0,,,,phongvu,2026-09-21
+666220,250512200,Bàn Phím Cơ Gaming không dây AULA F99 pro (Xanh dương + Trắng + Tím/ Grey Wood V3 Switch),Aula,keyboard,1829000.0,1829000.0,0.0,0.0,,,,phongvu,2026-09-21
+666221,250512201,Bàn phím không dây Keychron B6 Pro Ultra-Slim B6P-K8 (Ivory White),Keychron,keyboard,789000.0,1090000.0,301000.0,28.0,,,,phongvu,2026-09-21
+666229,250512202,Bàn Phím Cơ Gaming không dây AULA F108 (Đen+ Xám + Vàng/ Volcano switch),Aula,keyboard,1449000.0,1689000.0,240000.0,14.0,,,,phongvu,2026-09-21
+666227,250512207,Bàn phím cơ gaming AULA WIN60HE (Đen / Gray Wood magnetic switch - Rapid trigger),Aula,keyboard,649000.0,699000.0,50000.0,7.0,,,,phongvu,2026-09-21
+666228,250512208,Bàn phím cơ không dây Keychron K5M-B1 K5 Max Gateron RGB Backlight Red Switch Keyboard,Keychron,keyboard,2379000.0,2690000.0,311000.0,12.0,,,,phongvu,2026-09-21
+666229,250512209,Bàn Phím Cơ Gaming không dây AULA F108 (Xám + đen gradient/ Nimbus switch),Aula,keyboard,1549000.0,1799000.0,250000.0,14.0,,,,phongvu,2026-09-21
+666245,250512213,Bàn phím cơ gaming AULA WIN60HE Max (Xám + trắng + xanh dương/ Wing Chun Magnetic switch - Rapid trigger),Aula,keyboard,919000.0,919000.0,0.0,0.0,,,,phongvu,2026-09-21
+666235,250512214,Bàn phím cơ không dây Keychron K8M-A1 K8 Max White Backlight Red Switch - Black,Keychron,keyboard,1779000.0,1990000.0,211000.0,11.0,,,,phongvu,2026-09-21
+666236,250512216,Bàn Phím Cơ Gaming không dây AULA F108 Pro (Xanh dương + trắng + tím đậm/ Reaper switch),Aula,keyboard,1909000.0,1909000.0,0.0,0.0,,,,phongvu,2026-09-21
+666241,250512220,Bàn phím cơ không dây Keychron K8M-B1 K8 Max RGB Backlight Red Switch - Black,Keychron,keyboard,2249000.0,2290000.0,41000.0,2.0,,,,phongvu,2026-09-21
+666245,250512224,Bàn phím cơ gaming AULA WIN60HE Max (Đen + xám + vàng/ Wing Chun Magnetic switch - Rapid trigger),Aula,keyboard,919000.0,919000.0,0.0,0.0,,,,phongvu,2026-09-21
+666247,250512226,Bàn phím cơ không dây Keychron K8M-B3 K8 Max RGB Backlight Brown Switch - Black,Keychron,keyboard,2249000.0,2290000.0,41000.0,2.0,,,,phongvu,2026-09-21
+666251,250512230,Bàn phím cơ gaming AULA WIN68HE (Đen/ Gray Wood magnetic switch - Rapid trigger),Aula,keyboard,699000.0,769000.0,70000.0,9.0,,,,phongvu,2026-09-21
+666253,250512232,Bàn phím cơ không dây Keychron K8M-B4 K8 Max RGB Backlight Banana Switch - Black,Keychron,keyboard,2249000.0,2290000.0,41000.0,2.0,,,,phongvu,2026-09-21
+666268,250512235,Bàn phím cơ gaming AULA WIN68HE Max (Đen + xám + vàng/ Wing Chun magnetic switch - Rapid trigger),Aula,keyboard,999000.0,999000.0,0.0,0.0,,,,phongvu,2026-09-21
+666259,250512237,"Bàn phím cơ không dây Dual Mode Newmen GM610 Global (Bluetooth 5.0, Cáp Type-C 2m , 1x Set Keycap Extra ) - Brown Switch",Newmen,keyboard,1385000.0,1385000.0,0.0,0.0,,,,phongvu,2026-09-21
+666268,250512241,Bàn phím cơ gaming AULA WIN68HE Max (Đen + xám + vàng/ Wing Chun magnetic switch - Rapid trigger),Aula,keyboard,999000.0,999000.0,0.0,0.0,,,,phongvu,2026-09-21
+666268,250512248,Bàn phím cơ gaming AULA WIN68HE Max (Đen + xám + vàng/ Wing Chun magnetic switch - Rapid trigger),Aula,keyboard,1179000.0,1179000.0,0.0,0.0,,,,phongvu,2026-09-21
+666207,250512280,Bàn phím không dây Keychron B1P-K1 B1 Pro Space Gray,Keychron,keyboard,799000.0,890000.0,91000.0,10.0,,,,phongvu,2026-09-21
+666245,250512288,Bàn phím cơ gaming AULA WIN60HE Max (Đen + đỏ/ Wing Chun Magnetic switch - Rapid trigger),Aula,keyboard,1109000.0,1109000.0,0.0,0.0,,,,phongvu,2026-09-21
+677467,250521430,Bàn phím Bluetooth Microsoft (QSZ-00017),Microsoft,keyboard,699000.0,1600000.0,901000.0,56.0,,,,phongvu,2026-09-21
+716683,250638596,Bàn phím cơ không dây E-Dra EK375W (Đen),E-Dra,keyboard,899000.0,990000.0,91000.0,9.0,,,,phongvu,2026-09-21
+716683,250638602,Bàn phím cơ không dây E-Dra EK375W (Trắng),E-Dra,keyboard,899000.0,990000.0,91000.0,9.0,,,,phongvu,2026-09-21
+719831,250640736,"Bàn phím cơ có dây Gaming Newmen GM328, Black, red switch, NEW VI",Newmen,keyboard,569000.0,695000.0,126000.0,18.0,,,,phongvu,2026-09-21
+725250,250646093,Bàn Phím Cơ Gaming 3 Mode AULA S100 PRO  (Xanh dương+trắng+tím/ Red switch),Aula,keyboard,749000.0,869000.0,120000.0,14.0,,,,phongvu,2026-09-21
+725250,250646095,Bàn Phím Cơ Gaming 3 Mode AULA S100 PRO  (Xanh dương+trắng+tím đậm/ Brown switch),Aula,keyboard,749000.0,869000.0,120000.0,14.0,,,,phongvu,2026-09-21
+725252,250646096,Bàn Phím Cơ DAREU EK75 (Full white/Dream switch),Dareu,keyboard,649000.0,649000.0,0.0,0.0,,,,phongvu,2026-09-21
+725303,250646156,"Bàn phím cơ không dây E-DRA EK398W, Gray -White - Black",E-Dra,keyboard,899000.0,1190000.0,291000.0,24.0,,,,phongvu,2026-09-21
+725303,250646158,"Bàn phím cơ không dây E-DRA EK398W, Black-White-Green",E-Dra,keyboard,899000.0,1190000.0,291000.0,24.0,,,,phongvu,2026-09-21
+753269,250714105,"Bàn phím không dây AULA - F99, màu Comic (Grey Wood Switch)",Aula,keyboard,1545000.0,1859000.0,314000.0,17.0,,,,phongvu,2026-09-21
+666215,250714106,"Bàn phím không dây AULA - F75, màu Comic (Reaper Switch)",Aula,keyboard,1249000.0,1519000.0,270000.0,18.0,,,,phongvu,2026-09-21
+753273,250714108,"Bàn phím không dây LEOBOG - AMG65, màu Pink+White+Blue (Jadeite Switch)",Leobog,keyboard,2089000.0,2499000.0,410000.0,16.0,,,,phongvu,2026-09-21
+753273,250714109,"Bàn phím không dây LEOBOG - AMG65, màu White (Light feather Switch)",Leobog,keyboard,2089000.0,2469000.0,380000.0,15.0,,,,phongvu,2026-09-21
+753274,250714110,"Bàn phím không dây LEOBOG - HI75C pro, màu Grey Black Gradient (Reaper Switch)",Leobog,keyboard,1649000.0,1739000.0,90000.0,5.0,,,,phongvu,2026-09-21
+753270,250714111,Bàn phím cơ có dây AULA HERO68HE,Leobog,keyboard,1099000.0,1139000.0,40000.0,4.0,,,,phongvu,2026-09-21
+596358,250714112,"Bàn phím không dây LEOBOG - HI86, màu Black+Pink (Nimbus switch)",Leobog,keyboard,2089000.0,2419000.0,330000.0,14.0,,,,phongvu,2026-09-21
+753276,250714113,"Bàn phím không dây AULA - F99 pro, màu Comic (Star vector Switch)",Aula,keyboard,1699000.0,1999000.0,300000.0,15.0,,,,phongvu,2026-09-21
+753274,250714114,"Bàn phím không dây LEOBOG - HI75C pro, màu Dark Green+White+Green (Ice Vein Switch)",Leobog,keyboard,1649000.0,1739000.0,90000.0,5.0,,,,phongvu,2026-09-21
+753273,250714115,"Bàn phím không dây LEOBOG - AMG65, màu Black+Purple (Light feather switch)",Leobog,keyboard,2089000.0,2469000.0,380000.0,15.0,,,,phongvu,2026-09-21
+797258,250716118,Bàn phím không dây HyperWork SilentKey PK.HPW.TS01.WHT (Trắng),Hyper Work,keyboard,685000.0,790000.0,105000.0,13.0,,,,phongvu,2026-09-21
+755351,250716137,"Bàn phím không dây HyperWork SilentKey Mini, Đen (HPW-TS01M-BLK)",Hyper Work,keyboard,739000.0,790000.0,51000.0,6.0,,,,phongvu,2026-09-21
+755351,250716144,"Bàn phím không dây HyperWork SilentKey Mini, Xanh (HPW-TS01M-BLE)",Hyper Work,keyboard,739000.0,790000.0,51000.0,6.0,,,,phongvu,2026-09-21
+759356,250719876,"Bàn phím cơ Gaming có dây AULA S2022, Đen",Aula,keyboard,429000.0,449000.0,20000.0,4.0,,,,phongvu,2026-09-21
+759360,250719881,"Bàn phím cơ Gaming có dây AULA F2058, Đen (Red Switch)",Aula,keyboard,649000.0,690000.0,41000.0,6.0,,,,phongvu,2026-09-21
+759365,250719885,"Bàn Phím Cơ Gaming Không Dây ATK VXE V75X, Obsidian Switch (Đen )",ATK,keyboard,889000.0,899000.0,10000.0,1.0,,,,phongvu,2026-09-21
+766907,250804294,Bàn phím Logitech K120 - Đã sử dụng,Logitech,keyboard,80000.0,165000.0,85000.0,52.0,,,,phongvu,2026-09-21
+766908,250804295,Bàn phím Fuhlen L411 (Đen) - Đã sử dụng,Fuhlen,keyboard,89500.0,199000.0,109500.0,55.0,,,,phongvu,2026-09-21
+767228,250804615,Bàn phím Fuhlen L411 (Đen) - Đã sử dụng,Fuhlen,keyboard,89500.0,199000.0,109500.0,55.0,,,,phongvu,2026-09-21
+770799,250807890,Bàn phím cơ gaming Razer BlackWidow V4 75% Phantom Green Edition,Razer,keyboard,4449000.0,5390000.0,941000.0,17.0,,,,phongvu,2026-09-21
+770805,250807895,Bàn phím có dây AULA AK105,Aula,keyboard,149000.0,169000.0,20000.0,12.0,,,,phongvu,2026-09-21
+771517,250808336,Bàn phím cơ Gaming có dây AULA HERO84HE (Trắng + hồng gradient/ Dragon King magnetic switch/ Rapid trigger),Aula,keyboard,1389000.0,1389000.0,0.0,0.0,,,,phongvu,2026-09-21
+771517,250808337,Bàn phím cơ Gaming có dây AULA HERO84HE (Tím + trắng/ Black King magnetic switch/ Rapid trigger),Aula,keyboard,1279000.0,1279000.0,0.0,0.0,,,,phongvu,2026-09-21
+771517,250808338,Bàn phím cơ Gaming có dây AULA HERO84HE (Trắng contour/ Black King magnetic switch/ Rapid trigger),Aula,keyboard,1349000.0,1349000.0,0.0,0.0,,,,phongvu,2026-09-21
+771990,250808773,Bàn phím cơ không dây AKKO 5108B Plus Hatsune Miku (Xanh),Akko,keyboard,2189000.0,2499000.0,310000.0,12.0,,,,phongvu,2026-09-21
+771990,250808780,Bàn phím cơ không dây AKKO 5108B Plus Hatsune Miku (Xanh),Akko,keyboard,2189000.0,2499000.0,310000.0,12.0,,,,phongvu,2026-09-21
+772394,250809128,Bàn phím cơ không dây AKKO 5108B Plus World Tour Viet Nam V3 Pro (Đỏ),Akko,keyboard,1699000.0,2190000.0,491000.0,22.0,,,,phongvu,2026-09-21
+773096,250900527,Bàn phím cơ Gaming Logitech G515 TKL 920-012912 (Đen),Logitech,keyboard,2140000.0,2999000.0,859000.0,29.0,,,,phongvu,2026-09-21
+776743,250904048,Bàn phím cơ Gaming DAREU EK75 White-black _Dream switch - Demo,Dareu,keyboard,399000.0,699000.0,300000.0,43.0,,,,phongvu,2026-09-21
+776929,250904233,Bàn phím Fuhlen L411 (Đen) - Đã sử dụng,Fuhlen,keyboard,149000.0,199000.0,50000.0,25.0,,,,phongvu,2026-09-21
+778968,250906255,Bàn phím cơ Gaming AULA S98 Pro S9812 (Xanh dương + Trắng + Tím đậm),Aula,keyboard,1949000.0,1949000.0,0.0,0.0,,,,phongvu,2026-09-21
+778974,250906261,Bàn phím cơ Gaming AULA S98 Pro S9813 (Hồng gradient),Aula,keyboard,2089000.0,2089000.0,0.0,0.0,,,,phongvu,2026-09-21
+778997,250906283,Bàn phím cơ Gaming AULA S98 Pro S9811 (Xám + Đen gradient),Aula,keyboard,1999000.0,1999000.0,0.0,0.0,,,,phongvu,2026-09-21
+784528,250911672,Bàn phím Gaming Razer Joro Portable RZ03-02360100-R3M1 (Đen),Razer,keyboard,2980000.0,3590000.0,610000.0,17.0,,,,phongvu,2026-09-21
+784552,250911686,Bàn phím không dây Keychron B6 Pro Ultra-Slim B6P-K2 (White),Keychron,keyboard,789000.0,1090000.0,301000.0,28.0,,,,phongvu,2026-09-21
+784552,250911696,Bàn phím Không dây Keychron B6 Pro Ultra-Slim B6P-K9 (Deep Black),Keychron,keyboard,789000.0,1090000.0,301000.0,28.0,,,,phongvu,2026-09-21
+755351,251005739,Bàn phím không dây HyperWork SilentKey Mini PK.HPW.TS01M.WHT (Trắng),Hyper Work,keyboard,749000.0,790000.0,41000.0,5.0,,,,phongvu,2026-09-21
+792511,251005760,Bàn phím cơ Gaming không dây ASUS M703 ROG FALCATA 90MP043H-BKUA20 (Đen),Asus,keyboard,6990000.0,8090000.0,1100000.0,14.0,,,,phongvu,2026-09-21
+792513,251005762,Bàn phím cơ Gaming có dây ASUS M605 ROG FALCHION ACE HFX 90MP03VE-BKUA20 (Đen),Asus,keyboard,4290000.0,5190000.0,900000.0,17.0,,,,phongvu,2026-09-21
+792526,251005773,Bàn phím cơ Gaming không dây ASUS M704 ROG AZOTH X 90MP044G-BKUA30 (Storm Switch) (Trắng),Asus,keyboard,5990000.0,7900000.0,1910000.0,24.0,,,,phongvu,2026-09-21
+792526,251005775,Bàn phím cơ Gaming không dây ASUS M704 ROG AZOTH X 90MP044F-BKUA30 (Snow Switch) (Trắng),Asus,keyboard,5990000.0,7900000.0,1910000.0,24.0,,,,phongvu,2026-09-21
+799440,251011302,Bàn phím cơ Gaming có dây Razer Huntsman V3 Pro Tenkeyless RZ03-04980100-R3M1 (Đen),Razer,keyboard,5690000.0,5690000.0,0.0,0.0,,,,phongvu,2026-09-21
+799444,251011303,Bàn phím cơ Gaming Razer BlackWidow V4 75% - Phantom White Edition (RZ03-05003500-R3M1),Razer,keyboard,4350000.0,5390000.0,1040000.0,19.0,,,,phongvu,2026-09-21
+799447,251011307,Bàn phím cơ Gaming có dây Razer Ornata V3 RZ03-04460100-R3M1 (Đen),Razer,keyboard,1590000.0,1590000.0,0.0,0.0,,,,phongvu,2026-09-21
+799448,251011308,Bàn phím cơ Gaming không dây Razer BlackWidow V4 Tenkeyless HyperSpeed RZ03-05480100-R3M1 (Đen),Razer,keyboard,3990000.0,3990000.0,0.0,0.0,,,,phongvu,2026-09-21
+800640,251012459,Bàn phím cơ Logitech Alto Keys K98M 920-013584 (Đen Graphite),Logitech,keyboard,2249000.0,2790000.0,541000.0,19.0,,,,phongvu,2026-09-21
+800656,251012476,Bàn phím cơ Gaming AULA F75 Max 3 Mode (Xám + Đen Gradient Contour) Reaper switch,Aula,keyboard,1499000.0,1899000.0,400000.0,21.0,,,,phongvu,2026-09-21
+800656,251012481,Bàn phím cơ Gaming AULA F75 Max 3 Mode (Xanh + trắng + tím) Reaper switch,Aula,keyboard,1399000.0,1699000.0,300000.0,18.0,,,,phongvu,2026-09-21
+802307,251014071,Bàn phím cơ Gaming không dây AULA S75 Pro (Xám + Đen Gradient),Aula,keyboard,1390000.0,2299000.0,909000.0,40.0,,,,phongvu,2026-09-21
+802307,251014073,Bàn phím cơ Gaming không dây AULA S75 Pro (Hồng Gradient),Aula,keyboard,1390000.0,2399000.0,1009000.0,42.0,,,,phongvu,2026-09-21
+807305,251017422,Bàn phím không dây Logitech Signature Slim Solar+ K980 920-013765 (Graphite - Than chì),Logitech,keyboard,2370000.0,3999000.0,1629000.0,41.0,,,,phongvu,2026-09-21
+811331,251100567,Bàn phím Fuhlen L411 (Đen) - Đã sử dụng,Fuhlen,keyboard,139000.0,199000.0,60000.0,30.0,,,,phongvu,2026-09-21
+814010,251103304,Bàn phím cơ Gaming có dây Razer Huntsman V3 Pro Tenkeyless - CS2 Counter-Strike 2 Edition RZ03-04982100-R3M1,Razer,keyboard,5450000.0,10990000.0,5540000.0,50.0,,,,phongvu,2026-09-21
+818343,251107186,"Bàn phím cơ Gaming có dây Newmen GM328 Plus, Blue Switch (Apricot-Black-Blue)",Newmen,keyboard,990000.0,1490000.0,500000.0,34.0,,,,phongvu,2026-09-21
+818353,251107192,Bàn phím cơ Gaming có dây ASUS TUF K3 Gen II Hatsune Miku Edition,Asus,keyboard,2780000.0,4190000.0,1410000.0,34.0,,,,phongvu,2026-09-21
+822720,251111625,Bàn phím cơ Gaming DAREU EK75 PRO Cloudy Aqua (Đen Xám),Dareu,keyboard,699000.0,1490000.0,791000.0,53.0,,,,phongvu,2026-09-21
+824654,251113496,Bàn phím cơ Gaming có dây AULA AG60 PRO (Xám),Aula,keyboard,3390000.0,5590000.0,2200000.0,39.0,,,,phongvu,2026-09-21
+828556,251202921,Bàn phím cơ Gaming không dây DareU EK75 Pro AL (White-Blue),Dareu,keyboard,1499000.0,2290000.0,791000.0,35.0,,,,phongvu,2026-09-21
+828556,251202928,Bàn phím cơ Gaming không dây DareU EK75 Pro AL (Black-Red),Dareu,keyboard,1499000.0,2290000.0,791000.0,35.0,,,,phongvu,2026-09-21
+828557,251202929,Bàn phím cơ Gaming không dây Keychron Black Myth Wukong – Deluxe Edition WKD-21 (Đen),Keychron,keyboard,5990000.0,7990000.0,2000000.0,25.0,,,,phongvu,2026-09-21
+833432,251207548,Bàn phím cơ Gaming không dây Machenike KG98  (White Blue),Machenike,keyboard,1339000.0,1999000.0,660000.0,33.0,,,,phongvu,2026-09-21
+833433,251207554,Bàn phím cơ Gaming không dây AULA F87 PRO V2 (2667),Aula,keyboard,1899000.0,2490000.0,591000.0,24.0,,,,phongvu,2026-09-21
+833432,251207561,Bàn phím cơ Gaming không dây Machenike KG98 (Black Green),Machenike,keyboard,1339000.0,1999000.0,660000.0,33.0,,,,phongvu,2026-09-21
+837865,251211472,Bàn phím cơ Gaming có dây AULA S2022 Pro (Xám),Aula,keyboard,449000.0,999000.0,550000.0,55.0,,,,phongvu,2026-09-21
+837865,251211500,Bàn phím cơ Gaming có dây AULA S2022 Pro (Đen),Aula,keyboard,449000.0,999000.0,550000.0,55.0,,,,phongvu,2026-09-21
+840868,260102025,Bàn phím cơ Gaming Không Dây MCHOSE x Unbox Therapy - UT98 HW-UT98-2 (Classic Therapy),Mchose,keyboard,1990000.0,3590000.0,1600000.0,45.0,,,,phongvu,2026-09-21
+840878,260102032,Bàn phím cơ Gaming Không Dây MCHOSE GX87 Lite GX87-A8 (Trắng - Nano Spraying),Mchose,keyboard,2190000.0,3190000.0,1000000.0,31.0,,,,phongvu,2026-09-21
+840878,260102038,Bàn phím cơ Gaming Không Dây MCHOSE GX87 Lite GX87-A9 (Xanh - Nano Spraying),Mchose,keyboard,2190000.0,3190000.0,1000000.0,31.0,,,,phongvu,2026-09-21
+840884,260102045,Bàn phím cơ Gaming Không Dây MCHOSE G75 Pro G75-9A (Xanh lá),Mchose,keyboard,1990000.0,1990000.0,0.0,0.0,,,,phongvu,2026-09-21
+840884,260102051,Bàn phím cơ Gaming Không Dây MCHOSE G75 Pro G75-4A (Xanh dương),Mchose,keyboard,990000.0,1690000.0,700000.0,41.0,,,,phongvu,2026-09-21
+840897,260102058,Bàn phím cơ Gaming Có Dây HE MCHOSE Mix87 MC-Mix87-5 (Rose Red),Mchose,keyboard,1690000.0,2790000.0,1100000.0,39.0,,,,phongvu,2026-09-21
+840905,260102065,Bàn phím cơ Gaming Có Dây HE MCHOSE Jet75 HW-Jet75-10 (Đen - Topographic),Mchose,keyboard,1690000.0,2590000.0,900000.0,35.0,,,,phongvu,2026-09-21
+840919,260102073,Bàn phím cơ Gaming Có Dây HE MCHOSE Ace68 Turbo MC-Ace68Turbo-9 (Cam - Galaxy),Mchose,keyboard,3190000.0,4990000.0,1800000.0,36.0,,,,phongvu,2026-09-21
+840919,260102078,Bàn phím cơ Gaming Có Dây HE MCHOSE Ace68 Turbo MC-Ace68Turbo-9 (Cam - Galaxy),Mchose,keyboard,3190000.0,4990000.0,1800000.0,36.0,,,,phongvu,2026-09-21
+840927,260102087,Bàn phím cơ Gaming Có Dây HE MCHOSE Ace68 MC-Ace68-33 (Đen - Topographic),Mchose,keyboard,1580000.0,2590000.0,1010000.0,39.0,,,,phongvu,2026-09-21
+840868,260102092,Bàn phím cơ Gaming Không Dây MCHOSE x Unbox Therapy - UT98 HW-UT98-4 (Retro Therapy),Mchose,keyboard,1990000.0,3590000.0,1600000.0,45.0,,,,phongvu,2026-09-21
+844023,260105213,Bàn phím Fuhlen L411 (Đen) - Đã sử dụng,Fuhlen,keyboard,170000.0,199000.0,29000.0,15.0,,,,phongvu,2026-09-21
+844156,260105346,Bàn phím Fuhlen L411 (Đen) - Đã sử dụng,Fuhlen,keyboard,160000.0,199000.0,39000.0,20.0,,,,phongvu,2026-09-21
+844282,260105472,Bàn phím Fuhlen L411 (Đen) - Đã sử dụng,Fuhlen,keyboard,160000.0,199000.0,39000.0,20.0,,,,phongvu,2026-09-21
+844512,260105703,Bàn phím không dây Targus EcoSmart Solar AKB868AP (Đen),Targus,keyboard,849000.0,1990000.0,1141000.0,57.0,,,,phongvu,2026-09-21
+844521,260105709,Bàn phím không dây Targus Antimicrobial AKB869AP (Đen),Targus,keyboard,439000.0,699000.0,260000.0,37.0,,,,phongvu,2026-09-21
+848787,260200460,Bàn phím cơ Gaming có dây ASUS ROG Strix Scope II X NXSM Storm Switch V2 90MP03XG-BKUA20 (Đen),Asus,keyboard,2890000.0,5290000.0,2400000.0,45.0,,,,phongvu,2026-09-21
+848787,260200465,Bàn phím cơ Gaming có dây ASUS ROG Strix Scope II X NXSW Snow Switch V2 90MP03XF-BKUA20 (Đen),Asus,keyboard,2999000.0,5290000.0,2291000.0,43.0,,,,phongvu,2026-09-21
+849887,260201489,Bàn phím cơ Gaming có dây Corsair K70 PRO TKL CH-911921G-NA (Trắng),Corsair,keyboard,4180000.0,6990000.0,2810000.0,40.0,,,,phongvu,2026-09-21
+849845,260201492,Bàn phím Gaming có dây Corsair K55 CORE CH-9226C65-NA (Đen),Corsair,keyboard,975000.0,1590000.0,615000.0,39.0,,,,phongvu,2026-09-21
+849848,260201493,Bàn phím cơ Gaming có dây Corsair VANGUARD PRO 96 MGX Hyperdrive CH-91E911G-NA (Đen),Corsair,keyboard,5380000.0,8990000.0,3610000.0,40.0,,,,phongvu,2026-09-21
+849853,260201498,Bàn phím Gaming có dây Corsair K55 CORE TKL CH-9216065-NA (Đen),Corsair,keyboard,950000.0,1490000.0,540000.0,36.0,,,,phongvu,2026-09-21
+849852,260201500,Bàn phím cơ Gaming không dây Corsair K100 AIR CH-913A01U-NA (Đen),Corsair,keyboard,6999000.0,10990000.0,3991000.0,36.0,,,,phongvu,2026-09-21
+849858,260201504,Bàn phím cơ Gaming có dây Corsair K70 MAX CH-910961G-NA (Đen),Corsair,keyboard,5880000.0,9990000.0,4110000.0,41.0,,,,phongvu,2026-09-21
+849866,260201505,Bàn phím cơ Gaming không dây Corsair K65 CSR CH-91D401L-NA (Xám - Midnight Grey),Corsair,keyboard,4199000.0,6790000.0,2591000.0,38.0,,,,phongvu,2026-09-21
+849862,260201508,Bàn phím cơ Gaming có dây Corsair MAKR PRO 75 MGX v2 CH-91CE21G-NA2 (Đen),Corsair,keyboard,6499000.0,9990000.0,3491000.0,35.0,,,,phongvu,2026-09-21
+849865,260201511,Bàn phím cơ Gaming có dây Corsair VANGUARD 96 MLX Plasma CH-91E901E-NA (Đen),Corsair,keyboard,3600000.0,6690000.0,3090000.0,46.0,,,,phongvu,2026-09-21
+850059,260201512,Bàn phím cơ Gaming không dây Corsair K65 PLUS CH-91D441F-NA (Đen - Tactile),Corsair,keyboard,4499000.0,6990000.0,2491000.0,36.0,,,,phongvu,2026-09-21
+849869,260201514,Bàn phím cơ Gaming có dây Corsair GALLEON 100 SD MLX PULSE CH-912A31I-NA (Đen),Corsair,keyboard,8000000.0,13990000.0,5990000.0,43.0,,,,phongvu,2026-09-21
+849865,260201518,Bàn phím cơ Gaming có dây Corsair VANGUARD 96 MLX Fusion CH-91E901F-NA (Đen),Corsair,keyboard,3600000.0,6690000.0,3090000.0,46.0,,,,phongvu,2026-09-21
+849873,260201519,Bàn phím cơ Gaming có dây Corsair K70 CORE TKL CH-911911E-NA (Đen),Corsair,keyboard,2180000.0,3590000.0,1410000.0,39.0,,,,phongvu,2026-09-21
+849865,260201526,Bàn phím cơ Gaming có dây Corsair VANGUARD 96 MLX Quantum CH-91E901H-NA (Đen),Corsair,keyboard,3600000.0,6690000.0,3090000.0,46.0,,,,phongvu,2026-09-21
+849880,260201527,Bàn phím cơ Gaming không dây Corsair K70 CORE TKL CH-914901E-NA (Đen),Corsair,keyboard,3750000.0,5990000.0,2240000.0,37.0,,,,phongvu,2026-09-21
+849884,260201532,Bàn phím cơ Gaming có dây Corsair VANGUARD 96 MLX Pulse CH-91E921I-NA (Trắng đen- Dual Tone),Corsair,keyboard,3850000.0,6990000.0,3140000.0,45.0,,,,phongvu,2026-09-21
+849887,260201533,Bàn phím cơ Gaming có dây Corsair K70 PRO TKL CH-911921G-NA (Trắng),Corsair,keyboard,3999000.0,6990000.0,2991000.0,43.0,,,,phongvu,2026-09-21
+850893,260202537,Bàn phím cơ Gaming không dây AULA L99 (Xám đậm + Trắng + Xanh dương),Aula,keyboard,2599000.0,3990000.0,1391000.0,35.0,,,,phongvu,2026-09-21
+850898,260202540,Bàn phím cơ Gaming có dây Rapoo GK500 (Đen),Rapoo,keyboard,499000.0,699000.0,200000.0,29.0,,,,phongvu,2026-09-21
+853597,260300912,Bàn phím Gaming có dây Newmen GM328 Pro Red switch (White-grey),Newmen,keyboard,1290000.0,1290000.0,0.0,0.0,,,,phongvu,2026-09-21
+853597,260300931,Bàn phím Gaming có dây Newmen GM328 Pro Red switch (White-purple),Newmen,keyboard,1290000.0,1290000.0,0.0,0.0,,,,phongvu,2026-09-21
+854326,260301633,Bàn phím cơ Gaming không dây MCHOSE K99 V2 Icy Creamsicle Switch MC-K99V2-3 (Horizon Orange),Mchose,keyboard,1990000.0,3190000.0,1200000.0,38.0,,,,phongvu,2026-09-21
+854338,260301646,Bàn phím cơ Gaming không dây MCHOSE G75 Pro Matcha Latte Switch G75-12A (Arctic Snow),Mchose,keyboard,1249000.0,1990000.0,741000.0,37.0,,,,phongvu,2026-09-21
+854338,260301653,Bàn phím cơ Gaming không dây MCHOSE G75 Pro Matcha Latte Switch G75-13A (Black ),Mchose,keyboard,1249000.0,1990000.0,741000.0,37.0,,,,phongvu,2026-09-21
+854350,260301659,Bàn phím cơ Gaming HE MCHOSE Ace 68 Turbo Mount Tai Magnetic Switch GT MC-Ace68Turbo-6 (Nova White),Mchose,keyboard,3190000.0,4990000.0,1800000.0,36.0,,,,phongvu,2026-09-21
+854357,260301665,Bàn phím cơ Gaming HE MCHOSE Ace 68 TTC Dragon Lord Magetic Switch MC-Ace68-32 (White Topographic),Mchose,keyboard,1580000.0,2590000.0,1010000.0,39.0,,,,phongvu,2026-09-21
+854370,260301672,Bàn phím cơ Gaming HE MCHOSE Ace 68 Air Mount Tai Magnetic Switch MC-Ace68Air-9 (Snow White),Mchose,keyboard,2390000.0,2390000.0,0.0,0.0,,,,phongvu,2026-09-21
+854370,260301679,Bàn phím cơ Gaming HE MCHOSE Ace 68 Air Mount Tai Magnetic Switch MC-Ace68Air-11 (Rose Red),Mchose,keyboard,2390000.0,2390000.0,0.0,0.0,,,,phongvu,2026-09-21
+857434,260304418,Bàn phím cơ không dây AKKO 5075 V3 Gradient Akko Frost Pink Switch (Xám Đen),Akko,keyboard,1690000.0,1690000.0,0.0,0.0,,,,phongvu,2026-09-21
+857421,260304420,Bàn phím cơ không dây AKKO 3108 RF V3 Yier and Bubu Frost Pink Switch (Vàng),Akko,keyboard,1790000.0,1790000.0,0.0,0.0,,,,phongvu,2026-09-21
+857434,260304426,Bàn phím cơ không dây AKKO 5075 V3 Gradient Akko Frost Pink Switch (Trắng Hồng),Akko,keyboard,1690000.0,1690000.0,0.0,0.0,,,,phongvu,2026-09-21
+857428,260304429,Bàn phím cơ có dây AKKO 3108 V3 Yier and Bubu Frost Pink Switch (Hồng),Akko,keyboard,1690000.0,1690000.0,0.0,0.0,,,,phongvu,2026-09-21
+857434,260304434,Bàn phím cơ không dây AKKO 5075 V3 Gradient Akko Frost Pink Switch (Trắng Tím),Akko,keyboard,1690000.0,1690000.0,0.0,0.0,,,,phongvu,2026-09-21
+857448,260304435,Bàn phím cơ không dây AKKO 5075 V3 Black&Gold Akko Piano Switch (Đen Vàng),Akko,keyboard,1890000.0,1890000.0,0.0,0.0,,,,phongvu,2026-09-21
+857421,260304436,Bàn phím cơ không dây AKKO 3108 RF V3 Prunus Lannesiana - Frost Pink Switch (Trắng Hồng),Akko,keyboard,849000.0,1390000.0,541000.0,39.0,,,,phongvu,2026-09-21
+857421,260304440,Bàn phím cơ không dây AKKO 3108 RF V3 Glacier - Frost Pink Switch (Trắng Xanh),Akko,keyboard,890000.0,1390000.0,500000.0,36.0,,,,phongvu,2026-09-21
+857448,260304441,Bàn phím cơ không dây AKKO 5075 V3 Prunus Lannesiana Akko Piano Switch (Trắng Hồng),Akko,keyboard,1890000.0,1890000.0,0.0,0.0,,,,phongvu,2026-09-21
+857448,260304446,Bàn phím cơ không dây AKKO 5075 V3 IceFlow Akko Piano Switch (Trắng Xanh),Akko,keyboard,1890000.0,1890000.0,0.0,0.0,,,,phongvu,2026-09-21
+857421,260304448,Bàn phím cơ không dây AKKO 3108 RF V3 Black&Gold - Frost Pink Switch (Đen Vàng),Akko,keyboard,890000.0,1390000.0,500000.0,36.0,,,,phongvu,2026-09-21
+860362,260400554,Bàn phím cơ Gaming có dây E-Dra EK375v2 Alpha (Đen Xanh),E-Dra,keyboard,429000.0,690000.0,261000.0,38.0,,,,phongvu,2026-09-21
+860335,260400556,"Bàn phím cơ Gaming không dây E-Dra EK398S, Red Switch (Đen Trắng)",E-Dra,keyboard,729000.0,1190000.0,461000.0,39.0,,,,phongvu,2026-09-21
+860341,260400561,"Bàn phím cơ Gaming không dây E-Dra EK375S, Red Switch (Đen Trắng)",E-Dra,keyboard,599000.0,990000.0,391000.0,39.0,,,,phongvu,2026-09-21
+860349,260400566,"Bàn phím cơ Gaming có dây E-Dra EK368HE, Magnetic Switch (Đen Vàng)",E-Dra,keyboard,799000.0,1290000.0,491000.0,38.0,,,,phongvu,2026-09-21
+860352,260400569,Bàn phím cơ Gaming không dây E-Dra EK368S (Đen Trắng),E-Dra,keyboard,549000.0,890000.0,341000.0,38.0,,,,phongvu,2026-09-21
+860362,260400574,Bàn phím cơ Gaming có dây E-Dra EK375v2 Alpha (Đen Xanh),E-Dra,keyboard,429000.0,690000.0,261000.0,38.0,,,,phongvu,2026-09-21
+862666,260402858,"Bàn phím Gaming có dây ATK Hex80, Owlab Ti Magnetic Switch (Spark)",ATK,keyboard,7990000.0,7990000.0,0.0,0.0,,,,phongvu,2026-09-21
+862679,260402865,"Bàn phím Gaming có dây MadLions MAD 68 HE V2 Flagship, Magneto Gaming Switch (Đen)",MadLions,keyboard,1490000.0,1490000.0,0.0,0.0,,,,phongvu,2026-09-21
+862679,260402871,"Bàn phím Gaming có dây MadLions MAD 68 HE V2 Flagship, Magneto Gaming Switch (Trắng - Side Print)",MadLions,keyboard,1490000.0,1490000.0,0.0,0.0,,,,phongvu,2026-09-21
+862685,260402878,"Bàn phím Gaming có dây MadLions MAD 68 HE RGB, Magnetic Amber Pro Switch (Đen)",MadLions,keyboard,1290000.0,1290000.0,0.0,0.0,,,,phongvu,2026-09-21
+862710,260402889,Bàn phím Gaming có dây ATK RS6 Air HE 8K (Zenith Switch/ Đen),ATK,keyboard,2790000.0,2790000.0,0.0,0.0,,,,phongvu,2026-09-21
+862710,260402896,Bàn phím Gaming có dây ATK RS6 Air HE 8K (Zenith Switch/ Trắng),ATK,keyboard,2790000.0,2790000.0,0.0,0.0,,,,phongvu,2026-09-21
+862710,260402903,Bàn phím Gaming có dây ATK RS6 Air HE 8K (Zenith Switch/ Hồng),ATK,keyboard,2790000.0,2790000.0,0.0,0.0,,,,phongvu,2026-09-21
+862730,260402909,Bàn phím Gaming có dây ATK RS7 Air HE 8K (BrightBlade Switch/ Đen),ATK,keyboard,2990000.0,2990000.0,0.0,0.0,,,,phongvu,2026-09-21
+862730,260402916,Bàn phím Gaming có dây ATK RS7 Air HE 8K (BrightBlade Switch/ Trắng),ATK,keyboard,2990000.0,2990000.0,0.0,0.0,,,,phongvu,2026-09-21
+862730,260402923,Bàn phím Gaming có dây ATK RS7 Air HE 8K (Iceblade Switch/ Hồng),ATK,keyboard,2990000.0,2990000.0,0.0,0.0,,,,phongvu,2026-09-21
+862730,260402931,Bàn phím Gaming có dây ATK RS7 Air HE 8K (Iceblade Switch/ Cam),ATK,keyboard,2990000.0,2990000.0,0.0,0.0,,,,phongvu,2026-09-21
+862730,260402937,Bàn phím Gaming có dây ATK RS7 Air HE 8K (Iceblade Switch/ Lake Green),ATK,keyboard,2990000.0,2990000.0,0.0,0.0,,,,phongvu,2026-09-21
+862666,260402944,"Bàn phím Gaming có dây ATK Hex80, Owlab Ti Magnetic Switch (Sandgold)",ATK,keyboard,7990000.0,7990000.0,0.0,0.0,,,,phongvu,2026-09-21
+862666,260402950,"Bàn phím Gaming có dây ATK Hex80, Owlab Ti Magnetic Switch (Grey)",ATK,keyboard,7990000.0,7990000.0,0.0,0.0,,,,phongvu,2026-09-21
+869636,260501476,Bàn phím Gaming có dây Rapoo V50S-98 (Đen),Rapoo,keyboard,285000.0,499000.0,214000.0,43.0,,,,phongvu,2026-09-21
+872090,260503903,Bàn phím không dây HyperWork HyperOne Gen 3 HPW-KB1-G3-BLK (Đen),Hyper Work,keyboard,699000.0,1090000.0,391000.0,36.0,,,,phongvu,2026-09-21
+872134,260503948,"Bàn phím cơ Gaming có dây Newmen GM328 Plus, Purple Switch (Black-Apricot-Blue)",Newmen,keyboard,999000.0,1590000.0,591000.0,37.0,,,,phongvu,2026-09-21
+876965,260508559,Bàn phím cơ Gaming có dây Logitech G512 X 75 TKL TMR 8K Tactile switch 920-013962 (Trắng),Logitech,keyboard,4890000.0,6299000.0,1409000.0,22.0,,,,phongvu,2026-09-21
+876971,260508565,Bàn phím cơ Gaming có dây Logitech G512 X 98 TKL TMR 8K Tactile switch 920-013988 (Đen),Logitech,keyboard,5390000.0,6999000.0,1609000.0,23.0,,,,phongvu,2026-09-21
+876971,260508572,Bàn phím cơ Gaming có dây Logitech G512 X 98 TKL TMR 8K Tactile switch 920-014010 (Trắng),Logitech,keyboard,5390000.0,6999000.0,1609000.0,23.0,,,,phongvu,2026-09-21
+876965,260508591,Bàn phím cơ Gaming có dây Logitech G512 X 75 TKL TMR 8K Tactile switch 920-013942 (Đen),Logitech,keyboard,4890000.0,6299000.0,1409000.0,22.0,,,,phongvu,2026-09-21
+879810,260602174,Bàn Phím Cơ Gaming Không Dây ATK V75K Anya switch (Silver),ATK,keyboard,2390000.0,2390000.0,0.0,0.0,,,,phongvu,2026-09-21
+879810,260602233,Bàn Phím Cơ Gaming Không Dây ATK V75X Anya switch (Blackberry),ATK,keyboard,2390000.0,2390000.0,0.0,0.0,,,,phongvu,2026-09-21
+880225,260602604,Bàn phím vi tính không dây Razer Pro Type Ergo (RZ03-05440100-R3M1) (Đen),Razer,keyboard,3990000.0,4990000.0,1000000.0,20.0,,,,phongvu,2026-09-21
+880761,260603134,Bàn Phím Giả Cơ Gaming MSI FORGE GK110 US Membrane (S11-04US2E1-HH9) (Đen),Msi,keyboard,399000.0,599000.0,200000.0,33.0,,,,phongvu,2026-09-21
+880768,260603142,Bàn Phím Cơ Gaming MSI FORGE GK320 US Mechanical - Red Switch (S11-04US2F1-HH9) (Đen),Msi,keyboard,899000.0,1490000.0,591000.0,40.0,,,,phongvu,2026-09-21
+881523,260700036,Bàn phím Gaming không dây Logitech G915 X TKL Lightspeed Clicky switch 920-012758 (Đen),Logitech,keyboard,5990000.0,5990000.0,0.0,0.0,,,,phongvu,2026-09-21
+881523,260700037,Bàn phím Gaming không dây Logitech G915 X TKL Lightspeed Linear switch 920-012748 (Đen),Logitech,keyboard,5990000.0,5990000.0,0.0,0.0,,,,phongvu,2026-09-21
+883328,260701742,Bàn phím không dây HyperWork HyperOne Gen 3 Plus HPW-KB1-G3.PLUS-WHT (Trắng),Hyper Work,keyboard,950000.0,1290000.0,340000.0,26.0,,,,phongvu,2026-09-21
+883322,260701766,Bàn phím cơ Gaming có dây Sony Inzone KBD-G900/BC E Magnetic switch (Đen),Sony,keyboard,8990000.0,9990000.0,1000000.0,10.0,,,,phongvu,2026-09-21
+883328,260701771,Bàn phím không dây HyperWork HyperOne Gen 3 Plus HPW-KB1-G3.PLUS-BLK (Đen),Hyper Work,keyboard,950000.0,1290000.0,340000.0,26.0,,,,phongvu,2026-09-21
+885309,260703465,Bàn phím cơ Gaming có dây Logitech G316 X 98 Tactile 8K 920-014207 (Đen),Logitech,keyboard,1990000.0,3290000.0,1300000.0,40.0,,,,phongvu,2026-09-21
+885309,260703471,Bàn phím cơ Gaming có dây Logitech G316 X 98 Tactile 8K 920-014234 (Trắng),Logitech,keyboard,1990000.0,3290000.0,1300000.0,40.0,,,,phongvu,2026-09-21
+886577,260704559,"Bàn phím cơ Gaming không dây AULA F108 Pro V2, X3 switch (Xám đen Gradient)",Aula,keyboard,1649000.0,2690000.0,1041000.0,39.0,,,,phongvu,2026-09-21
+886579,260704560,Bàn phím cơ Gaming không dây DAREU Flex 75 Pegasus Switch (Đen xám),Dareu,keyboard,699000.0,1290000.0,591000.0,46.0,,,,phongvu,2026-09-21
+886576,260704562,"Bàn phím cơ Gaming có dây AULA F75, Pink switch (Xanh dương + Trắng + Tím đậm)",Aula,keyboard,849000.0,1390000.0,541000.0,39.0,,,,phongvu,2026-09-21
+886579,260704566,Bàn phím cơ Gaming không dây DAREU Flex 75 Pegasus Switch (Trắng đen),Dareu,keyboard,699000.0,1290000.0,591000.0,46.0,,,,phongvu,2026-09-21
+886594,260704567,"Bàn phím cơ Gaming không dây AULA F75 HE, Dragon Magnetic switch (Xám + Trắng + Đen)",Aula,keyboard,1449000.0,2190000.0,741000.0,34.0,,,,phongvu,2026-09-21
+886586,260704568,"Bàn phím cơ Gaming không dây AULA F75,  Outemu Silent Peach V3 switch (Trắng + Xanh dương Gradient)",Aula,keyboard,1449000.0,2290000.0,841000.0,37.0,,,,phongvu,2026-09-21
+886586,260704572,"Bàn phím cơ Gaming không dây AULA F75, Barbie switch (Nâu be)",Aula,keyboard,1299000.0,1990000.0,691000.0,35.0,,,,phongvu,2026-09-21
+886594,260704574,"Bàn phím cơ Gaming không dây AULA F75 HE, Black King Magnetic switch (Đen contour)",Aula,keyboard,1499000.0,2290000.0,791000.0,35.0,,,,phongvu,2026-09-21
+886577,260704578,"Bàn phím cơ Gaming không dây AULA F108 Pro V2, Seascape switch (Đen xám)",Aula,keyboard,1849000.0,2990000.0,1141000.0,38.0,,,,phongvu,2026-09-21
+886576,260704579,"Bàn phím cơ Gaming có dây AULA F75, Blue switch (Đen)",Aula,keyboard,729000.0,1290000.0,561000.0,43.0,,,,phongvu,2026-09-21
+886594,260704580,"Bàn phím cơ Gaming không dây AULA F75 HE, Black King Magnetic switch (Trắng contour)",Aula,keyboard,1399000.0,1990000.0,591000.0,30.0,,,,phongvu,2026-09-21
+886577,260704584,"Bàn phím cơ Gaming không dây AULA F108 Pro V2, Panda switch (Xanh than + Be + Nâu)",Aula,keyboard,1699000.0,2790000.0,1091000.0,39.0,,,,phongvu,2026-09-21
+886576,260704586,"Bàn phím cơ Gaming có dây AULA F75, Blue switch (Trắng)",Aula,keyboard,729000.0,1290000.0,561000.0,43.0,,,,phongvu,2026-09-21
+886586,260704588,"Bàn phím cơ Gaming không dây AULA F75, Graywood V3 switch (Đen tím)",Aula,keyboard,1399000.0,1990000.0,591000.0,30.0,,,,phongvu,2026-09-21
+886577,260704590,"Bàn phím cơ Gaming không dây AULA F108 Pro V2, Strawberry Mint switch (Hồng)",Aula,keyboard,1649000.0,2690000.0,1041000.0,39.0,,,,phongvu,2026-09-21
+886607,260704592,"Bàn phím cơ Gaming không dây AULA S100 Pro, Red switch (Đen + Xám + Cam)",Aula,keyboard,729000.0,1290000.0,561000.0,43.0,,,,phongvu,2026-09-21
+886576,260704594,"Bàn phím cơ Gaming có dây AULA F75, Pink switch (Đen + Xanh đậm + Cam)",Aula,keyboard,849000.0,1390000.0,541000.0,39.0,,,,phongvu,2026-09-21
+888152,260705968,"Bàn phím cơ Gaming không dây ASUS ROG AZOTH Extreme Edition 20 M709, NX Snow switch 90MP04VF-BKUA20 (Đen)",Asus,keyboard,19990000.0,19990000.0,0.0,0.0,,,,phongvu,2026-09-21
+888152,260705975,"Bàn phím cơ Gaming không dây ASUS ROG AZOTH Extreme Edition 20 M709, NX Storm switch 90MP04VG-BKUA20 (Đen)",Asus,keyboard,19990000.0,19990000.0,0.0,0.0,,,,phongvu,2026-09-21
+888172,260705982,Bàn phím cơ Gaming có dây Corsair Clipper Pro Mini 60 CH-979101J-NA (Đen),Corsair,keyboard,2750000.0,3990000.0,1240000.0,31.0,,,,phongvu,2026-09-21
+888172,260705989,Bàn phím cơ Gaming có dây Corsair Clipper Pro Mini 60 CH-979111J-NA (Trắng),Corsair,keyboard,2750000.0,3990000.0,1240000.0,31.0,,,,phongvu,2026-09-21
+888179,260705996,Bàn phím cơ Gaming không dây Corsair K65 Plus Atomic Purple CH-91D421E-NA (Tím),Corsair,keyboard,4390000.0,4990000.0,600000.0,12.0,,,,phongvu,2026-09-21
+888187,260706004,Bàn phím cơ Gaming không dây Corsair VANGUARD 96 CH-91F901E-NA (Đen),Corsair,keyboard,4690000.0,5990000.0,1300000.0,22.0,,,,phongvu,2026-09-21
+888201,260706013,Bàn phím cơ Gaming không dây Corsair VANGUARD AIR 99 CH-91HA01B-NA (Đen),Corsair,keyboard,6550000.0,6990000.0,440000.0,6.0,,,,phongvu,2026-09-21
+888201,260706019,Bàn phím cơ Gaming không dây Corsair VANGUARD AIR 99 CH-91H901B-NA (Trắng),Corsair,keyboard,6550000.0,6990000.0,440000.0,6.0,,,,phongvu,2026-09-21
+890620,260801467,Bàn phím cơ Gaming có dây ATK RS6 Air HE 8K Iceblade Switch (Đen),ATK,keyboard,1690000.0,2590000.0,900000.0,35.0,,,,phongvu,2026-09-21
+890620,260801471,Bàn phím cơ Gaming có dây ATK RS6 Air HE 8K Iceblade Switch (Hồng),ATK,keyboard,1690000.0,2590000.0,900000.0,35.0,,,,phongvu,2026-09-21
+890620,260801479,Bàn phím cơ Gaming có dây ATK RS6 Air HE 8K Iceblade Switch (Trắng),ATK,keyboard,1690000.0,2590000.0,900000.0,35.0,,,,phongvu,2026-09-21
+890620,260801487,Bàn phím cơ Gaming có dây ATK RS6 Air HE 8K Iceblade Switch (Lake Green),ATK,keyboard,1690000.0,2590000.0,900000.0,35.0,,,,phongvu,2026-09-21
+890629,260801491,"Bàn phím cơ Gaming không dây ASUS ROG STRIX MORPH 96, NX V2 Mechanical Switches (Đen)",Asus,keyboard,3990000.0,5590000.0,1600000.0,29.0,,,,phongvu,2026-09-21
+890649,260801497,Bàn phím cơ Gaming có dây ASUS ROG FALCHION ACE 75HE M705 V2/US (90MP047H-BKUA20/ Đen),Asus,keyboard,5490000.0,6990000.0,1500000.0,21.0,,,,phongvu,2026-09-21
+890649,260801503,Bàn phím cơ Gaming có dây ASUS ROG FALCHION ACE 75HE M705 V2/US (90MP047H-BKUA60/ Đỏ),Asus,keyboard,5490000.0,6990000.0,1500000.0,21.0,,,,phongvu,2026-09-21
+890649,260801510,Bàn phím cơ Gaming có dây ASUS ROG FALCHION ACE 75HE M705 V2/US (90MP047H-BKUA30/ Trắng),Asus,keyboard,5490000.0,6990000.0,1500000.0,21.0,,,,phongvu,2026-09-21
+890687,260801541,Bàn phím cơ Gaming không dây Razer BlackWidow V4 Tenkeyless HyperSpeed - Wuthering Waves Edition (RZ03-05481200-R3M1/ Đen),Razer,keyboard,5500000.0,6990000.0,1490000.0,21.0,,,,phongvu,2026-09-21
+890705,260801555,Bàn phím cơ Gaming có dây ATK RS7 Air HE 8K Iceblade Switch (Trắng),ATK,keyboard,1690000.0,2590000.0,900000.0,35.0,,,,phongvu,2026-09-21
+890705,260801556,Bàn phím cơ Gaming có dây ATK RS7 Air HE 8K Iceblade Switch (Đen),ATK,keyboard,1690000.0,2590000.0,900000.0,35.0,,,,phongvu,2026-09-21
+892714,260803512,Bàn phím cơ Gaming không dây AULA NOVA75 (Dream Sakura Switch/ Đen),Aula,keyboard,1899000.0,2990000.0,1091000.0,36.0,,,,phongvu,2026-09-21
+892714,260803519,Bàn phím cơ Gaming không dây AULA NOVA75 (Dream Sakura Switch/ Xám+trắng+đỏ),Aula,keyboard,1849000.0,2990000.0,1141000.0,38.0,,,,phongvu,2026-09-21
+892748,260803537,"Bàn phím cơ Gaming không dây AULA HERO75 HE, Stormrise magnetic switch (Đen)",Aula,keyboard,1890000.0,2990000.0,1100000.0,37.0,,,,phongvu,2026-09-21
+892736,260803538,"Bàn phím cơ Gaming không dây Keychron V5 Ultra, Red Switch (V5U-D1/ Đen)",Keychron,keyboard,2950000.0,3990000.0,1040000.0,26.0,,,,phongvu,2026-09-21
+892748,260803544,"Bàn phím cơ Gaming không dây AULA HERO75 HE, Spiritcloud magnetic switch (Cam Trắng)",Aula,keyboard,1890000.0,2990000.0,1100000.0,37.0,,,,phongvu,2026-09-21
+892742,260803545,"Bàn phím cơ Gaming có dây Keychron V6, Red Switch (V6W-D1/ Đen)",Keychron,keyboard,2150000.0,2990000.0,840000.0,28.0,,,,phongvu,2026-09-21
+892748,260803549,"Bàn phím cơ Gaming không dây AULA HERO75 HE, Mistclound magnetic switch (Hồng)",Aula,keyboard,1890000.0,2990000.0,1100000.0,37.0,,,,phongvu,2026-09-21
+892755,260803550,"Bàn phím cơ Gaming không dây Keychron K2 HE Special Edition, Nebula Switch (K2H-F1/ Đen)",Keychron,keyboard,2950000.0,4590000.0,1640000.0,36.0,,,,phongvu,2026-09-21
+892761,260803556,"Bàn phím cơ Gaming không dây AULA F75, Milk White switch (Xám Trắng)",Aula,keyboard,1149000.0,1990000.0,841000.0,42.0,,,,phongvu,2026-09-21
+892755,260803557,"Bàn phím cơ Gaming không dây Keychron K2 HE Special Edition, Nebula Switch (K2H-Q1/ Trắng)",Keychron,keyboard,2950000.0,4590000.0,1640000.0,36.0,,,,phongvu,2026-09-21
+892761,260803563,"Bàn phím cơ Gaming không dây AULA F75, Milk White switch (Đen Xám)",Aula,keyboard,1149000.0,1990000.0,841000.0,42.0,,,,phongvu,2026-09-21
+892762,260803564,"Bàn phím cơ Gaming không dây Keychron K3 Ultra, Red Switch - (K3U-H1/ Đen)",Keychron,keyboard,2850000.0,4290000.0,1440000.0,34.0,,,,phongvu,2026-09-21
+892768,260803569,"Bàn phím cơ Gaming có dây AULA S2022, Brown switch (Đen)",Aula,keyboard,449000.0,899000.0,450000.0,50.0,,,,phongvu,2026-09-21
+892769,260803570,Bàn phím không dây Keychron B33 Silent (B33-K9/ Deep Black),Keychron,keyboard,899000.0,1290000.0,391000.0,30.0,,,,phongvu,2026-09-21
+892774,260803576,"Bàn phím cơ Gaming không dây AULA L99, Raindrop switch (Đen + xám + vàng)",Aula,keyboard,2490000.0,3990000.0,1500000.0,38.0,,,,phongvu,2026-09-21
+892775,260803577,"Bàn phím cơ Gaming không dây Keychron K10 Ultra, Red Switch (K10U-H1/ Đen)",Keychron,keyboard,3250000.0,4490000.0,1240000.0,28.0,,,,phongvu,2026-09-21
+892781,260803583,"Bàn phím cơ Gaming có dây AULA AG75 Pro, Ice Core Magnetic Switch (Xám)",Aula,keyboard,5490000.0,6990000.0,1500000.0,21.0,,,,phongvu,2026-09-21
+895198,260805896,Bàn phím cơ Gaming không dây AULA NOVA75 (Star Vector switch/ Xám trắng),Aula,keyboard,1599000.0,2990000.0,1391000.0,47.0,,,,phongvu,2026-09-21
+895222,260805905,Bàn phím cơ Gaming không dây AULA H108 Silent (Silent Cotton Candy Switch/ Đen+trắng+tím),Aula,keyboard,1599000.0,1999000.0,400000.0,20.0,,,,phongvu,2026-09-21
+895222,260805913,Bàn phím cơ Gaming không dây AULA H108 Silent (Silent Cotton Candy Switch/ Trắng đen),Aula,keyboard,1599000.0,1999000.0,400000.0,20.0,,,,phongvu,2026-09-21
+895222,260805919,Bàn phím cơ Gaming không dây AULA H108 Silent (Silent Cotton Candy Switch/ Vàng tím),Aula,keyboard,1599000.0,1999000.0,400000.0,20.0,,,,phongvu,2026-09-21
+897069,260901678,Bàn phím Inphic V580 (Đen),Inphic,keyboard,229000.0,229000.0,0.0,0.0,,,,phongvu,2026-09-21
+897076,260901686,Bàn phím giả cơ Gaming Inphic K2 Metal (Xám),Inphic,keyboard,490000.0,490000.0,0.0,0.0,,,,phongvu,2026-09-21
+897090,260901693,Bàn phím giả cơ Gaming Inphic V98 (Đen),Inphic,keyboard,590000.0,590000.0,0.0,0.0,,,,phongvu,2026-09-21
+897090,260901700,Bàn phím giả cơ Gaming Inphic V98 (Trắng),Inphic,keyboard,590000.0,590000.0,0.0,0.0,,,,phongvu,2026-09-21
+897098,260901708,Bàn phím cơ Gaming không dây Inphic K87 (Trắng),Inphic,keyboard,1990000.0,1990000.0,0.0,0.0,,,,phongvu,2026-09-21
+897120,260901715,Bàn phím cơ Gaming không dây Inphic K87 Pro (Đen),Inphic,keyboard,2990000.0,2990000.0,0.0,0.0,,,,phongvu,2026-09-21
+897120,260901722,Bàn phím cơ Gaming không dây Inphic K87 Pro (Trắng),Inphic,keyboard,2990000.0,2990000.0,0.0,0.0,,,,phongvu,2026-09-21
+897120,260901729,Bàn phím cơ Gaming không dây Inphic K87 Pro (Tím),Inphic,keyboard,2990000.0,2990000.0,0.0,0.0,,,,phongvu,2026-09-21

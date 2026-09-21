@@ -1,0 +1,858 @@
+﻿record_id,product_id,sku,cpu,ram_gb,storage_gb,gpu,screen_size_inch,weight_kg
+thegioididong_343122,343122,,Intel Core i5 Raptor Lake - 13500H,16.0,512.0,Card tích hợp - Intel UHD Graphics,15.6,1.79
+thegioididong_338323,338323,,Intel Core 5 Raptor Lake - 120U,16.0,512.0,Card tích hợp - Intel Graphics,15.6,1.7
+thegioididong_363507,363507,,Apple M5 - Hãng không công bố,16.0,512.0,Card tích hợp - 10 nhân GPU,15.3,1.51
+thegioididong_367376,367376,,AMD Ryzen 5 - 7430U,8.0,512.0,Card tích hợp - AMD Radeon Graphics,15.6,1.45
+thegioididong_366746,366746,,AMD Ryzen 5 - 7535HS,16.0,512.0,Card tích hợp - AMD Radeon 660M Graphics,15.3,1.59
+thegioididong_363263,363263,,Intel Core 5 Raptor Lake - 120U,16.0,512.0,Card tích hợp - Intel UHD Graphics,15.6,1.53
+thegioididong_368189,368189,,Intel Core i3 Alder Lake - 1215U,8.0,256.0,Card tích hợp - Intel Graphics,14.0,1.1
+thegioididong_364859,364859,,Intel Core i5 Raptor Lake - 1334U,16.0,512.0,Card tích hợp - Intel UHD Graphics,15.6,1.65
+thegioididong_337420,337420,,AMD Ryzen 5 - 7530U,8.0,512.0,Card tích hợp - AMD Radeon Graphics,14.0,1.36
+thegioididong_367375,367375,,AMD Ryzen 7 - 7730U,8.0,512.0,Card tích hợp - AMD Radeon 680M Graphics,14.5,1.3
+thegioididong_364397,364397,,Snapdragon X - X1 26 100,16.0,512.0,Card tích hợp - Qualcomm Adreno GPU,16.0,1.88
+thegioididong_369212,369212,,Intel Core thế hệ 12 - 120U,16.0,512.0,Card tích hợp,15.6,1.7
+thegioididong_363487,363487,,Apple M5,16.0,512.0,Card tích hợp - 8 nhân GPU,13.6,1.23
+thegioididong_362025,362025,,Intel Core i5 Raptor Lake - 1334U,16.0,512.0,Card tích hợp - Intel UHD Graphics,15.6,1.65
+thegioididong_355729,355729,,Intel Core 5 Raptor Lake - 120U,16.0,512.0,Card tích hợp - Intel UHD Graphics,14.0,1.402
+thegioididong_367016,367016,,Intel Core Ultra 5 Panther Lake - 322,16.0,512.0,Card tích hợp - Intel Graphics,15.3,1.63
+thegioididong_360295,360295,,Intel Core Ultra 7 Arrow Lake - 255HX,32.0,1024.0,"Card rời - NVIDIA GeForce RTX 5060, 8 GB",16.0,2.7
+thegioididong_363491,363491,,Apple M5 Pro,24.0,1024.0,Card tích hợp - 20 nhân GPU,16.2,2.14
+thegioididong_369645,369645,,Intel Core 5 Raptor Lake - 210H,16.0,512.0,"Card rời - NVIDIA GeForce RTX 4050, 6 GB",15.6,2.1
+thegioididong_366087,366087,,AMD Ryzen 5 - 40,16.0,512.0,Card tích hợp - AMD Radeon Graphics,15.6,1.45
+thegioididong_368192,368192,,Intel Core i5 Alder Lake - 1235U,16.0,512.0,Card tích hợp - Intel UHD Graphics,14.0,1.1
+thegioididong_362398,362398,,Intel Core Ultra 5 Meteor Lake - 125H,24.0,512.0,Card tích hợp - Intel Graphics,15.6,1.623
+thegioididong_368210,368210,,Intel Core 5 Wildcat Lake - 320,16.0,512.0,Card tích hợp - Intel Graphics,15.3,1.59
+thegioididong_360690,360690,,Intel Core 5 Raptor Lake - 120U,16.0,512.0,Card tích hợp - Intel Graphics,14.0,1.69
+thegioididong_368656,368656,,Intel Core 5 Raptor Lake - 210H,16.0,512.0,"Card rời - NVIDIA GeForce RTX 3050, 4 GB",15.6,1.99
+thegioididong_365310,365310,,Intel Core i5 Raptor Lake - 1334U,16.0,512.0,Card tích hợp - Intel UHD Graphics,15.6,1.9
+thegioididong_341267,341267,,Intel Core Ultra 5 Arrow Lake - 225U,16.0,512.0,Card tích hợp - Intel Graphics,16.0,1.725
+thegioididong_368211,368211,,Intel Core 5 Wildcat Lake - 320,8.0,512.0,Card tích hợp - Intel Graphics,15.3,1.59
+thegioididong_366090,366090,,Intel Core Ultra 5 Meteor Lake - 115U,16.0,512.0,Card tích hợp - Intel Graphics,15.6,1.59
+thegioididong_363903,363903,,AMD Ryzen 7 - 170,16.0,512.0,"Card rời - NVIDIA GeForce RTX 3050, 6 GB",15.6,1.8
+thegioididong_357990,357990,,Intel Core i5 Raptor Lake - 1334U,16.0,512.0,Card tích hợp - Intel UHD Graphics,15.6,1.65
+thegioididong_362620,362620,,AMD Ryzen 5 - 40,8.0,512.0,Card tích hợp - AMD Radeon Graphics,15.6,1.63
+thegioididong_368655,368655,,Intel Core Ultra 5 Meteor Lake - 125H,16.0,512.0,Card tích hợp - Intel Arc Graphics,16.0,1.6
+thegioididong_360298,360298,,AMD Ryzen AI 9 - 365,16.0,512.0,"Card rời - NVIDIA GeForce RTX 5070, 8 GB",16.0,2.18
+thegioididong_341607,341607,,Intel Core i7 Raptor Lake - 13620H,16.0,512.0,"Card rời - NVIDIA GeForce RTX 5050, 8 GB",15.6,2.1
+thegioididong_342524,342524,,Intel Core i5 Raptor Lake - 13450HX,16.0,1024.0,"Card rời - NVIDIA GeForce RTX 3050, 6 GB",15.6,2.38
+thegioididong_340561,340561,,Intel Core i5 Raptor Lake - 1334U,16.0,512.0,Card tích hợp - Intel UHD Graphics,15.6,1.65
+thegioididong_341624,341624,,AMD Ryzen 7 - 7445HS,16.0,512.0,"Card rời - NVIDIA GeForce RTX 4050, 6 GB",15.6,2.29
+thegioididong_366086,366086,,AMD Ryzen 3 - 5400U,8.0,512.0,Card tích hợp - AMD Radeon Graphics,15.6,1.45
+thegioididong_339682,339682,,Snapdragon X Plus - X1P-64-100,16.0,512.0,Card tích hợp - Qualcomm Adreno GPU,14.0,1.53
+thegioididong_337044,337044,,Intel Core Ultra 5 Meteor Lake - 125U,16.0,512.0,Card tích hợp - Intel Graphics,16.0,1.7
+thegioididong_335554,335554,,Intel Core i5 Raptor Lake - 13450HX,16.0,512.0,"Card rời - NVIDIA GeForce RTX 3050, 6 GB",15.6,2.38
+thegioididong_366823,366823,,Intel Core 7 Raptor Lake - 240H,16.0,512.0,"Card rời - NVIDIA GeForce RTX 5060, 8 GB",16.0,2.4
+thegioididong_327506,327506,,AMD Ryzen 5 - 7430U,16.0,1024.0,Card tích hợp - AMD Radeon Graphics,14.0,1.25
+thegioididong_366745,366745,,AMD Ryzen 5 - 7533HS,16.0,512.0,Card tích hợp - AMD Radeon 660M Graphics,14.0,1.39
+thegioididong_342758,342758,,Intel Core 5 Raptor Lake - 210H,16.0,512.0,Card tích hợp - Intel UHD Graphics,16.0,1.7
+thegioididong_340562,340562,,Intel Core i7 Raptor Lake - 1355U,16.0,512.0,Card tích hợp - Intel UHD Graphics,15.6,1.65
+thegioididong_341623,341623,,AMD Ryzen 7 - 7445HS,16.0,512.0,"Card rời - NVIDIA GeForce RTX 3050, 6 GB",15.6,2.29
+thegioididong_341602,341602,,Intel Core Ultra 5 Meteor Lake - 125H,16.0,512.0,Card tích hợp - Intel Arc Graphics,16.0,1.6
+thegioididong_358797,358797,,Intel Core Ultra 7 Meteor Lake - 155H,16.0,512.0,Card tích hợp - Intel Arc Graphics,15.6,1.65
+thegioididong_325691,325691,,Intel Core i7 Raptor Lake - 1355U,16.0,512.0,Card tích hợp - Intel Iris Xe Graphics,15.6,1.59
+thegioididong_363690,363690,,Intel Core i5 Raptor Lake - 13420H,16.0,512.0,"Card rời - NVIDIA GeForce RTX 3050, 4 GB",15.6,1.98
+thegioididong_362026,362026,,Intel Core i7 Raptor Lake - 1355U,16.0,512.0,Card tích hợp - Intel UHD Graphics,15.6,1.65
+thegioididong_367684,367684,,Intel Core Ultra 5 Panther Lake - 322,16.0,512.0,Card tích hợp - Intel Graphics,14.0,1.43
+thegioididong_369911,369911,,AMD Ryzen 7 - 7730U,16.0,1024.0,Card tích hợp - AMD Radeon Graphics,15.6,1.635
+thegioididong_363257,363257,,Intel Core Ultra 5 Arrow Lake - 225H,16.0,512.0,Card tích hợp - Intel Graphics,16.0,1.88
+thegioididong_327707,327707,,Intel Core i7 Raptor Lake - 13620H,16.0,512.0,"Card rời - NVIDIA GeForce RTX 4050, 6 GB",15.6,1.98
+thegioididong_339954,339954,,Intel Core 5 Raptor Lake - 120U,16.0,512.0,Card tích hợp - Intel Graphics,14.0,1.5
+thegioididong_341601,341601,,AMD Ryzen 7 - 7735HS,16.0,512.0,"Card rời - NVIDIA GeForce RTX 3050, 6 GB",15.6,2.1
+thegioididong_333421,333421,,Intel Core i7 Raptor Lake - 1355U,16.0,512.0,Card tích hợp - Intel Iris Xe Graphics eligible,16.0,1.7
+thegioididong_334446,334446,,Intel Core i7 Raptor Lake - 13620H,24.0,512.0,Card tích hợp - Intel UHD Graphics,15.3,1.63
+thegioididong_366992,366992,,AMD Ryzen 7 - 5825U,8.0,512.0,Card tích hợp - AMD Radeon Graphics,15.6,1.45
+thegioididong_360692,360692,,Intel Core i7 Raptor Lake - 1355U,16.0,512.0,Card tích hợp - Intel UHD Graphics,15.6,1.65
+thegioididong_367346,367346,,Intel Core 3 Raptor Lake - 100U,8.0,512.0,Card tích hợp - Intel Graphics,14.0,1.69
+thegioididong_363260,363260,,AMD Ryzen 7 - 7735HS,16.0,512.0,"Card rời - NVIDIA GeForce RTX 4050, 6 GB",15.6,2.1
+thegioididong_341618,341618,,Intel Core 5 Raptor Lake - 120U,16.0,512.0,Card tích hợp - Intel Iris Xe Graphics,15.6,1.59
+thegioididong_368207,368207,,Intel Core 5 Wildcat Lake - 320,16.0,512.0,Card tích hợp - Integrated Graphics,14.0,1.39
+thegioididong_351613,351613,,Intel Core i7 Raptor Lake - 1355U,16.0,1024.0,Card tích hợp - Intel UHD Graphics,15.6,1.9
+thegioididong_368557,368557,,Intel Core 5 Raptor Lake - 120U,16.0,512.0,Card tích hợp - Intel Graphics,14.0,1.69
+thegioididong_369478,369478,,Intel Core™ 3 - 304,8.0,512.0,Card tích hợp - Intel Graphics,15.3,1.59
+thegioididong_367576,367576,,Intel Core i5 Raptor Lake - 13420H,16.0,512.0,"Card rời - NVIDIA GeForce RTX 4050, 6 GB",15.6,2.29
+thegioididong_339211,339211,,Intel Core i7 Raptor Lake - 13620H,16.0,512.0,"Card rời - NVIDIA GeForce RTX 4050, 6 GB",16.0,2.204
+thegioididong_362667,362667,,Intel Core i7 Raptor Lake - 1355U,16.0,1024.0,Card tích hợp - Intel UHD Graphics,15.6,1.9
+thegioididong_358077,358077,,Intel Core 7 Raptor Lake - 150U,24.0,512.0,Card tích hợp - Intel Graphics,14.0,1.62
+thegioididong_368558,368558,,Intel Core 3 Raptor Lake - 100U,8.0,512.0,Card tích hợp - Intel UHD Graphics,15.6,1.9
+thegioididong_363261,363261,,Intel Core 5 Raptor Lake - 120U,16.0,512.0,Card tích hợp - Intel UHD Graphics,14.0,1.4
+thegioididong_341626,341626,,Intel Core i5 Raptor Lake - 13420H,16.0,512.0,"Card rời - NVIDIA GeForce RTX 5050, 8 GB",15.6,2.1
+thegioididong_369754,369754,,Intel Core 7 Raptor Lake - 240H,16.0,512.0,"Card rời - NVIDIA GeForce RTX 4050, 6 GB",15.6,2.1
+thegioididong_366749,366749,,Intel Core i7 Raptor Lake - 13645HX,16.0,1024.0,"Card rời - NVIDIA GeForce RTX 4050, 6 GB",15.6,2.38
+thegioididong_365608,365608,,Intel Core 5 Raptor Lake - 120U,16.0,512.0,Card tích hợp - Intel Graphics,14.0,1.406
+thegioididong_339679,339679,,Intel Core i5 Raptor Lake - 1335U,16.0,512.0,Card tích hợp - Intel Iris Xe Graphics,14.0,1.5
+thegioididong_341270,341270,,Intel Core 5 Raptor Lake - 120U,16.0,512.0,Card tích hợp - Intel Iris Xe Graphics,15.6,1.59
+thegioididong_337043,337043,,Intel Core Ultra 5 Meteor Lake - 125U,16.0,1024.0,Card tích hợp - Intel Graphics,16.0,1.77
+thegioididong_364401,364401,,Intel Core Ultra 5 Arrow Lake - 255H,16.0,512.0,Card tích hợp - Intel Arc Graphics,14.0,1.2
+thegioididong_341610,341610,,Intel Core i7 Raptor Lake - 14650HX,16.0,512.0,"Card rời - NVIDIA GeForce RTX 5060, 8 GB",15.6,2.4
+thegioididong_336031,336031,,Intel Core Ultra 9 Arrow Lake - 285H,32.0,1024.0,Card tích hợp - Intel Arc Graphics,14.0,1.28
+thegioididong_337843,337843,,Intel Core i5 Raptor Lake - 13420H,16.0,512.0,"Card rời - NVIDIA GeForce RTX 4050, 6 GB",16.0,2.2
+thegioididong_358074,358074,,Intel Core Ultra 7 Arrow Lake - 255U,32.0,512.0,Card tích hợp - Intel Graphics,16.0,1.77
+thegioididong_345510,345510,,Intel Core i5 Raptor Lake - 13420H,16.0,512.0,"Card rời - NVIDIA GeForce RTX 4050, 6 GB",15.6,2.29
+thegioididong_358498,358498,,Intel Core i5 Raptor Lake - 1334U,16.0,512.0,Card tích hợp - Intel UHD Graphics,15.6,1.65
+thegioididong_362666,362666,,Intel Core i5 Raptor Lake - 1334U,16.0,512.0,Card tích hợp - Intel UHD Graphics,15.6,1.9
+thegioididong_365998,365998,,Intel Core i5 Raptor Lake - 1334U,16.0,512.0,Card tích hợp - Intel UHD Graphics,15.6,1.65
+thegioididong_318354,318354,,Intel Core i5 Raptor Lake - 13420H,8.0,512.0,"Card rời - NVIDIA GeForce RTX 4050, 6 GB",15.6,2.1
+thegioididong_340006,340006,,AMD Ryzen AI 7 - 260,16.0,512.0,Card tích hợp - AMD Radeon Graphics,15.6,1.9
+thegioididong_357992,357992,,AMD Ryzen 7 - 7730U,16.0,1024.0,Card tích hợp - AMD Radeon Graphics,15.6,1.9
+thegioididong_364860,364860,,Intel Core i7 Raptor Lake - 1355U,16.0,512.0,Card tích hợp - Intel UHD Graphics,15.6,1.65
+thegioididong_363882,363882,,AMD Ryzen AI 7 - 445,32.0,512.0,Card tích hợp - AMD Radeon 840M Graphics,14.0,1.37
+thegioididong_363262,363262,,Intel Core 7 Raptor Lake - 150U,16.0,512.0,Card tích hợp - Intel UHD Graphics,15.6,1.53
+thegioididong_358796,358796,,Intel Core Ultra 7 Meteor Lake - 155H,16.0,512.0,Card tích hợp - Intel Arc Graphics,14.0,1.4
+thegioididong_366909,366909,,Intel Core i5 Raptor Lake - 13420H,16.0,512.0,"Card rời - NVIDIA GeForce RTX 4050, 6 GB",15.6,1.98
+thegioididong_363259,363259,,Intel Core i7 Raptor Lake - 13620H,16.0,512.0,"Card rời - NVIDIA GeForce RTX 4050, 6 GB",16.0,1.95
+thegioididong_334796,334796,,Intel Core Ultra 5 Arrow Lake - 225H,16.0,512.0,Card tích hợp - Intel Arc Graphics,14.0,1.28
+thegioididong_364967,364967,,Intel Core 7 Raptor Lake - 150U,16.0,512.0,"Card rời - NVIDIA Geforce MX570A, 2 GB",14.0,1.643
+thegioididong_365607,365607,,Intel Core 5 Raptor Lake - 120U,8.0,512.0,Card tích hợp - Intel Graphics,14.0,1.406
+thegioididong_369481,369481,,Intel Core 3 Raptor Lake - 100U,8.0,512.0,Card tích hợp - Intel Graphics,15.6,1.637
+thegioididong_360419,360419,,Intel Core 5 Raptor Lake - 120U,16.0,512.0,Card tích hợp - Intel Graphics,15.6,1.7
+thegioididong_362922,362922,,Intel Core i7 Raptor Lake - 13620H,16.0,1024.0,"Card rời - NVIDIA GeForce RTX 5060, 8 GB",15.6,2.1
+thegioididong_365535,365535,,Intel Core Ultra 5 Meteor Lake - 135H,16.0,512.0,Card tích hợp - Intel Arc Graphics,14.0,1.34
+thegioididong_364405,364405,,Intel Core Ultra 9 Arrow Lake - 285H,32.0,1024.0,Card tích hợp - Intel Arc Graphics,14.0,1.2
+thegioididong_342754,342754,,Intel Core i5 Raptor Lake - 1334U,16.0,512.0,Card tích hợp - Intel UHD Graphics,15.6,1.9
+thegioididong_366702,366702,,AMD Ryzen 5 - 220,16.0,512.0,Card tích hợp - AMD Radeon Graphics,16.0,1.785
+thegioididong_358120,358120,,AMD Ryzen AI 5 - 340,16.0,512.0,Card tích hợp - AMD Radeon 840M Graphics,16.0,1.79
+thegioididong_358088,358088,,Apple M5,16.0,1024.0,Card tích hợp - 10 nhân GPU,14.2,1.55
+thegioididong_340558,340558,,Intel Core i5 Raptor Lake - 1334U,16.0,512.0,Card tích hợp - Intel Iris Xe Graphics,15.6,1.66
+thegioididong_360296,360296,,AMD Ryzen AI 7 - 260,16.0,1024.0,"Card rời - NVIDIA GeForce RTX 5050, 8 GB",16.0,2.1
+thegioididong_359927,359927,,Intel Core i7 Raptor Lake - 13620H,16.0,512.0,"Card rời - NVIDIA GeForce RTX 5050, 8 GB",16.0,2.23
+thegioididong_358075,358075,,AMD Ryzen AI 5 - 340,16.0,512.0,Card tích hợp - AMD Radeon 840M,14.0,1.39
+thegioididong_342513,342513,,Intel Core 7 Raptor Lake - 240H,32.0,1024.0,Card tích hợp - Intel Graphics,14.0,1.36
+thegioididong_358499,358499,,Intel Core i7 Raptor Lake - 1355U,16.0,512.0,Card tích hợp - Intel UHD Graphics,15.6,1.65
+thegioididong_338316,338316,,Intel Core i5 Raptor Lake - 1334U,16.0,512.0,Card tích hợp - Intel Iris Xe Graphics,15.6,1.66
+thegioididong_360693,360693,,Intel Core 7 Raptor Lake - 240H,16.0,1024.0,"Card rời - NVIDIA GeForce RTX 4050, 6 GB",16.0,2.49
+thegioididong_360421,360421,,Intel Core 5 Raptor Lake - 210H,16.0,512.0,"Card rời - NVIDIA GeForce RTX 3050, 6 GB",16.0,1.95
+thegioididong_344606,344606,,Intel Core i7 Raptor Lake - 13650HX,16.0,512.0,"Card rời - NVIDIA GeForce RTX 4050, 6 GB",15.6,2.38
+thegioididong_341613,341613,,Intel Core i7 Raptor Lake - 14650HX,32.0,512.0,"Card rời - NVIDIA GeForce RTX 5050, 8 GB",15.6,2.4
+thegioididong_341609,341609,,Intel Core i7 Raptor Lake - 14650HX,32.0,512.0,"Card rời - NVIDIA GeForce RTX 5060, 8 GB",15.6,2.4
+thegioididong_363901,363901,,Intel Core i5 Raptor Lake - 13420H,16.0,512.0,Card tích hợp - Intel UHD Graphics,16.0,1.7
+thegioididong_339681,339681,,Intel Core i5 Raptor Lake - 1334U,16.0,512.0,Card tích hợp - Intel Iris Xe Graphics,15.6,1.65
+thegioididong_358079,358079,,AMD Ryzen 5 - 7430U,16.0,512.0,Card tích hợp - AMD Radeon Graphics,15.6,1.65
+thegioididong_330579,330579,,Intel Core Ultra 7 Lunar Lake - 258V,32.0,1024.0,Card tích hợp - Intel Arc Graphics,14.0,1.2
+thegioididong_363897,363897,,Intel Core Ultra 5 Meteor Lake - 135H,16.0,512.0,Card tích hợp - Intel Graphics,14.0,1.36
+thegioididong_361726,361726,,Intel Core 5 Raptor Lake - 210H,16.0,512.0,Card tích hợp - Intel UHD XE,14.0,1.41
+thegioididong_357991,357991,,Intel Core i7 Raptor Lake - 1355U,16.0,1024.0,Card tích hợp - Intel UHD Graphics,15.6,1.65
+thegioididong_358076,358076,,Intel Core Ultra 7 Meteor Lake - 258V,32.0,512.0,Card tích hợp - Intel Arc 140V,14.0,1.38
+thegioididong_360694,360694,,Intel Core 7 Raptor Lake - 150U,16.0,1024.0,Card tích hợp - Intel Graphics,16.0,2.0
+thegioididong_341752,341752,,Intel Core i7 Raptor Lake - 13620H,16.0,512.0,"Card rời - NVIDIA GeForce RTX 5060, 8 GB",16.0,2.233
+thegioididong_361536,361536,,Intel Core 7 Raptor Lake - 150U,16.0,512.0,Card tích hợp - Intel Graphics,14.0,1.83
+thegioididong_359482,359482,,Intel Core i5 Raptor Lake - 13420H,16.0,512.0,Card tích hợp - Intel UHD Graphics,14.0,1.37
+thegioididong_339201,339201,,Intel Core i7 Raptor Lake - 13620H,16.0,512.0,"Card rời - NVIDIA GeForce RTX 3050, 6 GB",16.0,1.95
+thegioididong_338321,338321,,Intel Core Ultra 7 Arrow Lake - 255H,16.0,512.0,Card tích hợp - Intel UHD Graphics,14.0,1.4
+thegioididong_366703,366703,,AMD Ryzen AI 5 - 340,16.0,512.0,Card tích hợp - AMD Radeon 840M Graphics,13.3,0.99
+thegioididong_311177,311177,,Intel Core i7 Raptor Lake - 1355U,16.0,512.0,Card tích hợp - Intel Iris Xe Graphics,15.6,1.69
+thegioididong_341563,341563,,Intel Core 5 Raptor Lake - 210H,16.0,512.0,"Card rời - NVIDIA GeForce RTX 3050, 6 GB",16.0,2.49
+thegioididong_367378,367378,,Intel Core Ultra X7 - 358H,32.0,1024.0,Card tích hợp - Intel Arc Graphics,14.0,1.12
+thegioididong_322099,322099,,Intel Core Ultra 7 Meteor Lake - 155H,16.0,512.0,"Card rời - NVIDIA GeForce RTX 4050, 6 GB",15.6,1.98
+thegioididong_357988,357988,,Intel Core 7 Raptor Lake - 150U,16.0,1024.0,"Card rời - NVIDIA Geforce MX570A, 2 GB",14.0,1.63
+thegioididong_335020,335020,,Intel Core Ultra 7 Lunar Lake - 258V,32.0,1024.0,Card tích hợp - Intel Arc 140V,14.1,1.6
+thegioididong_337472,337472,,Intel Core i7 Raptor Lake - 1355U,16.0,512.0,Card tích hợp - Intel Iris Xe Graphics,15.6,1.66
+thegioididong_341621,341621,,Intel Core 7 Raptor Lake - 150U,16.0,1024.0,Card tích hợp - Intel Graphics,15.6,1.65
+thegioididong_361538,361538,,Intel Core Ultra 7 Lunar Lake - 256V,16.0,1024.0,Card tích hợp - Intel Arc Graphics,16.0,1.815
+thegioididong_364181,364181,,AMD Ryzen 7 - 170,16.0,512.0,"Card rời - NVIDIA GeForce RTX 4050, 6 GB",16.0,2.2
+thegioididong_364414,364414,,AMD Ryzen AI 5 - 330,16.0,512.0,Card tích hợp - AMD Radeon Graphics,14.0,1.46
+thegioididong_357987,357987,,Intel Core 5 Raptor Lake - 120U,16.0,1024.0,Card tích hợp - Intel Graphics,14.0,1.63
+thegioididong_362625,362625,,AMD Ryzen AI 7 - 445,16.0,512.0,Card tích hợp - AMD Radeon 840M Graphics,14.0,1.2
+thegioididong_325244,325244,,Intel Core 7 Raptor Lake - 150U,16.0,512.0,Card tích hợp - Intel Graphics,14.0,1.67
+thegioididong_369845,369845,,Intel Core Ultra 5 Meteor Lake - 225U,16.0,512.0,Card tích hợp - Intel Graphics,14.0,1.41
+thegioididong_359471,359471,,Intel Core i5 Raptor Lake - 13420H,16.0,512.0,Card tích hợp - Intel UHD Graphics,15.6,1.61
+thegioididong_364979,364979,,Intel Core 7 Raptor Lake - 240H,16.0,512.0,"Card rời - NVIDIA GeForce RTX 3050, 6 GB",15.6,2.07
+thegioididong_365613,365613,,Intel Core 7 Raptor Lake - 150U,16.0,512.0,Card tích hợp - Intel Graphics,14.0,1.406
+thegioididong_367683,367683,,Intel Core Ultra 7 Panther Lake - 355,16.0,512.0,Card tích hợp - Intel Graphics,16.0,1.73
+thegioididong_365625,365625,,Intel Core 5 Raptor Lake - 120U,16.0,512.0,Card tích hợp - Intel Graphics,14.0,1.4
+thegioididong_365616,365616,,AMD Ryzen AI 7 - 350,16.0,512.0,Card tích hợp - AMD Radeon 860M Graphics,14.0,1.531
+thegioididong_341565,341565,,Intel Core 7 Raptor Lake - 240H,16.0,1024.0,"Card rời - NVIDIA GeForce RTX 5060, 8 GB",16.0,2.49
+thegioididong_358381,358381,,Intel Core i7 Raptor Lake - 13650HX,16.0,512.0,"Card rời - NVIDIA GeForce RTX 5050, 8 GB",15.3,2.1
+thegioididong_366166,366166,,AMD Ryzen 7 - 7735HS,16.0,512.0,"Card rời - NVIDIA GeForce RTX 4050, 6 GB",15.6,1.8
+thegioididong_366167,366167,,Intel Core i7 Raptor Lake - 13645HX,16.0,512.0,"Card rời - NVIDIA GeForce RTX 4050, 6 GB",15.6,2.38
+thegioididong_334800,334800,,Snapdragon X - X1 26 100,16.0,512.0,Card tích hợp - Qualcomm Adreno GPU,14.0,0.98
+thegioididong_358119,358119,,Intel Core Ultra 7 Arrow Lake - 255H,32.0,512.0,Card tích hợp - Intel Arc 140T,14.0,1.41
+thegioididong_364942,364942,,Intel Core Ultra 7 Arrow Lake - 255H,16.0,512.0,Card tích hợp - Intel Graphics,16.0,1.88
+thegioididong_342469,342469,,Intel Core i7 Raptor Lake - 1355U,16.0,512.0,Card tích hợp - Intel Iris Xe Graphics,15.6,1.66
+thegioididong_366165,366165,,Intel Core Ultra 7 Panther Lake - 355,16.0,512.0,Card tích hợp - Intel Graphics,15.3,1.63
+thegioididong_358072,358072,,Intel Core Ultra 7 Arrow Lake - 255U,32.0,512.0,Card tích hợp - Intel Graphics,16.0,1.77
+thegioididong_362409,362409,,Intel Core Ultra 5 Lunar Lake - 226V,16.0,512.0,Card tích hợp - Intel Arc Graphics,14.0,1.57
+thegioididong_365614,365614,,AMD Ryzen AI 5 - 340,16.0,512.0,Card tích hợp - AMD Radeon 840M Graphics,14.0,1.528
+thegioididong_342521,342521,,Intel Core i7 Raptor Lake - 13650HX,16.0,512.0,"Card rời - NVIDIA GeForce RTX 5060, 8 GB",15.3,2.1
+thegioididong_367017,367017,,Intel Core Ultra 7 Panther Lake - 355,16.0,512.0,Card tích hợp - Intel Graphics,15.3,1.63
+thegioididong_332579,332579,,AMD Ryzen 5 - 8645HS,16.0,512.0,"Card rời - NVIDIA GeForce RTX 3050, 6 GB",16.0,2.5
+thegioididong_364622,364622,,Intel Core Ultra 7 Lunar Lake - 258V,32.0,1024.0,Card tích hợp - Intel Arc Graphics 140V,14.0,0.986
+thegioididong_337041,337041,,Intel Core Ultra 7 Meteor Lake - 155U,16.0,1024.0,Card tích hợp - Intel Graphics,16.0,1.77
+thegioididong_326049,326049,,AMD Ryzen 5 - 7530U,8.0,512.0,Card tích hợp - AMD Radeon Graphics,14.0,1.36
+thegioididong_338312,338312,,Intel Core 5 Raptor Lake - 120U,16.0,512.0,Card tích hợp - Intel Iris Xe Graphics,14.0,1.67
+thegioididong_364415,364415,,Intel Core Ultra 5 Arrow Lake - 225H,16.0,512.0,Card tích hợp - Intel Graphics,14.0,1.4
+thegioididong_363902,363902,,Intel Core i5 Raptor Lake - 13420H,8.0,512.0,Card tích hợp - Intel UHD Graphics,15.6,1.61
+thegioididong_361729,361729,,Snapdragon X - X1 26 100,16.0,512.0,Card tích hợp - Qualcomm Adreno GPU,14.0,1.46
+thegioididong_362624,362624,,AMD Ryzen AI 7 - 445,16.0,512.0,Card tích hợp - AMD Radeon Graphics,14.0,1.4
+thegioididong_359302,359302,,AMD Ryzen AI 9 - HX 370,32.0,1024.0,"Card rời - NVIDIA GeForce RTX 5060, 8 GB",16.0,2.1
+thegioididong_341269,341269,,Intel Core Ultra 7 Lunar Lake - 258V,32.0,1024.0,Card tích hợp - Intel Arc 140V,14.0,1.327
+thegioididong_363900,363900,,Intel Core Ultra 7 Lunar Lake - 258V,32.0,512.0,Card tích hợp - Intel Arc 140V,14.0,1.32
+thegioididong_358798,358798,,AMD Ryzen AI 7 - 350,16.0,512.0,Card tích hợp - AMD Radeon 860M Graphics,16.0,1.79
+thegioididong_325247,325247,,Intel Core i7 Raptor Lake - 1355U,16.0,1024.0,Card tích hợp - Intel Iris Xe Graphics,15.6,1.65
+thegioididong_342749,342749,,Intel Core i7 Raptor Lake - 13620H,16.0,512.0,Card tích hợp - Intel UHD Graphics,14.0,1.4
+thegioididong_367377,367377,,Intel Core 5 Raptor Lake - 120U,8.0,512.0,Card tích hợp - Intel UHD Graphics,15.6,1.6
+thegioididong_359299,359299,,Intel Core i9 Raptor Lake - 14900HX,16.0,512.0,"Card rời - NVIDIA GeForce RTX 5060, 8 GB",15.6,2.4
+thegioididong_342721,342721,,Intel Core i9 Raptor Lake - 14900HX,32.0,512.0,"Card rời - NVIDIA GeForce RTX 5070, 8 GB",16.0,2.43
+thegioididong_361730,361730,,Snapdragon X - X1 26 100,32.0,512.0,Card tích hợp - Qualcomm Adreno GPU,14.0,1.46
+thegioididong_358794,358794,,Intel Core 5 Raptor Lake - 210H,24.0,512.0,Card tích hợp - Intel Graphics,16.0,1.91
+thegioididong_368218,368218,,AMD Ryzen 7 - 250,16.0,512.0,Card tích hợp - AMD Radeon 780M Graphics,14.0,1.36
+thegioididong_369747,369747,,Intel Core 7 - 150U,16.0,1024.0,Card tích hợp - Intel Graphics,14.0,1.69
+thegioididong_345508,345508,,Intel Core Ultra 7 Arrow Lake - 255U,16.0,512.0,Card tích hợp - Intel Graphics,13.3,1.355
+thegioididong_345500,345500,,Intel Core Ultra 5 Arrow Lake - 225U,16.0,512.0,Card tích hợp - Intel Graphics,16.0,1.819
+thegioididong_368217,368217,,Intel Core Ultra 5 Panther Lake - 322,16.0,512.0,Card tích hợp - Intel Graphics,14.0,1.38
+thegioididong_325953,325953,,Intel Core 7 Raptor Lake - 150U,16.0,1024.0,Card tích hợp - Intel Graphics,14.0,1.56
+thegioididong_362023,362023,,Intel Core 7 Raptor Lake - 150U,16.0,1024.0,"Card rời - NVIDIA Geforce MX570A, 2 GB",16.0,2.14
+thegioididong_367012,367012,,Intel Core Ultra 5 Panther Lake - 322,16.0,512.0,Card tích hợp - Intel Graphics,14.0,1.54
+thegioididong_368223,368223,,AMD Ryzen AI 7 - 350,32.0,1024.0,Card tích hợp - AMD Radeon 860M Graphics,14.0,1.39
+thegioididong_340559,340559,,Intel Core i7 Raptor Lake - 1355U,16.0,1024.0,Card tích hợp - Intel Iris Xe Graphics,15.6,1.66
+thegioididong_337471,337471,,Intel Core i5 Raptor Lake - 1334U,16.0,512.0,Card tích hợp - Intel Iris Xe Graphics,15.6,1.66
+thegioididong_365312,365312,,Intel Core 7 Raptor Lake - 150U,16.0,1024.0,Card tích hợp - Intel Graphics,16.0,2.0
+thegioididong_337042,337042,,Intel Core Ultra 7 Meteor Lake - 155U,16.0,512.0,Card tích hợp - Intel Graphics,16.0,1.7
+thegioididong_369450,369450,,Intel Core Ultra 5 Arrow Lake - 225H,16.0,512.0,Card tích hợp - Intel Graphics,16.0,1.88
+thegioididong_367374,367374,,AMD Ryzen 3 - 5400U,8.0,512.0,Card tích hợp - AMD Radeon Graphics,14.0,1.3
+thegioididong_341573,341573,,AMD Ryzen AI 9 - HX 370,32.0,2048.0,"Card rời - NVIDIA GeForce RTX 5070, 8 GB",16.0,2.1
+thegioididong_363896,363896,,Intel Core Ultra 5 Lunar Lake - 226V,16.0,1024.0,Card tích hợp - Intel Arc Graphics 130V,14.0,0.986
+thegioididong_370357,370357,,Intel Core Ultra 7 Arrow Lake - 355,32.0,1024.0,Card tích hợp - Integrated Graphics,14.0,0.975
+thegioididong_331522,331522,,Intel Core Ultra 5 Meteor Lake - 135U,16.0,512.0,Card tích hợp - Intel Graphics,13.3,1.4
+thegioididong_368213,368213,,Intel Core Ultra 7 Panther Lake - 355,16.0,512.0,Card tích hợp - Intel Graphics,14.0,1.37
+thegioididong_368225,368225,,Intel Core i5 Raptor Lake - 14450HX,16.0,512.0,"Card rời - NVIDIA GeForce RTX 5060, 8 GB",15.3,2.363
+thegioididong_367019,367019,,Intel Core Ultra 7 Panther Lake - 355,32.0,1024.0,Card tích hợp - Intel Graphics,14.0,1.14
+thegioididong_358081,358081,,Intel Core 9 Raptor Lake - 270H,32.0,512.0,Card tích hợp - Intel Graphics,16.0,1.9
+thegioididong_339558,339558,,AMD Ryzen AI 9 - HX PRO 375,32.0,1024.0,Card tích hợp - AMD Radeon 890M Graphics,14.0,1.49
+thegioididong_327098,327098,,AMD Ryzen 5 - 7430U,16.0,512.0,Card tích hợp - AMD Radeon Graphics,15.6,1.59
+thegioididong_368224,368224,,Intel Core i5 Raptor Lake - 14450HX,16.0,512.0,"Card rời - NVIDIA GeForce RTX 5050, 8 GB",15.3,2.37
+thegioididong_337040,337040,,Snapdragon X Elite - X1E 78 100,32.0,1024.0,Card tích hợp - Qualcomm Adreno GPU,14.0,1.326
+thegioididong_367685,367685,,Intel Core Ultra 7 Panther Lake - 355,16.0,512.0,Card tích hợp - Intel Graphics,14.0,1.43
+thegioididong_364621,364621,,Intel Core Ultra 7 Lunar Lake - 258V,32.0,1024.0,Card tích hợp - Intel Arc 140V,14.0,0.986
+thegioididong_364403,364403,,Intel Core Ultra 7 Arrow Lake - 255H,32.0,512.0,Card tích hợp - Intel Arc Graphics,14.0,1.2
+thegioididong_363488,363488,,Apple M5 Pro,24.0,1024.0,Card tích hợp - 16 nhân GPU,14.2,1.6
+thegioididong_371299,371299,,Intel Core Ultra 7 Arrow Lake - 225H,16.0,512.0,Card tích hợp - Intel Graphics,16.0,1.88
+thegioididong_364416,364416,,Intel Core Ultra 7 Arrow Lake - 255H,16.0,512.0,Card tích hợp - Intel Graphics,14.0,1.4
+thegioididong_369469,369469,,Intel Core 5 Raptor Lake - 210H,16.0,512.0,Card tích hợp - Intel UHD Graphics,16.0,1.7
+thegioididong_364489,364489,,Intel Core i7 Raptor Lake - 14650HX,16.0,512.0,"Card rời - NVIDIA GeForce RTX 5060, 8 GB",16.0,2.2
+thegioididong_369984,369984,,Intel Core i7 Raptor Lake - 13620H,16.0,512.0,"Card rời - NVIDIA GeForce RTX 4050, 6 GB",15.6,
+thegioididong_364941,364941,,AMD Ryzen 5 - 220,16.0,512.0,Card tích hợp - AMD Radeon Graphics,14.0,1.339
+thegioididong_367892,367892,,Intel Core 5 Wildcat Lake - 320,8.0,512.0,Card tích hợp - Intel Graphics,14.0,1.409
+thegioididong_371296,371296,,AMD Ryzen 7 - 155,16.0,512.0,"Card rời - NVIDIA GeForce RTX 3050, 4 GB",15.6,2.3
+thegioididong_369746,369746,,Intel Core 3 - 100U,8.0,512.0,Card tích hợp - Intel Graphics,14.0,1.69
+thegioididong_368147,368147,,Intel Core 5 Wildcat Lake - 320,16.0,512.0,Card tích hợp - Intel Graphics,15.6,1.52
+thegioididong_367898,367898,,Intel Core 5 Wildcat Lake - 320,8.0,512.0,Card tích hợp - Intel Graphics,15.6,1.637
+thegioididong_369755,369755,,Intel Core 5 Raptor Lake - 210H,16.0,512.0,"Card rời - NVIDIA GeForce RTX 3050, 6 GB",16.0,1.95
+thegioididong_368302,368302,,AMD Ryzen 5 - 40,8.0,512.0,Card tích hợp - AMD Radeon Graphics,14.0,1.38
+thegioididong_370862,370862,,AMD Ryzen 5 - 3500U,8.0,512.0,Card tích hợp - AMD Radeon Vega Mobile Graphics,15.6,1.5
+thegioididong_371300,371300,,AMD Ryzen 7 - 155,8.0,512.0,"Card rời - NVIDIA GeForce RTX 3050, 4 GB",15.6,2.3
+thegioididong_365309,365309,,Intel Core 7 Raptor Lake - 150U,16.0,1024.0,Card tích hợp - Intel Graphics,14.0,1.69
+thegioididong_369463,369463,,Intel Core Ultra 7 Lunar Lake - 258V,32.0,512.0,Intel Arc 140V,14.0,1.2
+thegioididong_368300,368300,,Intel Core 7 Raptor Lake - 240H,16.0,512.0,Card tích hợp - Intel Graphics,14.0,1.4
+thegioididong_367899,367899,,Intel Core 7 Wildcat Lake - 350,8.0,512.0,Card tích hợp - Intel Graphics,15.6,1.637
+thegioididong_351616,351616,,AMD Ryzen AI 5 - 330,16.0,512.0,Card tích hợp - AMD Radeon Graphics,14.0,1.4
+thegioididong_369748,369748,,Intel Core 3 Raptor Lake - 100U,8.0,512.0,Intel Graphics,15.6,1.65
+thegioididong_371075,371075,,Intel Core 5 Raptor Lake - 210H,16.0,512.0,"Card rời - NVIDIA GeForce RTX 4050, 6 GB",16.0,1.95
+thegioididong_369985,369985,,Intel Core i5 Raptor Lake - 13420H,16.0,512.0,"Card rời - NVIDIA GeForce RTX 4050, 6 GB",15.6,
+thegioididong_369449,369449,,Intel Core 5 Wildcat Lake - 320,16.0,512.0,,14.0,1.4
+thegioididong_368148,368148,,Intel Core 7 Wildcat Lake - 350,16.0,512.0,Card tích hợp - Intel Graphics,15.6,1.52
+thegioididong_368658,368658,,AMD Ryzen 7 - 7730U,16.0,512.0,Card tích hợp - AMD Radeon Graphics,15.6,1.49
+thegioididong_364409,364409,,AMD Ryzen 9 - 8940HX,16.0,512.0,"Card rời - NVIDIA GeForce RTX 5050, 8 GB",16.0,2.5
+thegioididong_366826,366826,,Intel Core Ultra 5 Panther Lake - 325,16.0,512.0,Card tích hợp - Intel Graphics,14.0,1.46
+thegioididong_358371,358371,,Intel Core i7 Raptor Lake - 13650HX,16.0,512.0,"Card rời - NVIDIA GeForce RTX 5050, 8 GB",15.6,2.4
+thegioididong_369464,369464,,Intel Core Ultra 5 Lunar Lake - 226V,16.0,512.0,Card tích hợp - Intel Arc Graphics 130V,14.0,1.2
+thegioididong_369213,369213,,Intel Core i7 Raptor Lake - 13620H,16.0,512.0,"Card rời - Intel UHD Graphics (tích hợp) + NVIDIA GeForce RTX 5050 GPU, 8GB - GDDR7",15.6,1.98
+thegioididong_368219,368219,,Intel Core 7 Raptor Lake - 240H,16.0,512.0,Card tích hợp - Intel Graphics,14.0,1.37
+thegioididong_368149,368149,,AMD Ryzen 9 - 8940HX,16.0,512.0,"Card rời - NVIDIA GeForce RTX 5060, 8 GB",16.0,2.288
+thegioididong_365113,365113,,Intel Core i7 Raptor Lake - 14650HX,16.0,512.0,"Card rời - NVIDIA GeForce RTX 5050, 8 GB",16.0,2.2
+thegioididong_362022,362022,,Intel Core Ultra 5 Lunar Lake - 226V,16.0,1024.0,Card tích hợp - Intel Arc Graphics 130V,16.0,1.87
+thegioididong_345504,345504,,Intel Core Ultra 7 Arrow Lake - 255H,16.0,512.0,Card tích hợp - Intel Graphics,16.0,1.853
+thegioididong_369467,369467,,Intel Core Ultra 5 Arrow Lake - 225H,16.0,512.0,Card tích hợp - Intel Graphics,14.0,1.34
+thegioididong_367863,367863,,AMD Ryzen 7 - 260,16.0,512.0,"Card rời - NVIDIA GeForce RTX 5060, 8 GB",16.0,2.191
+thegioididong_367862,367862,,AMD Ryzen 7 - 260,16.0,512.0,"Card rời - NVIDIA GeForce RTX 5050, 8 GB",16.0,2.191
+thegioididong_367682,367682,,Intel Core Ultra 5 Panther Lake - 322,24.0,512.0,Card tích hợp - Intel Graphics,16.0,1.73
+thegioididong_365307,365307,,Intel Core 5 Raptor Lake - 120U,16.0,1024.0,Card tích hợp - Intel Graphics,16.0,1.98
+thegioididong_365302,365302,,AMD Ryzen AI 7 - 350,16.0,1024.0,Card tích hợp - AMD Radeon Graphics,14.0,1.69
+thegioididong_364490,364490,,AMD Ryzen 7 - 260,16.0,512.0,"Card rời - NVIDIA GeForce RTX 5060, 8 GB",16.0,2.2
+thegioididong_370280,370280,,Intel Core 7 Raptor Lake - 240H,16.0,512.0,"Card rời - NVIDIA GeForce RTX 5050, 8 GB",15.6,2.1
+thegioididong_370863,370863,,AMD Ryzen 5 - 3500U,8.0,512.0,Card tích hợp - AMD Radeon Vega Mobile Graphics,14.0,1.3
+thegioididong_367864,367864,,AMD Ryzen AI 7 - 350,16.0,1024.0,"Card rời - NVIDIA GeForce RTX 5060, 8 GB",16.0,1.972
+thegioididong_369461,369461,,Intel Core Ultra X7 Panther Lake - 358H,32.0,1024.0,Card tích hợp - Intel Arc Graphics,14.0,1.1
+thegioididong_368651,368651,,Intel Core 5 Raptor Lake - 210H,16.0,512.0,"Card rời - NVIDIA GeForce RTX 5050, 8 GB",16.0,2.1
+thegioididong_368216,368216,,Intel Core Ultra 7 Panther Lake - 355,32.0,1024.0,Card tích hợp - Intel Graphics,14.0,1.4
+thegioididong_368212,368212,,Intel Core Ultra 7 Lunar Lake - 258V,32.0,512.0,Card tích hợp - Intel Arc Graphics 140V,14.0,1.21
+thegioididong_368150,368150,,AMD Ryzen 9 - 8940HX,16.0,512.0,"Card rời - NVIDIA GeForce RTX 5070Ti, 12 GB",16.0,2.34
+thegioididong_367348,367348,,Intel Core Ultra 7 Arrow Lake - 255U,32.0,512.0,Card tích hợp - Intel Graphics,14.0,1.69
+thegioididong_367015,367015,,Intel Core Ultra 7 Panther Lake - 365H,16.0,512.0,"Card rời - NVIDIA GeForce RTX 5060, 8 GB",15.3,1.87
+thegioididong_366827,366827,,Intel Core Ultra 5 Panther Lake - Đang cập nhật,16.0,512.0,Card tích hợp - Intel Graphics,14.0,1.4
+thegioididong_363503,363503,,Apple M5,24.0,512.0,Card tích hợp - 10 nhân GPU,13.6,1.23
+thegioididong_364488,364488,,AMD Ryzen 9 - 8940HX,16.0,512.0,"Card rời - NVIDIA GeForce RTX 5070, 8 GB",16.0,2.2
+thegioididong_364389,364389,,AMD Ryzen AI Max+ - 395,128.0,1024.0,Card tích hợp - AMD Radeon 8060S Graphics,13.4,1.72
+thegioididong_363899,363899,,Intel Core Ultra 7 Lunar Lake - 256V,16.0,512.0,Card tích hợp - Intel Arc 140V,14.0,0.986
+thegioididong_361539,361539,,Intel Core Ultra 9 Lunar Lake - 288V,32.0,2048.0,Card tích hợp - Intel Arc Graphics,16.0,1.815
+thegioididong_371301,371301,,AMD Ryzen 5 - 7533HS,16.0,512.0,"Card rời - NVIDIA GeForce RTX 3050, 6 GB",16.0,
+thegioididong_365617,365617,,AMD Ryzen AI 7 - 350,16.0,512.0,Card tích hợp - AMD Radeon 860M Graphics,14.0,1.549
+thegioididong_364408,364408,,AMD Ryzen AI 9 - 465,32.0,1024.0,"Card rời - NVIDIA GeForce RTX 5060, 8 GB",14.0,1.46
+thegioididong_365619,365619,,AMD Ryzen AI 5 Pro - 340,32.0,512.0,Card tích hợp - AMD Radeon 840M Graphics,14.0,1.39
+thegioididong_365615,365615,,AMD Ryzen AI 5 - 340,16.0,512.0,Card tích hợp - AMD Radeon 840M Graphics,14.0,1.528
+thegioididong_364868,364868,,Intel Core Ultra 9 Panther Lake - 386H,32.0,1024.0,Card tích hợp - Intel Graphics,14.0,1.37
+thegioididong_363895,363895,,Intel Core Ultra 5 Lunar Lake - 226V,16.0,512.0,Card tích hợp - Intel Arc Graphics 130V,14.0,0.986
+thegioididong_342527,342527,,AMD Ryzen 7 - 260,16.0,512.0,"Card rời - NVIDIA GeForce RTX 5050, 8 GB",15.1,1.9
+thegioididong_335964,335964,,Intel Core Ultra 9 Arrow Lake - 275HX,64.0,1024.0,"Card rời - NVIDIA GeForce RTX 5080, 16 GB",18.0,3.5
+thegioididong_335963,335963,,Intel Core Ultra 9 Arrow Lake - 275HX,192.0,2048.0,"Card rời - NVIDIA GeForce RTX 5090, 24 GB",18.0,3.5
+thegioididong_332274,332274,,Intel Core Ultra 7 Meteor Lake - 155H,16.0,1024.0,"Card rời - NVIDIA GeForce RTX 4060, 8 GB",14.0,1.63
+thegioididong_371302,371302,,AMD Ryzen 5 - 7533HS,16.0,512.0,"Card rời - NVIDIA GeForce RTX 4050, 6 GB",16.0,
+thegioididong_370583,370583,,Intel Core i7 Raptor Lake - 13620H,16.0,512.0,"Card rời - NVIDIA GeForce RTX 5060, 8 GB",15.6,2.0
+thegioididong_370355,370355,,Intel Core Ultra 7 Arrow Lake - 355,16.0,512.0,Card tích hợp - Intel Graphics,14.0,1.14
+thegioididong_370352,370352,,Intel Core 7 - 240H,16.0,512.0,Card tích hợp - Integrated Intel Graphics,14.0,1.34
+thegioididong_369980,369980,,Intel Core 7 Raptor Lake - 240H,16.0,512.0,"Card rời - NVIDIA GeForce RTX 5050, 8 GB",16.0,2.4
+thegioididong_370910,370910,,Intel Core Ultra 7 Arrow Lake - 255H,16.0,512.0,Card tích hợp - Intel Graphics,14.0,2.61
+thegioididong_370866,370866,,Intel Core Ultra 9 Meteor Lake - 185H,16.0,512.0,Card tích hợp - Intel Arc Graphics,14.0,1.49
+thegioididong_369462,369462,,Intel Core Ultra X7 Panther Lake,64.0,2048.0,Card tích hợp - Intel Arc Graphics,14.0,1.131
+thegioididong_369460,369460,,AMD Ryzen 7 - 445,16.0,512.0,Card tích hợp,14.0,1.2
+thegioididong_368659,368659,,AMD Ryzen AI 7 - 350,16.0,512.0,"Card rời - NVIDIA GeForce RTX 5070, 8 GB",16.0,2.18
+thegioididong_368653,368653,,Intel Core Ultra 9 Panther Lake - 386H,16.0,512.0,"Card rời - NVIDIA GeForce RTX 5070, 8 GB",16.0,2.2
+thegioididong_368650,368650,,AMD Ryzen AI 5 - 340,16.0,512.0,"Card rời - NVIDIA GeForce RTX 5050, 8 GB",16.0,2.1
+thegioididong_368214,368214,,Intel Core Ultra 7 Panther Lake - 355,16.0,512.0,Card tích hợp - Intel Graphics,16.0,1.73
+thegioididong_367897,367897,,Intel Core Ultra X7 Panther Lake - 358H,32.0,512.0,Card tích hợp - Intel Graphics,14.0,1.65
+thegioididong_367891,367891,,Snapdragon X2 Elite - X2E88100,32.0,1024.0,Card tích hợp - Qualcomm Adreno GPU,14.0,0.986
+thegioididong_367890,367890,,Snapdragon X2 Elite - X2E88100,16.0,512.0,Card tích hợp - Qualcomm Adreno GPU,14.0,0.986
+thegioididong_367889,367889,,Intel Core Ultra 9 Panther Lake - 386H,32.0,1024.0,"Card rời - NVIDIA GeForce RTX 5080, 16 GB",14.0,1.58
+thegioididong_367888,367888,,AMD Ryzen AI 9 - 465,16.0,512.0,Card tích hợp - AMD Radeon Graphics,16.0,1.5
+thegioididong_367887,367887,,Intel Core i5 Raptor Lake - 14450HX,16.0,512.0,"Card rời - NVIDIA GeForce RTX 5050, 8 GB",16.0,2.2
+thegioididong_367865,367865,,Intel Core Ultra 9 Arrow Lake - 290HX Plus,64.0,2048.0,"Card rời - NVIDIA GeForce RTX 5080, 16 GB",16.0,2.6
+thegioididong_367686,367686,,Intel Core Ultra 7 Panther Lake - 365H,16.0,512.0,"Card rời - NVIDIA GeForce RTX 5060, 8 GB",15.3,2.1
+thegioididong_366744,366744,,AMD Ryzen 7 - 250,16.0,512.0,"Card rời - NVIDIA GeForce RTX 5060, 8 GB",15.3,1.87
+thegioididong_366093,366093,,Intel Core i7 Raptor Lake - 14650HX,16.0,512.0,"Card rời - NVIDIA GeForce RTX 5050, 8 GB - GDDR7",16.0,2.5
+thegioididong_371127,371127,,Intel Core Ultra 7 Panther Lake - 355,16.0,512.0,Card tích hợp - Intel Graphics,16.0,1.846
+thegioididong_371125,371125,,AMD Ryzen 7 - 250,16.0,512.0,Card tích hợp - AMD Radeon Graphics,16.0,1.783
+thegioididong_371124,371124,,AMD Ryzen 7 - 250,16.0,512.0,Card tích hợp - AMD Radeon Graphics,14.0,1.465
+thegioididong_371123,371123,,Intel Core Ultra 7 Panther Lake - 255U,16.0,512.0,Card tích hợp - Intel Graphics,,1.614
+thegioididong_370865,370865,,Intel Core 3 Twin Lake - 304,12.0,512.0,Card tích hợp - Intel Graphics,14.0,1.19
+thegioididong_370864,370864,,Intel Core 5 Wildcat Lake - 320,12.0,512.0,Card tích hợp - Đang cập nhật,14.0,1.19
+thegioididong_370582,370582,,Intel Core i7 Raptor Lake - 13620H,16.0,512.0,"Card rời - NVIDIA GeForce RTX 5050, 8 GB",15.6,2.0
+thegioididong_370358,370358,,Intel Core Ultra X9 - 378H,32.0,1024.0,Card tích hợp - Intel Arc Graphics,14.0,0.975
+thegioididong_370354,370354,,Intel Core Ultra 7 Arrow Lake - 355,16.0,512.0,Card tích hợp - Integrated Graphics,14.0,1.14
+thegioididong_370353,370353,,Intel Core Ultra 7 Arrow Lake - 255H,16.0,512.0,Card tích hợp - Intel Arc Graphics 140T,14.0,1.34
+thegioididong_370279,370279,,Intel Core 5 Raptor Lake - 210H,16.0,512.0,"Card rời - NVIDIA GeForce RTX 5050, 8 GB - GDDR7",15.6,2.1
+thegioididong_370278,370278,,Intel Core Ultra 7 Lunar Lake - 258V,32.0,512.0,Card tích hợp - Intel Arc Graphics 140V,14.0,1.24
+thegioididong_369982,369982,,AMD Ryzen AI 5 - 340,16.0,512.0,"Card rời - NVIDIA GeForce RTX 5060, 8 GB",16.0,2.1
+thegioididong_369981,369981,,AMD Ryzen AI 7 - 350,16.0,512.0,"Card rời - NVIDIA GeForce RTX 5060, 8 GB",16.0,2.18
+thegioididong_369756,369756,,AMD Ryzen AI 9 - Hãng không công bố,64.0,2048.0,Card tích hợp - AMD Radeon Graphics,16.0,1.85
+thegioididong_369751,369751,,Intel Core 5 Wildcat Lake - 320,16.0,1024.0,Card tích hợp - Intel Graphics,14.0,1.45
+thegioididong_371309,371309,,Intel Core 5 Wildcat Lake - 320,16.0,512.0,Card tích hợp - Intel Graphics,14.0,1.2
+thegioididong_371307,371307,,Intel Core 5 - 210H,16.0,512.0,"Card rời - NVIDIA GeForce RTX 4050, 6 GB",15.6,2.1
+thegioididong_371306,371306,,Intel Core 5 320,12.0,512.0,Card tích hợp - Intel Graphics,14.0,1.19
+thegioididong_371293,371293,,Intel Core Ultra 9 Panther Lake - 386H,16.0,512.0,Card tích hợp - Intel Graphics,14.0,1.2
+thegioididong_371137,371137,,Intel Core Ultra 5 Panther Lake - 325,16.0,512.0,Card tích hợp - Intel Graphics,16.0,1.848
+thegioididong_371135,371135,,Intel Core Ultra 7 Panther Lake - 355,32.0,512.0,Card tích hợp - Intel Graphics,14.0,1.398
+thegioididong_371134,371134,,Intel Core Ultra 7 Panther Lake - 355,16.0,512.0,Card tích hợp - Intel Graphics,14.0,1.296
+thegioididong_371133,371133,,Intel Core Ultra 7 Panther Lake - 355,16.0,512.0,Card tích hợp - Intel Graphics,14.0,1.296
+thegioididong_371132,371132,,Intel Core Ultra 5 Panther Lake - 322,16.0,512.0,Card tích hợp - Intel Graphics,14.0,1.337
+thegioididong_371130,371130,,Intel Core Ultra 5 Panther Lake - 322,16.0,512.0,Card tích hợp - Intel Graphics,14.0,1.337
+thegioididong_371129,371129,,Intel Core Ultra 9 Panther Lake - 386H,32.0,1024.0,Card tích hợp - Intel Graphics,14.0,1.282
+thegioididong_371128,371128,,Intel Core Ultra 7 Panther Lake - 356H,32.0,1024.0,Card tích hợp - Intel Graphics,14.0,1.288
+thegioididong_369476,369476,,AMD Ryzen 7 - 250,16.0,512.0,"NVIDIA GeForce RTX 5050, 8 GB - GDDR7",15.3,1.87
+thegioididong_369466,369466,,Intel Core Ultra 7 Arrow Lake - 255H,16.0,512.0,Card tích hợp - Intel Graphics,14.0,1.36
+thegioididong_369465,369465,,Intel Core Ultra 7 Arrow Lake - 255H,16.0,512.0,Card tích hợp - Intel Graphics,14.0,1.36
+thegioididong_366092,366092,,Intel Core i7 Raptor Lake - 14650HX,32.0,512.0,"Card rời - NVIDIA GeForce RTX 5060, 8 GB",16.0,2.5
+thegioididong_366091,366091,,Intel Core i5 Raptor Lake - 14450HX,32.0,512.0,"Card rời - NVIDIA GeForce RTX 5050, 8 GB",16.0,2.5
+thegioididong_366066,366066,,AMD Ryzen AI Max+ - 392,64.0,1024.0,Card tích hợp - AMD Radeon 8060S Graphics,14.0,1.48
+thegioididong_370356,370356,,Intel Core Ultra 7 Arrow Lake - 355,32.0,1024.0,Card tích hợp - Integrated Graphics,14.0,0.975
+thegioididong_370349,370349,,Intel Core Ultra 5 Arrow Lake - 322,16.0,512.0,Card tích hợp - Intel Arc Graphics,16.0,1.73
+thegioididong_367347,367347,,Intel Core Ultra 5 Arrow Lake - 235U,16.0,512.0,Card tích hợp - Intel Graphics,14.0,1.69
+thegioididong_369983,369983,,Intel Core i5 Raptor Lake - 13420H,16.0,512.0,"Card rời - NVIDIA GeForce RTX 5050, 8 GB",15.6,1.982
+thegioididong_363509,363509,,Apple M5,24.0,512.0,Card tích hợp - 10 nhân GPU,15.3,1.51
+thegioididong_369749,369749,,Intel Core 3 Raptor Lake - 100U,8.0,512.0,,15.6,
+thegioididong_368657,368657,,Intel Core 5 Raptor Lake - 120U,16.0,512.0,Card tích hợp - Intel UHD Graphics,15.6,1.6
+thegioididong_360418,360418,,Intel Core 5 Raptor Lake - 120U,16.0,512.0,Card tích hợp - Intel Graphics,15.6,1.7
+thegioididong_368146,368146,,AMD Ryzen 5 - 40,8.0,512.0,Card tích hợp - AMD Radeon Graphics,14.0,1.38
+thegioididong_368301,368301,,Intel Core Ultra 5 Arrow Lake - 225H,16.0,512.0,Card tích hợp - Intel UHD Graphics,14.0,1.46
+thegioididong_369758,369758,,Intel Core 3 Wildcat Lake - 304,8.0,512.0,Card tích hợp - Intel Graphics,15.6,1.7
+thegioididong_358795,358795,,Intel Core 7 Raptor Lake - 240H,32.0,512.0,Card tích hợp - Intel Graphics,16.0,1.91
+thegioididong_341268,341268,,Intel Core Ultra 9 Lunar Lake - 288V,32.0,1024.0,Card tích hợp - Intel Arc 140V,14.0,1.33
+thegioididong_367021,367021,,AMD Ryzen AI 7 - 445,16.0,512.0,Card tích hợp - AMD Radeon 840M Graphics,14.0,1.37
+thegioididong_367013,367013,,Intel Core Ultra 7 Panther Lake - 355,16.0,512.0,Card tích hợp - Intel Graphics,14.0,1.54
+thegioididong_368221,368221,,Intel Core i5 Raptor Lake - 13420H,16.0,512.0,Card tích hợp - Intel Graphics,14.0,1.36
+thegioididong_362626,362626,,AMD Ryzen AI 7 - 445,32.0,1024.0,Card tích hợp - AMD Radeon 840M,14.0,1.2
+thegioididong_359928,359928,,Intel Core i7 Raptor Lake - 13620H,16.0,1024.0,"Card rời - NVIDIA GeForce RTX 5070, 8 GB",16.0,2.268
+thegioididong_368209,368209,,AMD Ryzen 7 - 250,16.0,512.0,Card tích hợp - AMD Radeon 780M Graphics,16.0,1.7
+thegioididong_363826,363826,,Intel Core Ultra 5 Arrow Lake - 235U,16.0,512.0,Card tích hợp - Intel Graphics,13.3,1.35
+thegioididong_345506,345506,,Intel Core Ultra 5 Arrow Lake - 225U,16.0,512.0,Card tích hợp - Intel Graphics,13.3,1.355
+thegioididong_363898,363898,,Intel Core Ultra 5 Lunar Lake - 228V,32.0,512.0,Card tích hợp - Intel Graphics,14.0,1.32
+thegioididong_359298,359298,,Intel Core i7 Raptor Lake - 14650HX,16.0,1024.0,"Card rời - NVIDIA GeForce RTX 5070, 8 GB",15.6,2.4
+thegioididong_365305,365305,,Intel Core 7 Raptor Lake - 150U,16.0,512.0,Card tích hợp - Intel Graphics,14.0,1.83
+thegioididong_332397,332397,,Intel Core Ultra 5 Lunar Lake - 226V,16.0,1024.0,Card tích hợp - Intel Arc Graphics 130V,14.0,1.26
+thegioididong_335015,335015,,Intel Core Ultra 9 Arrow Lake - 275HX,16.0,1024.0,"Card rời - NVIDIA GeForce RTX 5080, 16 GB",16.0,2.7
+thegioididong_326280,326280,,AMD Ryzen 7 - 8845HS,16.0,1024.0,"Card rời - NVIDIA GeForce RTX 4070, 8 GB",15.6,2.25
+thegioididong_340479,340479,,Intel Core i7 Raptor Lake - 1355U,16.0,512.0,Card tích hợp - Intel Iris Xe Graphics,15.6,1.68
+thegioididong_362408,362408,,AMD Ryzen 7 - 445,16.0,512.0,Card tích hợp - AMD Radeon Graphics,14.0,1.46
+thegioididong_368555,368555,,Intel Core 3 Raptor Lake - 100U,8.0,512.0,Card tích hợp - Intel Graphics,15.6,1.65
+thegioididong_364399,364399,,AMD Ryzen AI 7 - 445,16.0,512.0,Card tích hợp - AMD Radeon Graphics,16.0,1.8
+thegioididong_341564,341564,,Intel Core 7 Raptor Lake - 240H,16.0,1024.0,"Card rời - NVIDIA GeForce RTX 5050, 8 GB",16.0,2.49
+thegioididong_368220,368220,,Intel Core Ultra 5 Arrow Lake - 225U,16.0,512.0,Card tích hợp - Intel Graphics,14.0,1.34
+thegioididong_365609,365609,,Intel Core 5 Raptor Lake - 120U,8.0,512.0,Card tích hợp - Intel Graphics,14.0,1.404
+thegioididong_340560,340560,,Intel Core i5 Raptor Lake - 1334U,16.0,512.0,Card tích hợp - Intel Iris Xe Graphics,15.6,1.66
+thegioididong_365311,365311,,Intel Core i7 Raptor Lake - 1355U,16.0,1024.0,Card tích hợp - Intel UHD Graphics,15.6,1.9
+thegioididong_362399,362399,,Intel Core Ultra 7 Meteor Lake - 155H,24.0,512.0,Card tích hợp - Intel Graphics,15.6,1.613
+thegioididong_341751,341751,,Intel Core i5 Raptor Lake - 13420H,16.0,512.0,"Card rời - NVIDIA GeForce RTX 5050, 8 GB",16.0,2.227
+thegioididong_368559,368559,,Intel Core 7 Raptor Lake - 150U,16.0,512.0,Card tích hợp - Intel Graphics,14.0,1.83
+thegioididong_360417,360417,,Intel Core 5 Raptor Lake - 120U,16.0,512.0,Card tích hợp - Intel Graphics,14.0,1.4
+thegioididong_341611,341611,,Intel Core i5 Raptor Lake - 14450HX,16.0,512.0,"Card rời - NVIDIA GeForce RTX 5050, 8 GB",15.6,2.4
+thegioididong_339951,339951,,AMD Ryzen AI 5 - 340,16.0,512.0,Card tích hợp - AMD Radeon Graphics,14.0,1.625
+thegioididong_358080,358080,,Intel Core Ultra 5 Lunar Lake - 226V,16.0,512.0,Card tích hợp - Intel Arc Graphics 130V,14.0,1.65
+thegioididong_367574,367574,,Intel Core Ultra 5 Arrow Lake - 225U,16.0,512.0,Card tích hợp - Intel Graphics,15.6,1.65
+thegioididong_368654,368654,,Intel Core 3 Twin Lake - N350,8.0,512.0,Card tích hợp - Intel Graphics,15.6,1.53
+thegioididong_366741,366741,,Intel Core Ultra 5 Panther Lake - 322,16.0,512.0,Card tích hợp - Intel Graphics,14.0,1.37
+thegioididong_362020,362020,,Intel Core i7 Raptor Lake - 1355U,16.0,1024.0,Card tích hợp - Intel UHD Graphics,15.6,1.65
+thegioididong_360691,360691,,Intel Core i5 Raptor Lake - 1334U,16.0,512.0,Card tích hợp - Intel UHD Graphics,15.6,1.65
+thegioididong_367575,367575,,Intel Core Ultra 5 Arrow Lake - 225U,16.0,512.0,Card tích hợp - Intel Graphics,15.6,1.65
+thegioididong_338320,338320,,Intel Core Ultra 5 Arrow Lake - 225H,16.0,512.0,Card tích hợp - Intel UHD Graphics,14.0,1.4
+thegioididong_365624,365624,,Intel Core Ultra 5 Meteor Lake - 125H,24.0,512.0,Card tích hợp - Intel Arc Graphics,15.6,1.65
+thegioididong_341266,341266,,Intel Core Ultra 5 Arrow Lake - 225U,16.0,512.0,Card tích hợp - Intel Graphics,16.0,1.734
+thegioididong_364183,364183,,AMD Ryzen 5 - 40,16.0,512.0,Card tích hợp - AMD Radeon Graphics,14.0,1.38
+thegioididong_362406,362406,,AMD Ryzen 5 - 40,16.0,512.0,Card tích hợp - AMD Radeon Graphics,15.6,1.63
+thegioididong_368208,368208,,Intel Core 5 Wildcat Lake - 320,8.0,512.0,Card tích hợp - Integrated Graphics,14.0,1.39
+thegioididong_362410,362410,,Intel Core Ultra 5 Arrow Lake - 225H,16.0,512.0,Card tích hợp - Intel Arc Graphics,14.0,1.46
+thegioididong_362024,362024,,Intel Core 5 Raptor Lake - 120U,16.0,512.0,Card tích hợp - Intel UHD Graphics (Iris Xe Graphics chỉ hoạt động với RAM kênh đôi),14.0,1.69
+thegioididong_362621,362621,,AMD Ryzen 7 - 170,16.0,512.0,"Card rời - NVIDIA GeForce RTX 3050, 4 GB",15.6,2.3
+thegioididong_358078,358078,,Intel Core 5 Raptor Lake - 120U,16.0,512.0,Card tích hợp - Intel Graphics,14.0,1.638
+thegioididong_338204,338204,,Intel Core i5 Raptor Lake - 13420H,16.0,512.0,"Card rời - NVIDIA GeForce RTX 3050, 6 GB",15.6,2.29
+thegioididong_360420,360420,,Intel Core 7 Raptor Lake - 150U,16.0,512.0,Card tích hợp - Intel Graphics,15.6,1.7
+thegioididong_368556,368556,,AMD Ryzen 5 - 7530U,16.0,512.0,Card tích hợp - AMD Radeon Graphics,15.6,1.65
+thegioididong_358132,358132,,Intel Core 5 Raptor Lake - 210H,16.0,512.0,Card tích hợp - Intel UHD Graphics,14.0,1.4
+thegioididong_363537,363537,,Apple A18 Pro,8.0,256.0,Card tích hợp - 5 nhân GPU,13.0,1.23
+thegioididong_361311,361311,,AMD Ryzen 5 - 7520U,16.0,512.0,Card tích hợp - AMD Radeon 610M Graphics,15.6,1.59
+phongvu_220920819.0,464239,220920819.0,,,,,,
+phongvu_221002177.0,465607,221002177.0,AMD Ryzen 7,,,,,
+phongvu_221100518.0,467997,221100518.0,,,,,,
+phongvu_221101138.0,468527,221101138.0,,,,,,
+phongvu_221101139.0,468528,221101139.0,,,,,,
+phongvu_230300348.0,504990,230300348.0,AMD Ryzen 5,,,,,
+phongvu_230402640.0,512788,230402640.0,,,,,,
+phongvu_230700540.0,518251,230700540.0,,,,,,
+phongvu_241101675.0,589797,241101675.0,,32.0,2048.0,,,
+phongvu_250201008.0,616759,250201008.0,,16.0,512.0,,,
+phongvu_250308176.0,628302,250308176.0,AMD Ryzen 7,,,,,
+phongvu_250308877.0,629004,250308877.0,,16.0,512.0,,,
+phongvu_250400647.0,632598,250400647.0,Snapdragon X1P 42 100,16.0,512.0,,,
+phongvu_250409681.0,641641,250409681.0,,16.0,512.0,,,
+phongvu_250414090.0,646217,250414090.0,,16.0,512.0,,,
+phongvu_250414094.0,646221,250414094.0,,16.0,1024.0,,,
+phongvu_250415718.0,647858,250415718.0,,,,,,
+phongvu_250512246.0,666265,250512246.0,,16.0,512.0,,,
+phongvu_250517378.0,673058,250517378.0,,16.0,512.0,,,
+phongvu_250637377.0,715435,250637377.0,,16.0,512.0,,,
+phongvu_250640718.0,719814,250640718.0,,32.0,1024.0,,,
+phongvu_250640725.0,719821,250640725.0,,32.0,1024.0,,,
+phongvu_250640733.0,719828,250640733.0,Snapdragon X1P 64 100,16.0,512.0,,,
+phongvu_250643177.0,722302,250643177.0,,16.0,512.0,,,
+phongvu_250643178.0,722301,250643178.0,,32.0,512.0,,,
+phongvu_250645445.0,724633,250645445.0,,,,,,
+phongvu_250716126.0,755363,250716126.0,,16.0,512.0,,,
+phongvu_250716146.0,755383,250716146.0,,8.0,512.0,,,
+phongvu_250719798.0,759277,250719798.0,,16.0,512.0,,,
+phongvu_250719864.0,759342,250719864.0,Snapdragon X X1 26 100,16.0,512.0,,,
+phongvu_250719877.0,759355,250719877.0,Snapdragon X X1 26 100,16.0,512.0,,,
+phongvu_250719886.0,759364,250719886.0,,16.0,512.0,,,
+phongvu_250800189.0,762657,250800189.0,,16.0,512.0,,,
+phongvu_250801472.0,763965,250801472.0,,16.0,512.0,,,
+phongvu_250803168.0,765771,250803168.0,,16.0,512.0,,,
+phongvu_250803209.0,765814,250803209.0,,16.0,1024.0,,,
+phongvu_250803244.0,765850,250803244.0,,16.0,512.0,,,
+phongvu_250804402.0,767015,250804402.0,,,,,,
+phongvu_250804488.0,767101,250804488.0,,,,,,
+phongvu_250804678.0,767291,250804678.0,,,,,,
+phongvu_250804746.0,767359,250804746.0,,,,,,
+phongvu_250804758.0,767371,250804758.0,,,,,,
+phongvu_250804766.0,767386,250804766.0,AMD Ryzen 7,,,,,
+phongvu_250809136.0,772401,250809136.0,,16.0,1024.0,,,
+phongvu_250900507.0,773076,250900507.0,,16.0,512.0,,,
+phongvu_250902465.0,775160,250902465.0,,16.0,512.0,,,
+phongvu_250902466.0,775161,250902466.0,,16.0,512.0,,,
+phongvu_250902468.0,775164,250902468.0,,16.0,512.0,,,
+phongvu_250902473.0,775170,250902473.0,,16.0,512.0,,,
+phongvu_250902474.0,775171,250902474.0,,32.0,512.0,,,
+phongvu_250902478.0,775175,250902478.0,,16.0,512.0,,,
+phongvu_250904062.0,776757,250904062.0,,,,,,
+phongvu_250904169.0,776864,250904169.0,,,,,,
+phongvu_250904247.0,776943,250904247.0,,,,,,
+phongvu_250908221.0,780986,250908221.0,,16.0,1024.0,,,
+phongvu_250908233.0,780994,250908233.0,,16.0,512.0,,,
+phongvu_250911676.0,784534,250911676.0,,16.0,512.0,,,
+phongvu_251001972.0,788539,251001972.0,,16.0,1024.0,,,
+phongvu_251001992.0,788558,251001992.0,,16.0,1024.0,,,
+phongvu_251001999.0,788565,251001999.0,,16.0,1024.0,,,
+phongvu_251002010.0,788575,251002010.0,,32.0,512.0,,,
+phongvu_251002014.0,788581,251002014.0,,32.0,512.0,,,
+phongvu_251002018.0,788585,251002018.0,,32.0,512.0,,,
+phongvu_251002166.0,788717,251002166.0,,,,,,
+phongvu_251002247.0,788798,251002247.0,,,,,,
+phongvu_251002250.0,788801,251002250.0,,,,,,
+phongvu_251012466.0,800642,251012466.0,,16.0,512.0,,,
+phongvu_251012474.0,800654,251012474.0,,16.0,512.0,,,
+phongvu_251012819.0,801032,251012819.0,,16.0,512.0,,,
+phongvu_251017439.0,807326,251017439.0,,16.0,512.0,,,
+phongvu_251019398.0,809533,251019398.0,,16.0,512.0,,,
+phongvu_251100594.0,811358,251100594.0,,,,,,
+phongvu_251100597.0,811361,251100597.0,,,,,,
+phongvu_251100690.0,811454,251100690.0,,,,,,
+phongvu_251100698.0,811462,251100698.0,,,,,,
+phongvu_251100721.0,811485,251100721.0,,,,,,
+phongvu_251100733.0,811497,251100733.0,AMD Ryzen 7,,,,,
+phongvu_251100923.0,811695,251100923.0,,16.0,512.0,,,
+phongvu_251100924.0,811698,251100924.0,,16.0,1024.0,,,
+phongvu_251100926.0,811697,251100926.0,,16.0,512.0,,,
+phongvu_251104418.0,815145,251104418.0,,16.0,512.0,,,
+phongvu_251106306.0,817201,251106306.0,,16.0,512.0,,,
+phongvu_251106310.0,817204,251106310.0,,16.0,1024.0,,,
+phongvu_251107244.0,818400,251107244.0,,16.0,512.0,,,
+phongvu_251107254.0,818414,251107254.0,,16.0,1024.0,,,
+phongvu_251109448.0,820541,251109448.0,,16.0,512.0,,,
+phongvu_251109453.0,820547,251109453.0,,16.0,512.0,,,
+phongvu_251109456.0,820548,251109456.0,,24.0,512.0,,,
+phongvu_251109457.0,820550,251109457.0,,16.0,512.0,,,
+phongvu_251113271.0,824406,251113271.0,,16.0,512.0,,,
+phongvu_251113506.0,824662,251113506.0,,32.0,512.0,,,
+phongvu_251202421.0,828040,251202421.0,,32.0,2048.0,,,
+phongvu_251203613.0,829451,251203613.0,,,,,,
+phongvu_251203633.0,829471,251203633.0,,,,,,
+phongvu_251203653.0,829491,251203653.0,AMD Ryzen 7,,,,,
+phongvu_251203677.0,829515,251203677.0,,,,,,
+phongvu_251203692.0,829530,251203692.0,,,,,,
+phongvu_251203697.0,829535,251203697.0,,,,,,
+phongvu_251203714.0,829552,251203714.0,,,,,,
+phongvu_251203847.0,829685,251203847.0,,,,,,
+phongvu_251203866.0,829704,251203866.0,,,,,,
+phongvu_251203884.0,829722,251203884.0,,,,,,
+phongvu_251203913.0,829751,251203913.0,,,,,,
+phongvu_251203919.0,829757,251203919.0,,,,,,
+phongvu_251203923.0,829761,251203923.0,,,,,,
+phongvu_251203925.0,829763,251203925.0,,,,,,
+phongvu_251203982.0,829820,251203982.0,,,,,,
+phongvu_251203989.0,829827,251203989.0,,,,,,
+phongvu_251206294.0,832141,251206294.0,,16.0,512.0,,,
+phongvu_251207551.0,833426,251207551.0,,16.0,512.0,,,
+phongvu_251207558.0,833436,251207558.0,,16.0,512.0,,,
+phongvu_251207559.0,833439,251207559.0,,16.0,512.0,,,
+phongvu_251208700.0,834866,251208700.0,,32.0,1024.0,,,
+phongvu_251208701.0,834867,251208701.0,,16.0,512.0,,,
+phongvu_251208702.0,834868,251208702.0,,16.0,1024.0,,,
+phongvu_251211508.0,837900,251211508.0,,16.0,512.0,,,
+phongvu_260101199.0,840016,260101199.0,,16.0,1024.0,,,
+phongvu_260101201.0,840015,260101201.0,,16.0,1024.0,,,
+phongvu_260101203.0,840014,260101203.0,,16.0,512.0,,,
+phongvu_260102037.0,840876,260102037.0,,16.0,512.0,,,
+phongvu_260102080.0,840916,260102080.0,,16.0,512.0,,,
+phongvu_260102090.0,840924,260102090.0,,16.0,512.0,,,
+phongvu_260102100.0,840939,260102100.0,,16.0,512.0,,,
+phongvu_260105198.0,844008,260105198.0,,,,,,
+phongvu_260105215.0,844025,260105215.0,,,,,,
+phongvu_260105250.0,844060,260105250.0,,,,,,
+phongvu_260105252.0,844062,260105252.0,,,,,,
+phongvu_260105261.0,844071,260105261.0,,,,,,
+phongvu_260105339.0,844149,260105339.0,,,,,,
+phongvu_260105494.0,844304,260105494.0,,,,,,
+phongvu_260105501.0,844311,260105501.0,,,,,,
+phongvu_260105504.0,844314,260105504.0,,,,,,
+phongvu_260105505.0,844315,260105505.0,,,,,,
+phongvu_260105516.0,844326,260105516.0,,,,,,
+phongvu_260105625.0,844435,260105625.0,,,,,,
+phongvu_260105640.0,844450,260105640.0,AMD Ryzen 5,,,,,
+phongvu_260105644.0,844454,260105644.0,,,,,,
+phongvu_260105680.0,844490,260105680.0,,16.0,512.0,,,
+phongvu_260105689.0,844497,260105689.0,,16.0,512.0,,,
+phongvu_260105706.0,844515,260105706.0,,16.0,512.0,,,
+phongvu_260105713.0,844523,260105713.0,,16.0,512.0,,,
+phongvu_260105720.0,844530,260105720.0,,16.0,512.0,,,
+phongvu_260108963.0,847838,260108963.0,,,,,,
+phongvu_260108973.0,847848,260108973.0,,,,,,
+phongvu_260108975.0,847850,260108975.0,,,,,,
+phongvu_260108991.0,847866,260108991.0,,,,,,
+phongvu_260109013.0,847888,260109013.0,AMD Ryzen 5,,,,,
+phongvu_260109045.0,847920,260109045.0,,,,,,
+phongvu_260200472.0,848798,260200472.0,,16.0,512.0,,,
+phongvu_260200477.0,848808,260200477.0,,16.0,512.0,,,
+phongvu_260200481.0,848813,260200481.0,,16.0,512.0,,,
+phongvu_260201135.0,849470,260201135.0,,16.0,512.0,,,
+phongvu_260202421.0,850778,260202421.0,,16.0,512.0,,,
+phongvu_260202422.0,850781,260202422.0,,16.0,512.0,,,
+phongvu_260202424.0,850780,260202424.0,,32.0,1024.0,,,
+phongvu_260202510.0,850866,260202510.0,,16.0,1024.0,,,
+phongvu_260203204.0,851577,260203204.0,,24.0,512.0,,,
+phongvu_260203208.0,851580,260203208.0,,16.0,512.0,,,
+phongvu_260203236.0,851611,260203236.0,,16.0,512.0,,,
+phongvu_260204231.0,852609,260204231.0,,16.0,1024.0,,,
+phongvu_260300867.0,853555,260300867.0,,16.0,512.0,,,
+phongvu_260300963.0,853651,260300963.0,,,,,,
+phongvu_260301044.0,853732,260301044.0,,,,,,
+phongvu_260301076.0,853764,260301076.0,,,,,,
+phongvu_260301079.0,853767,260301079.0,,,,,,
+phongvu_260301090.0,853778,260301090.0,,,,,,
+phongvu_260301093.0,853781,260301093.0,,,,,,
+phongvu_260301642.0,854333,260301642.0,,16.0,512.0,,,
+phongvu_260301649.0,854340,260301649.0,,16.0,512.0,,,
+phongvu_260301668.0,854356,260301668.0,,8.0,512.0,,,
+phongvu_260301675.0,854366,260301675.0,,16.0,512.0,,,
+phongvu_260301687.0,854378,260301687.0,,16.0,512.0,,,
+phongvu_260302468.0,855327,260302468.0,,16.0,512.0,,,
+phongvu_260302474.0,855336,260302474.0,,16.0,1024.0,,,
+phongvu_260302478.0,855344,260302478.0,,32.0,1024.0,,,
+phongvu_260302484.0,855353,260302484.0,,32.0,1024.0,,,
+phongvu_260302495.0,855365,260302495.0,,16.0,512.0,,,
+phongvu_260302507.0,855378,260302507.0,,16.0,512.0,,,
+phongvu_260302512.0,855380,260302512.0,,16.0,512.0,,,
+phongvu_260302514.0,855385,260302514.0,,32.0,512.0,,,
+phongvu_260302518.0,855390,260302518.0,,16.0,512.0,,,
+phongvu_260302524.0,855396,260302524.0,,16.0,512.0,,,
+phongvu_260302527.0,855399,260302527.0,,16.0,512.0,,,
+phongvu_260302528.0,855401,260302528.0,,16.0,512.0,,,
+phongvu_260302532.0,855405,260302532.0,,32.0,512.0,,,
+phongvu_260303285.0,856162,260303285.0,,16.0,512.0,,,
+phongvu_260303603.0,856586,260303603.0,,32.0,1024.0,,,
+phongvu_260303605.0,856587,260303605.0,,32.0,1024.0,,,
+phongvu_260303867.0,856850,260303867.0,,16.0,512.0,,,
+phongvu_260303868.0,856851,260303868.0,,16.0,512.0,,,
+phongvu_260304104.0,857087,260304104.0,,16.0,512.0,,,
+phongvu_260304532.0,857541,260304532.0,,16.0,512.0,,,
+phongvu_260305106.0,858122,260305106.0,,,,,,
+phongvu_260305528.0,858545,260305528.0,,16.0,512.0,,,
+phongvu_260305633.0,858648,260305633.0,,16.0,512.0,,,
+phongvu_260305634.0,858649,260305634.0,,32.0,1024.0,,,
+phongvu_260305640.0,858657,260305640.0,,16.0,512.0,,,
+phongvu_260305647.0,858664,260305647.0,,16.0,512.0,,,
+phongvu_260305673.0,858690,260305673.0,,16.0,512.0,,,
+phongvu_260305688.0,858707,260305688.0,,16.0,1024.0,,,
+phongvu_260305689.0,858706,260305689.0,,16.0,512.0,,,
+phongvu_260305690.0,858705,260305690.0,,16.0,512.0,,,
+phongvu_260400568.0,860348,260400568.0,,16.0,512.0,,,
+phongvu_260402929.0,862735,260402929.0,,16.0,512.0,,,
+phongvu_260402938.0,862742,260402938.0,,16.0,1024.0,,,
+phongvu_260404884.0,864730,260404884.0,,16.0,512.0,,,
+phongvu_260404891.0,864739,260404891.0,,16.0,512.0,,,
+phongvu_260404899.0,864746,260404899.0,,64.0,1024.0,,,
+phongvu_260404909.0,864754,260404909.0,,16.0,512.0,,,
+phongvu_260404916.0,864764,260404916.0,,16.0,512.0,,,
+phongvu_260404920.0,864766,260404920.0,,16.0,512.0,,,
+phongvu_260404925.0,864773,260404925.0,,16.0,512.0,,,
+phongvu_260404927.0,864775,260404927.0,,32.0,1024.0,,,
+phongvu_260406734.0,866687,260406734.0,Intel Core Ultra 9,64.0,2048.0,RTX 5090,,
+phongvu_260407198.0,867178,260407198.0,,16.0,512.0,,,
+phongvu_260407204.0,867188,260407204.0,,32.0,512.0,,,
+phongvu_260407205.0,867189,260407205.0,,16.0,512.0,,,
+phongvu_260407211.0,867195,260407211.0,,32.0,512.0,,,
+phongvu_260407212.0,867196,260407212.0,,16.0,512.0,,,
+phongvu_260407220.0,867202,260407220.0,,32.0,512.0,,,
+phongvu_260407231.0,867211,260407231.0,,8.0,512.0,,,
+phongvu_260407237.0,867222,260407237.0,,16.0,512.0,,,
+phongvu_260407238.0,867221,260407238.0,,16.0,512.0,,,
+phongvu_260407247.0,867231,260407247.0,,16.0,512.0,,,
+phongvu_260407624.0,867729,260407624.0,,16.0,512.0,,,
+phongvu_260407626.0,867731,260407626.0,,16.0,512.0,,,
+phongvu_260407627.0,867732,260407627.0,,24.0,512.0,,,
+phongvu_260407771.0,867884,260407771.0,,16.0,512.0,,,
+phongvu_260501439.0,869599,260501439.0,Snapdragon X X1 26 100,16.0,512.0,,,
+phongvu_260501467.0,869634,260501467.0,,32.0,1024.0,,,
+phongvu_260501475.0,869634,260501475.0,,32.0,1024.0,,,
+phongvu_260501485.0,869645,260501485.0,,16.0,512.0,,,
+phongvu_260501570.0,869730,260501570.0,,,,,,
+phongvu_260501579.0,869739,260501579.0,,,,,,
+phongvu_260501654.0,869814,260501654.0,,,,,,
+phongvu_260501698.0,869858,260501698.0,,,,,,
+phongvu_260501700.0,869860,260501700.0,,,,,,
+phongvu_260501705.0,869865,260501705.0,,,,,,
+phongvu_260501723.0,869883,260501723.0,,,,,,
+phongvu_260501731.0,869891,260501731.0,,,,,,
+phongvu_260501732.0,869892,260501732.0,,,,,,
+phongvu_260501750.0,869910,260501750.0,,,,,,
+phongvu_260501751.0,869911,260501751.0,,,,,,
+phongvu_260501756.0,869916,260501756.0,,,,,,
+phongvu_260501761.0,869921,260501761.0,,,,,,
+phongvu_260501767.0,869927,260501767.0,,,,,,
+phongvu_260501776.0,869936,260501776.0,,,,,,
+phongvu_260501786.0,869946,260501786.0,,,,,,
+phongvu_260501789.0,869949,260501789.0,,,,,,
+phongvu_260501790.0,869950,260501790.0,,,,,,
+phongvu_260501795.0,869955,260501795.0,AMD Ryzen 5,,,,,
+phongvu_260501815.0,869975,260501815.0,,,,,,
+phongvu_260501817.0,869977,260501817.0,,,,,,
+phongvu_260501877.0,870037,260501877.0,,,,,,
+phongvu_260501879.0,870039,260501879.0,,,,,,
+phongvu_260501880.0,870040,260501880.0,,,,,,
+phongvu_260501892.0,870052,260501892.0,,,,,,
+phongvu_260502319.0,870454,260502319.0,,16.0,512.0,,,
+phongvu_260502320.0,870453,260502320.0,,8.0,512.0,,,
+phongvu_260502321.0,870458,260502321.0,,16.0,512.0,,,
+phongvu_260502322.0,870455,260502322.0,,16.0,512.0,,,
+phongvu_260502324.0,870457,260502324.0,,16.0,512.0,,,
+phongvu_260502325.0,870456,260502325.0,,16.0,512.0,,,
+phongvu_260502326.0,870460,260502326.0,,16.0,512.0,,,
+phongvu_260503899.0,872079,260503899.0,,16.0,512.0,,,
+phongvu_260503906.0,872092,260503906.0,,16.0,512.0,,,
+phongvu_260503913.0,872099,260503913.0,,16.0,512.0,,,
+phongvu_260503920.0,872106,260503920.0,,16.0,512.0,,,
+phongvu_260503930.0,872113,260503930.0,,16.0,512.0,,,
+phongvu_260503946.0,872132,260503946.0,,16.0,512.0,,,
+phongvu_260507122.0,875463,260507122.0,Snapdragon X2 Elite X2E88100,32.0,1024.0,,,
+phongvu_260507128.0,875472,260507128.0,,16.0,512.0,,,
+phongvu_260507129.0,875473,260507129.0,,32.0,1024.0,,,
+phongvu_260507135.0,875479,260507135.0,,16.0,1024.0,,,
+phongvu_260507136.0,875480,260507136.0,,64.0,2048.0,,,
+phongvu_260507140.0,875482,260507140.0,,16.0,512.0,,,
+phongvu_260507143.0,875486,260507143.0,,32.0,1024.0,,,
+phongvu_260507150.0,875493,260507150.0,Snapdragon X2 Elite X2E88100,16.0,512.0,,,
+phongvu_260507152.0,875495,260507152.0,,16.0,512.0,,,
+phongvu_260508270.0,876676,260508270.0,,32.0,512.0,,,
+phongvu_260508562.0,876967,260508562.0,,16.0,512.0,,,
+phongvu_260508594.0,876999,260508594.0,,16.0,1024.0,,,
+phongvu_260600361.0,877868,260600361.0,,16.0,512.0,,,
+phongvu_260600939.0,878537,260600939.0,,16.0,512.0,,,
+phongvu_260600946.0,878550,260600946.0,,16.0,512.0,,,
+phongvu_260600953.0,878557,260600953.0,,8.0,512.0,,,
+phongvu_260600971.0,878573,260600971.0,,16.0,512.0,,,
+phongvu_260602203.0,879834,260602203.0,,16.0,512.0,,,
+phongvu_260602215.0,879841,260602215.0,,32.0,1024.0,,,
+phongvu_260602380.0,880003,260602380.0,,32.0,1024.0,,,
+phongvu_260602383.0,880005,260602383.0,,32.0,1024.0,,,
+phongvu_260602384.0,880004,260602384.0,,32.0,1024.0,,,
+phongvu_260602400.0,880017,260602400.0,,16.0,512.0,,,
+phongvu_260602401.0,880022,260602401.0,,16.0,512.0,,,
+phongvu_260602407.0,880029,260602407.0,,16.0,512.0,,,
+phongvu_260602408.0,880028,260602408.0,,16.0,1024.0,,,
+phongvu_260602409.0,880030,260602409.0,,16.0,512.0,,,
+phongvu_260602411.0,880031,260602411.0,,16.0,512.0,,,
+phongvu_260602419.0,880040,260602419.0,,16.0,512.0,,,
+phongvu_260602423.0,880042,260602423.0,,16.0,512.0,,,
+phongvu_260602424.0,880044,260602424.0,,16.0,512.0,,,
+phongvu_260602427.0,880047,260602427.0,,8.0,512.0,,,
+phongvu_260602429.0,880050,260602429.0,,16.0,512.0,,,
+phongvu_260602430.0,880051,260602430.0,,16.0,512.0,,,
+phongvu_260602432.0,880052,260602432.0,,16.0,512.0,,,
+phongvu_260602434.0,880055,260602434.0,,8.0,512.0,,,
+phongvu_260602435.0,880056,260602435.0,,16.0,512.0,,,
+phongvu_260602436.0,880057,260602436.0,,32.0,512.0,,,
+phongvu_260602437.0,880058,260602437.0,,16.0,512.0,,,
+phongvu_260602438.0,880059,260602438.0,,16.0,512.0,,,
+phongvu_260602439.0,880060,260602439.0,,16.0,512.0,,,
+phongvu_260602916.0,880546,260602916.0,,16.0,512.0,,,
+phongvu_260602917.0,880542,260602917.0,,16.0,512.0,,,
+phongvu_260602918.0,880543,260602918.0,,32.0,512.0,,,
+phongvu_260602919.0,880544,260602919.0,,16.0,1024.0,,,
+phongvu_260602920.0,880545,260602920.0,,16.0,512.0,,,
+phongvu_260603062.0,880689,260603062.0,,16.0,512.0,,,
+phongvu_260603076.0,880702,260603076.0,,16.0,512.0,,,
+phongvu_260603078.0,880705,260603078.0,,32.0,1024.0,,,
+phongvu_260603084.0,880711,260603084.0,,16.0,512.0,,,
+phongvu_260603086.0,880713,260603086.0,,8.0,512.0,,,
+phongvu_260603319.0,880974,260603319.0,,8.0,512.0,,,
+phongvu_260603320.0,880975,260603320.0,,16.0,512.0,,,
+phongvu_260603575.0,881230,260603575.0,,16.0,512.0,,,
+phongvu_260700542.0,882029,260700542.0,,,,,,
+phongvu_260701722.0,883268,260701722.0,,24.0,512.0,,,
+phongvu_260701729.0,883280,260701729.0,,32.0,512.0,,,
+phongvu_260701732.0,883285,260701732.0,,32.0,1024.0,,,
+phongvu_260701733.0,883286,260701733.0,,32.0,1024.0,,,
+phongvu_260701736.0,883291,260701736.0,,32.0,1024.0,,,
+phongvu_260701737.0,883292,260701737.0,,16.0,512.0,,,
+phongvu_260701739.0,883295,260701739.0,,16.0,512.0,,,
+phongvu_260701740.0,883296,260701740.0,,16.0,512.0,,,
+phongvu_260701747.0,883299,260701747.0,,16.0,512.0,,,
+phongvu_260701754.0,883309,260701754.0,,8.0,512.0,,,
+phongvu_260701761.0,883317,260701761.0,,16.0,512.0,,,
+phongvu_260701768.0,883323,260701768.0,,16.0,512.0,,,
+phongvu_260701774.0,883330,260701774.0,,16.0,512.0,,,
+phongvu_260701776.0,883332,260701776.0,,16.0,512.0,,,
+phongvu_260701777.0,883333,260701777.0,,16.0,512.0,,,
+phongvu_260703453.0,885287,260703453.0,,16.0,512.0,,,
+phongvu_260703460.0,885297,260703460.0,,16.0,512.0,,,
+phongvu_260703468.0,885304,260703468.0,,32.0,1024.0,,,
+phongvu_260704564.0,886573,260704564.0,,16.0,512.0,,,
+phongvu_260704571.0,886584,260704571.0,,16.0,512.0,,,
+phongvu_260704577.0,886591,260704577.0,,8.0,512.0,,,
+phongvu_260704585.0,886598,260704585.0,,16.0,512.0,,,
+phongvu_260704589.0,886602,260704589.0,,16.0,512.0,,,
+phongvu_260704593.0,886606,260704593.0,,16.0,1024.0,,,
+phongvu_260704596.0,886610,260704596.0,,16.0,512.0,,,
+phongvu_260704599.0,886612,260704599.0,,16.0,1024.0,,,
+phongvu_260704600.0,886614,260704600.0,,16.0,512.0,,,
+phongvu_260705543.0,887685,260705543.0,,16.0,512.0,,,
+phongvu_260705959.0,888140,260705959.0,,64.0,1024.0,,,
+phongvu_260705966.0,888149,260705966.0,,16.0,1024.0,,,
+phongvu_260705974.0,888156,260705974.0,,16.0,512.0,,,
+phongvu_260705985.0,888165,260705985.0,,16.0,512.0,,,
+phongvu_260705993.0,888175,260705993.0,,16.0,512.0,,,
+phongvu_260706001.0,888183,260706001.0,,16.0,512.0,,,
+phongvu_260706009.0,888191,260706009.0,,16.0,512.0,,,
+phongvu_260706016.0,888199,260706016.0,,16.0,512.0,,,
+phongvu_260706024.0,888206,260706024.0,,16.0,512.0,,,
+phongvu_260706029.0,888212,260706029.0,,16.0,512.0,,,
+phongvu_260706030.0,888213,260706030.0,,64.0,1024.0,,,
+phongvu_260706031.0,888214,260706031.0,,16.0,512.0,,,
+phongvu_260801469.0,890602,260801469.0,,12.0,512.0,,,
+phongvu_260801476.0,890611,260801476.0,,64.0,2048.0,,,
+phongvu_260801494.0,890625,260801494.0,,16.0,512.0,,,
+phongvu_260801499.0,890638,260801499.0,,16.0,512.0,,,
+phongvu_260801505.0,890642,260801505.0,,16.0,512.0,,,
+phongvu_260801507.0,890645,260801507.0,,16.0,512.0,,,
+phongvu_260801512.0,890651,260801512.0,,16.0,1024.0,,,
+phongvu_260801516.0,890653,260801516.0,,64.0,2048.0,,,
+phongvu_260801521.0,890658,260801521.0,,32.0,1024.0,,,
+phongvu_260801531.0,890668,260801531.0,,16.0,512.0,,,
+phongvu_260801536.0,890676,260801536.0,,12.0,512.0,,,
+phongvu_260801559.0,890706,260801559.0,,12.0,512.0,,,
+phongvu_260801615.0,890763,260801615.0,,16.0,512.0,,,
+phongvu_260802535.0,891731,260802535.0,,,,,,
+phongvu_260802536.0,891732,260802536.0,,,,,,
+phongvu_260802587.0,891783,260802587.0,,,,,,
+phongvu_260802593.0,891789,260802593.0,,,,,,
+phongvu_260802599.0,891795,260802599.0,,,,,,
+phongvu_260802600.0,891796,260802600.0,,,,,,
+phongvu_260802606.0,891802,260802606.0,,,,,,
+phongvu_260802613.0,891809,260802613.0,,,,,,
+phongvu_260802615.0,891811,260802615.0,,,,,,
+phongvu_260802623.0,891819,260802623.0,,,,,,
+phongvu_260802627.0,891823,260802627.0,,,,,,
+phongvu_260802628.0,891824,260802628.0,,,,,,
+phongvu_260802629.0,891825,260802629.0,,,,,,
+phongvu_260802634.0,891830,260802634.0,,,,,,
+phongvu_260802636.0,891832,260802636.0,,,,,,
+phongvu_260802639.0,891835,260802639.0,,,,,,
+phongvu_260802653.0,891849,260802653.0,,,,,,
+phongvu_260802662.0,891858,260802662.0,,,,,,
+phongvu_260802663.0,891859,260802663.0,,,,,,
+phongvu_260802688.0,891884,260802688.0,,,,,,
+phongvu_260802690.0,891886,260802690.0,,,,,,
+phongvu_260802691.0,891887,260802691.0,,,,,,
+phongvu_260802692.0,891888,260802692.0,,,,,,
+phongvu_260802752.0,891949,260802752.0,,,,,,
+phongvu_260803513.0,892704,260803513.0,,16.0,512.0,,,
+phongvu_260803520.0,892716,260803520.0,,16.0,512.0,,,
+phongvu_260803528.0,892723,260803528.0,,16.0,512.0,,,
+phongvu_260803539.0,892732,260803539.0,,16.0,512.0,,,
+phongvu_260803546.0,892743,260803546.0,,8.0,512.0,,,
+phongvu_260803553.0,892750,260803553.0,,8.0,512.0,,,
+phongvu_260803562.0,892758,260803562.0,,16.0,512.0,,,
+phongvu_260803571.0,892767,260803571.0,,32.0,1024.0,,,
+phongvu_260803572.0,892770,260803572.0,,16.0,512.0,,,
+phongvu_260803578.0,892776,260803578.0,,64.0,3072.0,,,
+phongvu_260803581.0,892777,260803581.0,,16.0,512.0,,,
+phongvu_260803589.0,892787,260803589.0,,8.0,512.0,,,
+phongvu_260803593.0,892791,260803593.0,,16.0,512.0,,,
+phongvu_260805116.0,894418,260805116.0,,32.0,1024.0,,,
+phongvu_260805117.0,894419,260805117.0,,32.0,1024.0,,,
+phongvu_260805394.0,894698,260805394.0,,16.0,512.0,,,
+phongvu_260805395.0,894697,260805395.0,,16.0,512.0,,,
+phongvu_260805396.0,894699,260805396.0,,16.0,512.0,,,
+phongvu_260805895.0,895197,260805895.0,,16.0,512.0,,,
+phongvu_260805903.0,895204,260805903.0,,8.0,512.0,,,
+phongvu_260901533.0,896920,260901533.0,,16.0,512.0,,,
+phongvu_260901534.0,896921,260901534.0,,8.0,512.0,,,
+phongvu_260901535.0,896923,260901535.0,,32.0,512.0,,,
+phongvu_260901536.0,896922,260901536.0,,16.0,512.0,,,
+phongvu_260901602.0,896986,260901602.0,,32.0,2048.0,,,
+phongvu_260901609.0,896996,260901609.0,,8.0,256.0,,,
+phongvu_260901626.0,897011,260901626.0,,32.0,512.0,,,
+phongvu_260901635.0,897021,260901635.0,,16.0,1024.0,,,
+phongvu_260901644.0,897031,260901644.0,,16.0,1024.0,,,
+phongvu_260901725.0,897115,260901725.0,,16.0,512.0,,,
+phongvu_260901734.0,897123,260901734.0,Snapdragon X X1 26 101,16.0,512.0,,,
+phongvu_260901744.0,897132,260901744.0,,8.0,256.0,,,
+phongvu_260901751.0,897142,260901751.0,,16.0,512.0,,,
+phongvu_260901761.0,897149,260901761.0,,16.0,512.0,,,
+phongvu_260901767.0,897157,260901767.0,,16.0,512.0,,,
+phongvu_260901771.0,897162,260901771.0,,32.0,2048.0,,,
+phongvu_260901786.0,897178,260901786.0,,32.0,512.0,,,

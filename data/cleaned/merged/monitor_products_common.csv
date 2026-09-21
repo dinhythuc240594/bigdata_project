@@ -1,0 +1,858 @@
+﻿record_id,product_id,sku,name,brand,category,price_vnd,old_price_vnd,discount_amount_vnd,discount_percent,rating,review_count,url,source,crawl_date
+thegioididong_363462,363462,,"Màn hình Gaming GIGABYTE GS24F14A (23.8 inch, Full HD, IPS, 175Hz, 1ms)",GIGABYTE,monitor,2190000.0,2490000.0,300000.0,12.0,5.0,305.0,https://www.thegioididong.com/man-hinh-may-tinh/gigabyte-gaming-23-8-inch-full-hd-gs24f14a,thegioididong,2026-09-21
+thegioididong_370022,370022,,"Màn hình Gaming Asus VY279HG2 (27 inch Full HD, IPS, 144Hz, 1ms)",Asus,monitor,2690000.0,2790000.0,100000.0,,4.0,1.0,https://www.thegioididong.com/man-hinh-may-tinh/asus-vy279hg2-27-inch-full-hd,thegioididong,2026-09-21
+thegioididong_365862,365862,,"Màn hình Gaming VSP IP2709SG (27 inch Full HD, IPS, 144Hz, 1ms)",VSP,monitor,2090000.0,2490000.0,400000.0,16.0,4.9,311.0,https://www.thegioididong.com/man-hinh-may-tinh/man-hinh-gaming-vsp-ip2709sg-27-inch-full-hd-ips-144hz-1ms,thegioididong,2026-09-21
+thegioididong_329690,329690,,Màn hình MSI PRO MP223 E2 21.45 inch FHD/VA/100Hz/1ms,MSI,monitor,1590000.0,1850000.0,260000.0,14.0,5.0,4771.0,https://www.thegioididong.com/man-hinh-may-tinh/msi-pro-mp223-e2-21-45-inch-fhd-va-100hz-1ms,thegioididong,2026-09-21
+thegioididong_365786,365786,,"Màn hình Viewsonic VA2432-H-2 (24 inch Full HD, IPS, 100Hz, 1ms)",Viewsonic,monitor,1890000.0,,,,5.0,305.0,https://www.thegioididong.com/man-hinh-may-tinh/viewsonic-24-inch-full-hd-va2432-h-2,thegioididong,2026-09-21
+thegioididong_358835,358835,,Màn hình MSI PRO MP273L-E14 27 inch Full HD/IPS/144Hz/4ms,MSI,monitor,2590000.0,2890000.0,300000.0,10.0,4.9,364.0,https://www.thegioididong.com/man-hinh-may-tinh/msi-gaming-pro-27-inch-full-hd-mp273l-e14,thegioididong,2026-09-21
+thegioididong_364381,364381,,"Màn hình Gaming SingPC Q27CF120-VAG (27 inch, Full HD, VA, 120Hz, 2ms)",SingPC,monitor,2090000.0,2790000.0,700000.0,25.0,5.0,322.0,https://www.thegioididong.com/man-hinh-may-tinh/singpc-gaming-27-inch-full-hd-q27cf120-vag,thegioididong,2026-09-21
+thegioididong_339897,339897,,Màn hình Samsung S3 S30GD LS27D300GAEXXV 27 inch FHD/IPS/100Hz/5ms,Samsung,monitor,2590000.0,,,,4.9,1502.0,https://www.thegioididong.com/man-hinh-may-tinh/samsung-s3-s30gd-ls27d300gaexxv-27-inch-fhd-ips-100hz-5ms,thegioididong,2026-09-21
+thegioididong_338142,338142,,Màn hình Asus VA249HG-R 23.8 inch FHD/IPS/120Hz/1ms,Asus,monitor,2290000.0,2490000.0,200000.0,8.0,5.0,1678.0,https://www.thegioididong.com/man-hinh-may-tinh/asus-va249hg-r-23-8-inch-fhd-ips-120hz-1ms,thegioididong,2026-09-21
+thegioididong_339092,339092,,Màn hình SingPC P22F100-IPS 21.5 inch FHD/IPS/100Hz/5ms,SingPC,monitor,1450000.0,1590000.0,140000.0,8.0,4.9,2450.0,https://www.thegioididong.com/man-hinh-may-tinh/singpc-p22f100-ips-21-5-inch-fhd-ips-100hz-5ms,thegioididong,2026-09-21
+thegioididong_365871,365871,,"Màn hình Gaming VSP IP2409SG (23.8 inch Full HD, IPS, 144Hz, 1ms)",VSP,monitor,1790000.0,2090000.0,300000.0,14.0,5.0,314.0,https://www.thegioididong.com/man-hinh-may-tinh/man-hinh-gaming-vsp-ip2409sg-23-8-inch-full-hd-ips-144hz-1ms,thegioididong,2026-09-21
+thegioididong_358205,358205,,"Màn hình SingPC Q25F100-IPS (24.5 inch Full HD, IPS, 100Hz, 1ms)",SingPC,monitor,1690000.0,2150000.0,460000.0,21.0,4.9,1313.0,https://www.thegioididong.com/man-hinh-may-tinh/singpc-24-5-inch-full-hd-q25f100-ips,thegioididong,2026-09-21
+thegioididong_342212,342212,,Màn hình Gaming Samsung Odyssey G3 LS27DG302EEXXV 27 inch Full HD/VA/180Hz/1ms,Samsung,monitor,2990000.0,3490000.0,500000.0,14.0,5.0,563.0,https://www.thegioididong.com/man-hinh-may-tinh/samsung-odyssey-ls27dg302eexxv-27-inch-full-hd,thegioididong,2026-09-21
+thegioididong_331920,331920,,Màn hình Asus VY249HGR 23.8 inch FHD/IPS/120Hz/1ms,Asus,monitor,2190000.0,2490000.0,300000.0,12.0,5.0,1270.0,https://www.thegioididong.com/man-hinh-may-tinh/asus-vy249hgr-23-8-inch-fhd-ips-120hz-1ms,thegioididong,2026-09-21
+thegioididong_328849,328849,,Màn hình MSI PRO MP251 E2 24.5 inch FHD/IPS/120Hz/1ms,MSI,monitor,2190000.0,2490000.0,300000.0,12.0,4.9,3283.0,https://www.thegioididong.com/man-hinh-may-tinh/msi-pro-mp251-e2-24-5-inch-fhd,thegioididong,2026-09-21
+thegioididong_365874,365874,,"Màn hình Xiaomi A27i 2026 (27 inch Full HD, IPS, 144Hz, 6ms)",Xiaomi,monitor,2590000.0,,,,5.0,374.0,https://www.thegioididong.com/man-hinh-may-tinh/man-hinh-xiaomi-a27i-2026-27-inch-full-hd-ips-144hz-6ms,thegioididong,2026-09-21
+thegioididong_364378,364378,,"Màn hình Gaming MSI MAG 255F X24 (24.5 inch, Full HD, Rapid IPS, 240Hz, 0.5ms)",MSI,monitor,2990000.0,3340000.0,350000.0,10.0,5.0,58.0,https://www.thegioididong.com/man-hinh-may-tinh/msi-gaming-mag-24-5-inch-full-hd-255f-x24,thegioididong,2026-09-21
+thegioididong_342369,342369,,Màn hình Gaming Asus TUF VG279QM5A 27 inch FHD/IPS/240Hz/0.3ms,Asus,monitor,3950000.0,,,,5.0,158.0,https://www.thegioididong.com/man-hinh-may-tinh/asus-gaming-tuf-27-inch-full-hd-vg279qm5a,thegioididong,2026-09-21
+thegioididong_362657,362657,,"Màn hình Gaming MSI G275L E14 (27 inch, Full HD, IPS, 144Hz, 1ms)",MSI,monitor,2690000.0,2990000.0,300000.0,10.0,5.0,164.0,https://www.thegioididong.com/man-hinh-may-tinh/msi-gaming-27-inch-full-hd-g275l-e14,thegioididong,2026-09-21
+thegioididong_322529,322529,,Màn hình Samsung ViewFinity S5 S50GC LS34C500GAEXXV 34 inch 3K/VA/100Hz/5ms/HDMI,Samsung,monitor,6290000.0,7190000.0,900000.0,12.0,5.0,356.0,https://www.thegioididong.com/man-hinh-may-tinh/samsung-viewfinity-s5-s50gc-ls34c500gaexxv-34-inch-3k,thegioididong,2026-09-21
+thegioididong_322533,322533,,Màn hình Gaming Samsung Odyssey G5 G55C LS27CG552EEXXV 27 inch 2K/VA/165Hz/1ms/HDMI/DisplayPort,Samsung,monitor,4490000.0,5190000.0,700000.0,13.0,5.0,567.0,https://www.thegioididong.com/man-hinh-may-tinh/samsung-odyssey-g5-g55c-ls27cg552eexxv-27-inch-2k,thegioididong,2026-09-21
+thegioididong_331656,331656,,Màn hình Dell P2725H 27 inch FHD/IPS/100Hz/5ms,Dell,monitor,5590000.0,6690000.0,1100000.0,16.0,5.0,507.0,https://www.thegioididong.com/man-hinh-may-tinh/dell-p2725h-27-inch-fhd-ips-100hz-5ms,thegioididong,2026-09-21
+thegioididong_335630,335630,,"Màn hình Gaming GIGABYTE GS27FA (27 inch FHD, IPS, 180Hz, 1ms)",GIGABYTE,monitor,2990000.0,3490000.0,500000.0,14.0,5.0,442.0,https://www.thegioididong.com/man-hinh-may-tinh/gigabyte-gs27fa-27fhd-ips-180hz-1ms,thegioididong,2026-09-21
+thegioididong_370021,370021,,"Màn hình Gaming Asus VY249HG2 (23.8 inch Full HD, IPS, 144Hz, 1ms)",Asus,monitor,2290000.0,2390000.0,100000.0,,,,https://www.thegioididong.com/man-hinh-may-tinh/asus-gaming-vy249hg2-23-8-inch-full-hd,thegioididong,2026-09-21
+thegioididong_367218,367218,,"Màn hình Gaming Samsung LS27FG502SEXXV (27 inch QHD, OLED, 180Hz, 0.03ms)",Samsung,monitor,10990000.0,11590000.0,600000.0,5.0,5.0,8.0,https://www.thegioididong.com/man-hinh-may-tinh/samsung-gaming-27-inch-qhd-ls27fg502sexxv,thegioididong,2026-09-21
+thegioididong_369752,369752,,"Màn hình Gaming VSP AiVision AG2717QS1 (27 inch QHD, IPS, 170Hz, 1ms)",VSP,monitor,2790000.0,3290000.0,500000.0,15.0,,,https://www.thegioididong.com/man-hinh-may-tinh/vsp-gaming-27-inch-qhd-ag2717qs1,thegioididong,2026-09-21
+thegioididong_361203,361203,,"Màn hình Gaming Philips Evnia 24M2N2500NF (23.8 inch QHD, Fast IPS, 144Hz, 0.5ms)",Philips,monitor,2990000.0,3290000.0,300000.0,9.0,5.0,235.0,https://www.thegioididong.com/man-hinh-may-tinh/philips-gaming-evnia-23-8-inch-qhd-24m2n2500nf,thegioididong,2026-09-21
+thegioididong_365863,365863,,"Màn hình di động VSP VP1560FS1 (15.6 inch Full HD, IPS, 60Hz, 5ms)",VSP,monitor,1590000.0,,,,5.0,93.0,https://www.thegioididong.com/man-hinh-may-tinh/man-hinh-di-dong-vsp-vp1560fs1-15-6-inch-full-hd-ips-60hz-5ms,thegioididong,2026-09-21
+thegioididong_342368,342368,,Màn hình Gaming Asus TUF VG249QM5A 23.8 inch FHD/IPS/240Hz/0.3ms,Asus,monitor,2990000.0,3690000.0,700000.0,18.0,5.0,542.0,https://www.thegioididong.com/man-hinh-may-tinh/asus-gaming-tuf-23-8-inch-full-hd-vg249qm5a,thegioididong,2026-09-21
+thegioididong_367219,367219,,"Màn hình Gaming Samsung LS27FG530EEXXV (27 inch QHD, IPS, 200Hz, 1ms)",Samsung,monitor,4790000.0,5190000.0,400000.0,7.0,5.0,22.0,https://www.thegioididong.com/man-hinh-may-tinh/samsung-gaming-27-inch-qhd-ls27fg530eexxv,thegioididong,2026-09-21
+thegioididong_368644,368644,,"Màn hình Gaming Lenovo LOQ 24-10 68F1GACBVN (23.8 inch Full HD, IPS, 200Hz, 0.5ms)",Lenovo,monitor,2590000.0,2990000.0,400000.0,13.0,5.0,8.0,https://www.thegioididong.com/man-hinh-may-tinh/lenovo-gaming-loq-23-8-inch-full-hd-24-10-68f1gacbvn,thegioididong,2026-09-21
+thegioididong_344716,344716,,"Màn hình SingPC P24F100-IPS (23.8 inch Full HD, IPS, 100Hz, 6.5ms)",SingPC,monitor,1590000.0,1790000.0,200000.0,11.0,4.9,750.0,https://www.thegioididong.com/man-hinh-may-tinh/singpc-23-8-inch-full-hd-p24f100-ips,thegioididong,2026-09-21
+thegioididong_349979,349979,,"Màn hình Gaming MSI MAG 245F-X24 (23.8 inch, Full HD, Rapid IPS, 240Hz, 0.5ms)",MSI,monitor,2890000.0,3290000.0,400000.0,12.0,5.0,103.0,https://www.thegioididong.com/man-hinh-may-tinh/msi-gaming-mag-23-8-inch-full-hd-245f-x24,thegioididong,2026-09-21
+thegioididong_364960,364960,,"Màn hình di động Asus ZenScreen MB169CK (15.6 inch, Full HD, IPS, 60Hz, 5ms)",Asus,monitor,2590000.0,2790000.0,200000.0,7.0,5.0,20.0,https://www.thegioididong.com/man-hinh-may-tinh/asus-zenscreen-15-6-inch-full-hd-mb169ck,thegioididong,2026-09-21
+thegioididong_339094,339094,,Màn hình Gaming Asus TUF VG259Q5A 24.5 inch FHD/IPS/200Hz/1ms,Asus,monitor,2790000.0,3290000.0,500000.0,15.0,5.0,337.0,https://www.thegioididong.com/man-hinh-may-tinh/asus-tuf-vg259q5a-24-5-inch-fhd-ips-200hz-1ms,thegioididong,2026-09-21
+thegioididong_368264,368264,,"Màn hình Asus ProArt PA249CGV (24 inch Full HD, IPS, 144Hz, 5ms)",Asus,monitor,5390000.0,5690000.0,300000.0,5.0,5.0,6.0,https://www.thegioididong.com/man-hinh-may-tinh/asus-proart-24-inch-full-hd-pa249cgv,thegioididong,2026-09-21
+thegioididong_336402,336402,,Màn hình Gaming Asus TUF VG249QE5A 23.8 inch FHD/IPS/146Hz/1ms,Asus,monitor,2490000.0,,,,4.9,845.0,https://www.thegioididong.com/man-hinh-may-tinh/asus-vg249qe5a-23-8-inch-fhd-ips-146hz-1ms,thegioididong,2026-09-21
+thegioididong_370877,370877,,"Màn hình Gaming Asus TUF VG27AQ5F (27 inch 2K, IPS, 220Hz, 0.3ms)",Asus,monitor,4990000.0,5190000.0,200000.0,,,,https://www.thegioididong.com/man-hinh-may-tinh/man-hinh-asus-27-inch-2k-ips-220hz-0-3ms-vg27aq5f,thegioididong,2026-09-21
+thegioididong_334381,334381,,Màn hình Gaming Acer Nitro KG240Y X1 23.8 inch FHD/IPS/200Hz/4ms,Acer,monitor,2590000.0,2990000.0,400000.0,13.0,5.0,318.0,https://www.thegioididong.com/man-hinh-may-tinh/acer-nitro-kg240y-x1-23-8-inch-fhd-ips-200hz-4ms,thegioididong,2026-09-21
+thegioididong_364964,364964,,"Màn hình MSI PRO MP341CQ-E12 (34 inch, UWQHD, VA, 120Hz, 1ms)",MSI,monitor,5990000.0,6790000.0,800000.0,11.0,5.0,22.0,https://www.thegioididong.com/man-hinh-may-tinh/msi-pro-34-inch-uwqhd-mp341cq-e12,thegioididong,2026-09-21
+thegioididong_358834,358834,,Màn hình di động MSI PRO MP165 E6 15.6 inch Full HD/IPS/60Hz/4ms,MSI,monitor,2490000.0,2790000.0,300000.0,10.0,5.0,180.0,https://www.thegioididong.com/man-hinh-may-tinh/msi-pro-15-6-inch-full-hd-mp165-e6,thegioididong,2026-09-21
+thegioididong_332008,332008,,Màn hình Asus VY279HGR 27 inch FHD/IPS/120Hz/1ms,Asus,monitor,2790000.0,2990000.0,200000.0,6.0,4.9,902.0,https://www.thegioididong.com/man-hinh-may-tinh/asus-vy279hgr-27-inch-fhd-ips-120hz-1ms,thegioididong,2026-09-21
+thegioididong_358519,358519,,"Màn hình Asus ProArt PA248QFV (24.1 inch, Full HD, IPS, 100Hz, 5ms)",Asus,monitor,4990000.0,5490000.0,500000.0,9.0,5.0,81.0,https://www.thegioididong.com/man-hinh-may-tinh/asus-proart-24-1-inch-full-hd-pa248qfv,thegioididong,2026-09-21
+thegioididong_362654,362654,,"Màn hình Xiaomi A24i 2026 (23.8 inch, Full HD, IPS, 144Hz, 6ms)",Xiaomi,monitor,2290000.0,,,,5.0,174.0,https://www.thegioididong.com/man-hinh-may-tinh/xiaomi-23-8-inch-full-hd-a24i-2026,thegioididong,2026-09-21
+thegioididong_290765,290765,,Màn hình Samsung ViewFinity S8 S80PB LS27B800PXEXXV 27 inch 4K/IPS/60Hz/5ms/HDR400/HDMI/TypeC,Samsung,monitor,7090000.0,7890000.0,800000.0,10.0,4.9,367.0,https://www.thegioididong.com/man-hinh-may-tinh/samsung-ls27b800pxexxv-27-inch-4k,thegioididong,2026-09-21
+thegioididong_370881,370881,,"Màn hình Gaming Asus TUF VG249QM5F( 23.8 inch Full HD, IPS, 260Hz, 0.3ms)",Asus,monitor,2990000.0,3190000.0,200000.0,6.0,,,https://www.thegioididong.com/man-hinh-may-tinh/man-hinh-gaming-asus-tuf-23-8-inch-full-hd-ips-260hz-0-3ms-vg249qm5f,thegioididong,2026-09-21
+thegioididong_358202,358202,,"Màn hình Asus ProArt PA278QGV (27 inch 2K, IPS, 120Hz, 5ms)",Asus,monitor,8490000.0,8790000.0,300000.0,,5.0,52.0,https://www.thegioididong.com/man-hinh-may-tinh/asus-proart-27-inch-2k-pa278qgv,thegioididong,2026-09-21
+thegioididong_365872,365872,,"Màn hình Gaming VSP G2718Q1 (27 inch 2K, IPS, 210Hz, 0.3ms)",VSP,monitor,3390000.0,3790000.0,400000.0,10.0,5.0,101.0,https://www.thegioididong.com/man-hinh-may-tinh/man-hinh-gaming-vsp-g2718q1-27-inch-2k-ips-210hz-0-3ms,thegioididong,2026-09-21
+thegioididong_328465,328465,,Màn hình Samsung Gaming Odyssey OLED G8 G80SD LS32DG802SEXXV 32 inch/4K/OLED/240Hz/0.03ms,Samsung,monitor,23990000.0,26690000.0,2700000.0,10.0,5.0,21.0,https://www.thegioididong.com/man-hinh-may-tinh/samsung-gaming-lcd-odyssey-oled-g8-g80sd-ls32dg802sexxv-32-inch,thegioididong,2026-09-21
+thegioididong_365785,365785,,"Màn hình di động Viewsonic VA1650 (16 inch Full HD, IPS, 60Hz, 7ms)",Viewsonic,monitor,2490000.0,,,,5.0,11.0,https://www.thegioididong.com/man-hinh-may-tinh/viewsonic-16-inch-full-hd-va1650,thegioididong,2026-09-21
+thegioididong_364965,364965,,"Màn hình MSI PRO MP341CQW-E12 (34 inch, UWQHD, VA, 120Hz, 1ms)",MSI,monitor,6090000.0,6890000.0,800000.0,11.0,5.0,37.0,https://www.thegioididong.com/man-hinh-may-tinh/msi-pro-34-inch-uwqhd-mp341cqw-e12,thegioididong,2026-09-21
+thegioididong_364950,364950,,"Màn hình Gaming Asus TUF VG27AQM5A (27 inch, QHD, Fast IPS, 300Hz, 1ms)",Asus,monitor,5990000.0,7290000.0,1300000.0,17.0,5.0,9.0,https://www.thegioididong.com/man-hinh-may-tinh/asus-gaming-tuf-27-inch-qhd-vg27aqm5a,thegioididong,2026-09-21
+thegioididong_364309,364309,,"Màn hình di động Asus ZenScreen MB16FC (16 inch, WUXGA, IPS, 75Hz, 5ms)",Asus,monitor,3390000.0,3490000.0,100000.0,,5.0,32.0,https://www.thegioididong.com/man-hinh-may-tinh/asus-zenscreen-16-inch-wuxga-mb16fc,thegioididong,2026-09-21
+thegioididong_358521,358521,,"Màn hình Gaming MSI MAG 272F-X24 (27 inch, Full HD, IPS, 240Hz, 0.5ms)",MSI,monitor,3390000.0,,,,5.0,87.0,https://www.thegioididong.com/man-hinh-may-tinh/msi-gaming-mag-27-inch-full-hd-272f-x24,thegioididong,2026-09-21
+thegioididong_358385,358385,,"Màn hình Gaming MSI MAG 276CXF (27 inch, Full HD, VA, 280Hz, 0.5ms)",MSI,monitor,3790000.0,4390000.0,600000.0,13.0,5.0,88.0,https://www.thegioididong.com/man-hinh-may-tinh/msi-gaming-mag-27-inch-full-hd-276cxf,thegioididong,2026-09-21
+thegioididong_341854,341854,,Màn hình MSI PRO MP272LKL 27 inch FHD/IPS/100Hz/1ms,MSI,monitor,2290000.0,2590000.0,300000.0,11.0,4.9,805.0,https://www.thegioididong.com/man-hinh-may-tinh/man-hinh-msi-pro-mp272lkl-27-inch-fhd-ips-100hz-1ms,thegioididong,2026-09-21
+thegioididong_334382,334382,,Màn hình Gaming Acer Nitro KG270 X1 27 inch FHD/IPS/200Hz/4ms,Acer,monitor,3190000.0,,,,5.0,298.0,https://www.thegioididong.com/man-hinh-may-tinh/acer-nitro-kg270-x1-27-inch-fhd-ips-200hz-4ms,thegioididong,2026-09-21
+thegioididong_370878,370878,,"Màn hình Gaming Asus TUF VG34WQ5A (34 inch UWQHD, VA, 200Hz, 0.5ms)",Asus,monitor,7490000.0,7690000.0,200000.0,,,,https://www.thegioididong.com/man-hinh-may-tinh/man-hinh-asus-vg34wq5a-34-inch-uwqhd-va-200hz-0-5ms,thegioididong,2026-09-21
+thegioididong_337072,337072,,Màn hình Gaming Viewsonic VX2758A-2K-PRO-4 27 inch 2K/IPS/180Hz/1ms,Viewsonic,monitor,4490000.0,5190000.0,700000.0,13.0,4.9,48.0,https://www.thegioididong.com/man-hinh-may-tinh/viewsonic-vx2758a-2k-pro-4-272k-ips-180hz-1ms,thegioididong,2026-09-21
+thegioididong_364311,364311,,"Màn hình Asus ProArt PA279CRV (27 inch, 4K, IPS, 60Hz, 5ms)",Asus,monitor,12990000.0,,,,5.0,5.0,https://www.thegioididong.com/man-hinh-may-tinh/asus-proart-27-inch-4k-pa279crv,thegioididong,2026-09-21
+thegioididong_344717,344717,,"Màn hình MSI MAG 275CF X24 (27 inch Full HD, Rapid VA, 240Hz, 0.5ms)",MSI,monitor,3490000.0,3990000.0,500000.0,12.0,5.0,19.0,https://www.thegioididong.com/man-hinh-may-tinh/msi-27-inch-full-hd-mag-275cf-x24,thegioididong,2026-09-21
+thegioididong_370025,370025,,"Màn hình Gaming MSI PRO MP273QW E14 (27 inch 2K, IPS, 144Hz, 1ms)",MSI,monitor,3990000.0,4190000.0,200000.0,,,,https://www.thegioididong.com/man-hinh-may-tinh/msi-pro-mp273qw-e14-27-inch-2k,thegioididong,2026-09-21
+thegioididong_342555,342555,,"Màn hình Dell UltraSharp U2725QE (27 inch 4K, IPS, 120Hz, 5ms)",Dell,monitor,15990000.0,17590000.0,1600000.0,9.0,5.0,75.0,https://www.thegioididong.com/man-hinh-may-tinh/man-hinh-dell-ultrasharp-u2725qe-27-inch-4k-ips-120hz-5ms,thegioididong,2026-09-21
+thegioididong_370019,370019,,"Màn hình Gaming Asus ROG Swift PG27AQWP-G (26.5 inch 2K, OLED, 540Hz, 0.02ms)",Asus,monitor,39900000.0,,,,,,https://www.thegioididong.com/man-hinh-may-tinh/asus-rog-swift-pg27aqwp-g-26-5,thegioididong,2026-09-21
+thegioididong_364961,364961,,"Màn hình Asus ProArt PA27JCV (27 inch, 5K, IPS, 60Hz, 5ms)",Asus,monitor,19990000.0,,,,5.0,3.0,https://www.thegioididong.com/man-hinh-may-tinh/asus-proart-27-inch-5k-pa27jcv,thegioididong,2026-09-21
+thegioididong_364954,364954,,"Màn hình Gaming Asus ROG Strix XG27ACMES (27 inch QHD, Fast IPS, 255Hz, 1ms)",Asus,monitor,6990000.0,7190000.0,200000.0,,5.0,14.0,https://www.thegioididong.com/man-hinh-may-tinh/asus-gaming-rog-strix-27-inch-qhd-xg27acmes,thegioididong,2026-09-21
+thegioididong_363500,363500,,Studio Display 27 inch 5K XDR Chân đế điều chỉnh MFEL4SA/A,Apple,monitor,87490000.0,89990000.0,2500000.0,,5.0,4.0,https://www.thegioididong.com/man-hinh-may-tinh/studio-display-27-inch-5k-xdr-chan-de-dieu-chinh-mfel4sa-a,thegioididong,2026-09-21
+thegioididong_361202,361202,,"Màn hình Gaming Asus ROG Strix XG32UCWMG (32 inch 4K, WOLED, 240Hz, 0.03ms)",Asus,monitor,29790000.0,,,,5.0,4.0,https://www.thegioididong.com/man-hinh-may-tinh/asus-gaming-rog-strix-32-inch-4k-xg32ucwmg,thegioididong,2026-09-21
+thegioididong_361200,361200,,"Màn hình Gaming Asus ROG Strix XG27ACDMS (26.5 inch QHD, QD-OLED, 280Hz, 0.03ms)",Asus,monitor,15490000.0,,,,5.0,10.0,https://www.thegioididong.com/man-hinh-may-tinh/asus-gaming-rog-strix-26-5-inch-qhd-xg27acdms,thegioididong,2026-09-21
+thegioididong_361198,361198,,"Màn hình Gaming Samsung Odyssey OLED G8 LS34BG850SEXXV (34 inch UWQHD, OLED, 175Hz, 0.03ms)",Samsung,monitor,22490000.0,27690000.0,5200000.0,18.0,5.0,4.0,https://www.thegioididong.com/man-hinh-may-tinh/samsung-gaming-odyssey-oled-g8-34-inch-uwqhd-ls34bg850sexxv,thegioididong,2026-09-21
+thegioididong_358836,358836,,Màn hình Gaming MSI MAG 272QP QD-OLED X50 26.5 inch 2K/QD-OLED/500Hz/0.03ms,MSI,monitor,18990000.0,20990000.0,2000000.0,9.0,5.0,8.0,https://www.thegioididong.com/man-hinh-may-tinh/msi-gaming-mag-26-5-inch-2k-272qp-qd-oled-x50,thegioididong,2026-09-21
+thegioididong_335629,335629,,Màn hình Gaming GIGABYTE GS25F2 24.5 inch FHD/IPS/200Hz/1ms,GIGABYTE,monitor,2790000.0,3290000.0,500000.0,15.0,5.0,257.0,https://www.thegioididong.com/man-hinh-may-tinh/gigabyte-gs25f2-24-5-inch-fhd-ips-200hz-1ms,thegioididong,2026-09-21
+thegioididong_332351,332351,,Màn hình Asus ProArt PA279CV 27 inch 4K/IPS/60Hz/5ms,Asus,monitor,11290000.0,,,,5.0,4.0,https://www.thegioididong.com/man-hinh-may-tinh/asus-proart-pa279cv-27-inch-4k-ips-60hz-5ms,thegioididong,2026-09-21
+thegioididong_370884,370884,,"Màn hình Dell Pro P2726H (27 inch Full HD, IPS, 120Hz, 5ms)",Dell,monitor,5790000.0,,,,,,https://www.thegioididong.com/man-hinh-may-tinh/man-hinh-dell-pro-27-inch-full-hd-ips-120hz-5ms-p2726h,thegioididong,2026-09-21
+thegioididong_365866,365866,,"Màn hình Gaming MSI MAG 255PXF (24.5 inch Full HD, IPS, 300Hz, 0.5ms)",MSI,monitor,3990000.0,4990000.0,1000000.0,20.0,5.0,14.0,https://www.thegioididong.com/man-hinh-may-tinh/man-hinh-gaming-msi-mag-255pxf-24-5-inch-full-hd-ips-300hz-0-5ms,thegioididong,2026-09-21
+thegioididong_364379,364379,,"Màn hình Gaming MSI MAG 274QF X24 (27 inch, WQHD, Rapid IPS, 240Hz, 0.5ms)",MSI,monitor,5190000.0,,,,5.0,16.0,https://www.thegioididong.com/man-hinh-may-tinh/msi-gaming-mag-27-inch-wqhd-274qf-x24,thegioididong,2026-09-21
+thegioididong_364313,364313,,"Màn hình Asus ProArt PA278CGRV (27 inch, 2K, IPS, 144Hz, 5ms)",Asus,monitor,8890000.0,,,,5.0,15.0,https://www.thegioididong.com/man-hinh-may-tinh/asus-proart-27-inch-2k-pa278cgrv,thegioididong,2026-09-21
+thegioididong_364310,364310,,"Màn hình Asus ProArt PA278QEV (27 inch, 2K, IPS, 75Hz, 5ms)",Asus,monitor,6990000.0,7490000.0,500000.0,6.0,5.0,5.0,https://www.thegioididong.com/man-hinh-may-tinh/asus-proart-27-inch-2k-pa278qev,thegioididong,2026-09-21
+thegioididong_363495,363495,,Studio Display 27 inch 5K Chân đế cố định MFEY4SA/A,Apple,monitor,42490000.0,44990000.0,2500000.0,5.0,5.0,12.0,https://www.thegioididong.com/man-hinh-may-tinh/studio-display-27-inch-5k-chan-de-co-dinh-mfey4sa-a,thegioididong,2026-09-21
+thegioididong_362653,362653,,"Màn hình Gaming Xiaomi G27Qi 2026 (27 inch, QHD, IPS, 200Hz, 1ms)",Xiaomi,monitor,4890000.0,5190000.0,300000.0,5.0,5.0,19.0,https://www.thegioididong.com/man-hinh-may-tinh/xiaomi-gaming-27-inch-qhd-g27qi-2026,thegioididong,2026-09-21
+thegioididong_370883,370883,,"Màn hình Dell Pro P2426H (23.8 inch Full HD, IPS, 120Hz, 5ms)",Dell,monitor,4890000.0,,,,,,https://www.thegioididong.com/man-hinh-may-tinh/man-hinh-dell-pro-23-8-inch-full-hd-p2426h,thegioididong,2026-09-21
+thegioididong_370882,370882,,"Màn hình Samsung Odyssey OLED LS32HG732SEXXV (32 inch 4K, OLED, 165Hz, 0.03ms)",Samsung,monitor,27990000.0,29990000.0,2000000.0,6.0,,,https://www.thegioididong.com/man-hinh-may-tinh/man-hinh-samsung-odyssey-oled-324k-oled-165hz4k-ls32hg732sexxv,thegioididong,2026-09-21
+thegioididong_370880,370880,,"Màn hình Gaming Asus ROG XG34WCDMS (34 inch UWQHD, QD-OLED, 280Hz, 0.03ms)",Asus,monitor,31990000.0,34990000.0,3000000.0,8.0,,,https://www.thegioididong.com/man-hinh-may-tinh/man-hinh-gaming-asus-rog-34-inch-uwqhd-qd-oled-280hz-xg34wcdms,thegioididong,2026-09-21
+thegioididong_370861,370861,,"Màn hình di động Lenovo L16 68F4UAC1WW (16 inch Full HD, IPS, 60Hz, 6ms)",Lenovo,monitor,3490000.0,3690000.0,200000.0,5.0,,,https://www.thegioididong.com/man-hinh-may-tinh/man-hinh-di-dong-lenovo-l16-68f4uac1ww-16-inch-full-hd-ips-60hz-6ms,thegioididong,2026-09-21
+thegioididong_365868,365868,,"Màn hình Gaming MSI MPG 321URXW QD-OLED (31.5 inch UHD, QD-OLED, 240Hz, 0.03ms)",MSI,monitor,30590000.0,33990000.0,3400000.0,10.0,5.0,1.0,https://www.thegioididong.com/man-hinh-may-tinh/man-hinh-gaming-msi-mpg-321urxw-qd-oled-31-5-inch-uhd-qd-oled-240hz-0-03ms,thegioididong,2026-09-21
+thegioididong_365867,365867,,"Màn hình Gaming MSI MPG 271QR QD-OLED X50 (26.5 inch WQHD, QD-OLED, 500Hz, 0.03ms)",MSI,monitor,24990000.0,27990000.0,3000000.0,10.0,5.0,1.0,https://www.thegioididong.com/man-hinh-may-tinh/man-hinh-gaming-msi-mpg-271qr-qd-oled-x50-26-5-inch-wqhd-500hz-0-03ms,thegioididong,2026-09-21
+thegioididong_364962,364962,,"Màn hình Asus ProArt PA32KCX (32 inch, 8K, IPS, 60Hz, 5ms)",Asus,monitor,250000000.0,,,,,,https://www.thegioididong.com/man-hinh-may-tinh/asus-proart-32-inch-8k-pa32kcx,thegioididong,2026-09-21
+thegioididong_364953,364953,,"Màn hình Gaming Asus ROG Swift PG27AQWP-W (26.5 inch, QHD, WOLED, 540Hz, 0.02ms)",Asus,monitor,39990000.0,,,,,,https://www.thegioididong.com/man-hinh-may-tinh/asus-gaming-rog-swift-26-5-inch-qhd-pg27aqwp-w,thegioididong,2026-09-21
+thegioididong_364952,364952,,"Màn hình Gaming Asus ROG Strix XG27AQDMG (26.5 inch, QHD, WOLED, 240Hz, 0.03ms)",Asus,monitor,14990000.0,17990000.0,3000000.0,16.0,,,https://www.thegioididong.com/man-hinh-may-tinh/asus-gaming-rog-strix-26-5-inch-qhd-xg27aqdmg,thegioididong,2026-09-21
+thegioididong_363498,363498,,Studio Display 27 inch 5K Nano Chân đế điều chỉnh MFF04SA/A,Apple,monitor,60490000.0,62990000.0,2500000.0,,,,https://www.thegioididong.com/man-hinh-may-tinh/studio-display-27-inch-5k-nano-chan-de-dieu-chinh-mff04sa-a,thegioididong,2026-09-21
+thegioididong_341853,341853,,Màn hình Gaming MSI MAG 273QP QD-OLED X24 26.5 inch 2K/QD-OLED/240Hz/0.03ms,MSI,monitor,14390000.0,,,,5.0,1.0,https://www.thegioididong.com/man-hinh-may-tinh/msi-mag-273qp-qd-oled-x24-26-5-inch-2k-qd-oled-240hz-0-03ms,thegioididong,2026-09-21
+thegioididong_321396,321396,,Màn hình Xiaomi A27i 27 inch FHD/IPS/100Hz/6ms/HDMI (ELA5345EU),Xiaomi,monitor,2340000.0,2990000.0,650000.0,21.0,4.9,7159.0,https://www.thegioididong.com/man-hinh-may-tinh/xiaomi-a27i-27-inch-fhd,thegioididong,2026-09-21
+thegioididong_319480,319480,,Màn hình Asus ProArt PA278QV 27 inch 2K IPS/75Hz/5ms,Asus,monitor,6990000.0,7490000.0,500000.0,6.0,4.9,67.0,https://www.thegioididong.com/man-hinh-may-tinh/asus-proart-pa278qv-27-inch-2k,thegioididong,2026-09-21
+thegioididong_370964,370964,,"Màn hình Gaming Asus ROG Strix XG27ACSR (27 inch 2K, IPS, 220Hz, 0.3ms)",Asus,monitor,6490000.0,6790000.0,300000.0,,,,https://www.thegioididong.com/man-hinh-may-tinh/man-hinh-asus-xg27acsr-272k-ips-220hz-0-3ms,thegioididong,2026-09-21
+thegioididong_370876,370876,,"Màn hình Gaming Asus TUF VG279QM5F (27 inch Full HD, IPS, 260Hz, 0.3ms)",Asus,monitor,3790000.0,,,,,,https://www.thegioididong.com/man-hinh-may-tinh/man-hinh-asus-27fhd-ips-260hz-0-3ms-vg279qm5f,thegioididong,2026-09-21
+thegioididong_368267,368267,,"Màn hình Gaming Samsung Odyssey OLED G8 G81SF LS32FG812SEXXV (32 inch 4K, OLED, 240Hz, 0.03ms)",Samsung,monitor,27990000.0,28990000.0,1000000.0,,,,https://www.thegioididong.com/man-hinh-may-tinh/samsung-gaming-odyssey-oled-g8-g81sf-32-inch-4k-ls32fg812sexxv,thegioididong,2026-09-21
+thegioididong_368266,368266,,"Màn hình Gaming Samsung Odyssey OLED G9 G93SD LS49DG930SEXXV (49 inch DQHD, OLED, 240Hz, 0.03ms)",Samsung,monitor,29990000.0,30990000.0,1000000.0,,5.0,7.0,https://www.thegioididong.com/man-hinh-may-tinh/samsung-gaming-odyssey-oled-g9-g93sd-49-inch-dqhd-ls49dg930sexxv,thegioididong,2026-09-21
+thegioididong_368265,368265,,"Màn hình Gaming Samsung Odyssey OLED G6 G61SH LS27HG612SEXXV (27 inch QHD, OLED, 240Hz, 0.03ms)",Samsung,monitor,12890000.0,14990000.0,2100000.0,14.0,,,https://www.thegioididong.com/man-hinh-may-tinh/samsung-gaming-odyssey-oled-g6-g61sh-27-inch-qhd-ls27hg612sexxv,thegioididong,2026-09-21
+thegioididong_365870,365870,,"Màn hình Gaming MSI MPG 341CQR QD-OLED (34 inch UWQHD, QD-OLED, 360Hz, 0.03ms)",MSI,monitor,28990000.0,33790000.0,4800000.0,14.0,5.0,3.0,https://www.thegioididong.com/man-hinh-may-tinh/man-hinh-gaming-msi-mpg-341cqr-qd-oled-34-inch-uwqhd-qd-oled-360hz-0-03ms,thegioididong,2026-09-21
+thegioididong_358203,358203,,"Màn hình Gaming Xiaomi G27i 2026 (27 inch Full HD, IPS, 200Hz, 1ms)",Xiaomi,monitor,3790000.0,3990000.0,200000.0,5.0,5.0,7.0,https://www.thegioididong.com/man-hinh-may-tinh/xiaomi-gaming-27-inch-full-hd-g27i-2026,thegioididong,2026-09-21
+thegioididong_356846,356846,,"Màn hình Gaming Asus TUF VG27AQ5A (27 inch 2K, IPS, 210Hz, 0.3ms)",Asus,monitor,4890000.0,,,,5.0,218.0,https://www.thegioididong.com/man-hinh-may-tinh/vasus-gaming-tuf-27-inch-2k-vg27aq5a,thegioididong,2026-09-21
+thegioididong_349978,349978,,"Màn hình Gaming MSI MAG 274CXF (27 inch, Full HD, VA, 280Hz, 0.5ms)",MSI,monitor,3890000.0,4390000.0,500000.0,11.0,5.0,31.0,https://www.thegioididong.com/man-hinh-may-tinh/msi-gaming-mag-27-inch-full-hd-274cxf,thegioididong,2026-09-21
+thegioididong_339093,339093,,Màn hình SingPC P27F100-IPS 27 inch FHD/IPS/100Hz/5ms,SingPC,monitor,1990000.0,2390000.0,400000.0,16.0,5.0,602.0,https://www.thegioididong.com/man-hinh-may-tinh/singpc-p27f100-ips-27-inch-fhd-ips-100hz-5ms,thegioididong,2026-09-21
+thegioididong_370024,370024,,"Màn hình Gaming MSI MAG 275QF E21 (27 inch 2K, IPS, 210Hz, 0.5ms)",MSI,monitor,4490000.0,,,,,,https://www.thegioididong.com/man-hinh-may-tinh/msi-mag-275qf-e21-27-inch-2k,thegioididong,2026-09-21
+thegioididong_370026,370026,,"Màn hình Gaming MSI PRO MP273W E14A (27 inch Full HD, IPS, 144Hz, 1ms)",MSI,monitor,2990000.0,3290000.0,300000.0,9.0,,,https://www.thegioididong.com/man-hinh-may-tinh/msi-pro-mp273w-e14a-27-2k,thegioididong,2026-09-21
+thegioididong_362656,362656,,"Màn hình Xiaomi A27Qi 2026 (27 inch, QHD, IPS, 120Hz, 6ms)",Xiaomi,monitor,3790000.0,,,,5.0,130.0,https://www.thegioididong.com/man-hinh-may-tinh/xiaomi-27-inch-qhd-a27qi-2026,thegioididong,2026-09-21
+thegioididong_338144,338144,,Màn hình Xiaomi A27Ui 27 inch 4K/IPS/60Hz/6ms,Xiaomi,monitor,6760000.0,,,,5.0,135.0,https://www.thegioididong.com/man-hinh-may-tinh/xiaomi-a27ui-27-inch-4k-ips-60hz-6ms,thegioididong,2026-09-21
+thegioididong_361204,361204,,"Màn hình Gaming Philips Evnia 27M2N2500NF (27 inch QHD, Fast IPS, 144Hz, 0.5ms)",Philips,monitor,3390000.0,3890000.0,500000.0,12.0,4.9,318.0,https://www.thegioididong.com/man-hinh-may-tinh/philips-gaming-evnia-27-inch-qhd-27m2n2500nf,thegioididong,2026-09-21
+thegioididong_339095,339095,,Màn hình Asus VA279HG-R 27 inch FHD/IPS/120Hz/1ms,Asus,monitor,2790000.0,2990000.0,200000.0,6.0,5.0,589.0,https://www.thegioididong.com/man-hinh-may-tinh/asus-va279hg-r-27-inch-fhd-ips-120hz-1ms,thegioididong,2026-09-21
+thegioididong_337314,337314,,Màn hình Gaming MSI MAG 255F-E20 24.5 inch FHD/Rapid IPS/200Hz/0.5ms,MSI,monitor,2690000.0,3190000.0,500000.0,15.0,4.9,780.0,https://www.thegioididong.com/man-hinh-may-tinh/msi-mag-255f-e20-24-5-inch-fhd-rapid-ips-200hz-0-5ms,thegioididong,2026-09-21
+thegioididong_331654,331654,,Màn hình Dell P2425H 23.8 inch FHD/IPS/100Hz/5ms,Dell,monitor,4690000.0,5490000.0,800000.0,14.0,5.0,581.0,https://www.thegioididong.com/man-hinh-may-tinh/dell-p2425h-23-8-inch-fhd-ips-100hz-5ms,thegioididong,2026-09-21
+thegioididong_364963,364963,,"Màn hình Gaming MSI PRO MP275Q-E14 (27 inch, WQHD, IPS, 144Hz, 4ms)",MSI,monitor,3590000.0,4090000.0,500000.0,12.0,5.0,168.0,https://www.thegioididong.com/man-hinh-may-tinh/msi-gaming-pro-27-inch-wqhd-mp275q-e14,thegioididong,2026-09-21
+thegioididong_362353,362353,,"Màn hình Gaming Samsung Odyssey G5 G50F LS27FG502EEXXV (27 inch QHD, IPS, 180Hz, 1ms)",Samsung,monitor,4790000.0,,,,5.0,214.0,https://www.thegioididong.com/man-hinh-may-tinh/samsung-gaming-odyssey-g5-g50f-27-inch-qhd-ls27fg502eexxv,thegioididong,2026-09-21
+thegioididong_358204,358204,,"Màn hình Gaming MSI PRO MP243L-E14 (23.8 inch Full HD, IPS, 144Hz, 4ms)",MSI,monitor,2190000.0,2490000.0,300000.0,12.0,5.0,281.0,https://www.thegioididong.com/man-hinh-may-tinh/msi-gaming-23-8-inch-full-hd-mp243l-e14,thegioididong,2026-09-21
+thegioididong_337235,337235,,Màn hình Gaming Asus TUF VG279QE5A 27 inch FHD/IPS/146Hz/1ms,Asus,monitor,2890000.0,3390000.0,500000.0,14.0,5.0,380.0,https://www.thegioididong.com/man-hinh-may-tinh/asus-tuf-vg279qe5a-27fhd-ips-146hz-1ms,thegioididong,2026-09-21
+thegioididong_364380,364380,,"Màn hình MSI PRO MP225 E12VL (21.45 inch, Full HD, VA, 120Hz, 1ms)",MSI,monitor,1690000.0,1790000.0,100000.0,5.0,5.0,468.0,https://www.thegioididong.com/man-hinh-may-tinh/msi-pro-21-45-inch-full-hd-mp225-e12vl,thegioididong,2026-09-21
+thegioididong_363460,363460,,"Màn hình Gaming Asus TUF VG27AQE5A (27 inch, QHD, IPS, 165Hz, 0.3ms)",Asus,monitor,3690000.0,4290000.0,600000.0,13.0,5.0,635.0,https://www.thegioididong.com/man-hinh-may-tinh/asus-gaming-tuf-27-inch-qhd-vg27aqe5a,thegioididong,2026-09-21
+thegioididong_335749,335749,,Màn hình Samsung S3 S30GD LS24D300GAEXXV 23.8 inch FHD/IPS/100Hz/1ms,Samsung,monitor,2190000.0,2490000.0,300000.0,12.0,5.0,2613.0,https://www.thegioididong.com/man-hinh-may-tinh/samsung-ls24d300gaexxv-23-8-inch-fhd-ips-100hz-1ms,thegioididong,2026-09-21
+thegioididong_334003,334003,,Màn hình MSI PRO MP252L 24.5 inch FHD/IPS/100Hz/1ms,MSI,monitor,1990000.0,2190000.0,200000.0,9.0,4.9,5160.0,https://www.thegioididong.com/man-hinh-may-tinh/msi-pro-mp252l-24-5-inch-fhd-ips-100hz-1ms,thegioididong,2026-09-21
+phongvu_1404339.0,1729,1404339.0,Màn hình Acer K202HQL UM.IW3SS.009 19.5 inch (HD+/ TN/ 60Hz/ 5 ms),Acer,monitor,2070000.0,2490000.0,420000.0,17.0,,,,phongvu,2026-09-21
+phongvu_1502539.0,7442,1502539.0,Màn hình Dell E2016HV 19.5 inch (HD+/ TN/ 60Hz/ 5 ms),Dell,monitor,2650000.0,2990000.0,340000.0,11.0,,,,phongvu,2026-09-21
+phongvu_1503218.0,7442,1503218.0,Màn hình Dell E1916HV 18.5 inch (HD/ TN/ 60Hz/ 5 ms),Dell,monitor,2870000.0,3290000.0,420000.0,13.0,,,,phongvu,2026-09-21
+phongvu_1600185.0,7442,1600185.0,Màn hình Dell E2216HV 21.5 inch (Full HD/ TN/ 60Hz/ 5 ms),Dell,monitor,2990000.0,2990000.0,0.0,0.0,,,,phongvu,2026-09-21
+phongvu_1601383.0,7405,1601383.0,Màn hình Samsung LS24F350FHEXXV 23.5 inch (Full HD/ PLS/ 60Hz/ 4 ms),Samsung,monitor,5490000.0,5490000.0,0.0,0.0,,,,phongvu,2026-09-21
+phongvu_1602072.0,1881,1602072.0,Màn hình Samsung LC27F390FHEXXV 27 inch (Full HD/ VA/ 60Hz/ 4 ms),Samsung,monitor,2390000.0,2690000.0,300000.0,11.0,,,,phongvu,2026-09-21
+phongvu_1810783.0,34842,1810783.0,Màn hình LG 20MK400H-B 19.5 inch (HD/ TN/ 60Hz/ 5 ms),LG,monitor,2790000.0,3250000.0,460000.0,14.0,,,,phongvu,2026-09-21
+phongvu_18120287.0,38053,18120287.0,Màn hình Philips 243V7QDSB/74 23.8 inch (Full HD/ IPS/ 75Hz/ 5 ms),Philips,monitor,2290000.0,2590000.0,300000.0,12.0,,,,phongvu,2026-09-21
+phongvu_19040030.0,39568,19040030.0,Màn hình Samsung LC27R500FHEXXV 27 inch (Full HD/ VA/ 60Hz/ 4 ms),Samsung,monitor,2890000.0,3139000.0,249000.0,8.0,,,,phongvu,2026-09-21
+phongvu_19060085.0,644035,19060085.0,Màn hình HP Elite Z27n G2 1JS10A4 27 inch (2K/ IPS/ 60Hz/ 5 ms),HP,monitor,12188000.0,12188000.0,0.0,0.0,,,,phongvu,2026-09-21
+phongvu_191007010.0,55177,191007010.0,Màn hình Dell U3219Q 31.5 inch (4K/ IPS/ 60Hz/ 5 ms),Dell,monitor,21700000.0,21700000.0,0.0,0.0,,,,phongvu,2026-09-21
+phongvu_200200451.0,59669,200200451.0,Màn hình Asus TUF VG279QM 27 inch (Full HD/ IPS/ 280Hz/ 1 ms),Asus,monitor,9590000.0,12990000.0,3400000.0,26.0,,,,phongvu,2026-09-21
+phongvu_200200554.0,59779,200200554.0,Màn hình Aoc 24V2Q 23.8 inch (Full HD/ IPS/ 75Hz/ 5 ms),Aoc,monitor,2990000.0,3200000.0,210000.0,7.0,,,,phongvu,2026-09-21
+phongvu_200201227.0,60542,200201227.0,Màn hình LG 22MN430M-B 21.5 inch (Full HD/ IPS/ 75Hz/ 5 ms),LG,monitor,2350000.0,3050000.0,700000.0,23.0,,,,phongvu,2026-09-21
+phongvu_200400872.0,64915,200400872.0,Màn hình LG 29WN600-W 29 inch (UWHD/ IPS/ 75Hz/ 5 ms),LG,monitor,6590000.0,6590000.0,0.0,0.0,,,,phongvu,2026-09-21
+phongvu_200500537.0,591659,200500537.0,Màn hình Dell E2020H 19.5 inch (HD+/ TN/ 60Hz/ 5 ms),Dell,monitor,2050000.0,2190000.0,140000.0,6.0,,,,phongvu,2026-09-21
+phongvu_200600633.0,39568,200600633.0,Màn hình Samsung LC32R500FHEXXV 31.5 inch (Full HD/ VA/ 75Hz/ 4 ms),Samsung,monitor,4190000.0,4989000.0,799000.0,16.0,,,,phongvu,2026-09-21
+phongvu_200600782.0,644189,200600782.0,Màn hình Gigabyte G27QC-EK 27 inch (2K/ VA/ 165Hz/ 1 ms),Gigabyte,monitor,8690000.0,8690000.0,0.0,0.0,,,,phongvu,2026-09-21
+phongvu_200601200.0,622110,200601200.0,Màn hình Asus ProArt PA248QV 24 inch (WUXGA/ IPS/ 75Hz/ 5 ms),Asus,monitor,4950000.0,4990000.0,40000.0,1.0,,,,phongvu,2026-09-21
+phongvu_200601201.0,622111,200601201.0,Màn hình Asus ProArt PA278QV 27 inch (2K/ IPS/ 75Hz/ 5 ms),Asus,monitor,7890000.0,8890000.0,1000000.0,11.0,,,,phongvu,2026-09-21
+phongvu_200700260.0,69289,200700260.0,Màn hình LG 27QN600-B 27 inch (2K/ IPS/ 75Hz/ 5 ms),LG,monitor,4536000.0,6590000.0,2054000.0,31.0,,,,phongvu,2026-09-21
+phongvu_200700263.0,643807,200700263.0,Màn hình Dell E2220H 21.5 inch (Full HD/ TN/ 60Hz/ 5 ms),Dell,monitor,3990000.0,3990000.0,0.0,0.0,,,,phongvu,2026-09-21
+phongvu_200900219.0,77255,200900219.0,Màn hình Samsung LF27T450FQEXXV 27 inch (Full HD/ IPS/ 75Hz/ 5 ms),Samsung,monitor,3089000.0,3289000.0,200000.0,6.0,,,,phongvu,2026-09-21
+phongvu_201200061.0,128351,201200061.0,Màn hình Dell S2721H 27 inch (Full HD/ IPS/ 75Hz/ 8 ms),Dell,monitor,4590000.0,4590000.0,0.0,0.0,,,,phongvu,2026-09-21
+phongvu_201200062.0,139631,201200062.0,Màn hình LG 27GN600-B 27 inch (Full HD/ IPS/ 144Hz/ 1 ms),LG,monitor,6290000.0,6290000.0,0.0,0.0,,,,phongvu,2026-09-21
+phongvu_201201627.0,137427,201201627.0,Màn hình Gigabyte G34WQC A-EK 34 inch (UltraWide/ VA/ 144Hz/ 1 ms),Gigabyte,monitor,8990000.0,11500000.0,2510000.0,22.0,,,,phongvu,2026-09-21
+phongvu_210200899.0,644009,210200899.0,Màn hình HP P21v G4 9TY72AA 20.7 inch (Full HD/ TN/ 60Hz/ 5 ms),HP,monitor,3290000.0,3390000.0,100000.0,3.0,,,,phongvu,2026-09-21
+phongvu_210301233.0,178038,210301233.0,Màn hình Asus ProArt Display PA279CV 27 inch (4K/ IPS/ 60Hz/ 5 ms),Asus,monitor,11290000.0,12990000.0,1700000.0,13.0,,,,phongvu,2026-09-21
+phongvu_210400403.0,189747,210400403.0,Màn hình LG 24QP500-B 23.8 inch (2K/ IPS/ 75Hz/ 5 ms),LG,monitor,4100000.0,5390000.0,1290000.0,24.0,,,,phongvu,2026-09-21
+phongvu_210404451.0,205393,210404451.0,"Màn hình LCD Asus 24"" VG248QE LED - Demo",Asus,monitor,1690000.0,6590000.0,4900000.0,74.0,,,,phongvu,2026-09-21
+phongvu_210404526.0,205468,210404526.0,Màn hình LCD Samsung 34'' LC34F791WQEXXV - Demo,Samsung,monitor,39780000.0,39780000.0,0.0,0.0,,,,phongvu,2026-09-21
+phongvu_210501422.0,220251,210501422.0,Màn hình Samsung LF27T370FWEXXV 27 inch (Full HD/ IPS/ 75Hz/ 5 ms),Samsung,monitor,4989000.0,4989000.0,0.0,0.0,,,,phongvu,2026-09-21
+phongvu_210501811.0,228856,210501811.0,Màn hình Gigabyte G27FC A-AP 27 inch (Full HD/ VA/ 165Hz/ 1 ms),Gigabyte,monitor,5650000.0,5650000.0,0.0,0.0,,,,phongvu,2026-09-21
+phongvu_210501844.0,643985,210501844.0,Màn hình Gigabyte M27Q-EK 27 inch (2K/ IPS/ 170Hz/ 0.5 ms),Gigabyte,monitor,8650000.0,8650000.0,0.0,0.0,,,,phongvu,2026-09-21
+phongvu_210501845.0,228889,210501845.0,Màn hình Gigabyte M32Q-EK 32 inch (2K/ IPS/ 165Hz/ 0.8 ms),Gigabyte,monitor,12250000.0,12250000.0,0.0,0.0,,,,phongvu,2026-09-21
+phongvu_210501847.0,228891,210501847.0,Màn hình Gigabyte FI32Q-EK 31.5 inch (2K/ IPS/ 165Hz/ 1 ms),Gigabyte,monitor,21600000.0,21600000.0,0.0,0.0,,,,phongvu,2026-09-21
+phongvu_210501849.0,228894,210501849.0,Màn hình Gigabyte FO48U-EK 48 inch (4K/ VA/ 120Hz/ 1 ms),Gigabyte,monitor,49900000.0,49900000.0,0.0,0.0,,,,phongvu,2026-09-21
+phongvu_210502059.0,229043,210502059.0,Màn hình Msi Optix MAG251RX 24.5 inch (Full HD/ IPS/ 240Hz/ 1 ms),Msi,monitor,11550000.0,11550000.0,0.0,0.0,,,,phongvu,2026-09-21
+phongvu_210502060.0,229044,210502060.0,Màn hình Msi Optix MAG274R 27 inch (Full HD/ IPS/ 144Hz/ 1 ms),Msi,monitor,9490000.0,9490000.0,0.0,0.0,,,,phongvu,2026-09-21
+phongvu_210502582.0,237957,210502582.0,Màn hình HP E24t G4 9VH85AA 23.8 inch (Full HD/ IPS/ 60Hz/ 5 ms),HP,monitor,8000000.0,8000000.0,0.0,0.0,,,,phongvu,2026-09-21
+phongvu_210601396.0,258865,210601396.0,Màn hình Samsung LS32AM501NEXXV 32 inch (Full HD/ VA/ 60Hz/ 8 ms),Samsung,monitor,9228000.0,9228000.0,0.0,0.0,,,,phongvu,2026-09-21
+phongvu_210601738.0,263846,210601738.0,Màn hình HP V19 9TN41AA 18.5 inch (HD/ TN/ 60Hz/ 5 ms),HP,monitor,2790000.0,2790000.0,0.0,0.0,,,,phongvu,2026-09-21
+phongvu_210601996.0,644187,210601996.0,Màn hình LG 27MP400-B 27 inch (Full HD/ IPS/ 75Hz/ 5 ms),LG,monitor,2950000.0,3890000.0,940000.0,24.0,,,,phongvu,2026-09-21
+phongvu_210602226.0,644154,210602226.0,Màn hình Dell S2421HN 23.8 inch (Full HD/ IPS/ 75Hz/ 4 ms),Dell,monitor,3390000.0,3890000.0,500000.0,13.0,,,,phongvu,2026-09-21
+phongvu_210602227.0,272318,210602227.0,Màn hình Dell U2421E 24 inch (WUXGA/ IPS/ 60Hz/ 5 ms),Dell,monitor,8290000.0,8290000.0,0.0,0.0,,,,phongvu,2026-09-21
+phongvu_210602229.0,644153,210602229.0,Màn hình Dell S2721HN 27 inch (Full HD/ IPS/ 75Hz/ 4 ms),Dell,monitor,3990000.0,4290000.0,300000.0,7.0,,,,phongvu,2026-09-21
+phongvu_210602230.0,644155,210602230.0,Màn hình Dell S2721QS 27 inch (4K/ IPS/ 60Hz/ 4 ms),Dell,monitor,7690000.0,9090000.0,1400000.0,15.0,,,,phongvu,2026-09-21
+phongvu_210602367.0,276635,210602367.0,Màn hình Samsung LC34G55TWWEXXV 34 inch (UltraWide/ VA/ 165Hz/ 1 ms),Samsung,monitor,7490000.0,8990000.0,1500000.0,17.0,,,,phongvu,2026-09-21
+phongvu_210700008.0,296778,210700008.0,Màn hình Asus VG27AQGL1A 27 inch (2K/ IPS/ 170Hz/ 1 ms),Asus,monitor,12990000.0,12990000.0,0.0,0.0,,,,phongvu,2026-09-21
+phongvu_210801069.0,644159,210801069.0,Màn hình ViewSonic VX2480-2K-SHD 23.8 inch (2K/ IPS/ 75Hz/ 4 ms),ViewSonic,monitor,5190000.0,5190000.0,0.0,0.0,,,,phongvu,2026-09-21
+phongvu_210801070.0,365743,210801070.0,Màn hình ViewSonic VX2480-SHDJ 23.8 inch (Full HD/ IPS/ 75Hz/ 4 ms),ViewSonic,monitor,3450000.0,3890000.0,440000.0,11.0,,,,phongvu,2026-09-21
+phongvu_210900501.0,376883,210900501.0,Màn hình Dell P3421W 34 inch (UltraWide/ IPS/ 60Hz/ 5 ms),Dell,monitor,14990000.0,14990000.0,0.0,0.0,,,,phongvu,2026-09-21
+phongvu_210900504.0,376886,210900504.0,Màn hình Dell U3821DW 37.5 inch (WQHD+/ IPS/ 60Hz/ 5 ms),Dell,monitor,31490000.0,31490000.0,0.0,0.0,,,,phongvu,2026-09-21
+phongvu_210900553.0,377253,210900553.0,Màn hình Dell C2422HE 23.8 inch (Full HD/ IPS/ 60Hz/ 5 ms),Dell,monitor,9290000.0,9290000.0,0.0,0.0,,,,phongvu,2026-09-21
+phongvu_210900554.0,377254,210900554.0,Màn hình Dell C3422WE 34 inch (UltraWide/ IPS/ 60Hz/ 5 ms),Dell,monitor,22490000.0,22490000.0,0.0,0.0,,,,phongvu,2026-09-21
+phongvu_210900560.0,377260,210900560.0,Màn hình Lenovo G27c-10 66A3GACBVN 27 inch (Full HD/ VA/ 165Hz/ 1 ms),Lenovo,monitor,4790000.0,5590000.0,800000.0,14.0,,,,phongvu,2026-09-21
+phongvu_210900611.0,643809,210900611.0,Màn hình HP Zq G3 1C4Z7AA 27 inch (2K/ IPS/ 60Hz/ 5 ms),HP,monitor,9990000.0,9990000.0,0.0,0.0,,,,phongvu,2026-09-21
+phongvu_211001503.0,388089,211001503.0,Màn hình Philips 243V5QHSBA/74 23.6 inch (Full HD/ MVA/ 60Hz/ 8 ms),Philips,monitor,3090000.0,3190000.0,100000.0,3.0,,,,phongvu,2026-09-21
+phongvu_211002912.0,390025,211002912.0,Màn hình Asus ProArt PA247CV 23.8 inch (Full HD/ IPS/ 75Hz/ 5 ms),Asus,monitor,5690000.0,5690000.0,0.0,0.0,,,,phongvu,2026-09-21
+phongvu_211101724.0,644156,211101724.0,Màn hình Dell S3221QS 31.5 inch (4K/ VA/ 60Hz/ 4 ms),Dell,monitor,14390000.0,14390000.0,0.0,0.0,,,,phongvu,2026-09-21
+phongvu_211101726.0,397315,211101726.0,Màn hình Dell P2422HE 23.8 inch (Full HD/ IPS/ 60Hz/ 5 ms),Dell,monitor,5490000.0,5490000.0,0.0,0.0,,,,phongvu,2026-09-21
+phongvu_211103371.0,398786,211103371.0,Màn hình Msi Optix G27C7 27 inch (Full HD/ VA/ 165Hz/ 1 ms),Msi,monitor,7700000.0,7700000.0,0.0,0.0,,,,phongvu,2026-09-21
+phongvu_211109625.0,404408,211109625.0,Màn hình HP E24mv G4 169L0AA 23.8 inch (Full HD/ IPS/ 60Hz/ 5 ms),HP,monitor,7590000.0,7900000.0,310000.0,4.0,,,,phongvu,2026-09-21
+phongvu_211202194.0,407304,211202194.0,"Màn hình LCD SAMSUNG 32"" LS32AM500NEXXV (1920 x 1080, VA, 60Hz, 8ms) - Demo",Samsung,monitor,9292000.0,9292000.0,0.0,0.0,,,,phongvu,2026-09-21
+phongvu_211202450.0,407563,211202450.0,Màn hình Acer KA272 UM.HX2SV.001 27 inch (Full HD/ IPS/ 75Hz/ 1 ms),Acer,monitor,2790000.0,4699000.0,1909000.0,41.0,,,,phongvu,2026-09-21
+phongvu_211203640.0,407966,211203640.0,Màn hình ViewSonic VX2719-PC-MHD 27 inch (Full HD/ VA/ 240Hz/ 1 ms),ViewSonic,monitor,4490000.0,4990000.0,500000.0,10.0,,,,phongvu,2026-09-21
+phongvu_211209689.0,410159,211209689.0,Màn hình Philips 276B1 27 inch (2K/ IPS/ 75Hz/ 4 ms),Philips,monitor,7790000.0,7790000.0,0.0,0.0,,,,phongvu,2026-09-21
+phongvu_211210634.0,644148,211210634.0,Màn hình Samsung LS22A336NHEXXV 22 inch (Full HD/ VA/ 60Hz/ 5 ms),Samsung,monitor,2090000.0,2339000.0,249000.0,11.0,,,,phongvu,2026-09-21
+phongvu_220200735.0,644151,220200735.0,Màn hình Dell E2422H 23.8 inch (Full HD/ IPS/ 60Hz/ 8 ms),Dell,monitor,4290000.0,4790000.0,500000.0,10.0,,,,phongvu,2026-09-21
+phongvu_220202583.0,416681,220202583.0,Màn hình Acer CBL282K UM.PB2SV.001 28 inch (4K/ IPS/ 60Hz/ 4 ms),Acer,monitor,6840000.0,8490000.0,1650000.0,19.0,,,,phongvu,2026-09-21
+phongvu_220300510.0,128608,220300510.0,Màn hình ViewSonic VX3218-PC-MHD 31.5 inch (Full HD/ VA/ 165Hz/ 1 ms),ViewSonic,monitor,5290000.0,6790000.0,1500000.0,22.0,,,,phongvu,2026-09-21
+phongvu_220400349.0,420576,220400349.0,Màn hình ViewSonic VX3276-MHD-3 31.5 inch (Full HD/ IPS/ 75Hz/ 4 ms),ViewSonic,monitor,4890000.0,4990000.0,100000.0,2.0,,,,phongvu,2026-09-21
+phongvu_220401044.0,420959,220401044.0,Màn hình Dell S22DGM Curved 31.5 inch (2K/ VA/ 165Hz/ 2 ms),Dell,monitor,12900000.0,12900000.0,0.0,0.0,,,,phongvu,2026-09-21
+phongvu_220401045.0,420960,220401045.0,Màn hình Dell S3222HG 31.5 inch (Full HD/ VA/ 165Hz/ 5 ms),Dell,monitor,10900000.0,10900000.0,0.0,0.0,,,,phongvu,2026-09-21
+phongvu_220401047.0,420962,220401047.0,Màn hình Dell G2722HS 27 inch (Full HD/ IPS/ 165Hz/ 1 ms),Dell,monitor,8900000.0,8900000.0,0.0,0.0,,,,phongvu,2026-09-21
+phongvu_220401049.0,420964,220401049.0,Màn hình Dell AW2720HF 27 inch (Full HD/ Fast IPS/ 240Hz/ 1 ms),Dell,monitor,10990000.0,10990000.0,0.0,0.0,,,,phongvu,2026-09-21
+phongvu_220401051.0,420966,220401051.0,Màn hình Dell P2423DE 23.8 inch (2K/ IPS/ 60Hz/ 5 ms),Dell,monitor,7390000.0,8900000.0,1510000.0,17.0,,,,phongvu,2026-09-21
+phongvu_220401052.0,420967,220401052.0,Màn hình Dell P2723DE 27 inch (2K/ IPS/ 60Hz/ 5 ms),Dell,monitor,7990000.0,9900000.0,1910000.0,19.0,,,,phongvu,2026-09-21
+phongvu_220503008.0,424636,220503008.0,Màn hình ViewSonic VX3418-2KPC 34 inch (UltraWide/ VA/ 144Hz/ 1 ms),ViewSonic,monitor,10690000.0,12100000.0,1410000.0,12.0,,,,phongvu,2026-09-21
+phongvu_220605606.0,432208,220605606.0,Màn hình Asus VG30VQL1A 30 inch (UWHD/ VA/ 200Hz/ 1 ms),Asus,monitor,9490000.0,9490000.0,0.0,0.0,,,,phongvu,2026-09-21
+phongvu_220605607.0,432209,220605607.0,Màn hình Asus ROG XG309CM 29.5 inch (UWHD/ IPS/ 220Hz/ 1 ms),Asus,monitor,12490000.0,12490000.0,0.0,0.0,,,,phongvu,2026-09-21
+phongvu_220609199.0,437240,220609199.0,Màn hình ViewSonic VX3276-2K-MHD-2 32 inch (2K/ IPS/ 75Hz/ 4 ms),ViewSonic,monitor,5190000.0,6290000.0,1100000.0,17.0,,,,phongvu,2026-09-21
+phongvu_220609201.0,437242,220609201.0,Màn hình HP Z24f G3 3G828AA 23.8 inch (Full HD/ IPS/ 60Hz/ 5 ms),HP,monitor,6590000.0,6590000.0,0.0,0.0,,,,phongvu,2026-09-21
+phongvu_220609614.0,437651,220609614.0,Màn hình Dell Alienware AW2521H 24.5 inch (Full HD/ Fast IPS/ 360Hz/ 3 ms),Dell,monitor,20490000.0,20490000.0,0.0,0.0,,,,phongvu,2026-09-21
+phongvu_220609871.0,437840,220609871.0,Màn hình ViewSonic VA2715-2K-MHD 27 inch (2K/ VA/ 75Hz/ 4 ms),ViewSonic,monitor,6090000.0,6090000.0,0.0,0.0,,,,phongvu,2026-09-21
+phongvu_220609924.0,437892,220609924.0,Màn hình ViewSonic VX2718-2KPC-MHD 27 inch (2K/ VA/ 165Hz/ 1 ms),ViewSonic,monitor,5690000.0,5790000.0,100000.0,2.0,,,,phongvu,2026-09-21
+phongvu_220700392.0,441012,220700392.0,Màn hình Dell C1422H 14 inch (Full HD/ IPS/ 60Hz/ 6 ms),Dell,monitor,7590000.0,7590000.0,0.0,0.0,,,,phongvu,2026-09-21
+phongvu_220700393.0,441013,220700393.0,Màn hình Dell C2722DE 27 inch (2K/ IPS/ 60Hz/ 8 ms),Dell,monitor,13990000.0,13990000.0,0.0,0.0,,,,phongvu,2026-09-21
+phongvu_220700394.0,441014,220700394.0,Màn hình Dell S2722DC 27 inch (2K/ IPS/ 75Hz/ 4 ms),Dell,monitor,8090000.0,8090000.0,0.0,0.0,,,,phongvu,2026-09-21
+phongvu_220700395.0,441015,220700395.0,Màn hình Dell S2722DZ 27 inch (2K/ IPS/ 75Hz/ 8 ms),Dell,monitor,11990000.0,11990000.0,0.0,0.0,,,,phongvu,2026-09-21
+phongvu_220700396.0,441016,220700396.0,Màn hình Dell P2722HE 27 inch (Full HD/ IPS/ 60Hz/ 8 ms),Dell,monitor,6990000.0,6990000.0,0.0,0.0,,,,phongvu,2026-09-21
+phongvu_220700424.0,441053,220700424.0,Màn hình Msi Optix MPG 321QRF-QD 32 inch (2K/ RAPID IPS/ 175Hz/ 1 ms),Msi,monitor,21450000.0,21450000.0,0.0,0.0,,,,phongvu,2026-09-21
+phongvu_220700425.0,441054,220700425.0,Màn hình Msi Optix MAG274QRF QD 27 inch (2K/ RAPID IPS/ 165Hz/ 1 ms),Msi,monitor,11990000.0,11990000.0,0.0,0.0,,,,phongvu,2026-09-21
+phongvu_220700536.0,441239,220700536.0,Màn hình Philips 241V8L6/74 24 inch (Full HD/ VA/ 75Hz/ 4 ms),Philips,monitor,2790000.0,2790000.0,0.0,0.0,,,,phongvu,2026-09-21
+phongvu_220706572.0,442458,220706572.0,Màn hình Samsung LS27B800PXEXXV 27 inch (4K/ IPS/ 60Hz/ 5 ms),Samsung,monitor,7090000.0,8589000.0,1499000.0,17.0,,,,phongvu,2026-09-21
+phongvu_220706581.0,442466,220706581.0,Màn hình ViewSonic VA2932-MHD 29 inch (UWHD/ IPS/ 75Hz/ 4 ms),ViewSonic,monitor,6290000.0,6290000.0,0.0,0.0,,,,phongvu,2026-09-21
+phongvu_220706668.0,442596,220706668.0,Màn hình Msi MD241PW 23.8 inch (Full HD/ IPS/ 75Hz/ 5 ms),Msi,monitor,4490000.0,6590000.0,2100000.0,32.0,,,,phongvu,2026-09-21
+phongvu_220800093.0,443171,220800093.0,Màn hình ViewSonic VA2409-H 23.6 inch (Full HD/ IPS/ 75Hz/ 3 ms),ViewSonic,monitor,2590000.0,3190000.0,600000.0,19.0,,,,phongvu,2026-09-21
+phongvu_220802043.0,644050,220802043.0,Màn hình LC-Power LC-M22-FHD-75-IPS 21.5 inch (Full HD/ IPS/ 75Hz/ 5 ms),LC-Power,monitor,2890000.0,2890000.0,0.0,0.0,,,,phongvu,2026-09-21
+phongvu_220802044.0,445794,220802044.0,Màn hình LC-Power LC-M24-FHD-75-IPS 23.8 inch (Full HD/ IPS/ 75Hz/ 5 ms),LC-Power,monitor,3090000.0,3290000.0,200000.0,6.0,,,,phongvu,2026-09-21
+phongvu_220802197.0,445987,220802197.0,Màn hình Dell S2422HZ 23.8 inch (Full HD/ IPS/ 75Hz/ 4 ms),Dell,monitor,7190000.0,7190000.0,0.0,0.0,,,,phongvu,2026-09-21
+phongvu_220802200.0,445990,220802200.0,Màn hình Dell U3023E 30 inch (WQXGA/ IPS/ 60Hz/ 5 ms),Dell,monitor,18090000.0,18090000.0,0.0,0.0,,,,phongvu,2026-09-21
+phongvu_220805992.0,447780,220805992.0,Màn hình Samsung LS32BM801UEXXV 32 inch (4K/ VA/ 60Hz/ 4 ms),Samsung,monitor,16389000.0,16389000.0,0.0,0.0,,,,phongvu,2026-09-21
+phongvu_220908261.0,458576,220908261.0,Màn hình Dell E2722H 27 inch (Full HD/ IPS/ 60Hz/ 8 ms),Dell,monitor,4490000.0,4490000.0,0.0,0.0,,,,phongvu,2026-09-21
+phongvu_220920751.0,464182,220920751.0,Màn hình Dell S2723HC 27 inch (Full HD/ IPS/ 75Hz/ 4 ms),Dell,monitor,7490000.0,7490000.0,0.0,0.0,,,,phongvu,2026-09-21
+phongvu_221002845.0,597141,221002845.0,Màn hình Dell E2223HN 21.45 inch (Full HD/ VA/ 60Hz/ 5 ms),Dell,monitor,2390000.0,2590000.0,200000.0,8.0,,,,phongvu,2026-09-21
+phongvu_221003426.0,466928,221003426.0,Màn hình LCD Samsung 19.5'' LS20D300NHMXV - Demo,Samsung,monitor,2199000.0,2199000.0,0.0,0.0,,,,phongvu,2026-09-21
+phongvu_221100446.0,467958,221100446.0,Màn hình Samsung LS55BG970NEXXV 55 inch (4K/ VA/ 165Hz/ 1 ms),Samsung,monitor,75990000.0,75990000.0,0.0,0.0,,,,phongvu,2026-09-21
+phongvu_221101488.0,644116,221101488.0,Màn hình Samsung LS25BG400EEXXV 25 inch (Full HD/ IPS/ 240Hz/ 1 ms),Samsung,monitor,3190000.0,3690000.0,500000.0,14.0,,,,phongvu,2026-09-21
+phongvu_221101489.0,644117,221101489.0,Màn hình Samsung LS27BG400EEXXV 27 inch (Full HD/ IPS/ 240Hz/ 1 ms),Samsung,monitor,3900000.0,4090000.0,190000.0,5.0,,,,phongvu,2026-09-21
+phongvu_221101490.0,468857,221101490.0,Màn hình Samsung LS32B800PXEXXV 32 inch (4K/ IPS/ 60Hz/ 5 ms),Samsung,monitor,8990000.0,9490000.0,500000.0,5.0,,,,phongvu,2026-09-21
+phongvu_221201148.0,470392,221201148.0,Màn hình Asus VZ279HE-J 27 inch (Full HD/ IPS/ 75Hz/ 5 ms),Asus,monitor,3790000.0,3990000.0,200000.0,5.0,,,,phongvu,2026-09-21
+phongvu_221201945.0,471206,221201945.0,Màn hình Msi Optix G27C5 E2 27 inch (Full HD/ VA/ 170Hz/ 1 ms),Msi,monitor,5490000.0,5690000.0,200000.0,4.0,,,,phongvu,2026-09-21
+phongvu_221202061.0,471321,221202061.0,Màn hình Msi Pro MP273QP - 3PB6 27 inch (2K/ IPS/ 75Hz/ 1 ms),Msi,monitor,5290000.0,5690000.0,400000.0,7.0,,,,phongvu,2026-09-21
+phongvu_230104455.0,495101,230104455.0,Màn hình ViewSonic VA3209-2K-MHD 32 inch (2K/ IPS/ 75Hz/ 4 ms),ViewSonic,monitor,4690000.0,5790000.0,1100000.0,19.0,,,,phongvu,2026-09-21
+phongvu_230201390.0,500297,230201390.0,Màn hình Samsung OLED G8 G85SB LS34BG850SEXXV 34 inch (UltraWide/ OLED/ 175Hz/ 0.1 ms),Samsung,monitor,30990000.0,30990000.0,0.0,0.0,,,,phongvu,2026-09-21
+phongvu_230201392.0,644107,230201392.0,Màn hình Msi G2412 23.8 inch (Full HD/ IPS/ 170Hz/ 1 ms),Msi,monitor,3650000.0,3990000.0,340000.0,9.0,,,,phongvu,2026-09-21
+phongvu_230201967.0,500829,230201967.0,Màn hình HP E24u G4 189T0AA 23.8 inch (Full HD/ IPS/ 60Hz/ 5 ms),HP,monitor,7500000.0,7500000.0,0.0,0.0,,,,phongvu,2026-09-21
+phongvu_230300162.0,643915,230300162.0,Màn hình HP P22 G5 64X86AA 21.5 inch (Full HD/ IPS/ 75Hz/ 5 ms),HP,monitor,2890000.0,2890000.0,0.0,0.0,,,,phongvu,2026-09-21
+phongvu_230300169.0,504833,230300169.0,Màn hình ViewSonic TD1655 15.6 inch (Full HD/ IPS/ 60Hz/ 5 ms),ViewSonic,monitor,6890000.0,6890000.0,0.0,0.0,,,,phongvu,2026-09-21
+phongvu_230300170.0,504834,230300170.0,Màn hình ViewSonic VG1655 15.6 inch (Full HD/ IPS/ 60Hz/ 6.5 ms),ViewSonic,monitor,5390000.0,5490000.0,100000.0,2.0,,,,phongvu,2026-09-21
+phongvu_230300172.0,644113,230300172.0,Màn hình Samsung LS22C310EAEXXV 22 inch (Full HD/ IPS/ 75Hz/ 5 ms),Samsung,monitor,2390000.0,2559000.0,169000.0,7.0,,,,phongvu,2026-09-21
+phongvu_230302873.0,507331,230302873.0,Màn hình Msi MAG342CQPV 34 inch (UltraWide/ VA/ 100Hz/ 1 ms),Msi,monitor,10990000.0,10990000.0,0.0,0.0,,,,phongvu,2026-09-21
+phongvu_230302878.0,507336,230302878.0,Màn hình Msi G281UV 27.9 inch (Full HD/ IPS/ 60Hz/ 4 ms),Msi,monitor,9650000.0,9650000.0,0.0,0.0,,,,phongvu,2026-09-21
+phongvu_230304172.0,508191,230304172.0,Màn hình HP P24 G5 64X66AA 23.8 inch (Full HD/ IPS/ 75Hz/ 5 ms),HP,monitor,3490000.0,3490000.0,0.0,0.0,,,,phongvu,2026-09-21
+phongvu_230400174.0,508998,230400174.0,Màn hình Dell S2722QC 27 inch (4K/ IPS/ 60Hz/ 5 ms),Dell,monitor,11990000.0,11990000.0,0.0,0.0,,,,phongvu,2026-09-21
+phongvu_230400176.0,509000,230400176.0,Màn hình Dell C2423H 23.8 inch (Full HD/ IPS/ 60Hz/ 5 ms),Dell,monitor,8090000.0,8090000.0,0.0,0.0,,,,phongvu,2026-09-21
+phongvu_230400177.0,509001,230400177.0,Màn hình Dell C2723H 27 inch (Full HD/ IPS/ 60Hz/ 5 ms),Dell,monitor,9150000.0,9150000.0,0.0,0.0,,,,phongvu,2026-09-21
+phongvu_230400871.0,509691,230400871.0,Màn hình Philips 27M1C3200VL/74 27 inch (Full HD/ VA/ 165Hz/ 1 ms),Philips,monitor,5600000.0,5600000.0,0.0,0.0,,,,phongvu,2026-09-21
+phongvu_230400874.0,644100,230400874.0,Màn hình Aoc 24B3HM/74 23.8 inch (Full HD/ VA/ 75Hz/ 4 ms),Aoc,monitor,2290000.0,2490000.0,200000.0,8.0,,,,phongvu,2026-09-21
+phongvu_230400875.0,644105,230400875.0,Màn hình Aoc 27B3HM/74 27 inch (Full HD/ VA/ 75Hz/ 4 ms),Aoc,monitor,3190000.0,3190000.0,0.0,0.0,,,,phongvu,2026-09-21
+phongvu_230400878.0,644119,230400878.0,Màn hình Philips 241S9/74 23.8 inch (Full HD/ IPS/ 75Hz/ 4 ms),Philips,monitor,2490000.0,2590000.0,100000.0,4.0,,,,phongvu,2026-09-21
+phongvu_230400879.0,597143,230400879.0,Màn hình Dell E2423HN 23.8 inch (Full HD/ VA/ 60Hz/ 5 ms),Dell,monitor,2790000.0,3590000.0,800000.0,22.0,,,,phongvu,2026-09-21
+phongvu_230401797.0,510887,230401797.0,Màn hình LG 55CT5WJ-B 55 inch (4K/ U-IPS/ 144Hz/ 9 ms),LG,monitor,21190000.0,93000000.0,71810000.0,77.0,,,,phongvu,2026-09-21
+phongvu_230401897.0,510984,230401897.0,Màn hình Philips 24E1N3300A 23.8 inch (Full HD/ IPS/ 75Hz/ 4 ms),Philips,monitor,3950000.0,3950000.0,0.0,0.0,,,,phongvu,2026-09-21
+phongvu_230402298.0,511671,230402298.0,Màn hình HP P27h G5 64W41AA 27 inch (Full HD/ IPS/ 75Hz/ 5 ms),HP,monitor,4990000.0,4990000.0,0.0,0.0,,,,phongvu,2026-09-21
+phongvu_230402444.0,512611,230402444.0,Màn hình Acer X34GS UM.CX0SV.S01 34 inch (UltraWide/ IPS/ 144Hz/ 1 ms),Acer,monitor,28990000.0,28990000.0,0.0,0.0,,,,phongvu,2026-09-21
+phongvu_230402696.0,512856,230402696.0,Màn hình HP E27u G5 6N4D3AA 27 inch (2K/ IPS/ 75Hz/ 5 ms),HP,monitor,8590000.0,8590000.0,0.0,0.0,,,,phongvu,2026-09-21
+phongvu_230500316.0,513484,230500316.0,Màn hình LG 27GP95R-B 27 inch (4K/ IPS/ 144Hz/ 1 ms),LG,monitor,22990000.0,22990000.0,0.0,0.0,,,,phongvu,2026-09-21
+phongvu_230500359.0,513527,230500359.0,Màn hình Philips 27M1N3200Z/74 27 inch (Full HD/ IPS/ 165Hz/ 1 ms),Philips,monitor,5190000.0,5190000.0,0.0,0.0,,,,phongvu,2026-09-21
+phongvu_230500363.0,513531,230500363.0,Màn hình ViewSonic VX2785-2K 27 inch (2K/ IPS/ 60Hz/ 5 ms),ViewSonic,monitor,13190000.0,13190000.0,0.0,0.0,,,,phongvu,2026-09-21
+phongvu_230502050.0,514750,230502050.0,Màn hình Acer ED270R S3 UM.HE0SV.301 27 inch (Full HD/ VA/ 180Hz/ 1 ms),Acer,monitor,3690000.0,4590000.0,900000.0,20.0,,,,phongvu,2026-09-21
+phongvu_230502051.0,514751,230502051.0,Màn hình Acer ED320Q X UM.JE0SV.X01 31.5 inch (Full HD/ VA/ 240Hz/ 1 ms),Acer,monitor,6590000.0,6790000.0,200000.0,3.0,,,,phongvu,2026-09-21
+phongvu_230502054.0,514754,230502054.0,Màn hình HP E24t G5 - 6N6E6AA 23.8 inch (Full HD/ IPS/ 75Hz/ 5 ms),HP,monitor,7190000.0,7190000.0,0.0,0.0,,,,phongvu,2026-09-21
+phongvu_230502471.0,515105,230502471.0,Màn hình Samsung LS32CM801UEXXV 32 inch (4K/ VA/ 60Hz/ 4 ms),Samsung,monitor,13390000.0,13390000.0,0.0,0.0,,,,phongvu,2026-09-21
+phongvu_230600778.0,515913,230600778.0,Màn hình Philips 24M1N3200ZA/74 23.8 inch (Full HD/ IPS/ 165Hz/ 1 ms),Philips,monitor,3690000.0,3690000.0,0.0,0.0,,,,phongvu,2026-09-21
+phongvu_230600779.0,515914,230600779.0,Màn hình Msi G274QPF QD 27 inch (2K/ IPS/ 170Hz/ 1 ms),Msi,monitor,8790000.0,8790000.0,0.0,0.0,,,,phongvu,2026-09-21
+phongvu_230602349.0,516309,230602349.0,Màn hình Asus XG27WQ 27 inch (2K/ VA/ 165Hz/ 1 ms),Asus,monitor,12490000.0,12490000.0,0.0,0.0,,,,phongvu,2026-09-21
+phongvu_230604092.0,517895,230604092.0,Màn hình Lenovo L22e-40 67AFKACBVN 21.45 inch (Full HD/ VA/ 75Hz/ 4 ms),Lenovo,monitor,1990000.0,2150000.0,160000.0,7.0,,,,phongvu,2026-09-21
+phongvu_230701231.0,519626,230701231.0,Màn hình ViewSonic VX3219-PC-MHD 32 inch (Full HD/ VA/ 240Hz/ 1 ms),ViewSonic,monitor,5750000.0,5990000.0,240000.0,4.0,,,,phongvu,2026-09-21
+phongvu_230703324.0,521849,230703324.0,Màn hình Samsung WM55B LH55WMBWBGCXXV 55 inch (4K/ VA/ / 8 ms),Samsung,monitor,61890000.0,61890000.0,0.0,0.0,,,,phongvu,2026-09-21
+phongvu_230800427.0,523426,230800427.0,Màn hình Asus VG249Q3A 23.8 inch (Full HD/ IPS/ 180Hz/ 1 ms),Asus,monitor,3190000.0,4190000.0,1000000.0,24.0,,,,phongvu,2026-09-21
+phongvu_230800430.0,523429,230800430.0,Màn hình HP P22v G5 7N909AT 21.45 inch (Full HD/ VA/ 75Hz/ 5 ms),HP,monitor,2390000.0,2790000.0,400000.0,14.0,,,,phongvu,2026-09-21
+phongvu_230803165.0,525681,230803165.0,Màn hình Asus XG249CM 23.8 inch (Full HD/ IPS/ 270Hz/ 1 ms),Asus,monitor,7990000.0,7990000.0,0.0,0.0,,,,phongvu,2026-09-21
+phongvu_230803481.0,525861,230803481.0,Màn hình ViewSonic VA2736-H 27 inch (Full HD/ IPS/ 100Hz/ 1 ms),ViewSonic,monitor,2790000.0,2990000.0,200000.0,7.0,,,,phongvu,2026-09-21
+phongvu_230901010.0,527505,230901010.0,"Màn hình LCD Acer 23.8"" Nitro VG240Y - Demo",Acer,monitor,1090000.0,3990000.0,2900000.0,73.0,,,,phongvu,2026-09-21
+phongvu_230903174.0,528504,230903174.0,Màn hình Asus XG259QN 24.5 inch (Full HD/ IPS/ 380Hz/ 1 ms),Asus,monitor,11490000.0,12490000.0,1000000.0,8.0,,,,phongvu,2026-09-21
+phongvu_230903274.0,528601,230903274.0,Màn hình Asus VA27EHF 27 inch (Full HD/ IPS/ 100Hz/ 1 ms),Asus,monitor,2950000.0,3990000.0,1040000.0,26.0,,,,phongvu,2026-09-21
+phongvu_230904148.0,529324,230904148.0,Màn hình ViewSonic VA1903H-2 18.5 inch (HD/ TN/ 60Hz/ 5 ms),ViewSonic,monitor,1590000.0,1590000.0,0.0,0.0,,,,phongvu,2026-09-21
+phongvu_231002099.0,531056,231002099.0,Màn hình Acer EK221Q E3 UM.WE1SV.301 21.5 inch (Full HD/ IPS/ 100Hz/ 1 ms),Acer,monitor,1850000.0,1890000.0,40000.0,2.0,,,,phongvu,2026-09-21
+phongvu_231002101.0,531058,231002101.0,Màn hình Acer Nitro KG270 M5 UM.HX0SV.501 27 inch (Full HD/ IPS/ 180Hz/ 1 ms),Acer,monitor,3190000.0,3890000.0,700000.0,18.0,,,,phongvu,2026-09-21
+phongvu_231002117.0,531074,231002117.0,Màn hình Asus ProArt PA279CRV 27 inch (4K/ IPS/ 60Hz/ 5 ms),Asus,monitor,12790000.0,16990000.0,4200000.0,25.0,,,,phongvu,2026-09-21
+phongvu_231004174.0,532945,231004174.0,Màn hình Msi Pro MP251 24.5 inch (Full HD/ IPS/ 100Hz/ 1 ms),Msi,monitor,2090000.0,2479000.0,389000.0,16.0,,,,phongvu,2026-09-21
+phongvu_231004175.0,532946,231004175.0,Màn hình Asus TUF Gaming VG259QM 24.5 inch (Full HD/ Fast IPS/ 280Hz/ 1 ms),Asus,monitor,6790000.0,6990000.0,200000.0,3.0,,,,phongvu,2026-09-21
+phongvu_231004176.0,532947,231004176.0,Màn hình Asus ROG Strix XG259CM 24.5 inch (Full HD/ Fast IPS/ 240Hz/ 1 ms),Asus,monitor,12490000.0,12490000.0,0.0,0.0,,,,phongvu,2026-09-21
+phongvu_231004177.0,532948,231004177.0,Màn hình Asus TUF Gaming VG28UQL1A 28 inch (4K/ Fast IPS/ 144Hz/ 1 ms),Asus,monitor,20000000.0,20000000.0,0.0,0.0,,,,phongvu,2026-09-21
+phongvu_231004178.0,532949,231004178.0,Màn hình Asus ROG Strix XG32VC 31.5 inch (2K/ VA/ 170Hz/ 1 ms),Asus,monitor,14990000.0,14990000.0,0.0,0.0,,,,phongvu,2026-09-21
+phongvu_231004180.0,532951,231004180.0,Màn hình Asus ROG Strix XG49VQ 49 inch (DFHD/ VA/ 144Hz/ 4 ms),Asus,monitor,26990000.0,26990000.0,0.0,0.0,,,,phongvu,2026-09-21
+phongvu_231100708.0,644072,231100708.0,Màn hình Samsung LS24C330GAEXXV 24 inch (Full HD/ IPS/ 100Hz/ 4 ms),Samsung,monitor,2290000.0,2719000.0,429000.0,16.0,,,,phongvu,2026-09-21
+phongvu_231102959.0,535426,231102959.0,Màn hình Asus VY249HF 23.8 inch (Full HD/ IPS/ 100Hz/ 1 ms),Asus,monitor,2390000.0,2790000.0,400000.0,14.0,,,,phongvu,2026-09-21
+phongvu_231200931.0,537380,231200931.0,Màn hình ViewSonic VA2436-H-PN 23.8 inch (Full HD/ IPS/ 100Hz/ 1 ms),ViewSonic,monitor,2690000.0,2690000.0,0.0,0.0,,,,phongvu,2026-09-21
+phongvu_231202224.0,538414,231202224.0,Màn hình Msi MP243P 23.8 inch (Full HD/ IPS/ 75Hz/ 5 ms),Msi,monitor,3190000.0,3390000.0,200000.0,6.0,,,,phongvu,2026-09-21
+phongvu_231203207.0,539248,231203207.0,Màn hình ViewSonic VA2432-H 23.8 inch (Full HD/ IPS/ 100Hz/ 1 ms),ViewSonic,monitor,2490000.0,2590000.0,100000.0,4.0,,,,phongvu,2026-09-21
+phongvu_231203208.0,539249,231203208.0,Màn hình ViewSonic VA2732-H 27 inch (Full HD/ IPS/ 100Hz/ 1 ms),ViewSonic,monitor,2490000.0,2850000.0,360000.0,13.0,,,,phongvu,2026-09-21
+phongvu_231204286.0,539819,231204286.0,Màn hình Dell G3223Q 32 inch (4K/ IPS/ 144Hz/ 1 ms),Dell,monitor,17190000.0,17990000.0,800000.0,4.0,,,,phongvu,2026-09-21
+phongvu_240100228.0,541490,240100228.0,Màn hình Msi G255F 24.5 inch (Full HD/ RAPID IPS/ 180Hz/ 1 ms),Msi,monitor,2990000.0,3550000.0,560000.0,16.0,,,,phongvu,2026-09-21
+phongvu_240100230.0,541492,240100230.0,Màn hình Msi G274QPF E2 27 inch (2K/ RAPID IPS/ 180Hz/ 1 ms),Msi,monitor,6490000.0,6800000.0,310000.0,5.0,,,,phongvu,2026-09-21
+phongvu_240100231.0,541493,240100231.0,Màn hình Lenovo D24-40 67A2KAC6VN 23.8 inch (Full HD/ VA/ 75Hz/ 4 ms),Lenovo,monitor,1990000.0,2490000.0,500000.0,20.0,,,,phongvu,2026-09-21
+phongvu_240101307.0,542336,240101307.0,Màn hình Samsung LS24C366EAEXXV 24 inch (Full HD/ VA/ 75Hz/ 4 ms),Samsung,monitor,2319000.0,2519000.0,200000.0,8.0,,,,phongvu,2026-09-21
+phongvu_240103018.0,543512,240103018.0,Màn hình Asus PG248QP 24.1 inch (Full HD/ TN/ 540Hz/ 0.2 ms),Asus,monitor,26900000.0,26900000.0,0.0,0.0,,,,phongvu,2026-09-21
+phongvu_240103543.0,543642,240103543.0,Màn hình Dell U2424H 23.8 inch (Full HD/ IPS/ 120Hz/ 5 ms),Dell,monitor,5250000.0,6490000.0,1240000.0,19.0,,,,phongvu,2026-09-21
+phongvu_240201117.0,544867,240201117.0,Màn hình Asus ROG Swift OLED PG27AQDM 26.5 inch (2K/ OLED/ 240Hz/ 0.03 ms),Asus,monitor,29990000.0,29990000.0,0.0,0.0,,,,phongvu,2026-09-21
+phongvu_240300020.0,545358,240300020.0,Màn hình Dell U2724DE 27 inch (2K/ IPS/ 120Hz/ 5 ms),Dell,monitor,11890000.0,12490000.0,600000.0,5.0,,,,phongvu,2026-09-21
+phongvu_240300398.0,545633,240300398.0,Màn hình Xiaomi A27i 27 inch (Full HD/ IPS/ 100Hz/ 6 ms),Xiaomi,monitor,2440000.0,2990000.0,550000.0,18.0,,,,phongvu,2026-09-21
+phongvu_240300400.0,545635,240300400.0,Màn hình Msi PRO MP273AP 27 inch (Full HD/ IPS/ 100Hz/ 1 ms),Msi,monitor,3790000.0,3790000.0,0.0,0.0,,,,phongvu,2026-09-21
+phongvu_240300981.0,546114,240300981.0,"Màn hình LCD Samsung 24"" LF24T450FQEXXV (1920x1080, IPS, 75Hz, 5ms) - Demo",Samsung,monitor,1690000.0,5289000.0,3599000.0,68.0,,,,phongvu,2026-09-21
+phongvu_240302587.0,547971,240302587.0,Màn hình Dell U2424HE 23.8 inch (Full HD/ IPS/ 120Hz/ 5 ms),Dell,monitor,6590000.0,6990000.0,400000.0,6.0,,,,phongvu,2026-09-21
+phongvu_240302588.0,547972,240302588.0,Màn hình Msi PRO MP225 21.5 inch (Full HD/ IPS/ 100Hz/ 1 ms),Msi,monitor,1990000.0,2090000.0,100000.0,5.0,,,,phongvu,2026-09-21
+phongvu_240400757.0,549010,240400757.0,Màn hình Aoc 24B3CA2/74 23.8 inch (Full HD/ IPS/ 100Hz/ 1 ms),Aoc,monitor,2690000.0,2990000.0,300000.0,10.0,,,,phongvu,2026-09-21
+phongvu_240400758.0,549011,240400758.0,Màn hình Aoc 27B3CA2/74 27 inch (Full HD/ IPS/ 100Hz/ 1 ms),Aoc,monitor,3190000.0,3490000.0,300000.0,9.0,,,,phongvu,2026-09-21
+phongvu_240403812.0,551974,240403812.0,Màn hình Asus VG27AQ3A 27 inch (2K/ Fast IPS/ 180Hz/ 1 ms),Asus,monitor,4950000.0,7290000.0,2340000.0,32.0,,,,phongvu,2026-09-21
+phongvu_240403813.0,551975,240403813.0,Màn hình Msi Pro MP242A 23.8 inch (Full HD/ IPS/ 100Hz/ 1 ms),Msi,monitor,2090000.0,2390000.0,300000.0,13.0,,,,phongvu,2026-09-21
+phongvu_240502387.0,554186,240502387.0,Màn hình Dell S2725H 27 inch (Full HD/ IPS/ 100Hz/ 4 ms),Dell,monitor,4490000.0,4690000.0,200000.0,4.0,,,,phongvu,2026-09-21
+phongvu_240502389.0,554188,240502389.0,Màn hình Acer Predator XB273U V3 27HL UM.HX2AA.304 27 inch (2K/ IPS/ 180Hz/ 0.5 ms),Acer,monitor,6190000.0,6490000.0,300000.0,5.0,,,,phongvu,2026-09-21
+phongvu_240502390.0,554189,240502390.0,Màn hình Acer Nitro VG271U M3 UM.HV1SV.301 27 inch (2K/ IPS/ 180Hz/ 0.5 ms),Acer,monitor,5290000.0,5490000.0,200000.0,4.0,,,,phongvu,2026-09-21
+phongvu_240502391.0,554190,240502391.0,Màn hình Acer Aopen Fire Legend 25XV2Q F UM.KX2SV.F01 24.5 inch (Full HD/ IPS/ 390Hz/ 0.5 ms),Acer,monitor,8990000.0,8990000.0,0.0,0.0,,,,phongvu,2026-09-21
+phongvu_240502393.0,554192,240502393.0,Màn hình Samsung LS27C900PAEXXV 27 inch (5K/ IPS/ 60Hz/ 5 ms),Samsung,monitor,19990000.0,29990000.0,10000000.0,33.0,,,,phongvu,2026-09-21
+phongvu_240502395.0,554194,240502395.0,Màn hình Samsung LS34C500GAEXXV 34 inch (UltraWide/ VA/ 100Hz/ 5 ms),Samsung,monitor,7490000.0,9890000.0,2400000.0,24.0,,,,phongvu,2026-09-21
+phongvu_240502396.0,554195,240502396.0,Màn hình Samsung LS27CG552EEXXV 27 inch (2K/ VA/ 165Hz/ 1 ms),Samsung,monitor,4590000.0,7790000.0,3200000.0,41.0,,,,phongvu,2026-09-21
+phongvu_240502398.0,554197,240502398.0,Màn hình Samsung LS49CG934SEXXV 49 inch (DQHD/ OLED/ 240Hz/ 0.03 ms),Samsung,monitor,28090000.0,28490000.0,400000.0,1.0,,,,phongvu,2026-09-21
+phongvu_240502399.0,554198,240502399.0,Màn hình Samsung LS57CG952NEXXV 57 inch (DUHD/ VA/ 240Hz/ 1 ms),Samsung,monitor,52990000.0,59990000.0,7000000.0,12.0,,,,phongvu,2026-09-21
+phongvu_240504657.0,556702,240504657.0,Màn hình Xiaomi G34WQi 34 inch (3K/ VA/ 180Hz/ 1 ms),Xiaomi,monitor,6960000.0,7490000.0,530000.0,7.0,,,,phongvu,2026-09-21
+phongvu_240504988.0,557172,240504988.0,Màn hình Msi PRO MP275Q 27 inch (2K/ IPS/ 100Hz/ 1 ms),Msi,monitor,3850000.0,4390000.0,540000.0,12.0,,,,phongvu,2026-09-21
+phongvu_240504989.0,557173,240504989.0,Màn hình Philips 24E1N1100A/74 24 inch (Full HD/ IPS/ 100Hz/ 1 ms),Philips,monitor,2090000.0,2190000.0,100000.0,5.0,,,,phongvu,2026-09-21
+phongvu_240602155.0,560801,240602155.0,Màn hình HP S5 524sw 94C22AA 23.8 inch (Full HD/ IPS/ 100Hz/ 5 ms),HP,monitor,3890000.0,4090000.0,200000.0,5.0,,,,phongvu,2026-09-21
+phongvu_240602418.0,561060,240602418.0,Màn hình Msi Modern MD272QP 27 inch (2K/ IPS/ 75Hz/ 4 ms),Msi,monitor,5690000.0,5690000.0,0.0,0.0,,,,phongvu,2026-09-21
+phongvu_240602460.0,561105,240602460.0,Màn hình ViewSonic VA2708-4K-MHD 27 inch (4K/ IPS/ 60Hz/ 4 ms),ViewSonic,monitor,5190000.0,5890000.0,700000.0,12.0,,,,phongvu,2026-09-21
+phongvu_240602461.0,561106,240602461.0,Màn hình ViewSonic VA2708-2K-MHD 27 inch (2K/ IPS/ 100Hz/ 1 ms),ViewSonic,monitor,3790000.0,4490000.0,700000.0,16.0,,,,phongvu,2026-09-21
+phongvu_240603305.0,561859,240603305.0,Màn hình Msi MODERN-MD271UL 27 inch (4K/ IPS/ 60Hz/ 4 ms),Msi,monitor,6490000.0,6990000.0,500000.0,7.0,,,,phongvu,2026-09-21
+phongvu_240700514.0,562750,240700514.0,Màn hình Asus ROG Strix XG27UCS 27 inch (4K/ Fast IPS/ 160Hz/ 1 ms),Asus,monitor,13690000.0,13990000.0,300000.0,2.0,,,,phongvu,2026-09-21
+phongvu_240702971.0,565119,240702971.0,Màn hình LG 38WR85QC-W 38 inch (WQHD+/ Nano IPS/ 144Hz/ 1 ms),LG,monitor,30990000.0,31090000.0,100000.0,0.0,,,,phongvu,2026-09-21
+phongvu_240706620.0,568721,240706620.0,Màn hình ViewSonic VA270-H 27 inch (Full HD/ IPS/ 100Hz/ 1 ms),ViewSonic,monitor,2690000.0,2690000.0,0.0,0.0,,,,phongvu,2026-09-21
+phongvu_240800749.0,569241,240800749.0,Màn hình LG 24GS50F-B 24 inch (Full HD/ VA/ 180Hz/ 5 ms),LG,monitor,2890000.0,3349000.0,459000.0,14.0,,,,phongvu,2026-09-21
+phongvu_240800750.0,569239,240800750.0,Màn hình Lenovo L24i-4A - 67BCKAC6VN 23.8 inch (Full HD/ IPS/ 100Hz/ 1 ms),Lenovo,monitor,2490000.0,2690000.0,200000.0,7.0,,,,phongvu,2026-09-21
+phongvu_240800751.0,569240,240800751.0,Màn hình Dell P2425H 23.8 inch (Full HD/ IPS/ 100Hz/ 5 ms),Dell,monitor,4690000.0,5890000.0,1200000.0,20.0,,,,phongvu,2026-09-21
+phongvu_240800752.0,569245,240800752.0,Màn hình LG UltraWide 26WQ500-B 26 inch (Full HD/ IPS/ 75Hz/ 5 ms),LG,monitor,2650000.0,4990000.0,2340000.0,47.0,,,,phongvu,2026-09-21
+phongvu_240800755.0,569243,240800755.0,Màn hình LG UltraWide 34WR55QC-B 34 inch (UltraWide/ VA/ 100Hz/ 5 ms),LG,monitor,11990000.0,11990000.0,0.0,0.0,,,,phongvu,2026-09-21
+phongvu_240800758.0,569248,240800758.0,Màn hình Dell P2725H 27 inch (Full HD/ IPS/ 100Hz/ 5 ms),Dell,monitor,5690000.0,6690000.0,1000000.0,15.0,,,,phongvu,2026-09-21
+phongvu_240800759.0,569250,240800759.0,Màn hình LG 25SR50F-W 25 inch (Full HD/ IPS/ 60Hz/ 5 ms),LG,monitor,5150000.0,5590000.0,440000.0,8.0,,,,phongvu,2026-09-21
+phongvu_240800923.0,569446,240800923.0,Màn hình Lenovo L27q-4A - 67BFGAC6VN 27 inch (2K/ IPS/ 100Hz/ 1 ms),Lenovo,monitor,4890000.0,4990000.0,100000.0,2.0,,,,phongvu,2026-09-21
+phongvu_240802260.0,569816,240802260.0,Màn hình Msi G274QPX 27 inch (2K/ RAPID IPS/ 240Hz/ 1 ms),Msi,monitor,9590000.0,9790000.0,200000.0,2.0,,,,phongvu,2026-09-21
+phongvu_240802757.0,570274,240802757.0,Màn hình Msi MP251 E2 25 inch (Full HD/ IPS/ 120Hz/ 1 ms),Msi,monitor,2490000.0,2690000.0,200000.0,7.0,,,,phongvu,2026-09-21
+phongvu_240803396.0,570815,240803396.0,Màn hình Msi MPG 491CQP QD-OLED 49 inch (DQHD/ QD-OLED/ 144Hz/ 0.03 ms),Msi,monitor,25290000.0,39990000.0,14700000.0,37.0,,,,phongvu,2026-09-21
+phongvu_240900419.0,573867,240900419.0,Màn hình Xiaomi G27i EU ELA5375EU 27 inch (Full HD/ IPS/ 165Hz/ 1 ms),Xiaomi,monitor,3120000.0,3990000.0,870000.0,22.0,,,,phongvu,2026-09-21
+phongvu_240901541.0,574936,240901541.0,"Màn hình LCD AOC 23.8"" 24V2Q/74 (1920x1080/ IPS/ 75Hz/ 5ms/ FreeSync Technology) - Demo",Aoc,monitor,3200000.0,3200000.0,0.0,0.0,,,,phongvu,2026-09-21
+phongvu_240901664.0,575058,240901664.0,Màn hình Asus ProArt PA278CGV 27 inch (2K/ IPS/ 144Hz/ 5 ms),Asus,monitor,9790000.0,9900000.0,110000.0,1.0,,,,phongvu,2026-09-21
+phongvu_240902432.0,575592,240902432.0,Màn hình Lenovo L27i-4A 67BEKAC1VN 27 inch (Full HD/ IPS/ 100Hz/ 1 ms),Lenovo,monitor,2790000.0,3290000.0,500000.0,15.0,,,,phongvu,2026-09-21
+phongvu_240903516.0,576713,240903516.0,Màn hình ViewSonic VX2779-HD-PRO 27 inch (Full HD/ IPS/ 180Hz/ 1 ms),ViewSonic,monitor,3490000.0,3790000.0,300000.0,8.0,,,,phongvu,2026-09-21
+phongvu_240903518.0,576715,240903518.0,Màn hình ViewSonic VX2479-HD-PRO 24 inch (Full HD/ IPS/ 180Hz/ 1 ms),ViewSonic,monitor,2650000.0,2990000.0,340000.0,11.0,,,,phongvu,2026-09-21
+phongvu_240903519.0,576716,240903519.0,Màn hình ViewSonic VX2758A-2K-PRO-3 27 inch (2K/ IPS/ 240Hz/ 1 ms),ViewSonic,monitor,5890000.0,7990000.0,2100000.0,26.0,,,,phongvu,2026-09-21
+phongvu_240903729.0,576926,240903729.0,Màn hình ViewSonic VX2528J 24.5 inch (Full HD/ IPS/ 180Hz/ 0.5 ms),ViewSonic,monitor,3990000.0,3990000.0,0.0,0.0,,,,phongvu,2026-09-21
+phongvu_240903730.0,576927,240903730.0,Màn hình ViewSonic VX2528 24.5 inch (Full HD/ IPS/ 180Hz/ 0.5 ms),ViewSonic,monitor,3290000.0,3790000.0,500000.0,13.0,,,,phongvu,2026-09-21
+phongvu_240904490.0,577645,240904490.0,Màn hình LCD ASUS 27'' VA27EHE - Demo,Asus,monitor,3890000.0,3890000.0,0.0,0.0,,,,phongvu,2026-09-21
+phongvu_240904521.0,577676,240904521.0,Màn hình LCD MSI PRO MP241X (1920 x 1080/ VA/ 75Hz/ 8 ms) - Demo,Msi,monitor,916000.0,2290000.0,1374000.0,60.0,,,,phongvu,2026-09-21
+phongvu_240908497.0,581656,240908497.0,Màn hình Samsung LH86WADWLGCXXS 86 inch (4K/ IPS/ 60Hz/ 8 ms),Samsung,monitor,129000000.0,129000000.0,0.0,0.0,,,,phongvu,2026-09-21
+phongvu_241000213.0,582685,241000213.0,Màn hình ViewSonic VA1655 15.6 inch (Full HD/ IPS/ 60Hz/ 7 ms),ViewSonic,monitor,3590000.0,3590000.0,0.0,0.0,,,,phongvu,2026-09-21
+phongvu_241001895.0,584466,241001895.0,Màn hình Msi MAG 276CXF 27 inch (Full HD/ Rapid VA/ 280Hz/ 0.5 ms),Msi,monitor,3750000.0,4550000.0,800000.0,18.0,,,,phongvu,2026-09-21
+phongvu_241002919.0,585680,241002919.0,Màn hình Asus TUF Gaming VG27VQ3B 27 inch (Full HD/ Fast VA/ 180Hz/ 1 ms),Asus,monitor,4390000.0,4390000.0,0.0,0.0,,,,phongvu,2026-09-21
+phongvu_241003579.0,586242,241003579.0,Màn hình Msi MP275 E2 27 inch (Full HD/ IPS/ 120Hz/ 1 ms),Msi,monitor,2390000.0,2490000.0,100000.0,4.0,,,,phongvu,2026-09-21
+phongvu_241003817.0,586551,241003817.0,Màn hình Samsung LS32DG502EEXXV 32 inch (2K/ IPS/ 180Hz/ 1 ms),Samsung,monitor,8190000.0,8890000.0,700000.0,8.0,,,,phongvu,2026-09-21
+phongvu_241003818.0,586550,241003818.0,Màn hình Samsung LS27D700EAEXXV 27 inch (4K/ IPS/ 60Hz/ 5 ms),Samsung,monitor,5890000.0,7989000.0,2099000.0,26.0,,,,phongvu,2026-09-21
+phongvu_241003819.0,586553,241003819.0,Màn hình Samsung LS27DG602SEXXV 27 inch (2K/ OLED/ 360Hz/ 0.03 ms),Samsung,monitor,21990000.0,21990000.0,0.0,0.0,,,,phongvu,2026-09-21
+phongvu_241003820.0,586554,241003820.0,Màn hình Samsung LS27DG502EEXXV 27 inch (2K/ IPS/ 180Hz/ 1 ms),Samsung,monitor,5590000.0,6289000.0,699000.0,11.0,,,,phongvu,2026-09-21
+phongvu_241004520.0,587306,241004520.0,Màn hình Asus ROG Strix XG27UCG 27 inch (4K/ Fast IPS/ 160Hz/ 1 ms),Asus,monitor,11450000.0,13290000.0,1840000.0,14.0,,,,phongvu,2026-09-21
+phongvu_241004685.0,587470,241004685.0,Màn hình Aoc 25B36H 24.5 inch (Full HD/ IPS/ 100Hz/ 1 ms),Aoc,monitor,2100000.0,2100000.0,0.0,0.0,,,,phongvu,2026-09-21
+phongvu_241101874.0,589981,241101874.0,Màn hình Dell E2225HS 21.4 inch (Full HD/ VA/ 75Hz/ 8 ms),Dell,monitor,2490000.0,3190000.0,700000.0,22.0,,,,phongvu,2026-09-21
+phongvu_241103022.0,590505,241103022.0,Màn hình LG 27US500-W 27 inch (4K/ IPS/ 60Hz/ 5 ms),LG,monitor,5950000.0,6190000.0,240000.0,4.0,,,,phongvu,2026-09-21
+phongvu_241103252.0,590574,241103252.0,Màn hình Samsung LS43DM702UEXXV 43 inch (4K/ VA/ 60Hz/ 4 ms),Samsung,monitor,9990000.0,9990000.0,0.0,0.0,,,,phongvu,2026-09-21
+phongvu_241103253.0,590575,241103253.0,Màn hình Samsung LS32DG802SEXXV 32 inch (4K/ OLED/ 240Hz/ 0.03 ms),Samsung,monitor,25990000.0,30090000.0,4100000.0,14.0,,,,phongvu,2026-09-21
+phongvu_241103254.0,590576,241103254.0,Màn hình Samsung LS27D804UAEXXV 27 inch (4K/ IPS/ 60Hz/ 5 ms),Samsung,monitor,7590000.0,7590000.0,0.0,0.0,,,,phongvu,2026-09-21
+phongvu_241104670.0,591665,241104670.0,Màn hình HP S3 Pro 324pf 9U5J5UT 23.8 inch (Full HD/ IPS/ 100Hz/ 5 ms),HP,monitor,3190000.0,3190000.0,0.0,0.0,,,,phongvu,2026-09-21
+phongvu_241104790.0,591784,241104790.0,Màn hình LG 27GS75Q-B 27 inch (2K/ IPS/ 180Hz/ 1 ms),LG,monitor,6699000.0,7990000.0,1291000.0,16.0,,,,phongvu,2026-09-21
+phongvu_241104881.0,591883,241104881.0,"Màn hình LCD Asus 23.8"" VA24EHF (1920 x 1080/ IPS/ 100Hz/ 1ms MPRT ) - Demo",Asus,monitor,1290000.0,2990000.0,1700000.0,57.0,,,,phongvu,2026-09-21
+phongvu_241104888.0,591890,241104888.0,Màn hình LCD DELL SE2422H 23.8inch/1920x1080@75Hz/VGA/HDMI/LED/Đen - Demo,Dell,monitor,1690000.0,3090000.0,1400000.0,45.0,,,,phongvu,2026-09-21
+phongvu_241104891.0,591893,241104891.0,"Màn hình LCD Samsung 24"" LF24T450FQEXXV (1920x1080, IPS, 75Hz, 5ms) - Demo",Samsung,monitor,1690000.0,5289000.0,3599000.0,68.0,,,,phongvu,2026-09-21
+phongvu_241104893.0,591895,241104893.0,Màn hình LCD DELL SE2422H 23.8inch/1920x1080@75Hz/VGA/HDMI/LED/Đen - Demo,Dell,monitor,1690000.0,3090000.0,1400000.0,45.0,,,,phongvu,2026-09-21
+phongvu_241104900.0,591902,241104900.0,Màn hình LCD DELL SE2422H 23.8inch/1920x1080@75Hz/VGA/HDMI/LED/Đen - Demo,Dell,monitor,1352000.0,3090000.0,1738000.0,56.0,,,,phongvu,2026-09-21
+phongvu_241105092.0,592072,241105092.0,Màn hình Msi 32C6X 31.5 inch (Full HD/ VA/ 250Hz/ 1 ms),Msi,monitor,5690000.0,6190000.0,500000.0,8.0,,,,phongvu,2026-09-21
+phongvu_241105100.0,592082,241105100.0,Màn hình Dell P2225H 21.5 inch (Full HD/ IPS/ 100Hz/ 8 ms),Dell,monitor,3990000.0,4090000.0,100000.0,2.0,,,,phongvu,2026-09-21
+phongvu_241105107.0,592091,241105107.0,Màn hình Dell P2725HE 27 inch (Full HD/ IPS/ 100Hz/ 8 ms),Dell,monitor,6990000.0,6990000.0,0.0,0.0,,,,phongvu,2026-09-21
+phongvu_241105114.0,592098,241105114.0,Màn hình Lenovo Legion Y27qf-30 67A7GAC3VN 27 inch (2K/ IPS/ 240Hz/ 5 ms),Lenovo,monitor,8490000.0,9890000.0,1400000.0,14.0,,,,phongvu,2026-09-21
+phongvu_241105140.0,592124,241105140.0,Màn hình Asus VY249HGR 23.8 inch (Full HD/ IPS/ 120Hz/ 1 ms),Asus,monitor,1990000.0,2490000.0,500000.0,20.0,,,,phongvu,2026-09-21
+phongvu_241105147.0,592131,241105147.0,Màn hình Asus VY279HGR 27 inch (Full HD/ IPS/ 120Hz/ 1 ms),Asus,monitor,2890000.0,2990000.0,100000.0,3.0,,,,phongvu,2026-09-21
+phongvu_241105148.0,592132,241105148.0,Màn hình Msi PRO MP242L 23.8 inch (Full HD/ IPS/ 100Hz/ 1 ms),Msi,monitor,1990000.0,2190000.0,200000.0,9.0,,,,phongvu,2026-09-21
+phongvu_241105152.0,592136,241105152.0,Màn hình Asus ProArt Display PA278QEV 27 inch (2K/ IPS/ 75Hz/ 5 ms),Asus,monitor,6990000.0,8390000.0,1400000.0,17.0,,,,phongvu,2026-09-21
+phongvu_241201663.0,594608,241201663.0,Màn hình Gigabyte GS27FC 27 inch (Full HD/ VA/ 180Hz/ 1 ms),Gigabyte,monitor,2990000.0,3990000.0,1000000.0,25.0,,,,phongvu,2026-09-21
+phongvu_241201696.0,594643,241201696.0,Màn hình Acer EK271 G UM.HE1SV.G01 27 inch (Full HD/ IPS/ 120Hz/ 1 ms),Acer,monitor,2790000.0,3090000.0,300000.0,10.0,,,,phongvu,2026-09-21
+phongvu_241201700.0,594649,241201700.0,Màn hình Acer SA272U E WHITE 27 inch (2K/ IPS/ 100Hz/ 1 ms),Acer,monitor,4150000.0,4190000.0,40000.0,1.0,,,,phongvu,2026-09-21
+phongvu_241201702.0,594651,241201702.0,Màn hình Acer EK251Q G UM.KE1SV.G01 24.5 inch (Full HD/ IPS/ 120Hz/ 1 ms),Acer,monitor,2290000.0,2390000.0,100000.0,4.0,,,,phongvu,2026-09-21
+phongvu_241201706.0,594654,241201706.0,Màn hình Acer SA272U E 27 inch (2K/ IPS/ 100Hz/ 1 ms),Acer,monitor,3690000.0,4090000.0,400000.0,10.0,,,,phongvu,2026-09-21
+phongvu_241201711.0,594659,241201711.0,Màn hình Acer EK241Y G UM.QE1SV.G01 23.8 inch (Full HD/ IPS/ 120Hz/ 1 ms),Acer,monitor,2190000.0,2290000.0,100000.0,4.0,,,,phongvu,2026-09-21
+phongvu_241206528.0,598625,241206528.0,Màn hình LG 27GS50F-B 27 inch (Full HD/ VA/ 180Hz/ 5 ms),LG,monitor,3750000.0,4790000.0,1040000.0,22.0,,,,phongvu,2026-09-21
+phongvu_250111505.0,610961,250111505.0,Màn hình Philips 24E1N1100D/74 23.8 inch (Full HD/ IPS/ 100Hz/ 1 ms),Philips,monitor,2290000.0,2290000.0,0.0,0.0,,,,phongvu,2026-09-21
+phongvu_250115556.0,615012,250115556.0,Màn hình Msi MD342CQPW 34 inch (UltraWide/ VA/ 120Hz/ 1 ms),Msi,monitor,8490000.0,8690000.0,200000.0,2.0,,,,phongvu,2026-09-21
+phongvu_250115754.0,615126,250115754.0,Màn hình ViewSonic VA2732A-H 27 inch (Full HD/ IPS/ 120Hz/ 1 ms),ViewSonic,monitor,2550000.0,2990000.0,440000.0,15.0,,,,phongvu,2026-09-21
+phongvu_250116333.0,615666,250116333.0,Màn hình Acer Nitro KG240Y X1 UM.QX0SV.101 23.8 inch (Full HD/ IPS/ 200Hz/ 1 ms),Acer,monitor,2750000.0,2990000.0,240000.0,8.0,,,,phongvu,2026-09-21
+phongvu_250116334.0,615667,250116334.0,Màn hình Acer Nitro KG270 X1 UM.HX0SV.101 27 inch (Full HD/ IPS/ 200Hz/ 1 ms),Acer,monitor,3650000.0,3690000.0,40000.0,1.0,,,,phongvu,2026-09-21
+phongvu_250116585.0,615916,250116585.0,Màn hình LG 27GS60QC-B 27 inch (2K/ VA/ 180Hz/ 1 ms),LG,monitor,5890000.0,6000000.0,110000.0,2.0,,,,phongvu,2026-09-21
+phongvu_250116713.0,616045,250116713.0,Màn hình ViewSonic VA220-H 21.5 inch (Full HD/ VA/ 100Hz/ 1 ms),ViewSonic,monitor,1590000.0,1990000.0,400000.0,20.0,,,,phongvu,2026-09-21
+phongvu_250203232.0,617851,250203232.0,Màn hình Dell S2425HS 23.8 inch (Full HD/ IPS/ 100Hz/ 8 ms),Dell,monitor,3990000.0,4247000.0,257000.0,6.0,,,,phongvu,2026-09-21
+phongvu_250204610.0,618867,250204610.0,Màn hình cong Samsung 27'' LC27R500FHEXXV - Demo,Samsung,monitor,1290000.0,3139000.0,1849000.0,59.0,,,,phongvu,2026-09-21
+phongvu_250204731.0,618980,250204731.0,Màn hình Samsung LS24D300GAEXXV 24 inch (Full HD/ IPS/ 100Hz/ 5 ms),Samsung,monitor,2190000.0,2490000.0,300000.0,12.0,,,,phongvu,2026-09-21
+phongvu_250204733.0,618983,250204733.0,Màn hình LG 27UP850K-W 27 inch (4K/ IPS/ 60Hz/ 5 ms),LG,monitor,8590000.0,8990000.0,400000.0,4.0,,,,phongvu,2026-09-21
+phongvu_250204734.0,618984,250204734.0,Màn hình Samsung LS24F320GAEXXV 24 inch (Full HD/ IPS/ 120Hz/ 5 ms),Samsung,monitor,2290000.0,2619000.0,329000.0,13.0,,,,phongvu,2026-09-21
+phongvu_250204737.0,643831,250204737.0,Màn hình Samsung LS27D300GAEXXV 27 inch (Full HD/ IPS/ 100Hz/ 5 ms),Samsung,monitor,2690000.0,2990000.0,300000.0,10.0,,,,phongvu,2026-09-21
+phongvu_250204741.0,618991,250204741.0,Màn hình ViewSonic VX2457A-HD-PRO 23.8 inch (Full HD/ IPS/ 170Hz/ 1 ms),ViewSonic,monitor,2290000.0,3099000.0,809000.0,26.0,,,,phongvu,2026-09-21
+phongvu_250204747.0,618997,250204747.0,Màn hình LG 27UP600K-W 27 inch (4K/ IPS/ 60Hz/ 5 ms),LG,monitor,5490000.0,6290000.0,800000.0,13.0,,,,phongvu,2026-09-21
+phongvu_250206344.0,619942,250206344.0,Màn hình Msi MAG 275F 27 inch (Full HD/ RAPID IPS/ 180Hz/ 0.5 ms),Msi,monitor,3790000.0,4950000.0,1160000.0,23.0,,,,phongvu,2026-09-21
+phongvu_250301446.0,621559,250301446.0,Màn hình LG UltraGear 27GS65F-B 27 inch (Full HD/ IPS/ 180Hz/ 1 ms),LG,monitor,3690000.0,4455000.0,765000.0,17.0,,,,phongvu,2026-09-21
+phongvu_250301447.0,621562,250301447.0,Màn hình LG 27MS500-B 27 inch (Full HD/ IPS/ 100Hz/ 5 ms),LG,monitor,2990000.0,3490000.0,500000.0,14.0,,,,phongvu,2026-09-21
+phongvu_250301448.0,621560,250301448.0,Màn hình LG UltraGear 24GS65F-B 24 inch (Full HD/ IPS/ 180Hz/ 1 ms),LG,monitor,3090000.0,3550000.0,460000.0,13.0,,,,phongvu,2026-09-21
+phongvu_250301621.0,621733,250301621.0,Màn hình Dell S2725DS 27 inch (2K/ IPS/ 100Hz/ 4 ms),Dell,monitor,7190000.0,7190000.0,0.0,0.0,,,,phongvu,2026-09-21
+phongvu_250302098.0,622186,250302098.0,Màn hình Dell UltraSharp U2724D 27 inch (2K/ IPS/ 120Hz/ 8 ms),Dell,monitor,9690000.0,10296000.0,606000.0,6.0,,,,phongvu,2026-09-21
+phongvu_250302216.0,622298,250302216.0,Màn hình Xiaomi A27Qi EU ELA5812EU 27 inch (2K/ IPS/ 100Hz/ 6 ms),Xiaomi,monitor,3720000.0,4290000.0,570000.0,13.0,,,,phongvu,2026-09-21
+phongvu_250302275.0,622355,250302275.0,Màn hình Gigabyte G34WQCP 34 inch (UltraWide/ VA/ 180Hz/ 1 ms),Gigabyte,monitor,7790000.0,7990000.0,200000.0,3.0,,,,phongvu,2026-09-21
+phongvu_250302281.0,622364,250302281.0,Màn hình Gigabyte G25F2 24.5 inch (Full HD/ IPS/ 200Hz/ 1 ms),Gigabyte,monitor,2790000.0,3390000.0,600000.0,18.0,,,,phongvu,2026-09-21
+phongvu_250302288.0,622370,250302288.0,Màn hình Gigabyte GS27FA 27 inch (Full HD/ IPS/ 180Hz/ 1 ms),Gigabyte,monitor,2890000.0,3390000.0,500000.0,15.0,,,,phongvu,2026-09-21
+phongvu_250302295.0,622377,250302295.0,Màn hình Gigabyte M27QA 27 inch (2K/ IPS/ 180Hz/ 1 ms),Gigabyte,monitor,5290000.0,6290000.0,1000000.0,16.0,,,,phongvu,2026-09-21
+phongvu_250302301.0,622384,250302301.0,Màn hình Gigabyte M27QA ICE 27 inch (2K/ IPS/ 180Hz/ 1 ms),Gigabyte,monitor,6590000.0,6590000.0,0.0,0.0,,,,phongvu,2026-09-21
+phongvu_250302317.0,622398,250302317.0,Màn hình Gigabyte M32QC 32 inch (2K/ VA/ 170Hz/ 1 ms),Gigabyte,monitor,6650000.0,6650000.0,0.0,0.0,,,,phongvu,2026-09-21
+phongvu_250305244.0,625344,250305244.0,Màn hình Philips 24E2N1100/74 23.8 inch (Full HD/ IPS/ 120Hz/ 4 ms),Philips,monitor,2090000.0,2190000.0,100000.0,5.0,,,,phongvu,2026-09-21
+phongvu_250307087.0,627209,250307087.0,Màn hình HP S3 Pro 322pv 9U5A2AA 21.45 inch (Full HD/ VA/ 100Hz/ 5 ms),HP,monitor,2500000.0,2500000.0,0.0,0.0,,,,phongvu,2026-09-21
+phongvu_250307088.0,627210,250307088.0,Màn hình HKC MB21V13-U 21.45 inch (Full HD/ VA/ 100Hz/ 7 ms),HKC,monitor,1290000.0,1899000.0,609000.0,32.0,,,,phongvu,2026-09-21
+phongvu_250307384.0,627502,250307384.0,Màn hình Samsung LS27F320GAEXXV 27 inch (Full HD/ IPS/ 120Hz/ 5 ms),Samsung,monitor,2790000.0,3189000.0,399000.0,13.0,,,,phongvu,2026-09-21
+phongvu_250308217.0,628343,250308217.0,"Màn hình LCD Samsung 22"" LS22C310EAEXXV (1920 x 1080/ IPS/ 75Hz/ 5 (GTG)) - Demo",Samsung,monitor,1790000.0,2559000.0,769000.0,30.0,,,,phongvu,2026-09-21
+phongvu_250308226.0,628352,250308226.0,"Màn hình LCD Samsung 24"" LS24C310EAEXXV (1920 x 1080/ IPS/ 75Hz/ 5 (GTG)) - Demo",Samsung,monitor,2619000.0,2619000.0,0.0,0.0,,,,phongvu,2026-09-21
+phongvu_250309233.0,629370,250309233.0,Màn hình LG 24MS500-B 23.8 inch (Full HD/ IPS/ 100Hz/ 5 ms),LG,monitor,3190000.0,3290000.0,100000.0,3.0,,,,phongvu,2026-09-21
+phongvu_250309235.0,629366,250309235.0,Màn hình LG 27GS60F-B 27 inch (Full HD/ IPS/ 180Hz/ 1 ms),LG,monitor,4350000.0,4350000.0,0.0,0.0,,,,phongvu,2026-09-21
+phongvu_250309236.0,629367,250309236.0,Màn hình LG 45GS95QE-B 44.5 inch (UltraWide/ OLED/ 240Hz/ 0.03 ms),LG,monitor,30990000.0,30990000.0,0.0,0.0,,,,phongvu,2026-09-21
+phongvu_250400434.0,632381,250400434.0,Màn hình ViewSonic VA22E1-H 21.5 inch (Full HD/ TN/ 75Hz/ 1 ms),ViewSonic,monitor,1590000.0,1990000.0,400000.0,20.0,,,,phongvu,2026-09-21
+phongvu_250401987.0,633945,250401987.0,Màn hình Asus VG249QE5A 23.8 inch (Full HD/ IPS/ 146Hz/ 1 ms),Asus,monitor,2590000.0,3190000.0,600000.0,19.0,,,,phongvu,2026-09-21
+phongvu_250401988.0,633946,250401988.0,Màn hình Asus TUF VG279QE5A 27 inch (Full HD/ IPS/ 146Hz/ 1 ms),Asus,monitor,2890000.0,3290000.0,400000.0,12.0,,,,phongvu,2026-09-21
+phongvu_250402077.0,634035,250402077.0,Màn hình Lenovo L24m-4A 67BDUAC6VN 23.8 inch (Full HD/ IPS/ 100Hz/ 1 ms),Lenovo,monitor,3990000.0,3990000.0,0.0,0.0,,,,phongvu,2026-09-21
+phongvu_250402764.0,634723,250402764.0,Màn hình Lenovo L24-4e - 68C2KAC1VN 23.8 inch (Full HD/ IPS/ 100Hz/ 4 ms),Lenovo,monitor,2190000.0,2590000.0,400000.0,15.0,,,,phongvu,2026-09-21
+phongvu_250406416.0,638405,250406416.0,Màn hình Msi MAG 255PXF 24.5 inch (Full HD/ RAPID IPS/ 300Hz/ 0.5 ms),Msi,monitor,4190000.0,5690000.0,1500000.0,26.0,,,,phongvu,2026-09-21
+phongvu_250412660.0,644749,250412660.0,Màn hình Samsung LS27FG812SEXXV 27 inch (4K/ OLED/ 240Hz/ 0.03 ms),Samsung,monitor,26590000.0,32990000.0,6400000.0,19.0,,,,phongvu,2026-09-21
+phongvu_250413909.0,646035,250413909.0,Màn hình LG UltraGear 27GX790A-B 27 inch (2K/ OLED/ 480Hz/ 0.03 ms),LG,monitor,19990000.0,25990000.0,6000000.0,23.0,,,,phongvu,2026-09-21
+phongvu_250415799.0,647939,250415799.0,Màn hình LCD LG 24'' 24GN65R-B.ATV (1920 x 1080/ IPS/ 144Hz/ 1ms) - Demo,LG,monitor,1790000.0,3990000.0,2200000.0,55.0,,,,phongvu,2026-09-21
+phongvu_250504133.0,655948,250504133.0,Màn hình LG 27U631A-B 27 inch (2K/ IPS/ 100Hz/ 5 ms),LG,monitor,4290000.0,4790000.0,500000.0,10.0,,,,phongvu,2026-09-21
+phongvu_250506441.0,658263,250506441.0,Màn hình Msi MAG 273QP QD-OLED X24 26.5 inch (2K/ OLED/ 240Hz/ 0.03 ms),Msi,monitor,14390000.0,18390000.0,4000000.0,22.0,,,,phongvu,2026-09-21
+phongvu_250510206.0,662122,250510206.0,Màn hình ViewSonic VX2758a-2K-PRO-4 27 inch (2K/ IPS/ 180Hz/ 1 ms),ViewSonic,monitor,4890000.0,5490000.0,600000.0,11.0,,,,phongvu,2026-09-21
+phongvu_250512188.0,666209,250512188.0,Màn hình Samsung LS24D310EAEXXV 24 inch (Full HD/ VA/ 75Hz/ 5 ms),Samsung,monitor,2340000.0,2340000.0,0.0,0.0,,,,phongvu,2026-09-21
+phongvu_250520204.0,676231,250520204.0,Màn hình LCD LG 31.5'' 32UR500-B.ATV (3840 x 2160/ VA/ 60Hz/ 4ms (GtG)) - Demo,LG,monitor,3790000.0,8990000.0,5200000.0,58.0,,,,phongvu,2026-09-21
+phongvu_250520214.0,676241,250520214.0,"Màn hình LCD Acer 32"" XB323QK NV (UM.JX3SV.V01) (3840 x 2160/ IPS/ 144Hz/ 1ms) - Demo",Acer,monitor,9990000.0,29990000.0,20000000.0,67.0,,,,phongvu,2026-09-21
+phongvu_250520227.0,676254,250520227.0,"Màn hình LCD Acer 23.8"" Nitro KG240Y M5 (UM.QX0SV.501) (1920 x 1080/ IPS/ 180Hz/ 1ms VRB/ FreeSync Premium) - Demo",Acer,monitor,1990000.0,3390000.0,1400000.0,41.0,,,,phongvu,2026-09-21
+phongvu_250520228.0,676255,250520228.0,"Màn hình LCD Acer 23.8"" Nitro KG240Y M5 (UM.QX0SV.501) (1920 x 1080/ IPS/ 180Hz/ 1ms VRB/ FreeSync Premium) - Demo",Acer,monitor,3390000.0,3390000.0,0.0,0.0,,,,phongvu,2026-09-21
+phongvu_250520232.0,676259,250520232.0,"Màn hình LCD Acer 23.8"" Nitro KG240Y M5 (UM.QX0SV.501) (1920 x 1080/ IPS/ 180Hz/ 1ms VRB/ FreeSync Premium) - Demo",Acer,monitor,1990000.0,3390000.0,1400000.0,41.0,,,,phongvu,2026-09-21
+phongvu_250520233.0,676260,250520233.0,"Màn hình LCD Acer 23.8"" Nitro KG240Y M5 (UM.QX0SV.501) (1920 x 1080/ IPS/ 180Hz/ 1ms VRB/ FreeSync Premium) - Demo",Acer,monitor,1990000.0,3390000.0,1400000.0,41.0,,,,phongvu,2026-09-21
+phongvu_250520234.0,676261,250520234.0,"Màn hình LCD Acer 23.8"" Nitro KG240Y M5 (UM.QX0SV.501) (1920 x 1080/ IPS/ 180Hz/ 1ms VRB/ FreeSync Premium) - Demo",Acer,monitor,1990000.0,3390000.0,1400000.0,41.0,,,,phongvu,2026-09-21
+phongvu_250520238.0,676265,250520238.0,"Màn hình LCD Acer 23.8"" K243Y E (UM.QX3SV.E01) ( 1920 x 1080/ IPS/ 100Hz/ 1ms) - Demo",Acer,monitor,1290000.0,2590000.0,1300000.0,50.0,,,,phongvu,2026-09-21
+phongvu_250520582.0,676614,250520582.0,Màn hình Msi PRO MP225V 21.45 inch (Full HD/ VA/ 100Hz/ 4 ms),Msi,monitor,1589000.0,1650000.0,61000.0,4.0,,,,phongvu,2026-09-21
+phongvu_250520590.0,676617,250520590.0,Màn hình Xiaomi A27Ui EU 27 inch (4K/ IPS/ 60Hz/ 6 ms),Xiaomi,monitor,6860000.0,7490000.0,630000.0,8.0,,,,phongvu,2026-09-21
+phongvu_250520596.0,676624,250520596.0,Màn hình Msi MAG 274F 27 inch (Full HD/ RAPID IPS/ 200Hz/ 0.5 ms),Msi,monitor,3590000.0,4100000.0,510000.0,12.0,,,,phongvu,2026-09-21
+phongvu_250520870.0,676902,250520870.0,Màn hình Dell SE2725HM 27 inch (Full HD/ IPS/ 100Hz/ 5 ms),Dell,monitor,3990000.0,4090000.0,100000.0,2.0,,,,phongvu,2026-09-21
+phongvu_250601146.0,678932,250601146.0,Màn hình máy tính/ LCD Dell 27 inch SE2725H (1920 x 1080/ VA/ 75Hz/ 8ms) Đen (42MSE2725H) - Đã sử dụng,Dell,monitor,2490000.0,3861000.0,1371000.0,36.0,,,,phongvu,2026-09-21
+phongvu_250602706.0,680497,250602706.0,Màn hình Aoc 22B20JH2/74 21.5 inch (Full HD/ IPS/ 100Hz/ 1 ms),Aoc,monitor,1750000.0,1890000.0,140000.0,7.0,,,,phongvu,2026-09-21
+phongvu_250633615.0,711426,250633615.0,Màn hình Aoc 27B36X/71 27 inch (Full HD/ IPS/ 144Hz/ 0.5 ms),Aoc,monitor,2450000.0,2990000.0,540000.0,18.0,,,,phongvu,2026-09-21
+phongvu_250633616.0,711427,250633616.0,Màn hình Msi PRO MP251L E2 24.5 inch (Full HD/ IPS/ 120Hz/ 1 ms),Msi,monitor,2090000.0,2290000.0,200000.0,9.0,,,,phongvu,2026-09-21
+phongvu_250633617.0,711430,250633617.0,Màn hình Msi PRO MP273AW 27 inch (Full HD/ IPS/ 100Hz/ 1 ms),Msi,monitor,2949000.0,3490000.0,541000.0,16.0,,,,phongvu,2026-09-21
+phongvu_250633618.0,711429,250633618.0,Màn hình Msi MAG 274CXF 27 inch (Full HD/ Rapid VA/ 280Hz/ 0.5 ms),Msi,monitor,3990000.0,4550000.0,560000.0,12.0,,,,phongvu,2026-09-21
+phongvu_250633619.0,711425,250633619.0,Màn hình ViewSonic VA240A-H 23.8 inch (Full HD/ IPS/ 120Hz/ 1 ms),ViewSonic,monitor,2090000.0,2190000.0,100000.0,5.0,,,,phongvu,2026-09-21
+phongvu_250633620.0,711431,250633620.0,Màn hình Dell SE2425HM 23.8 inch (Full HD/ IPS/ 100Hz/ 5 ms),Dell,monitor,2750000.0,3200000.0,450000.0,14.0,,,,phongvu,2026-09-21
+phongvu_250633623.0,711433,250633623.0,Màn hình Aoc Q27B30S3/71 27 inch (2K/ IPS/ 120Hz/ 1 ms),Aoc,monitor,3690000.0,3990000.0,300000.0,8.0,,,,phongvu,2026-09-21
+phongvu_250633625.0,711437,250633625.0,Màn hình ViewSonic VX2757A-HD-PRO 27 inch (Full HD/ IPS/ 180Hz/ 1 ms),ViewSonic,monitor,2990000.0,3290000.0,300000.0,9.0,,,,phongvu,2026-09-21
+phongvu_250633626.0,711435,250633626.0,Màn hình Msi MAG 255XF 24.5 inch (Full HD/ RAPID IPS/ 300Hz/ 0.5 ms),Msi,monitor,3990000.0,5490000.0,1500000.0,27.0,,,,phongvu,2026-09-21
+phongvu_250633627.0,711436,250633627.0,Màn hình Msi MAG 275QF 27 inch (WQHD (2K)/ RAPID IPS/ 180Hz/ 0.5 ms),Msi,monitor,4790000.0,5690000.0,900000.0,16.0,,,,phongvu,2026-09-21
+phongvu_250633629.0,711439,250633629.0,Màn hình Msi PRO MP251W E2 24.5 inch (Full HD/ IPS/ 120Hz/ 1 ms),Msi,monitor,2390000.0,2890000.0,500000.0,17.0,,,,phongvu,2026-09-21
+phongvu_250633631.0,711445,250633631.0,Màn hình ViewSonic XG2409A 23.8 inch (Full HD/ IPS/ 240Hz/ 1 ms),ViewSonic,monitor,3590000.0,3990000.0,400000.0,10.0,,,,phongvu,2026-09-21
+phongvu_250633632.0,711443,250633632.0,Màn hình Msi MAG 276CF E20 27 inch (Full HD/ Rapid VA/ 200Hz/ 0.5 ms),Msi,monitor,3690000.0,3990000.0,300000.0,8.0,,,,phongvu,2026-09-21
+phongvu_250633633.0,711444,250633633.0,Màn hình Msi PRO MP272LKL 27 inch (Full HD/ IPS/ 100Hz/ 1 ms),Msi,monitor,2390000.0,3090000.0,700000.0,23.0,,,,phongvu,2026-09-21
+phongvu_250633634.0,711442,250633634.0,Màn hình Msi MAG 32CQ6F 31.5 inch (WQHD (2K)/ Rapid VA/ 180Hz/ 0.5 ms),Msi,monitor,5490000.0,6490000.0,1000000.0,15.0,,,,phongvu,2026-09-21
+phongvu_250633636.0,711447,250633636.0,Màn hình ViewSonic XG2709A 27 inch (Full HD/ IPS/ 240Hz/ 1 ms),ViewSonic,monitor,4590000.0,4790000.0,200000.0,4.0,,,,phongvu,2026-09-21
+phongvu_250635297.0,713345,250635297.0,Màn hình Msi MAG 342CQR E2 34 inch (UWQHD/ VA/ 180Hz/ 1 ms),Msi,monitor,8990000.0,8990000.0,0.0,0.0,,,,phongvu,2026-09-21
+phongvu_250636706.0,714762,250636706.0,Màn hình Asus ProArt Display PA329CRV 31.5 inch (4K/ IPS/ 60Hz/ 5 ms),Asus,monitor,17990000.0,23490000.0,5500000.0,23.0,,,,phongvu,2026-09-21
+phongvu_250637363.0,715421,250637363.0,Màn hình Xiaomi G27Qi ELA5593EU 27 inch (2K/ Fast IPS/ 180Hz/ 1 ms),Xiaomi,monitor,4500000.0,4990000.0,490000.0,10.0,,,,phongvu,2026-09-21
+phongvu_250637370.0,715427,250637370.0,Màn hình Xiaomi G Pro 27i EU ELA5585EU 27 inch (2K/ Fast IPS/ 180Hz/ 1 ms),Xiaomi,monitor,8330000.0,8990000.0,660000.0,7.0,,,,phongvu,2026-09-21
+phongvu_250637375.0,715434,250637375.0,Màn hình LG 34GX90SA-W 34 inch (UWQHD/ OLED/ 240Hz/ 0.03 ms),LG,monitor,27490000.0,29990000.0,2500000.0,8.0,,,,phongvu,2026-09-21
+phongvu_250638612.0,716699,250638612.0,Màn hình LG UltraGear 27GP750 27 inch (Full HD/ IPS/ 240Hz/ 1 ms),LG,monitor,3890000.0,4990000.0,1100000.0,22.0,,,,phongvu,2026-09-21
+phongvu_250638723.0,716810,250638723.0,Màn hình Asus ROG Strix OLED XG27AQDMG 26.5 inch (2K/ WOLED/ 240Hz/ 0.03 ms),Asus,monitor,18990000.0,23990000.0,5000000.0,21.0,,,,phongvu,2026-09-21
+phongvu_250638724.0,716812,250638724.0,Màn hình Asus TUF Gaming VG27AQ5A 27 inch (2K/ Fast IPS/ 210Hz/ 1 ms),Asus,monitor,4890000.0,5290000.0,400000.0,8.0,,,,phongvu,2026-09-21
+phongvu_250638725.0,716811,250638725.0,Màn hình Asus TUF Gaming VG259Q5A 24.5 inch (Full HD/ Fast IPS/ 200Hz/ 1 ms),Asus,monitor,3090000.0,3300000.0,210000.0,6.0,,,,phongvu,2026-09-21
+phongvu_250640758.0,719854,250640758.0,Màn hình Msi MAG 275UPD E14 27 inch (4K/ IPS/ 144Hz/ 1 ms),Msi,monitor,6790000.0,6990000.0,200000.0,3.0,,,,phongvu,2026-09-21
+phongvu_250640764.0,719860,250640764.0,Màn hình Msi MAG 274QPF X30MV 27 inch (WQHD (2K)/ Rapid VA/ 300Hz/ 0.5 ms),Msi,monitor,10690000.0,10990000.0,300000.0,3.0,,,,phongvu,2026-09-21
+phongvu_250645504.0,724692,250645504.0,"Màn hình LCD Samsung 27"" LF27T450FQEXXV (1920x1080, IPS, 75Hz, 5ms) - Đã sử dụng",Samsung,monitor,3289000.0,3289000.0,0.0,0.0,,,,phongvu,2026-09-21
+phongvu_250645569.0,724757,250645569.0,Màn hình LCD MSI 24'' PRO MP242C (1920 x 1080/ VA/ 75Hz/ 1ms) - Demo,Msi,monitor,1590000.0,3090000.0,1500000.0,49.0,,,,phongvu,2026-09-21
+phongvu_250645584.0,724772,250645584.0,Màn hình LCD Asus 23.8'' PA247CV-P (1920 x 1080/ IPS/ 75Hz/ 5ms GtG/ Adaptive-Sync) - Demo,Asus,monitor,2990000.0,7290000.0,4300000.0,59.0,,,,phongvu,2026-09-21
+phongvu_250645587.0,724775,250645587.0,Màn hình LCD Asus 23.8'' PA247CV-P (1920 x 1080/ IPS/ 75Hz/ 5ms GtG/ Adaptive-Sync) - Demo,Asus,monitor,2990000.0,7290000.0,4300000.0,59.0,,,,phongvu,2026-09-21
+phongvu_250645606.0,724794,250645606.0,Màn hình LCD MSI 24'' PRO MP242C (1920 x 1080/ VA/ 75Hz/ 1ms) - Demo,Msi,monitor,1590000.0,3090000.0,1500000.0,49.0,,,,phongvu,2026-09-21
+phongvu_250645612.0,724800,250645612.0,Màn hình/ LCD DELL SE2425H 23.8INCH/ 1920x1080/ 75Hz/ VGA/ HDMI/ LED/ ĐEN (K0FG9) - Demo,Dell,monitor,3100000.0,3100000.0,0.0,0.0,,,,phongvu,2026-09-21
+phongvu_250645993.0,725160,250645993.0,Màn hình Lenovo L27qe 27 inch (2K/ IPS/ 100Hz/ 6 ms),Lenovo,monitor,3090000.0,3590000.0,500000.0,14.0,,,,phongvu,2026-09-21
+phongvu_250645994.0,725161,250645994.0,Màn hình Dell E2225HSM 21.5 inch (Full HD/ VA/ 100Hz/ 5 ms),Dell,monitor,2490000.0,3190000.0,700000.0,22.0,,,,phongvu,2026-09-21
+phongvu_250645995.0,725162,250645995.0,Màn hình Dell P3225QE 31.5 inch (4K/ IPS/ 100Hz/ 5 ms),Dell,monitor,14990000.0,15090000.0,100000.0,1.0,,,,phongvu,2026-09-21
+phongvu_250645996.0,725163,250645996.0,Màn hình Dell P3425WE 34 inch (UWQHD/ IPS/ 100Hz/ 5 ms),Dell,monitor,16690000.0,16690000.0,0.0,0.0,,,,phongvu,2026-09-21
+phongvu_250646022.0,725189,250646022.0,Màn hình Dell U2725QE 27 inch (4K/ IPS/ 120Hz/ 5 ms),Dell,monitor,16590000.0,17490000.0,900000.0,5.0,,,,phongvu,2026-09-21
+phongvu_250646063.0,725230,250646063.0,Màn hình Asus VA24DQF 23.8 inch (Full HD/ IPS/ 100Hz/ 1 ms),Asus,monitor,2290000.0,2290000.0,0.0,0.0,,,,phongvu,2026-09-21
+phongvu_250711057.0,750260,250711057.0,Màn hình Dell Alienware P2424HT 24 inch (Full HD/ IPS/ 60Hz/ 5 ms),Dell,monitor,8990000.0,8990000.0,0.0,0.0,,,,phongvu,2026-09-21
+phongvu_250713730.0,752852,250713730.0,Màn hình LG 24U631A-B 23.8 inch (2K/ IPS/ 100Hz/ 5 ms),LG,monitor,3990000.0,4290000.0,300000.0,7.0,,,,phongvu,2026-09-21
+phongvu_250715719.0,754924,250715719.0,Màn hình Philips 27E1N2100D/71 27 inch (Full HD/ IPS/ 120Hz/ 4 ms),Philips,monitor,2790000.0,2890000.0,100000.0,3.0,,,,phongvu,2026-09-21
+phongvu_250717334.0,756627,250717334.0,Màn hình ViewSonic VA2432A-H 23.8 inch (Full HD/ IPS/ 120Hz/ 1 ms),ViewSonic,monitor,2050000.0,2290000.0,240000.0,10.0,,,,phongvu,2026-09-21
+phongvu_250717335.0,756629,250717335.0,Màn hình LG UltraGear 27G850A-B 27 inch (4K/ IPS/ 240Hz/ 1 ms),LG,monitor,15590000.0,18990000.0,3400000.0,18.0,,,,phongvu,2026-09-21
+phongvu_250719843.0,759322,250719843.0,Màn hình ViewSonic VX2779A-HD-PRO 27 inch (Full HD/ IPS/ 240Hz/ 1 ms),ViewSonic,monitor,4290000.0,4590000.0,300000.0,7.0,,,,phongvu,2026-09-21
+phongvu_250800176.0,762647,250800176.0,Màn hình Msi MAG 274QF X24 27 inch (2K/ RAPID IPS/ 240Hz/ 0.5 ms),Msi,monitor,5190000.0,5690000.0,500000.0,9.0,,,,phongvu,2026-09-21
+phongvu_250800183.0,762654,250800183.0,Màn hình Asus TUF Gaming VG279QM5A 27 inch (Full HD/ Fast IPS/ 240Hz/ 0.3 ms),Asus,monitor,3950000.0,4690000.0,740000.0,16.0,,,,phongvu,2026-09-21
+phongvu_250801760.0,764255,250801760.0,Màn hình Asus ROG Strix XG27ACS 27 inch (2K/ Fast IPS/ 180Hz/ 1 ms),Asus,monitor,6890000.0,6990000.0,100000.0,1.0,,,,phongvu,2026-09-21
+phongvu_250803174.0,765777,250803174.0,Màn hình Lenovo L27-4e 68CDKAC1VN 27 inch (Full HD/ IPS/ 100Hz/ 4 ms),Lenovo,monitor,2740000.0,2990000.0,250000.0,8.0,,,,phongvu,2026-09-21
+phongvu_250803181.0,765787,250803181.0,Màn hình Lenovo Legion 27-10 68C5GAC4VN 27 inch (Full HD/ IPS/ 240Hz/ 0.5 ms),Lenovo,monitor,3990000.0,4290000.0,300000.0,7.0,,,,phongvu,2026-09-21
+phongvu_250803188.0,765793,250803188.0,Màn hình Lenovo Legion 27Q-10 68C6GAC4VN 27 inch (2K/ IPS/ 240Hz/ 0.5 ms),Lenovo,monitor,5490000.0,5590000.0,100000.0,2.0,,,,phongvu,2026-09-21
+phongvu_250803202.0,765808,250803202.0,Màn hình Samsung Odyssey 3D G90XF LS27FG900XEXXV 27 inch (4K/ IPS/ 165Hz/ 1 ms),Samsung,monitor,23990000.0,48990000.0,25000000.0,51.0,,,,phongvu,2026-09-21
+phongvu_250804567.0,767180,250804567.0,"Màn hình LCD LG 27"" 27GS95QE-B.ATV (QHD (2560x1440)/OLED/240Hz/0.03ms (GtG)) - Demo",LG,monitor,8990000.0,24990000.0,16000000.0,64.0,,,,phongvu,2026-09-21
+phongvu_250804583.0,767196,250804583.0,"Màn hình LCD Asus 23.8"" VY249HF-R (1920 x 1080/ IPS/ 100Hz/ 1ms (MPRT)) - Demo",Asus,monitor,1590000.0,2790000.0,1200000.0,43.0,,,,phongvu,2026-09-21
+phongvu_250804593.0,767206,250804593.0,"Màn hình LCD Philips 27"" 27E1N1100A/74 (1920 x 1080/ IPS/ 100Hz/ 1ms (MPRT)) - Demo",Philips,monitor,1813000.0,2690000.0,877000.0,33.0,,,,phongvu,2026-09-21
+phongvu_250804646.0,767259,250804646.0,Màn hình LCD Viewsonic 24'' VA2406-H (1920 x 1080/VA/ 75 Hz/ 4ms) - Demo,ViewSonic,monitor,1490000.0,2890000.0,1400000.0,48.0,,,,phongvu,2026-09-21
+phongvu_250806027.0,768850,250806027.0,Màn hình Asus VA27AQ 27 inch (2K/ IPS/ 75Hz/ 1 ms),Asus,monitor,3090000.0,3890000.0,800000.0,21.0,,,,phongvu,2026-09-21
+phongvu_250806028.0,768849,250806028.0,Màn hình Asus TUF Gaming VG249Q5R 23.8 inch (Full HD/ Fast IPS/ 200Hz/ 0.3 ms),Asus,monitor,2690000.0,2990000.0,300000.0,10.0,,,,phongvu,2026-09-21
+phongvu_250807884.0,770794,250807884.0,Màn hình Msi MP275W E2 27 inch (Full HD/ IPS/ 120Hz/ 1 ms),Msi,monitor,2990000.0,2990000.0,0.0,0.0,,,,phongvu,2026-09-21
+phongvu_250808264.0,771445,250808264.0,Màn hình Aoc Q27G40E/71 27 inch (2K/ Fast IPS/ 180Hz/ 0.5 ms),Aoc,monitor,3990000.0,4690000.0,700000.0,15.0,,,,phongvu,2026-09-21
+phongvu_250808265.0,771447,250808265.0,Màn hình Aoc 22B15H2/71 21.5 inch (Full HD/ IPS/ 100Hz/ 4 ms),Aoc,monitor,1590000.0,1790000.0,200000.0,11.0,,,,phongvu,2026-09-21
+phongvu_250808266.0,771446,250808266.0,Màn hình Aoc 24B36X/71 23.8 inch (Full HD/ IPS/ 144Hz/ 0.5 ms),Aoc,monitor,2090000.0,2390000.0,300000.0,13.0,,,,phongvu,2026-09-21
+phongvu_250808267.0,771448,250808267.0,Màn hình Aoc 24G11ZE/71 23.8 inch (Full HD/ Fast IPS/ 240Hz/ 0.3 ms),Aoc,monitor,2690000.0,2890000.0,200000.0,7.0,,,,phongvu,2026-09-21
+phongvu_250808749.0,771956,250808749.0,Màn hình Samsung Smart M50F LS32FM501EEXXV 32 inch (Full HD/ VA/ 60Hz/ 4 ms),Samsung,monitor,5990000.0,6890000.0,900000.0,13.0,,,,phongvu,2026-09-21
+phongvu_250808750.0,771962,250808750.0,Màn hình LG 22U401A-B 21.5 inch (Full HD/ VA/ 100Hz/ 5 ms),LG,monitor,1990000.0,2290000.0,300000.0,13.0,,,,phongvu,2026-09-21
+phongvu_250808756.0,771964,250808756.0,Màn hình ViewSonic VA24G1-H 23.8 inch (Full HD/ IPS/ 144Hz/ 1 ms),ViewSonic,monitor,2290000.0,2589000.0,299000.0,12.0,,,,phongvu,2026-09-21
+phongvu_250808757.0,771968,250808757.0,Màn hình LG 24U411A-B 23.8 inch (Full HD/ IPS/ 120Hz/ 5 ms),LG,monitor,2290000.0,2590000.0,300000.0,12.0,,,,phongvu,2026-09-21
+phongvu_250808763.0,771974,250808763.0,Màn hình ViewSonic VX2428AJ-PK 23.8 inch (Full HD/ IPS/ 240Hz/ 0.5 ms),ViewSonic,monitor,3790000.0,4290000.0,500000.0,12.0,,,,phongvu,2026-09-21
+phongvu_250808764.0,771975,250808764.0,Màn hình LG 27U411A-B 27 inch (Full HD/ IPS/ 120Hz/ 5 ms),LG,monitor,2790000.0,2990000.0,200000.0,7.0,,,,phongvu,2026-09-21
+phongvu_250808771.0,771981,250808771.0,Màn hình ViewSonic VX2428AJ-BL 23.8 inch (Full HD/ IPS/ 240Hz/ 0.5 ms),ViewSonic,monitor,4190000.0,4290000.0,100000.0,2.0,,,,phongvu,2026-09-21
+phongvu_250808777.0,771988,250808777.0,Màn hình ViewSonic VA2532-H 25 inch (Full HD/ IPS/ 100Hz/ 1 ms),ViewSonic,monitor,1990000.0,2090000.0,100000.0,5.0,,,,phongvu,2026-09-21
+phongvu_250808782.0,771994,250808782.0,Màn hình Asus TUF VG279QE5A-R 27 inch (Full HD/ IPS/ 146Hz/ 1 ms),Asus,monitor,3190000.0,3290000.0,100000.0,3.0,,,,phongvu,2026-09-21
+phongvu_250808785.0,771996,250808785.0,Màn hình Lenovo L22-4e 67D5KAC6VN 21.5 inch (Full HD/ IPS/ 100Hz/ 4 ms),Lenovo,monitor,2090000.0,2590000.0,500000.0,19.0,,,,phongvu,2026-09-21
+phongvu_250808867.0,772076,250808867.0,Màn hình HKC MB24V39 23.8 inch (Full HD/ IPS/ 120Hz/ 4 ms),HKC,monitor,1790000.0,2599000.0,809000.0,31.0,,,,phongvu,2026-09-21
+phongvu_250809111.0,772375,250809111.0,Màn hình Asus ROG Swift OLED PG27UCDM 26.5 inch (4K/ QD-OLED/ 240Hz/ 0.03 ms),Asus,monitor,31990000.0,34990000.0,3000000.0,9.0,,,,phongvu,2026-09-21
+phongvu_250809162.0,772426,250809162.0,Màn hình Msi MPG 341CQPX 34 inch (UWQHD/ QD-OLED/ 240Hz/ 0.03 ms),Msi,monitor,22990000.0,25890000.0,2900000.0,11.0,,,,phongvu,2026-09-21
+phongvu_250809169.0,772434,250809169.0,Màn hình Dell S2725QS 27 inch (4K/ IPS/ 120Hz/ 4 ms),Dell,monitor,8190000.0,8490000.0,300000.0,4.0,,,,phongvu,2026-09-21
+phongvu_250809183.0,772448,250809183.0,Màn hình Gigabyte MO27Q2 27 inch (2K/ OLED/ 240Hz/ 0.03 ms),Gigabyte,monitor,15490000.0,16900000.0,1410000.0,8.0,,,,phongvu,2026-09-21
+phongvu_250809190.0,772455,250809190.0,Màn hình Gigabyte AORUS FO27Q3 27 inch (2K/ QD-OLED/ 360Hz/ 0.03 ms),Gigabyte,monitor,26990000.0,30090000.0,3100000.0,10.0,,,,phongvu,2026-09-21
+phongvu_250809197.0,772462,250809197.0,Màn hình Gigabyte AORUS FO27Q5P 27 inch (2K/ OLED/ 500Hz/ 0.03 ms),Gigabyte,monitor,33990000.0,34900000.0,910000.0,3.0,,,,phongvu,2026-09-21
+phongvu_250900400.0,772971,250900400.0,Màn hình HKC MG25H29 24.5 inch (Full HD/ RAPID IPS/ 200Hz/ 1 ms),HKC,monitor,2490000.0,2999000.0,509000.0,17.0,,,,phongvu,2026-09-21
+phongvu_250900401.0,772969,250900401.0,Màn hình HKC MG27H17 27 inch (Full HD/ Fast IPS/ 200Hz/ 1 ms),HKC,monitor,2890000.0,4199000.0,1309000.0,31.0,,,,phongvu,2026-09-21
+phongvu_250900402.0,772970,250900402.0,Màn hình HKC MG25H320 24.5 inch (Full HD/ Fast IPS/ 320Hz/ 1 ms),HKC,monitor,3190000.0,4299000.0,1109000.0,26.0,,,,phongvu,2026-09-21
+phongvu_250903966.0,776661,250903966.0,Màn hình LCD Viewsonic 24'' VA2406-H (1920 x 1080/VA/ 75 Hz/ 4ms) - Demo,ViewSonic,monitor,1490000.0,2890000.0,1400000.0,48.0,,,,phongvu,2026-09-21
+phongvu_250904205.0,776900,250904205.0,"Màn hình LCD Lenovo 23.8"" L24i-4A - 67BCKAC6VN (1920 x 1080/IPS/100Hz/1ms) - Đã kích hoạt",Lenovo,monitor,1890000.0,2690000.0,800000.0,30.0,,,,phongvu,2026-09-21
+phongvu_250906238.0,778950,250906238.0,Màn hình Msi MPG 491CQPX QD-OLED 49 inch (DQHD/ QD-OLED/ 240Hz/ 0.03 ms),Msi,monitor,28490000.0,33590000.0,5100000.0,15.0,,,,phongvu,2026-09-21
+phongvu_250906240.0,778953,250906240.0,Màn hình Msi MPG 322URX 32 inch (4K/ QD-OLED/ 240Hz/ 0.03 ms),Msi,monitor,30990000.0,33590000.0,2600000.0,8.0,,,,phongvu,2026-09-21
+phongvu_250906258.0,778970,250906258.0,Màn hình Msi MPG 321URXW 32 inch (4K/ QD-OLED/ 240Hz/ 0.03 ms),Msi,monitor,30590000.0,33590000.0,3000000.0,9.0,,,,phongvu,2026-09-21
+phongvu_250906265.0,778978,250906265.0,Màn hình Msi MPG 272URX 27 inch (4K/ QD-OLED/ 240Hz/ 0.03 ms),Msi,monitor,34990000.0,34990000.0,0.0,0.0,,,,phongvu,2026-09-21
+phongvu_250906272.0,778985,250906272.0,Màn hình Msi MAG 272QP QD-OLED X50 27 inch (2K/ QD-OLED/ 500Hz/ 0.03 ms),Msi,monitor,23990000.0,26990000.0,3000000.0,11.0,,,,phongvu,2026-09-21
+phongvu_250906279.0,778992,250906279.0,Màn hình Msi Pro MP242A E2 24 inch (Full HD/ IPS/ 120Hz/ 1 ms),Msi,monitor,2390000.0,2390000.0,0.0,0.0,,,,phongvu,2026-09-21
+phongvu_250906286.0,778999,250906286.0,Màn hình HKC MG27Q320 27 inch (2K/ Fast IPS/ 320Hz/ 1 ms),HKC,monitor,5490000.0,6290000.0,800000.0,13.0,,,,phongvu,2026-09-21
+phongvu_250907331.0,780089,250907331.0,Màn hình Msi MAG 245F X24 23.8 inch (Full HD/ RAPID IPS/ 240Hz/ 0.5 ms),Msi,monitor,3090000.0,3590000.0,500000.0,14.0,,,,phongvu,2026-09-21
+phongvu_250908287.0,781052,250908287.0,Màn hình Asus TUF Gaming VG259QM5A 24.5 inch (Full HD/ Fast IPS/ 240Hz/ 0.3 ms),Asus,monitor,3090000.0,4190000.0,1100000.0,26.0,,,,phongvu,2026-09-21
+phongvu_250908294.0,781060,250908294.0,Màn hình Hatek HT3225S 32 inch (Full HD/ ELED/ / 8 ms),Hatek,monitor,26990000.0,27490000.0,500000.0,2.0,,,,phongvu,2026-09-21
+phongvu_250908301.0,781066,250908301.0,Màn hình HP S5 524da B11W5AT 23.8 inch (Full HD/ IPS/ 100Hz/ 5 ms),HP,monitor,3790000.0,3990000.0,200000.0,5.0,,,,phongvu,2026-09-21
+phongvu_250908310.0,781074,250908310.0,Màn hình HP S5 527da B11W6AT 27 inch (Full HD/ IPS/ 100Hz/ 5 ms),HP,monitor,4590000.0,4790000.0,200000.0,4.0,,,,phongvu,2026-09-21
+phongvu_250911683.0,784543,250911683.0,Màn hình Acer EK251Q P6 UM.KE1SV.601 24.5 inch (Full HD/ IPS/ 144Hz/ 1 ms),Acer,monitor,2290000.0,2590000.0,300000.0,12.0,,,,phongvu,2026-09-21
+phongvu_250911690.0,784549,250911690.0,Màn hình Acer EK271 P6 UM.HE1SV.601 27 inch (Full HD/ IPS/ 144Hz/ 1 ms),Acer,monitor,2590000.0,2990000.0,400000.0,13.0,,,,phongvu,2026-09-21
+phongvu_250911697.0,784556,250911697.0,Màn hình Acer KA272K L1 UM.HX2SV.101 27 inch (4K/ IPS/ 60Hz/ 1 ms),Acer,monitor,5490000.0,6190000.0,700000.0,11.0,,,,phongvu,2026-09-21
+phongvu_250911698.0,784557,250911698.0,Màn hình Msi PRO MP165 E6 15.6 inch (Full HD/ IPS/ 60Hz/ 4 ms),Msi,monitor,2590000.0,2790000.0,200000.0,7.0,,,,phongvu,2026-09-21
+phongvu_251001963.0,788532,251001963.0,Màn hình Msi PRO MP243L E14 23.8 inch (Full HD/ IPS/ 144Hz/ 1 ms),Msi,monitor,2290000.0,2490000.0,200000.0,8.0,,,,phongvu,2026-09-21
+phongvu_251001977.0,788544,251001977.0,Màn hình Msi MAG 272F X24 27 inch (Full HD/ RAPID IPS/ 240Hz/ 0.5 ms),Msi,monitor,3390000.0,4990000.0,1600000.0,32.0,,,,phongvu,2026-09-21
+phongvu_251002212.0,788763,251002212.0,Màn hình LCD LG 27 inch 27MS500-B.ATV (Full HD 1920 x 1080 | IPS | 100Hz | 5ms) - Đã sử dụng,LG,monitor,1990000.0,2990000.0,1000000.0,33.0,,,,phongvu,2026-09-21
+phongvu_251017479.0,807368,251017479.0,Màn hình Asus ZenScreen MB169CK 15.6 inch (Full HD/ IPS/ 60Hz/ 5 ms),Asus,monitor,2690000.0,3190000.0,500000.0,16.0,,,,phongvu,2026-09-21
+phongvu_251019106.0,809129,251019106.0,Màn hình Aoc Q27G4SL/WS 27 inch (2K/ Fast IPS/ 320Hz/ 0.3 ms),Aoc,monitor,6490000.0,7390000.0,900000.0,12.0,,,,phongvu,2026-09-21
+phongvu_251100572.0,811336,251100572.0,"Màn hình LCD MSI 23.8"" MD241PW (1920x1080/ IPS/ 75Hz/ 5ms) (Trắng) - Demo",Msi,monitor,2490000.0,6590000.0,4100000.0,62.0,,,,phongvu,2026-09-21
+phongvu_251100613.0,811377,251100613.0,"Màn hình LCD Samsung 27"" LF27T450FQEXXV (1920x1080, IPS, 75Hz, 5ms) - Demo",Samsung,monitor,2470000.0,3289000.0,819000.0,25.0,,,,phongvu,2026-09-21
+phongvu_251100616.0,811380,251100616.0,"Màn hình LCD Samsung 27"" LF27T450FQEXXV (1920x1080, IPS, 75Hz, 5ms) - Demo",Samsung,monitor,2470000.0,3289000.0,819000.0,25.0,,,,phongvu,2026-09-21
+phongvu_251100617.0,811381,251100617.0,Màn hình LCD LG 27” 27GS75Q-B (2560 x 1440/IPS /200Hz (OC)/ 1ms/ Gsync Compatible) - Demo,LG,monitor,5360000.0,7990000.0,2630000.0,33.0,,,,phongvu,2026-09-21
+phongvu_251100619.0,811383,251100619.0,"Màn hình LCD MSI 24.5"" MAG 255F E20 (1920x1080/ IPS/ 200Hz/ 0.5ms) Đen - Demo",Msi,monitor,2710000.0,3190000.0,480000.0,15.0,,,,phongvu,2026-09-21
+phongvu_251100620.0,811384,251100620.0,Màn hình LCD LG 27” 27GS75Q-B (2560 x 1440/IPS /200Hz (OC)/ 1ms/ Gsync Compatible) - Demo,LG,monitor,5360000.0,7990000.0,2630000.0,33.0,,,,phongvu,2026-09-21
+phongvu_251100625.0,811389,251100625.0,"Màn hình LCD MSI PRO 21.5"" MP225 (1920 x 1080/ IPS/ 100Hz/ 1ms (MPRT)) - Demo",Msi,monitor,1590000.0,2090000.0,500000.0,24.0,,,,phongvu,2026-09-21
+phongvu_251100628.0,811392,251100628.0,Màn hình LCD LG 27” 27GS75Q-B (2560 x 1440/IPS /200Hz (OC)/ 1ms/ Gsync Compatible) - Demo,LG,monitor,5360000.0,7990000.0,2630000.0,33.0,,,,phongvu,2026-09-21
+phongvu_251100749.0,811513,251100749.0,"Màn hình LCD MSI 24"" MP242 (1920 x 1080, IPS, 75hz, 8ms) - Demo",Msi,monitor,1990000.0,4490000.0,2500000.0,56.0,,,,phongvu,2026-09-21
+phongvu_251100750.0,811514,251100750.0,"Màn hình LCD MSI 24"" MP242 (1920 x 1080, IPS, 75hz, 8ms) - Demo",Msi,monitor,1990000.0,4490000.0,2500000.0,56.0,,,,phongvu,2026-09-21
+phongvu_251100751.0,811515,251100751.0,"Màn hình LCD MSI 24"" MP242 (1920 x 1080, IPS, 75hz, 8ms) - Demo",Msi,monitor,4490000.0,4490000.0,0.0,0.0,,,,phongvu,2026-09-21
+phongvu_251100757.0,811521,251100757.0,Màn Hình/ LCD ACER SA272U E 27 INCH/2560x1440@100Hz/IPS/DP/HDMI/SPK/LED/ĐEN - Demo,Acer,monitor,4090000.0,4090000.0,0.0,0.0,,,,phongvu,2026-09-21
+phongvu_251100760.0,811524,251100760.0,"Màn hình LCD Xiaomi 27"" G27i EU ELA5375EU (1920 x 1080/ IPS/ 165Hz/ 1ms) - Demo",Xiaomi,monitor,2420000.0,3990000.0,1570000.0,39.0,,,,phongvu,2026-09-21
+phongvu_251100769.0,811533,251100769.0,Màn hình LCD MSI PRO MP242L 23.8 inch (1920 x 1080/ IPS/ 100Hz/ 1ms (MPRT)) - Demo,Msi,monitor,1610000.0,2190000.0,580000.0,26.0,,,,phongvu,2026-09-21
+phongvu_251100775.0,811539,251100775.0,Màn hình LCD MSI PRO MP242L 23.8 inch (1920 x 1080/ IPS/ 100Hz/ 1ms (MPRT)) - Demo,Msi,monitor,1700000.0,2190000.0,490000.0,22.0,,,,phongvu,2026-09-21
+phongvu_251102026.0,812845,251102026.0,Màn hình HKC MB27V39 27 inch (Full HD/ IPS/ 144Hz/ 1 ms),HKC,monitor,2390000.0,3199000.0,809000.0,25.0,,,,phongvu,2026-09-21
+phongvu_251102046.0,812865,251102046.0,Màn hình Dell SE2425HG 23.8 inch (Full HD/ IPS/ 200Hz/ 5 ms),Dell,monitor,3090000.0,3490000.0,400000.0,11.0,,,,phongvu,2026-09-21
+phongvu_251103268.0,813974,251103268.0,Màn hình Asus ROG Strix OLED XG27ACDMS 26.5 inch (2K/ / 280Hz/ 0.03 ms),Asus,monitor,16490000.0,18990000.0,2500000.0,13.0,,,,phongvu,2026-09-21
+phongvu_251105482.0,816215,251105482.0,Màn hình Asus VG249QE5A-R 23.8 inch (Full HD/ IPS/ 146Hz/ 1 ms),Asus,monitor,2690000.0,2990000.0,300000.0,10.0,,,,phongvu,2026-09-21
+phongvu_251107193.0,818350,251107193.0,"Màn hình Lenovo L24D-4C 23.8"" (FHD 1920 x 1080/ IPS/ 144Hz/ 1 ms)",Lenovo,monitor,3790000.0,4290000.0,500000.0,12.0,,,,phongvu,2026-09-21
+phongvu_251107217.0,818374,251107217.0,Màn hình Msi PRO MP273L E14 27 inch (Full HD/ IPS/ 144Hz/ 1 ms),Msi,monitor,2590000.0,2990000.0,400000.0,13.0,,,,phongvu,2026-09-21
+phongvu_251107224.0,818384,251107224.0,Màn hình Asus PA278QGV Gen 2 27 inch (2K/ IPS/ 120Hz/ 5 ms),Asus,monitor,8490000.0,8990000.0,500000.0,6.0,,,,phongvu,2026-09-21
+phongvu_251109191.0,820282,251109191.0,Màn hình Msi MAG 275CF X24 27 inch (Full HD/ Rapid VA/ 240Hz/ 0.5 ms),Msi,monitor,3690000.0,3690000.0,0.0,0.0,,,,phongvu,2026-09-21
+phongvu_251111645.0,822739,251111645.0,Màn hình Asus ROG Strix XG27ACMES 27 inch (2K/ Fast IPS/ 255Hz/ 0.3 ms),Asus,monitor,6890000.0,7990000.0,1100000.0,14.0,,,,phongvu,2026-09-21
+phongvu_251111651.0,822746,251111651.0,Màn hình Asus ROG Strix XG27WCS 27 inch (2K/ Fast VA/ 180Hz/ 1 ms),Asus,monitor,6790000.0,6990000.0,200000.0,3.0,,,,phongvu,2026-09-21
+phongvu_251111657.0,822752,251111657.0,Màn hình Asus ROG Swift OLED PG32UCDP 32 inch (4K/ WOLED/ 240Hz/ 0.03 ms),Asus,monitor,36990000.0,40990000.0,4000000.0,10.0,,,,phongvu,2026-09-21
+phongvu_251111666.0,822758,251111666.0,Màn hình Asus ROG Strix OLED XG32UCWMG 32 inch (4K/ WOLED/ 240Hz/ 0.03 ms),Asus,monitor,30190000.0,31990000.0,1800000.0,6.0,,,,phongvu,2026-09-21
+phongvu_251113481.0,824640,251113481.0,Màn hình Msi MPG 274URDFW E16M 27 inch (4K/ RAPID IPS/ 160Hz/ 0.5 ms),Msi,monitor,13590000.0,13990000.0,400000.0,3.0,,,,phongvu,2026-09-21
+phongvu_251113488.0,824645,251113488.0,Màn hình Msi G275L E14 27 inch (Full HD/ IPS/ 144Hz/ 1 ms),Msi,monitor,2690000.0,3090000.0,400000.0,13.0,,,,phongvu,2026-09-21
+phongvu_251113495.0,824652,251113495.0,Màn hình Msi MP273Q E7 27 inch (WQHD/ IPS/ 75Hz/ 1 ms),Msi,monitor,2990000.0,3590000.0,600000.0,17.0,,,,phongvu,2026-09-21
+phongvu_251202908.0,828537,251202908.0,Màn hình Gigabyte G25F2A 24.5 inch (Full HD/ IPS/ 240Hz/ 1 ms),Gigabyte,monitor,3090000.0,3690000.0,600000.0,16.0,,,,phongvu,2026-09-21
+phongvu_251202909.0,828538,251202909.0,Màn hình Gigabyte OLED MO27Q28G 27 inch (2K/ WOLED/ 280Hz/ 0.03 ms),Gigabyte,monitor,16490000.0,16890000.0,400000.0,2.0,,,,phongvu,2026-09-21
+phongvu_251202917.0,828543,251202917.0,Màn hình Gigabyte GS25F2A 24.5 inch (Full HD/ IPS/ 240Hz/ 1 ms),Gigabyte,monitor,2790000.0,3490000.0,700000.0,20.0,,,,phongvu,2026-09-21
+phongvu_251202924.0,828552,251202924.0,Màn hình Gigabyte GS27FC2 27 inch (Full HD/ VA/ 240Hz/ 1 ms),Gigabyte,monitor,3490000.0,3990000.0,500000.0,13.0,,,,phongvu,2026-09-21
+phongvu_251202930.0,828558,251202930.0,Màn hình Gigabyte G34WQC2 34 inch (WQHD (2K)/ VA/ 200Hz/ 1 ms),Gigabyte,monitor,7390000.0,8390000.0,1000000.0,12.0,,,,phongvu,2026-09-21
+phongvu_251202936.0,828564,251202936.0,Màn hình Gigabyte M27UP 27 inch (4K/ IPS/ 160Hz/ 1 ms),Gigabyte,monitor,9990000.0,10190000.0,200000.0,2.0,,,,phongvu,2026-09-21
+phongvu_251203801.0,829639,251203801.0,Màn Hình/ LCD ACER SA272U E 27 INCH/2560x1440@100Hz/IPS/DP/HDMI/SPK/LED/ĐEN - Demo,Acer,monitor,2950000.0,4090000.0,1140000.0,28.0,,,,phongvu,2026-09-21
+phongvu_251203802.0,829640,251203802.0,Màn hình/ LCD Gaming Acer 27 inch Nitro KG270 X1 (FHD/IPS/200Hz/1ms) Đen - Demo,Acer,monitor,2920000.0,3690000.0,770000.0,21.0,,,,phongvu,2026-09-21
+phongvu_251204018.0,829856,251204018.0,"Màn hình LCD Dell 23.8"" E2423HN (1920x1080/ VA/ 60Hz/ 5ms) - Demo",Dell,monitor,2230000.0,3590000.0,1360000.0,38.0,,,,phongvu,2026-09-21
+phongvu_251204020.0,829858,251204020.0,"Màn hình LCD MSI PRO 21.5"" MP225 (1920 x 1080/ IPS/ 100Hz/ 1ms (MPRT)) - Demo",Msi,monitor,1590000.0,2090000.0,500000.0,24.0,,,,phongvu,2026-09-21
+phongvu_251204022.0,829860,251204022.0,"Màn hình LCD Dell 23.8"" S2425H (1920 x 1080/ IPS/ 100hz/ 4ms) - Demo",Dell,monitor,2850000.0,3890000.0,1040000.0,27.0,,,,phongvu,2026-09-21
+phongvu_251208390.0,834498,251208390.0,Màn hình Xiaomi A27Qi 2026 ELA6568EU 27 inch (2K/ IPS/ 120Hz/ 6 ms),Xiaomi,monitor,3890000.0,4490000.0,600000.0,13.0,,,,phongvu,2026-09-21
+phongvu_251210729.0,836944,251210729.0,Màn hình Dell S2425HSM 24 inch (Full HD/ IPS/ 144Hz/ 5 ms),Dell,monitor,3490000.0,3800000.0,310000.0,8.0,,,,phongvu,2026-09-21
+phongvu_251211477.0,837866,251211477.0,Màn hình LG UltraWide 29U531A 29 inch (UWHD/ IPS/ 100Hz/ 5 ms),LG,monitor,4790000.0,5390000.0,600000.0,11.0,,,,phongvu,2026-09-21
+phongvu_251211484.0,837876,251211484.0,Màn hình LG UltraGear 27G440A 27 inch (Full HD/ IPS/ 240Hz/ 1 ms),LG,monitor,4490000.0,4790000.0,300000.0,6.0,,,,phongvu,2026-09-21
+phongvu_251211492.0,837885,251211492.0,Màn hình Dell SE2725HG 27 inch (Full HD/ IPS/ 200Hz/ 1 ms),Dell,monitor,3790000.0,3990000.0,200000.0,5.0,,,,phongvu,2026-09-21
+phongvu_251211499.0,837892,251211499.0,Màn hình Aoc 24G50Z 24 inch (Full HD/ Fast IPS/ 260Hz/ 0.3 ms),Aoc,monitor,2790000.0,2890000.0,100000.0,3.0,,,,phongvu,2026-09-21
+phongvu_251211506.0,837899,251211506.0,Màn hình Aoc 27G50Z 27 inch (Full HD/ Fast IPS/ 260Hz/ 0.3 ms),Aoc,monitor,3390000.0,3890000.0,500000.0,13.0,,,,phongvu,2026-09-21
+phongvu_251211507.0,837901,251211507.0,Màn hình Aoc C32G42ZE 27 inch (Full HD/ VA/ 260Hz/ 0.3 ms),Aoc,monitor,4590000.0,4990000.0,400000.0,8.0,,,,phongvu,2026-09-21
+phongvu_251212297.0,838778,251212297.0,Màn hình Aoc 24B15H3/71 23.8 inch (Full HD/ IPS/ 120Hz/ 1 ms),Aoc,monitor,1890000.0,2090000.0,200000.0,10.0,,,,phongvu,2026-09-21
+phongvu_251212298.0,838780,251212298.0,Màn hình Aoc Q27B36X/71 27 inch (2K/ IPS/ 144Hz/ 0.5 ms),Aoc,monitor,3590000.0,3690000.0,100000.0,3.0,,,,phongvu,2026-09-21
+phongvu_251212299.0,838779,251212299.0,Màn hình LG UltraGear 32GX870A-B 32 inch (4K/ OLED/ 240Hz/ 0.03 ms),LG,monitor,26990000.0,29990000.0,3000000.0,10.0,,,,phongvu,2026-09-21
+phongvu_251212300.0,838782,251212300.0,Màn hình Aoc Q27G42ZE/71 27 inch (2K/ Fast IPS/ 260Hz/ 0.3 ms),Aoc,monitor,4790000.0,4900000.0,110000.0,2.0,,,,phongvu,2026-09-21
+phongvu_251212301.0,838781,251212301.0,Màn hình Aoc 27B30H/74 27 inch (Full HD/ IPS/ 120Hz/ 0.5 ms),Aoc,monitor,2390000.0,2590000.0,200000.0,8.0,,,,phongvu,2026-09-21
+phongvu_251212302.0,838783,251212302.0,Màn hình LG UltraGear 32GS95UV-B 31.5 inch (4K/ OLED/ 240Hz/ 0.03 ms),LG,monitor,27090000.0,29400000.0,2310000.0,8.0,,,,phongvu,2026-09-21
+phongvu_251212303.0,838784,251212303.0,Màn hình LG 39GX90SA-W 39 inch (WQHD/ OLED/ 240Hz/ 0.03 ms),LG,monitor,30990000.0,32990000.0,2000000.0,6.0,,,,phongvu,2026-09-21
+phongvu_260102086.0,840926,260102086.0,Màn hình HKC MG24H17 23.8 inch (Full HD/ Fast IPS/ 260Hz/ 1 ms),HKC,monitor,2390000.0,3090000.0,700000.0,23.0,,,,phongvu,2026-09-21
+phongvu_260102093.0,840932,260102093.0,Màn hình Dell AW2725DM 27 inch (WQHD (2K)/ Fast IPS/ 180Hz/ 1 ms),Dell,monitor,6990000.0,7490000.0,500000.0,7.0,,,,phongvu,2026-09-21
+phongvu_260102099.0,840937,260102099.0,Màn hình Lenovo L24-4C 67DDKAC6VN 23.8 inch (Full HD/ IPS/ 144Hz/ 1 ms),Lenovo,monitor,2690000.0,2990000.0,300000.0,10.0,,,,phongvu,2026-09-21
+phongvu_260104165.0,842943,260104165.0,Màn hình ViewSonic VX3418C-2K VS20582 34 inch (UWQHD/ VA/ 180Hz/ 1 ms),ViewSonic,monitor,7590000.0,7690000.0,100000.0,1.0,,,,phongvu,2026-09-21
+phongvu_260105193.0,844003,260105193.0,"Màn hình LCD Samsung 24 inch LS24F320GAEXXV (Full HD 1,920 x 1,080/ IPS/ 120Hz/ 5ms) - Đã kích hoạt",Samsung,monitor,1990000.0,2619000.0,629000.0,24.0,,,,phongvu,2026-09-21
+phongvu_260105207.0,844017,260105207.0,Màn Hình/ LCD ACER EK271 G 27 INCH/1920X1080@120Hz/IPS/VGA/HDMI/LED/ĐEN(UM.HE1SV.G01) - Đã sử dụng,Acer,monitor,1550000.0,2790000.0,1240000.0,44.0,,,,phongvu,2026-09-21
+phongvu_260105257.0,844070,260105257.0,"Màn hình LCD Samsung 24 inch LS24F320GAEXXV (Full HD 1,920 x 1,080/ IPS/ 120Hz/ 5ms) - Đã kích hoạt",Samsung,monitor,1990000.0,2619000.0,629000.0,24.0,,,,phongvu,2026-09-21
+phongvu_260105262.0,844072,260105262.0,"Màn hình LCD Samsung 24 inch LS24F320GAEXXV (Full HD 1,920 x 1,080/ IPS/ 120Hz/ 5ms) - Đã kích hoạt",Samsung,monitor,1990000.0,2619000.0,629000.0,24.0,,,,phongvu,2026-09-21
+phongvu_260105273.0,844083,260105273.0,"Màn hình LCD Xiaomi 34"" G34WQi (3440 x 1440/ VA/ 180Hz/ 1ms (MPRT)/ 4ms (GTG)) - Đã kích hoạt",Xiaomi,monitor,5690000.0,7490000.0,1800000.0,24.0,,,,phongvu,2026-09-21
+phongvu_260105371.0,844181,260105371.0,"Màn hình LCD Lenovo 21.5"" L22i-40 - 67AEKACBVN (1920 x 1080/ IPS/ 75Hz/ 4ms) - Demo",Lenovo,monitor,1750000.0,2390000.0,640000.0,27.0,,,,phongvu,2026-09-21
+phongvu_260105383.0,844193,260105383.0,Màn Hình/ LCD ACER SA272U E 27 INCH/2560x1440@100Hz/IPS/DP/HDMI/SPK/LED/ĐEN - Demo,Acer,monitor,2950000.0,4090000.0,1140000.0,28.0,,,,phongvu,2026-09-21
+phongvu_260105385.0,844195,260105385.0,"Màn hình LCD Dell 23.8"" S2425H (1920 x 1080/ IPS/ 100hz/ 4ms) - Demo",Dell,monitor,3890000.0,3890000.0,0.0,0.0,,,,phongvu,2026-09-21
+phongvu_260105577.0,844387,260105577.0,Màn hình LCD LG 27'' 27US500-W (3840 x 2160/ IPS/ 60Hz/ 5ms/ AMD Freesync) - Demo,LG,monitor,6190000.0,6190000.0,0.0,0.0,,,,phongvu,2026-09-21
+phongvu_260105578.0,844388,260105578.0,Màn hình/ LCD Gaming Acer 27 inch Nitro KG270 X1 (FHD/IPS/200Hz/1ms) Đen - Demo,Acer,monitor,2920000.0,3690000.0,770000.0,21.0,,,,phongvu,2026-09-21
+phongvu_260105672.0,844481,260105672.0,Màn hình Xiaomi G27Qi 2026 27 inch (2K/ Fast IPS/ 200Hz/ 1 ms),Xiaomi,monitor,4890000.0,5190000.0,300000.0,6.0,,,,phongvu,2026-09-21
+phongvu_260105679.0,844489,260105679.0,Màn hình Samsung Odyssey G5 G50F LS27FG502EEXXV 27 inch (2K/ IPS/ 180Hz/ 1 ms),Samsung,monitor,4890000.0,6090000.0,1200000.0,20.0,,,,phongvu,2026-09-21
+phongvu_260105685.0,844496,260105685.0,Màn hình Gigabyte GO27Q24 27 inch (2K/ QD-OLED/ 240Hz/ 0.03 ms),Gigabyte,monitor,12490000.0,18390000.0,5900000.0,32.0,,,,phongvu,2026-09-21
+phongvu_260105715.0,844527,260105715.0,Màn hình ViewSonic VA1655-3 15.6 inch (Full HD/ IPS/ 60Hz/ 7 ms),ViewSonic,monitor,2950000.0,3150000.0,200000.0,6.0,,,,phongvu,2026-09-21
+phongvu_260105722.0,844532,260105722.0,Màn hình Xiaomi A24i 2026 ELA6416EU 23.8 inch (Full HD/ IPS/ 144Hz/ 6 ms),Xiaomi,monitor,2390000.0,2490000.0,100000.0,4.0,,,,phongvu,2026-09-21
+phongvu_260106719.0,845545,260106719.0,Màn hình Gigabyte GS25F14 25 inch (Full HD/ IPS/ 144Hz/ 1 ms),Gigabyte,monitor,2390000.0,2800000.0,410000.0,15.0,,,,phongvu,2026-09-21
+phongvu_260106726.0,845551,260106726.0,Màn hình Asus ProArt PA278CGRV 27 inch (WUXGA/ IPS/ 144Hz/ 5 ms),Asus,monitor,8890000.0,8990000.0,100000.0,1.0,,,,phongvu,2026-09-21
+phongvu_260107401.0,846245,260107401.0,Màn hình Lenovo S24-4e 64B5KAR1VN 23.8 inch (Full HD/ IPS/ 100Hz/ 4 ms),Lenovo,monitor,2350000.0,2990000.0,640000.0,21.0,,,,phongvu,2026-09-21
+phongvu_260107687.0,846538,260107687.0,Màn hình Asus ProArt PA248QFV 24 inch (WUXGA/ IPS/ 100Hz/ 5 ms),Asus,monitor,4990000.0,5290000.0,300000.0,6.0,,,,phongvu,2026-09-21
+phongvu_260109028.0,847903,260109028.0,"Màn hình LCD Acer CBL282K 28"" (UHD, 3840x2160/60Hz/ IPS / 4ms/ 2xHDMI + Displayport, 2xSPK) - Demo",Acer,monitor,4390000.0,8490000.0,4100000.0,48.0,,,,phongvu,2026-09-21
+phongvu_260109032.0,847907,260109032.0,"Màn hình LCD Asus 24"" ProArt PA248QV (1920x1200, IPS, 75Hz, 5ms, Adaptive Sync) - Demo",Asus,monitor,4990000.0,4990000.0,0.0,0.0,,,,phongvu,2026-09-21
+phongvu_260200462.0,848786,260200462.0,Màn hình ViewSonic VX2425-HD-PRO 23.8 inch (Full HD/ VA/ 200Hz/ 1 ms),ViewSonic,monitor,2390000.0,2690000.0,300000.0,11.0,,,,phongvu,2026-09-21
+phongvu_260202509.0,850864,260202509.0,Màn hình Msi PRO MP273W E14A 27 inch (Full HD/ IPS/ 144Hz/ 1 ms),Msi,monitor,3090000.0,3290000.0,200000.0,6.0,,,,phongvu,2026-09-21
+phongvu_260202514.0,850872,260202514.0,Màn hình Msi MAG 275QF E20 27 inch (WQHD/ RAPID IPS/ 200Hz/ 0.5 ms),Msi,monitor,4390000.0,4990000.0,600000.0,12.0,,,,phongvu,2026-09-21
+phongvu_260202515.0,850873,260202515.0,Màn hình Samsung Odyssey G7 G70F LS27FG702EEXXV 27 inch (4K/ IPS/ 180Hz/ 1 ms),Samsung,monitor,13690000.0,14190000.0,500000.0,4.0,,,,phongvu,2026-09-21
+phongvu_260202518.0,850876,260202518.0,Màn hình Msi MP251 E14L 24.5 inch (Full HD/ IPS/ 144Hz/ 1 ms),Msi,monitor,2290000.0,2690000.0,400000.0,15.0,,,,phongvu,2026-09-21
+phongvu_260202519.0,850877,260202519.0,Màn hình Samsung ViewFinity S7 S70D LS37D702EAEXXV 37 inch (4K/ VA/ 60Hz/ 5 ms),Samsung,monitor,11990000.0,12490000.0,500000.0,4.0,,,,phongvu,2026-09-21
+phongvu_260202522.0,850880,260202522.0,Màn hình Lenovo L27-4C 67DEKAC1VN 27 inch (Full HD/ IPS/ 144Hz/ 1 ms),Lenovo,monitor,3390000.0,3490000.0,100000.0,3.0,,,,phongvu,2026-09-21
+phongvu_260202523.0,850881,260202523.0,Màn hình Samsung ViewFinity S8 S80UD LS37D800UAEXXV 37 inch (4K/ VA/ 60Hz/ 5 ms),Samsung,monitor,13990000.0,14490000.0,500000.0,3.0,,,,phongvu,2026-09-21
+phongvu_260202526.0,850884,260202526.0,Màn hình Aoc 25B36X/71 24.5 inch (Full HD/ IPS/ 144Hz/ 0.5 ms),Aoc,monitor,2190000.0,2590000.0,400000.0,15.0,,,,phongvu,2026-09-21
+phongvu_260202527.0,850885,260202527.0,Màn hình Samsung Odyssey G5 G50SF LS27FG502SEXXV 27 inch (2K/ OLED/ 180Hz/ 0.03 ms),Samsung,monitor,11990000.0,14490000.0,2500000.0,17.0,,,,phongvu,2026-09-21
+phongvu_260202530.0,850888,260202530.0,Màn hình Aoc Q27G4ZD/71 27 inch (2K/ QD-OLED/ 280Hz/ 0.03 ms),Aoc,monitor,12799000.0,15990000.0,3191000.0,20.0,,,,phongvu,2026-09-21
+phongvu_260202531.0,850889,260202531.0,Màn hình Dell PRO E2026H H0WK2 19.5 inch (HD+/ TN/ 100Hz/ 5 ms),Dell,monitor,1990000.0,2290000.0,300000.0,13.0,,,,phongvu,2026-09-21
+phongvu_260203283.0,851658,260203283.0,Màn hình Asus VY249HGR-R 23.8 inch (Full HD/ IPS/ 120Hz/ 1 ms),Asus,monitor,2490000.0,2990000.0,500000.0,17.0,,,,phongvu,2026-09-21
+phongvu_260300969.0,853657,260300969.0,"Màn hình LCD Lenovo 21.5"" L22i-40 - 67AEKACBVN (1920 x 1080/ IPS/ 75Hz/ 4ms) - Demo",Lenovo,monitor,1860000.0,2390000.0,530000.0,22.0,,,,phongvu,2026-09-21
+phongvu_260301012.0,853700,260301012.0,Màn hình/ LCD Gaming Acer 27 inch Nitro KG270 X1 (FHD/IPS/200Hz/1ms) Đen - Demo,Acer,monitor,3100000.0,3690000.0,590000.0,16.0,,,,phongvu,2026-09-21
+phongvu_260301013.0,853701,260301013.0,"Màn hình LCD Samsung 27"" LS27D700EAEXXV (3840x2160/IPS/60Hz/5ms) - Demo",Samsung,monitor,5010000.0,7989000.0,2979000.0,37.0,,,,phongvu,2026-09-21
+phongvu_260301016.0,853704,260301016.0,"Màn hình LCD Samsung 27"" LS27D700EAEXXV (3840x2160/IPS/60Hz/5ms) - Demo",Samsung,monitor,4470000.0,7989000.0,3519000.0,44.0,,,,phongvu,2026-09-21
+phongvu_260301153.0,853839,260301153.0,"Màn hình LG 27G610A-B.ATVQ 27"" (QHD (2K) 2560 x 1440/ IPS/ 200Hz/ 1 ms)",LG,monitor,5190000.0,5290000.0,100000.0,2.0,,,,phongvu,2026-09-21
+phongvu_260301656.0,854347,260301656.0,Màn hình Dell SE2426H T274H 23.8 inch (Full HD/ IPS/ 144Hz/ 1 ms),Dell,monitor,2790000.0,3090000.0,300000.0,10.0,,,,phongvu,2026-09-21
+phongvu_260301663.0,854354,260301663.0,Màn hình Dell S2725DC Plus 27 inch (2K/ IPS/ 144Hz/ 1 ms),Dell,monitor,8090000.0,8190000.0,100000.0,1.0,,,,phongvu,2026-09-21
+phongvu_260302517.0,855388,260302517.0,Màn hình Dell Plus P2725QE 27 inch (4K/ IPS/ 100Hz/ 5 ms),Dell,monitor,10890000.0,11190000.0,300000.0,3.0,,,,phongvu,2026-09-21
+phongvu_260303445.0,856324,260303445.0,Màn hình Gigabyte G27Q20 EK 27 inch (2K/ IPS/ 200Hz/ 0.5 ms),Gigabyte,monitor,4390000.0,4790000.0,400000.0,8.0,,,,phongvu,2026-09-21
+phongvu_260303446.0,856325,260303446.0,Màn hình Msi PRO MP242 E14A 23.8 inch (Full HD/ IPS/ 144Hz/ 1 ms),Msi,monitor,2290000.0,2390000.0,100000.0,4.0,,,,phongvu,2026-09-21
+phongvu_260303447.0,856327,260303447.0,Màn hình Msi MAG 255F X24 24.5 inch (Full HD/ RAPID IPS/ 240Hz/ 0.5 ms),Msi,monitor,2990000.0,3290000.0,300000.0,9.0,,,,phongvu,2026-09-21
+phongvu_260303448.0,856326,260303448.0,Màn hình Msi PRO MP225 E12VL 21.45 inch (Full HD/ VA/ 120Hz/ 1 ms),Msi,monitor,1690000.0,1790000.0,100000.0,6.0,,,,phongvu,2026-09-21
+phongvu_260304750.0,857763,260304750.0,Màn hình Antgamer ANT25DVFiL 24.5 inch (Full HD/ Fast IPS/ 400Hz/ 1 ms),Antgamer,monitor,9090000.0,9190000.0,100000.0,1.0,,,,phongvu,2026-09-21
+phongvu_260304751.0,857764,260304751.0,Màn hình Antgamer ANT257PF 24.1 inch (Full HD/ Fast TN/ 750Hz/ 0.8 ms),Antgamer,monitor,29090000.0,29390000.0,300000.0,1.0,,,,phongvu,2026-09-21
+phongvu_260304752.0,857762,260304752.0,Màn hình Asus TUF Gaming VG259QMR5A 24.5 inch (Full HD/ Fast IPS/ 310Hz/ 0.3 ms),Asus,monitor,4090000.0,4990000.0,900000.0,18.0,,,,phongvu,2026-09-21
+phongvu_260305074.0,858090,260305074.0,"Màn hình LCD Viewsonic 23.8"" VA2432-H 100HZ (1920x1080/ IPS/ 100Hz/ 1ms) - Demo",ViewSonic,monitor,1990000.0,2590000.0,600000.0,23.0,,,,phongvu,2026-09-21
+phongvu_260305075.0,858091,260305075.0,"Màn hình LCD Viewsonic 23.8"" VA2432-H 100HZ (1920x1080/ IPS/ 100Hz/ 1ms) - Demo",ViewSonic,monitor,1990000.0,2590000.0,600000.0,23.0,,,,phongvu,2026-09-21
+phongvu_260305077.0,858093,260305077.0,"Màn hình LCD Viewsonic 23.8"" VA2432-H 100HZ (1920x1080/ IPS/ 100Hz/ 1ms) - Demo",ViewSonic,monitor,1990000.0,2590000.0,600000.0,23.0,,,,phongvu,2026-09-21
+phongvu_260305081.0,858097,260305081.0,"Màn hình LCD Asus 24"" ProArt PA248QV (1920x1200, IPS, 75Hz, 5ms, Adaptive Sync) - Demo",Asus,monitor,4990000.0,4990000.0,0.0,0.0,,,,phongvu,2026-09-21
+phongvu_260305082.0,858098,260305082.0,"Màn hình LCD Viewsonic 23.8"" VA2432-H 100HZ (1920x1080/ IPS/ 100Hz/ 1ms) - Demo",ViewSonic,monitor,1990000.0,2590000.0,600000.0,23.0,,,,phongvu,2026-09-21
+phongvu_260305084.0,858100,260305084.0,"Màn hình LCD Viewsonic 23.8"" VA2432-H 100HZ (1920x1080/ IPS/ 100Hz/ 1ms) - Demo",ViewSonic,monitor,1990000.0,2590000.0,600000.0,23.0,,,,phongvu,2026-09-21
+phongvu_260305087.0,858103,260305087.0,Màn Hình/ LCD ACER SA272U E 27 INCH/2560x1440@100Hz/IPS/DP/HDMI/SPK/LED/TRẮNG - Demo,Acer,monitor,3320000.0,4190000.0,870000.0,21.0,,,,phongvu,2026-09-21
+phongvu_260305109.0,858125,260305109.0,"Màn hình LCD LENOVO 27"" L27qe (2560x1440/ IPS/ 100Hz/ 4ms Extreme/ 6ms Normal/ 14ms Off Mode) 68C8GAC3VN Đen - Đã kích hoạt",Lenovo,monitor,2690000.0,3090000.0,400000.0,13.0,,,,phongvu,2026-09-21
+phongvu_260305130.0,858146,260305130.0,"Màn hình LCD DELL 27"" U2725QE (3840x2160/ IPS Black/ 120Hz/ 8ms normal/ 5ms fast) Bạc - Đã sử dụng",Dell,monitor,9890000.0,17490000.0,7600000.0,43.0,,,,phongvu,2026-09-21
+phongvu_260305377.0,858393,260305377.0,Màn hình Philips 24E1N1100D 23.8 inch (Full HD/ IPS/ 120Hz/ 4 ms),Philips,monitor,2090000.0,2290000.0,200000.0,9.0,,,,phongvu,2026-09-21
+phongvu_260400572.0,860357,260400572.0,Màn hình Xiaomi A27i 2026 ELA6410EU 27 inch (Full HD/ IPS/ 144Hz/ 6 ms),Xiaomi,monitor,2690000.0,3290000.0,600000.0,18.0,,,,phongvu,2026-09-21
+phongvu_260402706.0,862513,260402706.0,Màn hình Msi PRO MP341CQW-E12 34 inch (UWQHD/ VA/ 120Hz/ 1 ms),Msi,monitor,6390000.0,6790000.0,400000.0,6.0,,,,phongvu,2026-09-21
+phongvu_260402861.0,862665,260402861.0,Màn hình Msi MAG 272QP QD-OLED X24 26.5 inch (2K/ OLED/ 240Hz/ 0.03 ms),Msi,monitor,13490000.0,14990000.0,1500000.0,10.0,,,,phongvu,2026-09-21
+phongvu_260402953.0,862759,260402953.0,Màn hình Lenovo Legion 27Q-10 67E1GAC1VN 26.5 inch (2K/ OLED/ 240Hz/ 0.03 ms),Lenovo,monitor,12390000.0,12990000.0,600000.0,5.0,,,,phongvu,2026-09-21
+phongvu_260402955.0,862762,260402955.0,Màn hình Msi PRO MP273UP E6 27 inch (4K/ IPS/ 60Hz/ 4 ms),Msi,monitor,4890000.0,5290000.0,400000.0,8.0,,,,phongvu,2026-09-21
+phongvu_260402956.0,862763,260402956.0,Màn hình Msi PRO MP341CQ-E12 34 inch (UWQHD/ VA/ 120Hz/ 1ms (MPRT) / 4ms (GTG)),Msi,monitor,6390000.0,6690000.0,300000.0,4.0,,,,phongvu,2026-09-21
+phongvu_260404883.0,864732,260404883.0,"Màn hình Lenovo L22-42 68FAKAC6VN 21.5 inch (Full HD/ IPS/ 100Hz/ 4ms (Extreme Mode), 6ms (Normal Mode))",Lenovo,monitor,2190000.0,2590000.0,400000.0,15.0,,,,phongvu,2026-09-21
+phongvu_260404924.0,864771,260404924.0,Màn hình Lenovo LOQ 27Q-10 68F3GACBVN 27 inch (2K/ IPS/ 180Hz/ 0.5 ms),Lenovo,monitor,3890000.0,4590000.0,700000.0,15.0,,,,phongvu,2026-09-21
+phongvu_260404926.0,864774,260404926.0,Màn hình Lenovo LOQ 27-10 68F2GACBVN 27 inch (Full HD/ IPS/ 200Hz/ 0.5 ms),Lenovo,monitor,3090000.0,3790000.0,700000.0,18.0,,,,phongvu,2026-09-21
+phongvu_260407229.0,867214,260407229.0,Màn hình Asus ProArt PA249CGV 90LM0031-B01K21 23.8 inch (Full HD/ IPS/ 144Hz/ 5 ms),Asus,monitor,5390000.0,5790000.0,400000.0,7.0,,,,phongvu,2026-09-21
+phongvu_260407244.0,867228,260407244.0,Màn hình ViewSonic TD2423 (VS18312) 23.6 inch (Full HD/ VA/ 75Hz/ 7 ms),ViewSonic,monitor,6590000.0,7690000.0,1100000.0,14.0,,,,phongvu,2026-09-21
+phongvu_260501446.0,869606,260501446.0,Màn hình Acer KA242Y P6 UM.QX2SV.601 23.8 inch (Full HD/ IPS/ 144Hz/ 1 ms),Acer,monitor,2250000.0,2690000.0,440000.0,16.0,,,,phongvu,2026-09-21
+phongvu_260501453.0,869613,260501453.0,Màn hình Acer KA272 P6 UM.HX2SV.602 27 inch (Full HD/ IPS/ 144Hz/ 1 ms),Acer,monitor,2690000.0,3090000.0,400000.0,13.0,,,,phongvu,2026-09-21
+phongvu_260501460.0,869620,260501460.0,Màn hình Acer SA272U G0 UM.HS2SV.001 27 inch (2K/ IPS/ 120Hz/ 1ms (MPRT) / 4ms (GTG)),Acer,monitor,3090000.0,4090000.0,1000000.0,24.0,,,,phongvu,2026-09-21
+phongvu_260501466.0,869626,260501466.0,Màn hình Acer SA272U G0 UM.HS2SV.002 27 inch (2K/ IPS/ 120Hz/ 1ms (MPRT) / 4ms (GTG)),Acer,monitor,3790000.0,4090000.0,300000.0,7.0,,,,phongvu,2026-09-21
+phongvu_260501664.0,869824,260501664.0,"Màn hình LG 25SR50F-W.ATV 25"" (FHD 1920 x 1080/ IPS/ 60Hz/ 5 ms) - Demo",LG,monitor,5590000.0,5590000.0,0.0,0.0,,,,phongvu,2026-09-21
+phongvu_260501666.0,869826,260501666.0,"Màn hình LCD LENOVO 27"" L27qe (2560x1440/ IPS/ 100Hz/ 4ms Extreme/ 6ms Normal/ 14ms Off Mode) 68C8GAC3VN Đen - Demo",Lenovo,monitor,2470000.0,3090000.0,620000.0,20.0,,,,phongvu,2026-09-21
+phongvu_260501668.0,869828,260501668.0,Màn hình/ LCD Gaming Acer 27 inch Nitro KG270 X1 (FHD/IPS/200Hz/1ms) Đen - Demo,Acer,monitor,2920000.0,3690000.0,770000.0,21.0,,,,phongvu,2026-09-21
+phongvu_260501670.0,869830,260501670.0,Màn hình LCD LG 21.45'' 22MR410-B.ATV (1920 x 1080/ VA/ 100Hz/ 5ms (GtG)) - Demo,LG,monitor,1560000.0,2390000.0,830000.0,35.0,,,,phongvu,2026-09-21
+phongvu_260501677.0,869837,260501677.0,Màn hình LCD LG 23.8'' 24MR400-B.ATV (1920 x 1080/ IPS/ 100Hz/ 5ms (GtG)) - Demo,LG,monitor,1800000.0,2690000.0,890000.0,33.0,,,,phongvu,2026-09-21
+phongvu_260501679.0,869839,260501679.0,"Màn hình LCD LENOVO 27"" L27qe (2560x1440/ IPS/ 100Hz/ 4ms Extreme/ 6ms Normal/ 14ms Off Mode) 68C8GAC3VN Đen - Demo",Lenovo,monitor,2470000.0,3090000.0,620000.0,20.0,,,,phongvu,2026-09-21
+phongvu_260501683.0,869843,260501683.0,Màn hình LCD LG 21.45'' 22MR410-B.ATV (1920 x 1080/ VA/ 100Hz/ 5ms (GtG)) - Demo,LG,monitor,1560000.0,2390000.0,830000.0,35.0,,,,phongvu,2026-09-21
+phongvu_260501684.0,869844,260501684.0,"Màn hình LCD LENOVO 27"" L27qe (2560x1440/ IPS/ 100Hz/ 4ms Extreme/ 6ms Normal/ 14ms Off Mode) 68C8GAC3VN Đen - Demo",Lenovo,monitor,2470000.0,3090000.0,620000.0,20.0,,,,phongvu,2026-09-21
+phongvu_260501778.0,869938,260501778.0,Màn Hình Di Động MSI Pro MP161 E2 (1920 x 1080/ IPS/ 60Hz/ 4ms (GTG)) - Demo,Msi,monitor,1290000.0,3969000.0,2679000.0,68.0,,,,phongvu,2026-09-21
+phongvu_260501780.0,869940,260501780.0,Màn Hình Di Động MSI Pro MP161 E2 (1920 x 1080/ IPS/ 60Hz/ 4ms (GTG)) - Demo,Msi,monitor,1290000.0,3969000.0,2679000.0,68.0,,,,phongvu,2026-09-21
+phongvu_260501799.0,869959,260501799.0,"Màn hình LCD Xiaomi 27"" A27Ui EU (4K/ IPS/ 60Hz/ 6ms) Đen - Đã sử dụng",Xiaomi,monitor,5390000.0,7490000.0,2100000.0,28.0,,,,phongvu,2026-09-21
+phongvu_260501833.0,869993,260501833.0,"Màn hình LCD Dell 27"" S2725H (1920 x 1080/ IPS/ 100hz/ 4ms) - Demo",Dell,monitor,4690000.0,4690000.0,0.0,0.0,,,,phongvu,2026-09-21
+phongvu_260501839.0,869999,260501839.0,Màn hình LCD LG 27 inch 27GS60QC-B.ATVQ (2560x1440/ VA/ 180Hz/ 1ms) Đen - Demo,LG,monitor,3730000.0,6000000.0,2270000.0,38.0,,,,phongvu,2026-09-21
+phongvu_260501846.0,870006,260501846.0,"Màn hình LCD LENOVO 27"" L27qe (2560x1440/ IPS/ 100Hz/ 4ms Extreme/ 6ms Normal/ 14ms Off Mode) 68C8GAC3VN Đen - Demo",Lenovo,monitor,2470000.0,3090000.0,620000.0,20.0,,,,phongvu,2026-09-21
+phongvu_260501847.0,870007,260501847.0,"Màn hình LCD Asus 27"" VA27EHF (1920 x 1080/ IPS/ 100Hz/ 1ms MPRT ) - Demo",Asus,monitor,3990000.0,3990000.0,0.0,0.0,,,,phongvu,2026-09-21
+phongvu_260501859.0,870019,260501859.0,Màn hình cong Samsung 27'' LC27R500FHEXXV - Demo,Samsung,monitor,3139000.0,3139000.0,0.0,0.0,,,,phongvu,2026-09-21
+phongvu_260501860.0,870020,260501860.0,Màn hình LCD LG 27” 27GS75Q-B (2560 x 1440/IPS /200Hz (OC)/ 1ms/ Gsync Compatible) - Demo,LG,monitor,7990000.0,7990000.0,0.0,0.0,,,,phongvu,2026-09-21
+phongvu_260501896.0,870056,260501896.0,"Màn hình LCD Xiaomi 34"" G34WQi (3440 x 1440/ VA/ 180Hz/ 1ms (MPRT)/ 4ms (GTG)) - Đã kích hoạt",Xiaomi,monitor,5690000.0,7490000.0,1800000.0,24.0,,,,phongvu,2026-09-21
+phongvu_260502991.0,871167,260502991.0,Màn hình Msi PRO MP275Q E14 27 inch (2K/ IPS/ 144Hz/ 1 ms),Msi,monitor,3990000.0,4900000.0,910000.0,19.0,,,,phongvu,2026-09-21
+phongvu_260503898.0,872083,260503898.0,Màn hình ViewSonic VA272-H 27 inch (Full HD/ IPS/ 100Hz/ 1 ms),ViewSonic,monitor,2490000.0,2990000.0,500000.0,17.0,,,,phongvu,2026-09-21
+phongvu_260503904.0,872091,260503904.0,Màn hình ViewSonic VA242-H 23.8 inch (Full HD/ IPS/ 100Hz/ 1 ms),ViewSonic,monitor,1990000.0,2490000.0,500000.0,20.0,,,,phongvu,2026-09-21
+phongvu_260503912.0,872097,260503912.0,Màn hình ViewSonic VA2214-H 21.5 inch (Full HD/ IPS/ 100Hz/ 4 ms),ViewSonic,monitor,1650000.0,2190000.0,540000.0,25.0,,,,phongvu,2026-09-21
+phongvu_260503919.0,872105,260503919.0,Màn hình ViewSonic VA24G2-H 23.8 inch (Full HD/ IPS/ 144Hz/ 1 ms),ViewSonic,monitor,2290000.0,2890000.0,600000.0,21.0,,,,phongvu,2026-09-21
+phongvu_260503926.0,872112,260503926.0,Màn hình Dell E2425HSM 23.8 inch (Full HD/ IPS/ 100Hz/ 5 ms),Dell,monitor,3390000.0,3590000.0,200000.0,6.0,,,,phongvu,2026-09-21
+phongvu_260503953.0,872139,260503953.0,Màn hình Aoc Q27G41ZDP/71 26.5 inch (2K/ W-OLED/ 240Hz/ 0.03 ms),Aoc,monitor,10990000.0,12990000.0,2000000.0,15.0,,,,phongvu,2026-09-21
+phongvu_260503956.0,872142,260503956.0,Màn hình Aoc 27B36XE/71 27 inch (Full HD/ IPS/ 144Hz/ 0.5 ms),Aoc,monitor,2490000.0,2630000.0,140000.0,5.0,,,,phongvu,2026-09-21
+phongvu_260508569.0,876975,260508569.0,Màn hình Dell E2225HM 21.5 inch (Full HD/ VA/ 100Hz/ 5 ms),Dell,monitor,2290000.0,2590000.0,300000.0,12.0,,,,phongvu,2026-09-21
+phongvu_260508576.0,876982,260508576.0,Màn hình Dell Plus P2725D 27 inch (2K/ IPS/ 100Hz/ 5 ms),Dell,monitor,6890000.0,7290000.0,400000.0,5.0,,,,phongvu,2026-09-21
+phongvu_260508583.0,876989,260508583.0,Màn hình Dell Plus P2726H 27 inch (Full HD/ IPS/ 120Hz/ 5 ms),Dell,monitor,5790000.0,6990000.0,1200000.0,17.0,,,,phongvu,2026-09-21
+phongvu_260508590.0,876996,260508590.0,Màn hình ViewSonic VA3208-4K-MHD 31.5 inch (4K/ VA/ 60Hz/ 4 ms),ViewSonic,monitor,6450000.0,7690000.0,1240000.0,16.0,,,,phongvu,2026-09-21
+phongvu_260508595.0,877001,260508595.0,Màn hình Xiaomi G34WQi 2026 ELA6562EU 34 inch (UWQHD/ VA/ 180Hz/ 1 ms),Xiaomi,monitor,7690000.0,8690000.0,1000000.0,12.0,,,,phongvu,2026-09-21
+phongvu_260600933.0,878543,260600933.0,Màn hình Dell PRO E2425HM 23.8 inch (Full HD/ IPS/ 100Hz/ 5 ms),Dell,monitor,2790000.0,2990000.0,200000.0,7.0,,,,phongvu,2026-09-21
+phongvu_260600937.0,878538,260600937.0,Màn hình LG 25G550B-B 25 inch (Full HD/ IPS/ 300Hz/ 1 ms),LG,monitor,4690000.0,4830000.0,140000.0,3.0,,,,phongvu,2026-09-21
+phongvu_260600942.0,878544,260600942.0,Màn hình Dell PRO E2725HM 27 inch (Full HD/ IPS/ 100Hz/ 5 ms),Dell,monitor,3690000.0,3890000.0,200000.0,5.0,,,,phongvu,2026-09-21
+phongvu_260600945.0,878549,260600945.0,Màn hình LG 27G523B-B 27 inch (Full HD/ IPS/ 200Hz/ 1 ms),LG,monitor,3390000.0,3620000.0,230000.0,6.0,,,,phongvu,2026-09-21
+phongvu_260600951.0,878552,260600951.0,Màn hình Dell PRO P2426 (DR05R) 24 inch (WUXGA/ IPS/ 100Hz/ 5 ms),Dell,monitor,5490000.0,5990000.0,500000.0,8.0,,,,phongvu,2026-09-21
+phongvu_260600952.0,878556,260600952.0,Màn hình LG 27G550B-B 27 inch (Full HD/ IPS/ 300Hz/ 1 ms),LG,monitor,5190000.0,5540000.0,350000.0,6.0,,,,phongvu,2026-09-21
+phongvu_260600958.0,878562,260600958.0,Màn hình Dell PRO P2426HE (JN45W) 23.8 inch (Full HD/ IPS/ 120Hz/ 5 ms),Dell,monitor,5490000.0,5990000.0,500000.0,8.0,,,,phongvu,2026-09-21
+phongvu_260600965.0,878569,260600965.0,Màn hình Dell PRO P2726HE (Y4G5T) 27 inch (Full HD/ IPS/ 120Hz/ 5 ms),Dell,monitor,6990000.0,7490000.0,500000.0,7.0,,,,phongvu,2026-09-21
+phongvu_260600970.0,878574,260600970.0,Màn hình LG 25G523B-B 25 inch (Full HD/ IPS/ 200Hz/ 1 ms),LG,monitor,3090000.0,3290000.0,200000.0,6.0,,,,phongvu,2026-09-21
+phongvu_260600972.0,878576,260600972.0,Màn hình Aoc Q27G40HE/71 27 inch (2K/ Fast IPS/ 210Hz/ 0.3 ms),Aoc,monitor,4290000.0,4990000.0,700000.0,14.0,,,,phongvu,2026-09-21
+phongvu_260601845.0,879473,260601845.0,"Màn hình LCD Xiaomi 27"" A27Ui EU (4K/ IPS/ 60Hz/ 6ms) Đen - Đã sử dụng",Xiaomi,monitor,5190000.0,7490000.0,2300000.0,31.0,,,,phongvu,2026-09-21
+phongvu_260601848.0,879476,260601848.0,Màn Hình/ LCD ACER EK271 G 27 INCH/1920X1080@120Hz/IPS/VGA/HDMI/LED/ĐEN(UM.HE1SV.G01) - Đã sử dụng,Acer,monitor,2290000.0,2790000.0,500000.0,18.0,,,,phongvu,2026-09-21
+phongvu_260601899.0,879527,260601899.0,"Màn hình LCD Xiaomi 27"" A27i (1920 x 1080/ IPS/ 100Hz/ 6ms) - Demo",Xiaomi,monitor,2200000.0,2990000.0,790000.0,26.0,,,,phongvu,2026-09-21
+phongvu_260601903.0,879531,260601903.0,Màn hình LCD Xiaomi 27 inch A27Qi EU (2K/ IPS/ 100Hz/ 6ms(GTG)) (ELA5812EU) - Demo,Xiaomi,monitor,2980000.0,4290000.0,1310000.0,31.0,,,,phongvu,2026-09-21
+phongvu_260601904.0,879532,260601904.0,Màn hình/ LCD Gaming Acer 23.8 inch Nitro KG240Y X1 (FHD/IPS/200Hz/1ms) Đen - Demo,Acer,monitor,2360000.0,2990000.0,630000.0,21.0,,,,phongvu,2026-09-21
+phongvu_260601905.0,879533,260601905.0,"Màn hình LCD Xiaomi 27"" A27i (1920 x 1080/ IPS/ 100Hz/ 6ms) - Demo",Xiaomi,monitor,1950000.0,2990000.0,1040000.0,35.0,,,,phongvu,2026-09-21
+phongvu_260601908.0,879536,260601908.0,Màn hình LCD Xiaomi 27 inch A27Qi EU (2K/ IPS/ 100Hz/ 6ms(GTG)) (ELA5812EU) - Demo,Xiaomi,monitor,2980000.0,4290000.0,1310000.0,31.0,,,,phongvu,2026-09-21
+phongvu_260601909.0,879537,260601909.0,"Màn hình LCD Xiaomi 27"" A27i (1920 x 1080/ IPS/ 100Hz/ 6ms) - Demo",Xiaomi,monitor,1950000.0,2990000.0,1040000.0,35.0,,,,phongvu,2026-09-21
+phongvu_260601910.0,879538,260601910.0,Màn hình LCD Xiaomi 27 inch A27Qi EU (2K/ IPS/ 100Hz/ 6ms(GTG)) (ELA5812EU) - Demo,Xiaomi,monitor,2980000.0,4290000.0,1310000.0,31.0,,,,phongvu,2026-09-21
+phongvu_260601916.0,879544,260601916.0,Màn hình LCD Xiaomi 27 inch A27Qi EU (2K/ IPS/ 100Hz/ 6ms(GTG)) (ELA5812EU) - Demo,Xiaomi,monitor,2980000.0,4290000.0,1310000.0,31.0,,,,phongvu,2026-09-21
+phongvu_260601927.0,879555,260601927.0,Màn hình LCD Xiaomi 27 inch A27Qi EU (2K/ IPS/ 100Hz/ 6ms(GTG)) (ELA5812EU) - Demo,Xiaomi,monitor,2980000.0,4290000.0,1310000.0,31.0,,,,phongvu,2026-09-21
+phongvu_260601928.0,879556,260601928.0,Màn hình LCD Xiaomi 27 inch A27Qi EU (2K/ IPS/ 100Hz/ 6ms(GTG)) (ELA5812EU) - Demo,Xiaomi,monitor,2980000.0,4290000.0,1310000.0,31.0,,,,phongvu,2026-09-21
+phongvu_260601929.0,879557,260601929.0,"Màn hình LCD Xiaomi 27"" A27i (1920 x 1080/ IPS/ 100Hz/ 6ms) - Demo",Xiaomi,monitor,1950000.0,2990000.0,1040000.0,35.0,,,,phongvu,2026-09-21
+phongvu_260601936.0,879564,260601936.0,Màn hình LCD Xiaomi 27 inch A27Qi EU (2K/ IPS/ 100Hz/ 6ms(GTG)) (ELA5812EU) - Demo,Xiaomi,monitor,2980000.0,4290000.0,1310000.0,31.0,,,,phongvu,2026-09-21
+phongvu_260601940.0,879568,260601940.0,Màn hình/ LCD Gaming Acer 23.8 inch Nitro KG240Y X1 (FHD/IPS/200Hz/1ms) Đen - Demo,Acer,monitor,2360000.0,2990000.0,630000.0,21.0,,,,phongvu,2026-09-21
+phongvu_260601941.0,879569,260601941.0,Màn hình LCD Xiaomi 27 inch A27Qi EU (2K/ IPS/ 100Hz/ 6ms(GTG)) (ELA5812EU) - Demo,Xiaomi,monitor,2980000.0,4290000.0,1310000.0,31.0,,,,phongvu,2026-09-21
+phongvu_260602175.0,879802,260602175.0,Màn hình Msi MAG 272URDF E16 27 inch (4K/ RAPID IPS/ 160Hz/ 0.5 ms),Msi,monitor,6490000.0,7490000.0,1000000.0,13.0,,,,phongvu,2026-09-21
+phongvu_260602184.0,879808,260602184.0,Màn hình Msi MAG 275QF E21 27 inch (2K/ RAPID IPS/ 210Hz/ 0.5 ms),Msi,monitor,4490000.0,5490000.0,1000000.0,18.0,,,,phongvu,2026-09-21
+phongvu_260602190.0,879820,260602190.0,Màn hình Samsung Odyssey G6 LS27HG612SEXXV 27 inch (2K/ OLED/ 240Hz/ 0.03 ms),Samsung,monitor,11890000.0,13899000.0,2009000.0,14.0,,,,phongvu,2026-09-21
+phongvu_260602196.0,879827,260602196.0,Màn hình Samsung Odyssey G8 LS32HG806ESXXV 32 inch (6K/ IPS/ 165Hz/ 1 ms),Samsung,monitor,40890000.0,49900000.0,9010000.0,18.0,,,,phongvu,2026-09-21
+phongvu_260602321.0,879942,260602321.0,Màn hình Lenovo LOQ 24-10 68F1GACBVN 23.8 inch (Full HD/ IPS/ 200Hz/ 0.5 ms),Lenovo,monitor,2590000.0,3490000.0,900000.0,26.0,,,,phongvu,2026-09-21
+phongvu_260602428.0,880049,260602428.0,Màn hình LG Smart Monitor Swing 32U889SA-W 31.5 inch (4K/ IPS/ 60Hz/ 5 ms),LG,monitor,27990000.0,29990000.0,2000000.0,7.0,,,,phongvu,2026-09-21
+phongvu_260603075.0,880703,260603075.0,Màn hình Acer EK221Q G3 UM.WE1SV.302 21.5 inch (Full HD/ IPS/ 120Hz/ 1 ms),Acer,monitor,1890000.0,2090000.0,200000.0,10.0,,,,phongvu,2026-09-21
+phongvu_260603077.0,880704,260603077.0,Màn hình Acer EK271U P1 UM.HE0SV.101 27 inch (2K/ IPS/ 144Hz/ 1 ms),Acer,monitor,3690000.0,3890000.0,200000.0,5.0,,,,phongvu,2026-09-21
+phongvu_260603079.0,880706,260603079.0,Màn hình Acer KG241Y X1 UM.QX1SV.101 23.8 inch (Full HD/ IPS/ 200Hz/ 0.5 ms),Acer,monitor,2690000.0,2890000.0,200000.0,7.0,,,,phongvu,2026-09-21
+phongvu_260603081.0,880708,260603081.0,Màn hình Acer KG271 X1 UM.HX1SV.101 27 inch (Full HD/ IPS/ 200Hz/ 0.5 ms),Acer,monitor,3290000.0,3490000.0,200000.0,6.0,,,,phongvu,2026-09-21
+phongvu_260603083.0,880710,260603083.0,Màn hình LG 27U711B-B 27 inch (4K/ IPS/ 60Hz/ 5 ms),LG,monitor,5390000.0,6090000.0,700000.0,11.0,,,,phongvu,2026-09-21
+phongvu_260603085.0,880712,260603085.0,Màn hình LG 27G640A-B 27 inch (2K/ IPS/ 300Hz/ 1 ms),LG,monitor,7390000.0,7879000.0,489000.0,6.0,,,,phongvu,2026-09-21
+phongvu_260603087.0,880714,260603087.0,Màn hình LG 40U990A-W 40 inch (UltraWide 5K/ IPS/ 120Hz/ 5 ms),LG,monitor,43990000.0,45990000.0,2000000.0,4.0,,,,phongvu,2026-09-21
+phongvu_260603089.0,880716,260603089.0,Màn hình LG 45GX950A- B 45 inch (UltraWide 5K/ OLED/ 240Hz/ 0.03 ms),LG,monitor,52990000.0,60990000.0,8000000.0,13.0,,,,phongvu,2026-09-21
+phongvu_260603321.0,880973,260603321.0,Màn hình Aoc CU34B3E/71 34 inch (WQHD (2K)/ VA/ 120Hz/ 1 ms),Aoc,monitor,5890000.0,6090000.0,200000.0,3.0,,,,phongvu,2026-09-21
+phongvu_260700554.0,882041,260700554.0,"Màn hình LCD Xiaomi 27"" A27i (1920 x 1080/ IPS/ 100Hz/ 6ms) - Demo",Xiaomi,monitor,2990000.0,2990000.0,0.0,0.0,,,,phongvu,2026-09-21
+phongvu_260700555.0,882042,260700555.0,"Màn hình LCD Asus 27"" VG27AQ3A (2560 x 1440/ IPS/ 180Hz/ 1ms(GTG)) - Demo",Asus,monitor,3990000.0,7290000.0,3300000.0,45.0,,,,phongvu,2026-09-21
+phongvu_260700557.0,882044,260700557.0,Màn hình LCD LG 27'' 27US500-W (3840 x 2160/ IPS/ 60Hz/ 5ms/ AMD Freesync) - Demo,LG,monitor,5650000.0,6190000.0,540000.0,9.0,,,,phongvu,2026-09-21
+phongvu_260700558.0,882045,260700558.0,Màn hình LCD LG 27 inch 27GS60QC-B.ATVQ (2560x1440/ VA/ 180Hz/ 1ms) Đen - Demo,LG,monitor,5600000.0,6000000.0,400000.0,7.0,,,,phongvu,2026-09-21
+phongvu_260700559.0,882046,260700559.0,Màn hình/ LCD Gaming Acer 23.8 inch Nitro KG240Y X1 (FHD/IPS/200Hz/1ms) Đen - Demo,Acer,monitor,2360000.0,2990000.0,630000.0,21.0,,,,phongvu,2026-09-21
+phongvu_260700560.0,882047,260700560.0,"Màn hình LCD MSI 27"" MAG 276CXF (1920 x 1080, Rapid VA, 280hz, 0.5ms (GtG)) - Demo",Msi,monitor,3000000.0,4550000.0,1550000.0,34.0,,,,phongvu,2026-09-21
+phongvu_260700563.0,882050,260700563.0,"Màn hình LCD Dell 23.8"" SE2425HM (1920x1080/ IPS/ 100Hz/ 5ms fast/ 8ms normal) Đen - Demo",Dell,monitor,2610000.0,3200000.0,590000.0,18.0,,,,phongvu,2026-09-21
+phongvu_260700564.0,882051,260700564.0,Màn hình/ LCD Gaming Acer 27 inch Nitro KG270 X1 (FHD/IPS/200Hz/1ms) Đen - Demo,Acer,monitor,3470000.0,3690000.0,220000.0,6.0,,,,phongvu,2026-09-21
+phongvu_260700565.0,882052,260700565.0,"Màn hình LCD Samsung 27"" LS27D700EAEXXV (3840x2160/IPS/60Hz/5ms) - Demo",Samsung,monitor,5600000.0,7989000.0,2389000.0,30.0,,,,phongvu,2026-09-21
+phongvu_260700566.0,882053,260700566.0,"Màn hình LCD MSI 21,45"" PRO MP225V (1920 x 1080/ VA/ 100Hz/ 4ms GTG/ Adaptive-Sync) Đen - Demo",Msi,monitor,1510000.0,1650000.0,140000.0,8.0,,,,phongvu,2026-09-21
+phongvu_260700569.0,882056,260700569.0,"Màn hình LCD MSI 27"" MAG 276CXF (1920 x 1080, Rapid VA, 280hz, 0.5ms (GtG)) - Demo",Msi,monitor,3000000.0,4550000.0,1550000.0,34.0,,,,phongvu,2026-09-21
+phongvu_260700570.0,882057,260700570.0,"Màn hình LCD Xiaomi 27"" G27i EU ELA5375EU (1920 x 1080/ IPS/ 165Hz/ 1ms) - Demo",Xiaomi,monitor,2960000.0,3990000.0,1030000.0,26.0,,,,phongvu,2026-09-21
+phongvu_260700583.0,882070,260700583.0,"Màn hình LCD Asus 27"" VA27EHF (1920 x 1080/ IPS/ 100Hz/ 1ms MPRT ) - Demo",Asus,monitor,1990000.0,3990000.0,2000000.0,50.0,,,,phongvu,2026-09-21
+phongvu_260700611.0,882098,260700611.0,Màn hình LCD LG 27'' 27MR400-B.ATV (1920 x 1080/ IPS/ 100Hz/ 5ms (GtG)) - Demo,LG,monitor,2390000.0,3090000.0,700000.0,23.0,,,,phongvu,2026-09-21
+phongvu_260700612.0,882099,260700612.0,Màn hình LCD LG 27'' 27MR400-B.ATV (1920 x 1080/ IPS/ 100Hz/ 5ms (GtG)) - Demo,LG,monitor,2390000.0,3090000.0,700000.0,23.0,,,,phongvu,2026-09-21
+phongvu_260700613.0,882100,260700613.0,Màn hình LCD LG 27'' 27MR400-B.ATV (1920 x 1080/ IPS/ 100Hz/ 5ms (GtG)) - Demo,LG,monitor,2390000.0,3090000.0,700000.0,23.0,,,,phongvu,2026-09-21
+phongvu_260700614.0,882101,260700614.0,Màn hình LCD LG 27'' 27MR400-B.ATV (1920 x 1080/ IPS/ 100Hz/ 5ms (GtG)) - Demo,LG,monitor,2390000.0,3090000.0,700000.0,23.0,,,,phongvu,2026-09-21
+phongvu_260700615.0,882102,260700615.0,"Màn hình LCD Acer 21.5"" EK221Q E3 (UM.WE1SV.301) (1920 x 1080/ IPS/ 100Hz/ 1ms VRB/ FreeSync) - Demo",Acer,monitor,1430000.0,1890000.0,460000.0,24.0,,,,phongvu,2026-09-21
+phongvu_260700616.0,882103,260700616.0,Màn Hình/ LCD ACER EK251Q G 24.5INCH/1920X1080/120Hz/IPS/VGA/HDMI/LED/ĐEN(UM.KE1SV.G01) - Demo,Acer,monitor,1830000.0,2390000.0,560000.0,23.0,,,,phongvu,2026-09-21
+phongvu_260700617.0,882104,260700617.0,Màn hình LCD LG 27'' 27MR400-B.ATV (1920 x 1080/ IPS/ 100Hz/ 5ms (GtG)) - Demo,LG,monitor,2390000.0,3090000.0,700000.0,23.0,,,,phongvu,2026-09-21
+phongvu_260700620.0,882107,260700620.0,Màn hình LCD LG 27'' 27MR400-B.ATV (1920 x 1080/ IPS/ 100Hz/ 5ms (GtG)) - Demo,LG,monitor,2390000.0,3090000.0,700000.0,23.0,,,,phongvu,2026-09-21
+phongvu_260700625.0,882112,260700625.0,Màn hình/ LCD Gaming Acer 23.8 inch Nitro KG240Y X1 (FHD/IPS/200Hz/1ms) Đen - Demo,Acer,monitor,2360000.0,2990000.0,630000.0,21.0,,,,phongvu,2026-09-21
+phongvu_260700627.0,882114,260700627.0,Màn hình LCD LG 27'' 27MR400-B.ATV (1920 x 1080/ IPS/ 100Hz/ 5ms (GtG)) - Demo,LG,monitor,2540000.0,3090000.0,550000.0,18.0,,,,phongvu,2026-09-21
+phongvu_260700630.0,882117,260700630.0,Màn hình LCD LG 27'' 27MR400-B.ATV (1920 x 1080/ IPS/ 100Hz/ 5ms (GtG)) - Demo,LG,monitor,2470000.0,3090000.0,620000.0,20.0,,,,phongvu,2026-09-21
+phongvu_260700633.0,882120,260700633.0,Màn hình LCD LG 27'' 27MR400-B.ATV (1920 x 1080/ IPS/ 100Hz/ 5ms (GtG)) - Demo,LG,monitor,2390000.0,3090000.0,700000.0,23.0,,,,phongvu,2026-09-21
+phongvu_260700634.0,882121,260700634.0,Màn hình LCD LG 27'' 27MR400-B.ATV (1920 x 1080/ IPS/ 100Hz/ 5ms (GtG)) - Demo,LG,monitor,2540000.0,3090000.0,550000.0,18.0,,,,phongvu,2026-09-21
+phongvu_260700637.0,882124,260700637.0,Màn hình LCD LG 27inch 27UP600K-W.ATV (3840 x 2160/ IPS/ 60Hz/ 5ms) - Demo,LG,monitor,4390000.0,6290000.0,1900000.0,30.0,,,,phongvu,2026-09-21
+phongvu_260700638.0,882125,260700638.0,Màn hình LCD LG 27'' 27MR400-B.ATV (1920 x 1080/ IPS/ 100Hz/ 5ms (GtG)) - Demo,LG,monitor,2390000.0,3090000.0,700000.0,23.0,,,,phongvu,2026-09-21
+phongvu_260700639.0,882126,260700639.0,Màn Hình/ LCD ACER EK251Q G 24.5INCH/1920X1080/120Hz/IPS/VGA/HDMI/LED/ĐEN(UM.KE1SV.G01) - Demo,Acer,monitor,1830000.0,2390000.0,560000.0,23.0,,,,phongvu,2026-09-21
+phongvu_260701386.0,882936,260701386.0,Màn hình Msi MAG 274QRFW X32 27 inch (2K/ RAPID IPS/ 320Hz/ 0.5 ms),Msi,monitor,6590000.0,6990000.0,400000.0,6.0,,,,phongvu,2026-09-21
+phongvu_260701720.0,883270,260701720.0,Màn hình LG 27G64NA-B 27 inch (2K/ IPS/ 300Hz/ 1 ms),LG,monitor,7190000.0,7190000.0,0.0,0.0,,,,phongvu,2026-09-21
+phongvu_260701721.0,883271,260701721.0,Màn hình Samsung Odyssey G4 G40H LS27HG400EEXXV 27 inch (Full HD/ IPS/ 300Hz/ 1 ms),Samsung,monitor,7590000.0,7890000.0,300000.0,4.0,,,,phongvu,2026-09-21
+phongvu_260701727.0,883278,260701727.0,Màn hình LG 27U730B-B 27 inch (4K/ IPS/ 60Hz/ 5 ms),LG,monitor,8590000.0,8590000.0,0.0,0.0,,,,phongvu,2026-09-21
+phongvu_260701728.0,883279,260701728.0,Màn hình Dell PRO P2426H 23.8 inch (Full HD/ IPS/ 120Hz/ 5 ms),Dell,monitor,4890000.0,5990000.0,1100000.0,18.0,,,,phongvu,2026-09-21
+phongvu_260701738.0,883294,260701738.0,Màn hình LG 32U631A-B 31.5 inch (2K/ IPS/ 100Hz/ 5 ms),LG,monitor,5790000.0,5790000.0,0.0,0.0,,,,phongvu,2026-09-21
+phongvu_260701744.0,883301,260701744.0,Màn hình Acer VG270U Z2 UM.HV0SV.201 27 inch (2K/ IPS/ 275Hz/ 0.5 ms),Acer,monitor,4690000.0,4990000.0,300000.0,6.0,,,,phongvu,2026-09-21
+phongvu_260701751.0,883307,260701751.0,Màn hình Acer VG270 W5 UM.HV0SV.501 27 inch (Full HD/ IPS/ 260Hz/ 0.5 ms),Acer,monitor,3490000.0,3690000.0,200000.0,5.0,,,,phongvu,2026-09-21
+phongvu_260701757.0,883313,260701757.0,Màn hình Msi MPG 272QRF X36 27 inch (2K/ RAPID IPS/ 360Hz/ 0.5 ms),Msi,monitor,21490000.0,21590000.0,100000.0,0.0,,,,phongvu,2026-09-21
+phongvu_260701758.0,883314,260701758.0,Màn hình Acer KG251Q W5 UM.KX1SS.501 27 inch (Full HD/ IPS/ 260Hz/ 1 ms),Acer,monitor,2990000.0,3290000.0,300000.0,9.0,,,,phongvu,2026-09-21
+phongvu_260701764.0,883320,260701764.0,Màn hình Msi PRO MP273QW E14 27 inch (2K/ IPS/ 144Hz/ 1 ms),Msi,monitor,3790000.0,3990000.0,200000.0,5.0,,,,phongvu,2026-09-21
+phongvu_260701765.0,883321,260701765.0,Màn hình Acer EK241Y P6 UM.QE1SV.601 23.8 inch (Full HD/ IPS/ 144Hz/ 1 ms),Acer,monitor,2190000.0,2590000.0,400000.0,15.0,,,,phongvu,2026-09-21
+phongvu_260701770.0,883326,260701770.0,Màn hình Samsung Odyssey G4 G40H LS25HG400EEXXV 25 inch (Full HD/ IPS/ 300Hz/ 1 ms),Samsung,monitor,3990000.0,4690000.0,700000.0,15.0,,,,phongvu,2026-09-21
+phongvu_260701772.0,883327,260701772.0,Màn hình Acer EK271K L1 UM.HE1SV.101 27 inch (4K/ IPS/ 72Hz/ 4 ms),Acer,monitor,4990000.0,5290000.0,300000.0,6.0,,,,phongvu,2026-09-21
+phongvu_260701775.0,883331,260701775.0,Màn hình Samsung Odyssey OLED G9 G93SD LS49DG930SEXXV 49 inch (DQHD/ OLED/ 240Hz/ 0.03 ms),Samsung,monitor,29990000.0,43189000.0,13199000.0,31.0,,,,phongvu,2026-09-21
+phongvu_260701782.0,883334,260701782.0,Màn hình LG 34G600A-B 34 inch (UWQHD/ VA/ 160Hz/ 5 ms),LG,monitor,8690000.0,8900000.0,210000.0,2.0,,,,phongvu,2026-09-21
+phongvu_260701787.0,883343,260701787.0,Màn hình LG 34U511A-B 34 inch (WFHD/ IPS/ 100Hz/ 5 ms),LG,monitor,6690000.0,6690000.0,0.0,0.0,,,,phongvu,2026-09-21
+phongvu_260703452.0,885290,260703452.0,Màn hình Gigabyte GS27F2 27 inch (Full HD/ SS IPS/ 240Hz/ 1 ms),Gigabyte,monitor,3690000.0,3990000.0,300000.0,8.0,,,,phongvu,2026-09-21
+phongvu_260703459.0,885296,260703459.0,Màn hình Gigabyte G27U 27 inch (4K/ SS IPS/ 160Hz/ 1 ms),Gigabyte,monitor,8390000.0,8990000.0,600000.0,7.0,,,,phongvu,2026-09-21
+phongvu_260703466.0,885303,260703466.0,Màn hình Samsung Odyssey G5 G50F LS32FG502EEXXV 32 inch (2K/ IPS/ 180Hz/ 1 ms),Samsung,monitor,7390000.0,7890000.0,500000.0,6.0,,,,phongvu,2026-09-21
+phongvu_260703554.0,885391,260703554.0,Màn hình LG 27U411B-B 27 inch (Full HD/ IPS/ 144Hz/ 1 ms),LG,monitor,2890000.0,3190000.0,300000.0,9.0,,,,phongvu,2026-09-21
+phongvu_260703560.0,885397,260703560.0,Màn hình ViewSonic VG1457 (VS21039) 2 x 14 inch (WUXGA/ IPS/ 60Hz/ 16 ms),ViewSonic,monitor,8290000.0,8990000.0,700000.0,8.0,,,,phongvu,2026-09-21
+phongvu_260704573.0,886585,260704573.0,Màn hình Aoc 16T20/71 15.6 inch (Full HD/ IPS/ 60Hz/ 4 ms),Aoc,monitor,2390000.0,2690000.0,300000.0,11.0,,,,phongvu,2026-09-21
+phongvu_260705983.0,888166,260705983.0,Màn hình Asus VY249HG2 23.8 inch (Full HD/ IPS/ 144Hz/ 1 ms),Asus,monitor,2290000.0,2690000.0,400000.0,15.0,,,,phongvu,2026-09-21
+phongvu_260705992.0,888174,260705992.0,Màn hình Asus VY279HG2 27 inch (Full HD/ IPS/ 144Hz/ 1 ms),Asus,monitor,2690000.0,3090000.0,400000.0,13.0,,,,phongvu,2026-09-21
+phongvu_260705999.0,888182,260705999.0,Màn hình Asus ROG Strix XG27ACSR 27 inch (2K/ Fast IPS/ 220Hz/ 0.3 ms),Asus,monitor,6690000.0,6990000.0,300000.0,4.0,,,,phongvu,2026-09-21
+phongvu_260706006.0,888189,260706006.0,Màn hình Asus VP327Q 31.5 inch (4K/ VA/ 60Hz/ 4 ms),Asus,monitor,7090000.0,7590000.0,500000.0,7.0,,,,phongvu,2026-09-21
+phongvu_260706014.0,888196,260706014.0,Màn hình Asus MQ17QH 17.3 inch (2K/ OLED/ 60Hz/ 0.2 ms),Asus,monitor,65990000.0,69990000.0,4000000.0,6.0,,,,phongvu,2026-09-21
+phongvu_260706021.0,888204,260706021.0,Màn hình Asus ROG Swift OLED PG27AQWP-G EDITION 20 26.5 inch (2K/ OLED/ 540Hz/ 0.02 ms),Asus,monitor,39900000.0,41900000.0,2000000.0,5.0,,,,phongvu,2026-09-21
+phongvu_260706027.0,888210,260706027.0,Màn hình Xiaomi G25i 2026 ELA6734EU 24.5 inch (Full HD/ IPS/ 240Hz/ 1 ms),Xiaomi,monitor,3490000.0,3690000.0,200000.0,5.0,,,,phongvu,2026-09-21
+phongvu_260801475.0,890606,260801475.0,Màn hình Dell SE2726H 27 inch (Full HD/ IPS/ 144Hz/ 8 ms),Dell,monitor,3890000.0,4090000.0,200000.0,5.0,,,,phongvu,2026-09-21
+phongvu_260801482.0,890617,260801482.0,Màn hình ViewSonic VX2536A 25 inch (Full HD/ IPS/ 320Hz/ 1 ms),ViewSonic,monitor,3990000.0,4590000.0,600000.0,13.0,,,,phongvu,2026-09-21
+phongvu_260801492.0,890628,260801492.0,Màn hình Dell PRO E2726HS 27 inch (Full HD/ IPS/ 100Hz/ 5 ms),Dell,monitor,3690000.0,3990000.0,300000.0,8.0,,,,phongvu,2026-09-21
+phongvu_260801557.0,890704,260801557.0,Màn hình ViewSonic XG2735-2K 27 inch (2K/ IPS/ 210Hz/ 1 ms),ViewSonic,monitor,4790000.0,5490000.0,700000.0,13.0,,,,phongvu,2026-09-21
+phongvu_260801558.0,890703,260801558.0,Màn hình Samsung Odyssey G5 G53F LS27FG530EEXXV 27 inch (2K/ IPS/ 200Hz/ 1 ms),Samsung,monitor,4890000.0,5990000.0,1100000.0,18.0,,,,phongvu,2026-09-21
+phongvu_260802676.0,891872,260802676.0,"Màn hình LCD Acer 21.5"" EK221Q E3 (UM.WE1SV.301) (1920 x 1080/ IPS/ 100Hz/ 1ms VRB/ FreeSync) - Demo",Acer,monitor,1480000.0,1890000.0,410000.0,22.0,,,,phongvu,2026-09-21
+phongvu_260802677.0,891873,260802677.0,"Màn hình LCD Acer 21.5"" EK221Q E3 (UM.WE1SV.301) (1920 x 1080/ IPS/ 100Hz/ 1ms VRB/ FreeSync) - Demo",Acer,monitor,1570000.0,1890000.0,320000.0,17.0,,,,phongvu,2026-09-21
+phongvu_260802678.0,891874,260802678.0,"Màn hình LCD Acer 21.5"" EK221Q E3 (UM.WE1SV.301) (1920 x 1080/ IPS/ 100Hz/ 1ms VRB/ FreeSync) - Demo",Acer,monitor,1570000.0,1890000.0,320000.0,17.0,,,,phongvu,2026-09-21
+phongvu_260802679.0,891875,260802679.0,"Màn hình LCD Acer 21.5"" EK221Q E3 (UM.WE1SV.301) (1920 x 1080/ IPS/ 100Hz/ 1ms VRB/ FreeSync) - Demo",Acer,monitor,1480000.0,1890000.0,410000.0,22.0,,,,phongvu,2026-09-21
+phongvu_260802680.0,891876,260802680.0,"Màn hình LCD Acer 21.5"" EK221Q E3 (UM.WE1SV.301) (1920 x 1080/ IPS/ 100Hz/ 1ms VRB/ FreeSync) - Demo",Acer,monitor,1760000.0,1890000.0,130000.0,7.0,,,,phongvu,2026-09-21
+phongvu_260802681.0,891877,260802681.0,"Màn hình LCD Acer 21.5"" EK221Q E3 (UM.WE1SV.301) (1920 x 1080/ IPS/ 100Hz/ 1ms VRB/ FreeSync) - Demo",Acer,monitor,1480000.0,1890000.0,410000.0,22.0,,,,phongvu,2026-09-21
+phongvu_260802682.0,891878,260802682.0,Màn hình LCD LG 27 inch 27GS60QC-B.ATVQ (2560x1440/ VA/ 180Hz/ 1ms) Đen - Demo,LG,monitor,5600000.0,6000000.0,400000.0,7.0,,,,phongvu,2026-09-21
+phongvu_260802683.0,891879,260802683.0,"Màn hình LCD Acer 21.5"" EK221Q E3 (UM.WE1SV.301) (1920 x 1080/ IPS/ 100Hz/ 1ms VRB/ FreeSync) - Demo",Acer,monitor,1760000.0,1890000.0,130000.0,7.0,,,,phongvu,2026-09-21
+phongvu_260803035.0,892232,260803035.0,Màn hình Samsung M7 M70F LS43FM702UEXXV 43 inch (4K/ VA/ 60Hz/ 4 ms),Samsung,monitor,10690000.0,12590000.0,1900000.0,15.0,,,,phongvu,2026-09-21
+phongvu_260803536.0,892731,260803536.0,Màn hình Asus VG27AQ5F 27 inch (2K/ Fast IPS/ 220Hz/ 0.3 ms),Asus,monitor,4890000.0,5190000.0,300000.0,6.0,,,,phongvu,2026-09-21
+phongvu_260803543.0,892740,260803543.0,Màn hình Asus XG248QSG 24.1 inch (Full HD/ Super TN/ 610Hz/ 0.7 ms),Asus,monitor,19590000.0,26900000.0,7310000.0,27.0,,,,phongvu,2026-09-21
+phongvu_260803558.0,892756,260803558.0,Màn hình Asus ZenScreen OLED MQ16FC 16 inch (WUXGA/ OLED/ 60Hz/ 1 ms),Asus,monitor,7490000.0,7990000.0,500000.0,6.0,,,,phongvu,2026-09-21
+phongvu_260803565.0,892763,260803565.0,Màn hình Lenovo L16 68F4UAC1WW 16 inch (WUXGA/ IPS/ 60Hz/ 6 ms),Lenovo,monitor,3790000.0,3990000.0,200000.0,5.0,,,,phongvu,2026-09-21
+phongvu_260803839.0,893037,260803839.0,Màn hình Samsung LH43QMCEPGCXXV 43 inch (4K/ IPS/ 75Hz/ 8 ms),Samsung,monitor,14790000.0,14790000.0,0.0,0.0,,,,phongvu,2026-09-21
+phongvu_260804147.0,893363,260804147.0,Màn hình Philips 25E2G2200/71 24.5 inch (Full HD/ IPS/ 144Hz/ 0.5 ms),Philips,monitor,2090000.0,2590000.0,500000.0,19.0,,,,phongvu,2026-09-21
+phongvu_260804533.0,893746,260804533.0,Màn hình ViewSonic TD1617A-2K 16 inch (WQXGA/ IPS/ 165Hz/ 3 ms),ViewSonic,monitor,6790000.0,7050000.0,260000.0,4.0,,,,phongvu,2026-09-21
+phongvu_260804540.0,893756,260804540.0,Màn hình Asus VG279QM5F 27 inch (Full HD/ Fast IPS/ 260Hz/ 0.3 ms),Asus,monitor,3790000.0,3990000.0,200000.0,5.0,,,,phongvu,2026-09-21
+phongvu_260804555.0,893772,260804555.0,Màn hình ViewSonic VP2766-2K-W 27 inch (2K/ IPS/ 120Hz/ 5 ms),ViewSonic,monitor,6890000.0,6990000.0,100000.0,1.0,,,,phongvu,2026-09-21
+phongvu_260804562.0,893780,260804562.0,Màn hình ViewSonic VP2766-2K 27 inch (2K/ IPS/ 120Hz/ 5 ms),ViewSonic,monitor,6890000.0,6990000.0,100000.0,1.0,,,,phongvu,2026-09-21
+phongvu_260805889.0,895187,260805889.0,"Màn hình Aoc 24B36XE/71 23.8"" (FHD 1920 x 1080/ IPS/ 144Hz/ 0.5 ms)",Aoc,monitor,2090000.0,2390000.0,300000.0,13.0,,,,phongvu,2026-09-21
+phongvu_260805927.0,895228,260805927.0,"Màn hình Dell Plus P2425D (42MP2425D) 23.8"" (2K 2560 x 1440/ IPS/ 100Hz/ 5 ms)",Dell,monitor,6390000.0,6890000.0,500000.0,7.0,,,,phongvu,2026-09-21
+phongvu_260900844.0,896219,260900844.0,"Màn hình Philips 27M2N3200NF/00 27"" (FHD 1920 x 1080/ IPS/ 144Hz/ 0.5 ms)",Philips,monitor,2990000.0,3290000.0,300000.0,9.0,,,,phongvu,2026-09-21
+phongvu_260901646.0,897035,260901646.0,"Màn hình Asus VG27AQM5A 27"" (2K 2560 x 1440/ Fast IPS/ 300Hz/ 0.3 ms)",Asus,monitor,5990000.0,7490000.0,1500000.0,20.0,,,,phongvu,2026-09-21
+phongvu_260901652.0,897043,260901652.0,"Màn hình Asus VA259HGA 24.5"" (FHD 1920 x 1080/ IPS/ 120Hz/ 1 ms)",Asus,monitor,2290000.0,2990000.0,700000.0,23.0,,,,phongvu,2026-09-21
+phongvu_260901662.0,897051,260901662.0,"Màn hình Aoc AGP277QK/71 27"" (2K 2560 x 1440/ Fast IPS/ 540Hz/ 0.3 ms)",Aoc,monitor,16990000.0,17990000.0,1000000.0,6.0,,,,phongvu,2026-09-21
+phongvu_260901793.0,897185,260901793.0,"Màn hình Asus VA329QG3 31.5"" (FHD 1920 x 1080/ VA/ 180Hz/ 1 ms)",Asus,monitor,4990000.0,5990000.0,1000000.0,17.0,,,,phongvu,2026-09-21

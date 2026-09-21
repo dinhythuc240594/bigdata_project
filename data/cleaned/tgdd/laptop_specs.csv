@@ -1,0 +1,419 @@
+﻿product_id,cpu,ram_gb,storage_gb,gpu,screen_size_inch,weight_kg
+343122,Intel Core i5 Raptor Lake - 13500H,16,512,Card tích hợp - Intel UHD Graphics,15.6,1.79
+338323,Intel Core 5 Raptor Lake - 120U,16,512,Card tích hợp - Intel Graphics,15.6,1.7
+363507,Apple M5 - Hãng không công bố,16,512,Card tích hợp - 10 nhân GPU,15.3,1.51
+367376,AMD Ryzen 5 - 7430U,8,512,Card tích hợp - AMD Radeon Graphics,15.6,1.45
+366746,AMD Ryzen 5 - 7535HS,16,512,Card tích hợp - AMD Radeon 660M Graphics,15.3,1.59
+363263,Intel Core 5 Raptor Lake - 120U,16,512,Card tích hợp - Intel UHD Graphics,15.6,1.53
+368189,Intel Core i3 Alder Lake - 1215U,8,256,Card tích hợp - Intel Graphics,14.0,1.1
+364859,Intel Core i5 Raptor Lake - 1334U,16,512,Card tích hợp - Intel UHD Graphics,15.6,1.65
+337420,AMD Ryzen 5 - 7530U,8,512,Card tích hợp - AMD Radeon Graphics,14.0,1.36
+367375,AMD Ryzen 7 - 7730U,8,512,Card tích hợp - AMD Radeon 680M Graphics,14.5,1.3
+364397,Snapdragon X - X1 26 100,16,512,Card tích hợp - Qualcomm Adreno GPU,16.0,1.88
+369212,Intel Core thế hệ 12 - 120U,16,512,Card tích hợp,15.6,1.7
+363487,Apple M5,16,512,Card tích hợp - 8 nhân GPU,13.6,1.23
+362025,Intel Core i5 Raptor Lake - 1334U,16,512,Card tích hợp - Intel UHD Graphics,15.6,1.65
+355729,Intel Core 5 Raptor Lake - 120U,16,512,Card tích hợp - Intel UHD Graphics,14.0,1.402
+367016,Intel Core Ultra 5 Panther Lake - 322,16,512,Card tích hợp - Intel Graphics,15.3,1.63
+360295,Intel Core Ultra 7 Arrow Lake - 255HX,32,1024,"Card rời - NVIDIA GeForce RTX 5060, 8 GB",16.0,2.7
+363491,Apple M5 Pro,24,1024,Card tích hợp - 20 nhân GPU,16.2,2.14
+369645,Intel Core 5 Raptor Lake - 210H,16,512,"Card rời - NVIDIA GeForce RTX 4050, 6 GB",15.6,2.1
+366087,AMD Ryzen 5 - 40,16,512,Card tích hợp - AMD Radeon Graphics,15.6,1.45
+368192,Intel Core i5 Alder Lake - 1235U,16,512,Card tích hợp - Intel UHD Graphics,14.0,1.1
+362398,Intel Core Ultra 5 Meteor Lake - 125H,24,512,Card tích hợp - Intel Graphics,15.6,1.623
+368210,Intel Core 5 Wildcat Lake - 320,16,512,Card tích hợp - Intel Graphics,15.3,1.59
+360690,Intel Core 5 Raptor Lake - 120U,16,512,Card tích hợp - Intel Graphics,14.0,1.69
+368656,Intel Core 5 Raptor Lake - 210H,16,512,"Card rời - NVIDIA GeForce RTX 3050, 4 GB",15.6,1.99
+365310,Intel Core i5 Raptor Lake - 1334U,16,512,Card tích hợp - Intel UHD Graphics,15.6,1.9
+341267,Intel Core Ultra 5 Arrow Lake - 225U,16,512,Card tích hợp - Intel Graphics,16.0,1.725
+368211,Intel Core 5 Wildcat Lake - 320,8,512,Card tích hợp - Intel Graphics,15.3,1.59
+366090,Intel Core Ultra 5 Meteor Lake - 115U,16,512,Card tích hợp - Intel Graphics,15.6,1.59
+363903,AMD Ryzen 7 - 170,16,512,"Card rời - NVIDIA GeForce RTX 3050, 6 GB",15.6,1.8
+357990,Intel Core i5 Raptor Lake - 1334U,16,512,Card tích hợp - Intel UHD Graphics,15.6,1.65
+362620,AMD Ryzen 5 - 40,8,512,Card tích hợp - AMD Radeon Graphics,15.6,1.63
+368655,Intel Core Ultra 5 Meteor Lake - 125H,16,512,Card tích hợp - Intel Arc Graphics,16.0,1.6
+360298,AMD Ryzen AI 9 - 365,16,512,"Card rời - NVIDIA GeForce RTX 5070, 8 GB",16.0,2.18
+341607,Intel Core i7 Raptor Lake - 13620H,16,512,"Card rời - NVIDIA GeForce RTX 5050, 8 GB",15.6,2.1
+342524,Intel Core i5 Raptor Lake - 13450HX,16,1024,"Card rời - NVIDIA GeForce RTX 3050, 6 GB",15.6,2.38
+340561,Intel Core i5 Raptor Lake - 1334U,16,512,Card tích hợp - Intel UHD Graphics,15.6,1.65
+341624,AMD Ryzen 7 - 7445HS,16,512,"Card rời - NVIDIA GeForce RTX 4050, 6 GB",15.6,2.29
+366086,AMD Ryzen 3 - 5400U,8,512,Card tích hợp - AMD Radeon Graphics,15.6,1.45
+339682,Snapdragon X Plus - X1P-64-100,16,512,Card tích hợp - Qualcomm Adreno GPU,14.0,1.53
+337044,Intel Core Ultra 5 Meteor Lake - 125U,16,512,Card tích hợp - Intel Graphics,16.0,1.7
+335554,Intel Core i5 Raptor Lake - 13450HX,16,512,"Card rời - NVIDIA GeForce RTX 3050, 6 GB",15.6,2.38
+366823,Intel Core 7 Raptor Lake - 240H,16,512,"Card rời - NVIDIA GeForce RTX 5060, 8 GB",16.0,2.4
+327506,AMD Ryzen 5 - 7430U,16,1024,Card tích hợp - AMD Radeon Graphics,14.0,1.25
+366745,AMD Ryzen 5 - 7533HS,16,512,Card tích hợp - AMD Radeon 660M Graphics,14.0,1.39
+342758,Intel Core 5 Raptor Lake - 210H,16,512,Card tích hợp - Intel UHD Graphics,16.0,1.7
+340562,Intel Core i7 Raptor Lake - 1355U,16,512,Card tích hợp - Intel UHD Graphics,15.6,1.65
+341623,AMD Ryzen 7 - 7445HS,16,512,"Card rời - NVIDIA GeForce RTX 3050, 6 GB",15.6,2.29
+341602,Intel Core Ultra 5 Meteor Lake - 125H,16,512,Card tích hợp - Intel Arc Graphics,16.0,1.6
+358797,Intel Core Ultra 7 Meteor Lake - 155H,16,512,Card tích hợp - Intel Arc Graphics,15.6,1.65
+325691,Intel Core i7 Raptor Lake - 1355U,16,512,Card tích hợp - Intel Iris Xe Graphics,15.6,1.59
+363690,Intel Core i5 Raptor Lake - 13420H,16,512,"Card rời - NVIDIA GeForce RTX 3050, 4 GB",15.6,1.98
+362026,Intel Core i7 Raptor Lake - 1355U,16,512,Card tích hợp - Intel UHD Graphics,15.6,1.65
+367684,Intel Core Ultra 5 Panther Lake - 322,16,512,Card tích hợp - Intel Graphics,14.0,1.43
+369911,AMD Ryzen 7 - 7730U,16,1024,Card tích hợp - AMD Radeon Graphics,15.6,1.635
+363257,Intel Core Ultra 5 Arrow Lake - 225H,16,512,Card tích hợp - Intel Graphics,16.0,1.88
+327707,Intel Core i7 Raptor Lake - 13620H,16,512,"Card rời - NVIDIA GeForce RTX 4050, 6 GB",15.6,1.98
+339954,Intel Core 5 Raptor Lake - 120U,16,512,Card tích hợp - Intel Graphics,14.0,1.5
+341601,AMD Ryzen 7 - 7735HS,16,512,"Card rời - NVIDIA GeForce RTX 3050, 6 GB",15.6,2.1
+333421,Intel Core i7 Raptor Lake - 1355U,16,512,Card tích hợp - Intel Iris Xe Graphics eligible,16.0,1.7
+334446,Intel Core i7 Raptor Lake - 13620H,24,512,Card tích hợp - Intel UHD Graphics,15.3,1.63
+366992,AMD Ryzen 7 - 5825U,8,512,Card tích hợp - AMD Radeon Graphics,15.6,1.45
+360692,Intel Core i7 Raptor Lake - 1355U,16,512,Card tích hợp - Intel UHD Graphics,15.6,1.65
+367346,Intel Core 3 Raptor Lake - 100U,8,512,Card tích hợp - Intel Graphics,14.0,1.69
+363260,AMD Ryzen 7 - 7735HS,16,512,"Card rời - NVIDIA GeForce RTX 4050, 6 GB",15.6,2.1
+341618,Intel Core 5 Raptor Lake - 120U,16,512,Card tích hợp - Intel Iris Xe Graphics,15.6,1.59
+368207,Intel Core 5 Wildcat Lake - 320,16,512,Card tích hợp - Integrated Graphics,14.0,1.39
+351613,Intel Core i7 Raptor Lake - 1355U,16,1024,Card tích hợp - Intel UHD Graphics,15.6,1.9
+368557,Intel Core 5 Raptor Lake - 120U,16,512,Card tích hợp - Intel Graphics,14.0,1.69
+369478,Intel Core™ 3 - 304,8,512,Card tích hợp - Intel Graphics,15.3,1.59
+367576,Intel Core i5 Raptor Lake - 13420H,16,512,"Card rời - NVIDIA GeForce RTX 4050, 6 GB",15.6,2.29
+339211,Intel Core i7 Raptor Lake - 13620H,16,512,"Card rời - NVIDIA GeForce RTX 4050, 6 GB",16.0,2.204
+362667,Intel Core i7 Raptor Lake - 1355U,16,1024,Card tích hợp - Intel UHD Graphics,15.6,1.9
+358077,Intel Core 7 Raptor Lake - 150U,24,512,Card tích hợp - Intel Graphics,14.0,1.62
+368558,Intel Core 3 Raptor Lake - 100U,8,512,Card tích hợp - Intel UHD Graphics,15.6,1.9
+363261,Intel Core 5 Raptor Lake - 120U,16,512,Card tích hợp - Intel UHD Graphics,14.0,1.4
+341626,Intel Core i5 Raptor Lake - 13420H,16,512,"Card rời - NVIDIA GeForce RTX 5050, 8 GB",15.6,2.1
+369754,Intel Core 7 Raptor Lake - 240H,16,512,"Card rời - NVIDIA GeForce RTX 4050, 6 GB",15.6,2.1
+366749,Intel Core i7 Raptor Lake - 13645HX,16,1024,"Card rời - NVIDIA GeForce RTX 4050, 6 GB",15.6,2.38
+365608,Intel Core 5 Raptor Lake - 120U,16,512,Card tích hợp - Intel Graphics,14.0,1.406
+339679,Intel Core i5 Raptor Lake - 1335U,16,512,Card tích hợp - Intel Iris Xe Graphics,14.0,1.5
+341270,Intel Core 5 Raptor Lake - 120U,16,512,Card tích hợp - Intel Iris Xe Graphics,15.6,1.59
+337043,Intel Core Ultra 5 Meteor Lake - 125U,16,1024,Card tích hợp - Intel Graphics,16.0,1.77
+364401,Intel Core Ultra 5 Arrow Lake - 255H,16,512,Card tích hợp - Intel Arc Graphics,14.0,1.2
+341610,Intel Core i7 Raptor Lake - 14650HX,16,512,"Card rời - NVIDIA GeForce RTX 5060, 8 GB",15.6,2.4
+336031,Intel Core Ultra 9 Arrow Lake - 285H,32,1024,Card tích hợp - Intel Arc Graphics,14.0,1.28
+337843,Intel Core i5 Raptor Lake - 13420H,16,512,"Card rời - NVIDIA GeForce RTX 4050, 6 GB",16.0,2.2
+358074,Intel Core Ultra 7 Arrow Lake - 255U,32,512,Card tích hợp - Intel Graphics,16.0,1.77
+345510,Intel Core i5 Raptor Lake - 13420H,16,512,"Card rời - NVIDIA GeForce RTX 4050, 6 GB",15.6,2.29
+358498,Intel Core i5 Raptor Lake - 1334U,16,512,Card tích hợp - Intel UHD Graphics,15.6,1.65
+362666,Intel Core i5 Raptor Lake - 1334U,16,512,Card tích hợp - Intel UHD Graphics,15.6,1.9
+365998,Intel Core i5 Raptor Lake - 1334U,16,512,Card tích hợp - Intel UHD Graphics,15.6,1.65
+318354,Intel Core i5 Raptor Lake - 13420H,8,512,"Card rời - NVIDIA GeForce RTX 4050, 6 GB",15.6,2.1
+340006,AMD Ryzen AI 7 - 260,16,512,Card tích hợp - AMD Radeon Graphics,15.6,1.9
+357992,AMD Ryzen 7 - 7730U,16,1024,Card tích hợp - AMD Radeon Graphics,15.6,1.9
+364860,Intel Core i7 Raptor Lake - 1355U,16,512,Card tích hợp - Intel UHD Graphics,15.6,1.65
+363882,AMD Ryzen AI 7 - 445,32,512,Card tích hợp - AMD Radeon 840M Graphics,14.0,1.37
+363262,Intel Core 7 Raptor Lake - 150U,16,512,Card tích hợp - Intel UHD Graphics,15.6,1.53
+358796,Intel Core Ultra 7 Meteor Lake - 155H,16,512,Card tích hợp - Intel Arc Graphics,14.0,1.4
+366909,Intel Core i5 Raptor Lake - 13420H,16,512,"Card rời - NVIDIA GeForce RTX 4050, 6 GB",15.6,1.98
+363259,Intel Core i7 Raptor Lake - 13620H,16,512,"Card rời - NVIDIA GeForce RTX 4050, 6 GB",16.0,1.95
+334796,Intel Core Ultra 5 Arrow Lake - 225H,16,512,Card tích hợp - Intel Arc Graphics,14.0,1.28
+364967,Intel Core 7 Raptor Lake - 150U,16,512,"Card rời - NVIDIA Geforce MX570A, 2 GB",14.0,1.643
+365607,Intel Core 5 Raptor Lake - 120U,8,512,Card tích hợp - Intel Graphics,14.0,1.406
+369481,Intel Core 3 Raptor Lake - 100U,8,512,Card tích hợp - Intel Graphics,15.6,1.637
+360419,Intel Core 5 Raptor Lake - 120U,16,512,Card tích hợp - Intel Graphics,15.6,1.7
+362922,Intel Core i7 Raptor Lake - 13620H,16,1024,"Card rời - NVIDIA GeForce RTX 5060, 8 GB",15.6,2.1
+365535,Intel Core Ultra 5 Meteor Lake - 135H,16,512,Card tích hợp - Intel Arc Graphics,14.0,1.34
+364405,Intel Core Ultra 9 Arrow Lake - 285H,32,1024,Card tích hợp - Intel Arc Graphics,14.0,1.2
+342754,Intel Core i5 Raptor Lake - 1334U,16,512,Card tích hợp - Intel UHD Graphics,15.6,1.9
+366702,AMD Ryzen 5 - 220,16,512,Card tích hợp - AMD Radeon Graphics,16.0,1.785
+358120,AMD Ryzen AI 5 - 340,16,512,Card tích hợp - AMD Radeon 840M Graphics,16.0,1.79
+358088,Apple M5,16,1024,Card tích hợp - 10 nhân GPU,14.2,1.55
+340558,Intel Core i5 Raptor Lake - 1334U,16,512,Card tích hợp - Intel Iris Xe Graphics,15.6,1.66
+360296,AMD Ryzen AI 7 - 260,16,1024,"Card rời - NVIDIA GeForce RTX 5050, 8 GB",16.0,2.1
+359927,Intel Core i7 Raptor Lake - 13620H,16,512,"Card rời - NVIDIA GeForce RTX 5050, 8 GB",16.0,2.23
+358075,AMD Ryzen AI 5 - 340,16,512,Card tích hợp - AMD Radeon 840M,14.0,1.39
+342513,Intel Core 7 Raptor Lake - 240H,32,1024,Card tích hợp - Intel Graphics,14.0,1.36
+358499,Intel Core i7 Raptor Lake - 1355U,16,512,Card tích hợp - Intel UHD Graphics,15.6,1.65
+338316,Intel Core i5 Raptor Lake - 1334U,16,512,Card tích hợp - Intel Iris Xe Graphics,15.6,1.66
+360693,Intel Core 7 Raptor Lake - 240H,16,1024,"Card rời - NVIDIA GeForce RTX 4050, 6 GB",16.0,2.49
+360421,Intel Core 5 Raptor Lake - 210H,16,512,"Card rời - NVIDIA GeForce RTX 3050, 6 GB",16.0,1.95
+344606,Intel Core i7 Raptor Lake - 13650HX,16,512,"Card rời - NVIDIA GeForce RTX 4050, 6 GB",15.6,2.38
+341613,Intel Core i7 Raptor Lake - 14650HX,32,512,"Card rời - NVIDIA GeForce RTX 5050, 8 GB",15.6,2.4
+341609,Intel Core i7 Raptor Lake - 14650HX,32,512,"Card rời - NVIDIA GeForce RTX 5060, 8 GB",15.6,2.4
+363901,Intel Core i5 Raptor Lake - 13420H,16,512,Card tích hợp - Intel UHD Graphics,16.0,1.7
+339681,Intel Core i5 Raptor Lake - 1334U,16,512,Card tích hợp - Intel Iris Xe Graphics,15.6,1.65
+358079,AMD Ryzen 5 - 7430U,16,512,Card tích hợp - AMD Radeon Graphics,15.6,1.65
+330579,Intel Core Ultra 7 Lunar Lake - 258V,32,1024,Card tích hợp - Intel Arc Graphics,14.0,1.2
+363897,Intel Core Ultra 5 Meteor Lake - 135H,16,512,Card tích hợp - Intel Graphics,14.0,1.36
+361726,Intel Core 5 Raptor Lake - 210H,16,512,Card tích hợp - Intel UHD XE,14.0,1.41
+357991,Intel Core i7 Raptor Lake - 1355U,16,1024,Card tích hợp - Intel UHD Graphics,15.6,1.65
+358076,Intel Core Ultra 7 Meteor Lake - 258V,32,512,Card tích hợp - Intel Arc 140V,14.0,1.38
+360694,Intel Core 7 Raptor Lake - 150U,16,1024,Card tích hợp - Intel Graphics,16.0,2.0
+341752,Intel Core i7 Raptor Lake - 13620H,16,512,"Card rời - NVIDIA GeForce RTX 5060, 8 GB",16.0,2.233
+361536,Intel Core 7 Raptor Lake - 150U,16,512,Card tích hợp - Intel Graphics,14.0,1.83
+359482,Intel Core i5 Raptor Lake - 13420H,16,512,Card tích hợp - Intel UHD Graphics,14.0,1.37
+339201,Intel Core i7 Raptor Lake - 13620H,16,512,"Card rời - NVIDIA GeForce RTX 3050, 6 GB",16.0,1.95
+338321,Intel Core Ultra 7 Arrow Lake - 255H,16,512,Card tích hợp - Intel UHD Graphics,14.0,1.4
+366703,AMD Ryzen AI 5 - 340,16,512,Card tích hợp - AMD Radeon 840M Graphics,13.3,0.99
+311177,Intel Core i7 Raptor Lake - 1355U,16,512,Card tích hợp - Intel Iris Xe Graphics,15.6,1.69
+341563,Intel Core 5 Raptor Lake - 210H,16,512,"Card rời - NVIDIA GeForce RTX 3050, 6 GB",16.0,2.49
+367378,Intel Core Ultra X7 - 358H,32,1024,Card tích hợp - Intel Arc Graphics,14.0,1.12
+322099,Intel Core Ultra 7 Meteor Lake - 155H,16,512,"Card rời - NVIDIA GeForce RTX 4050, 6 GB",15.6,1.98
+357988,Intel Core 7 Raptor Lake - 150U,16,1024,"Card rời - NVIDIA Geforce MX570A, 2 GB",14.0,1.63
+335020,Intel Core Ultra 7 Lunar Lake - 258V,32,1024,Card tích hợp - Intel Arc 140V,14.1,1.6
+337472,Intel Core i7 Raptor Lake - 1355U,16,512,Card tích hợp - Intel Iris Xe Graphics,15.6,1.66
+341621,Intel Core 7 Raptor Lake - 150U,16,1024,Card tích hợp - Intel Graphics,15.6,1.65
+361538,Intel Core Ultra 7 Lunar Lake - 256V,16,1024,Card tích hợp - Intel Arc Graphics,16.0,1.815
+364181,AMD Ryzen 7 - 170,16,512,"Card rời - NVIDIA GeForce RTX 4050, 6 GB",16.0,2.2
+364414,AMD Ryzen AI 5 - 330,16,512,Card tích hợp - AMD Radeon Graphics,14.0,1.46
+357987,Intel Core 5 Raptor Lake - 120U,16,1024,Card tích hợp - Intel Graphics,14.0,1.63
+362625,AMD Ryzen AI 7 - 445,16,512,Card tích hợp - AMD Radeon 840M Graphics,14.0,1.2
+325244,Intel Core 7 Raptor Lake - 150U,16,512,Card tích hợp - Intel Graphics,14.0,1.67
+369845,Intel Core Ultra 5 Meteor Lake - 225U,16,512,Card tích hợp - Intel Graphics,14.0,1.41
+359471,Intel Core i5 Raptor Lake - 13420H,16,512,Card tích hợp - Intel UHD Graphics,15.6,1.61
+364979,Intel Core 7 Raptor Lake - 240H,16,512,"Card rời - NVIDIA GeForce RTX 3050, 6 GB",15.6,2.07
+365613,Intel Core 7 Raptor Lake - 150U,16,512,Card tích hợp - Intel Graphics,14.0,1.406
+367683,Intel Core Ultra 7 Panther Lake - 355,16,512,Card tích hợp - Intel Graphics,16.0,1.73
+365625,Intel Core 5 Raptor Lake - 120U,16,512,Card tích hợp - Intel Graphics,14.0,1.4
+365616,AMD Ryzen AI 7 - 350,16,512,Card tích hợp - AMD Radeon 860M Graphics,14.0,1.531
+341565,Intel Core 7 Raptor Lake - 240H,16,1024,"Card rời - NVIDIA GeForce RTX 5060, 8 GB",16.0,2.49
+358381,Intel Core i7 Raptor Lake - 13650HX,16,512,"Card rời - NVIDIA GeForce RTX 5050, 8 GB",15.3,2.1
+366166,AMD Ryzen 7 - 7735HS,16,512,"Card rời - NVIDIA GeForce RTX 4050, 6 GB",15.6,1.8
+366167,Intel Core i7 Raptor Lake - 13645HX,16,512,"Card rời - NVIDIA GeForce RTX 4050, 6 GB",15.6,2.38
+334800,Snapdragon X - X1 26 100,16,512,Card tích hợp - Qualcomm Adreno GPU,14.0,0.98
+358119,Intel Core Ultra 7 Arrow Lake - 255H,32,512,Card tích hợp - Intel Arc 140T,14.0,1.41
+364942,Intel Core Ultra 7 Arrow Lake - 255H,16,512,Card tích hợp - Intel Graphics,16.0,1.88
+342469,Intel Core i7 Raptor Lake - 1355U,16,512,Card tích hợp - Intel Iris Xe Graphics,15.6,1.66
+366165,Intel Core Ultra 7 Panther Lake - 355,16,512,Card tích hợp - Intel Graphics,15.3,1.63
+358072,Intel Core Ultra 7 Arrow Lake - 255U,32,512,Card tích hợp - Intel Graphics,16.0,1.77
+362409,Intel Core Ultra 5 Lunar Lake - 226V,16,512,Card tích hợp - Intel Arc Graphics,14.0,1.57
+365614,AMD Ryzen AI 5 - 340,16,512,Card tích hợp - AMD Radeon 840M Graphics,14.0,1.528
+342521,Intel Core i7 Raptor Lake - 13650HX,16,512,"Card rời - NVIDIA GeForce RTX 5060, 8 GB",15.3,2.1
+367017,Intel Core Ultra 7 Panther Lake - 355,16,512,Card tích hợp - Intel Graphics,15.3,1.63
+332579,AMD Ryzen 5 - 8645HS,16,512,"Card rời - NVIDIA GeForce RTX 3050, 6 GB",16.0,2.5
+364622,Intel Core Ultra 7 Lunar Lake - 258V,32,1024,Card tích hợp - Intel Arc Graphics 140V,14.0,0.986
+337041,Intel Core Ultra 7 Meteor Lake - 155U,16,1024,Card tích hợp - Intel Graphics,16.0,1.77
+326049,AMD Ryzen 5 - 7530U,8,512,Card tích hợp - AMD Radeon Graphics,14.0,1.36
+338312,Intel Core 5 Raptor Lake - 120U,16,512,Card tích hợp - Intel Iris Xe Graphics,14.0,1.67
+364415,Intel Core Ultra 5 Arrow Lake - 225H,16,512,Card tích hợp - Intel Graphics,14.0,1.4
+363902,Intel Core i5 Raptor Lake - 13420H,8,512,Card tích hợp - Intel UHD Graphics,15.6,1.61
+361729,Snapdragon X - X1 26 100,16,512,Card tích hợp - Qualcomm Adreno GPU,14.0,1.46
+362624,AMD Ryzen AI 7 - 445,16,512,Card tích hợp - AMD Radeon Graphics,14.0,1.4
+359302,AMD Ryzen AI 9 - HX 370,32,1024,"Card rời - NVIDIA GeForce RTX 5060, 8 GB",16.0,2.1
+341269,Intel Core Ultra 7 Lunar Lake - 258V,32,1024,Card tích hợp - Intel Arc 140V,14.0,1.327
+363900,Intel Core Ultra 7 Lunar Lake - 258V,32,512,Card tích hợp - Intel Arc 140V,14.0,1.32
+358798,AMD Ryzen AI 7 - 350,16,512,Card tích hợp - AMD Radeon 860M Graphics,16.0,1.79
+325247,Intel Core i7 Raptor Lake - 1355U,16,1024,Card tích hợp - Intel Iris Xe Graphics,15.6,1.65
+342749,Intel Core i7 Raptor Lake - 13620H,16,512,Card tích hợp - Intel UHD Graphics,14.0,1.4
+367377,Intel Core 5 Raptor Lake - 120U,8,512,Card tích hợp - Intel UHD Graphics,15.6,1.6
+359299,Intel Core i9 Raptor Lake - 14900HX,16,512,"Card rời - NVIDIA GeForce RTX 5060, 8 GB",15.6,2.4
+342721,Intel Core i9 Raptor Lake - 14900HX,32,512,"Card rời - NVIDIA GeForce RTX 5070, 8 GB",16.0,2.43
+361730,Snapdragon X - X1 26 100,32,512,Card tích hợp - Qualcomm Adreno GPU,14.0,1.46
+358794,Intel Core 5 Raptor Lake - 210H,24,512,Card tích hợp - Intel Graphics,16.0,1.91
+368218,AMD Ryzen 7 - 250,16,512,Card tích hợp - AMD Radeon 780M Graphics,14.0,1.36
+369747,Intel Core 7 - 150U,16,1024,Card tích hợp - Intel Graphics,14.0,1.69
+345508,Intel Core Ultra 7 Arrow Lake - 255U,16,512,Card tích hợp - Intel Graphics,13.3,1.355
+345500,Intel Core Ultra 5 Arrow Lake - 225U,16,512,Card tích hợp - Intel Graphics,16.0,1.819
+368217,Intel Core Ultra 5 Panther Lake - 322,16,512,Card tích hợp - Intel Graphics,14.0,1.38
+325953,Intel Core 7 Raptor Lake - 150U,16,1024,Card tích hợp - Intel Graphics,14.0,1.56
+362023,Intel Core 7 Raptor Lake - 150U,16,1024,"Card rời - NVIDIA Geforce MX570A, 2 GB",16.0,2.14
+367012,Intel Core Ultra 5 Panther Lake - 322,16,512,Card tích hợp - Intel Graphics,14.0,1.54
+368223,AMD Ryzen AI 7 - 350,32,1024,Card tích hợp - AMD Radeon 860M Graphics,14.0,1.39
+340559,Intel Core i7 Raptor Lake - 1355U,16,1024,Card tích hợp - Intel Iris Xe Graphics,15.6,1.66
+337471,Intel Core i5 Raptor Lake - 1334U,16,512,Card tích hợp - Intel Iris Xe Graphics,15.6,1.66
+365312,Intel Core 7 Raptor Lake - 150U,16,1024,Card tích hợp - Intel Graphics,16.0,2.0
+337042,Intel Core Ultra 7 Meteor Lake - 155U,16,512,Card tích hợp - Intel Graphics,16.0,1.7
+369450,Intel Core Ultra 5 Arrow Lake - 225H,16,512,Card tích hợp - Intel Graphics,16.0,1.88
+367374,AMD Ryzen 3 - 5400U,8,512,Card tích hợp - AMD Radeon Graphics,14.0,1.3
+341573,AMD Ryzen AI 9 - HX 370,32,2048,"Card rời - NVIDIA GeForce RTX 5070, 8 GB",16.0,2.1
+363896,Intel Core Ultra 5 Lunar Lake - 226V,16,1024,Card tích hợp - Intel Arc Graphics 130V,14.0,0.986
+370357,Intel Core Ultra 7 Arrow Lake - 355,32,1024,Card tích hợp - Integrated Graphics,14.0,0.975
+331522,Intel Core Ultra 5 Meteor Lake - 135U,16,512,Card tích hợp - Intel Graphics,13.3,1.4
+368213,Intel Core Ultra 7 Panther Lake - 355,16,512,Card tích hợp - Intel Graphics,14.0,1.37
+368225,Intel Core i5 Raptor Lake - 14450HX,16,512,"Card rời - NVIDIA GeForce RTX 5060, 8 GB",15.3,2.363
+367019,Intel Core Ultra 7 Panther Lake - 355,32,1024,Card tích hợp - Intel Graphics,14.0,1.14
+358081,Intel Core 9 Raptor Lake - 270H,32,512,Card tích hợp - Intel Graphics,16.0,1.9
+339558,AMD Ryzen AI 9 - HX PRO 375,32,1024,Card tích hợp - AMD Radeon 890M Graphics,14.0,1.49
+327098,AMD Ryzen 5 - 7430U,16,512,Card tích hợp - AMD Radeon Graphics,15.6,1.59
+368224,Intel Core i5 Raptor Lake - 14450HX,16,512,"Card rời - NVIDIA GeForce RTX 5050, 8 GB",15.3,2.37
+337040,Snapdragon X Elite - X1E 78 100,32,1024,Card tích hợp - Qualcomm Adreno GPU,14.0,1.326
+367685,Intel Core Ultra 7 Panther Lake - 355,16,512,Card tích hợp - Intel Graphics,14.0,1.43
+364621,Intel Core Ultra 7 Lunar Lake - 258V,32,1024,Card tích hợp - Intel Arc 140V,14.0,0.986
+364403,Intel Core Ultra 7 Arrow Lake - 255H,32,512,Card tích hợp - Intel Arc Graphics,14.0,1.2
+363488,Apple M5 Pro,24,1024,Card tích hợp - 16 nhân GPU,14.2,1.6
+371299,Intel Core Ultra 7 Arrow Lake - 225H,16,512,Card tích hợp - Intel Graphics,16.0,1.88
+364416,Intel Core Ultra 7 Arrow Lake - 255H,16,512,Card tích hợp - Intel Graphics,14.0,1.4
+369469,Intel Core 5 Raptor Lake - 210H,16,512,Card tích hợp - Intel UHD Graphics,16.0,1.7
+364489,Intel Core i7 Raptor Lake - 14650HX,16,512,"Card rời - NVIDIA GeForce RTX 5060, 8 GB",16.0,2.2
+369984,Intel Core i7 Raptor Lake - 13620H,16,512,"Card rời - NVIDIA GeForce RTX 4050, 6 GB",15.6,
+364941,AMD Ryzen 5 - 220,16,512,Card tích hợp - AMD Radeon Graphics,14.0,1.339
+367892,Intel Core 5 Wildcat Lake - 320,8,512,Card tích hợp - Intel Graphics,14.0,1.409
+371296,AMD Ryzen 7 - 155,16,512,"Card rời - NVIDIA GeForce RTX 3050, 4 GB",15.6,2.3
+369746,Intel Core 3 - 100U,8,512,Card tích hợp - Intel Graphics,14.0,1.69
+368147,Intel Core 5 Wildcat Lake - 320,16,512,Card tích hợp - Intel Graphics,15.6,1.52
+367898,Intel Core 5 Wildcat Lake - 320,8,512,Card tích hợp - Intel Graphics,15.6,1.637
+369755,Intel Core 5 Raptor Lake - 210H,16,512,"Card rời - NVIDIA GeForce RTX 3050, 6 GB",16.0,1.95
+368302,AMD Ryzen 5 - 40,8,512,Card tích hợp - AMD Radeon Graphics,14.0,1.38
+370862,AMD Ryzen 5 - 3500U,8,512,Card tích hợp - AMD Radeon Vega Mobile Graphics,15.6,1.5
+371300,AMD Ryzen 7 - 155,8,512,"Card rời - NVIDIA GeForce RTX 3050, 4 GB",15.6,2.3
+365309,Intel Core 7 Raptor Lake - 150U,16,1024,Card tích hợp - Intel Graphics,14.0,1.69
+369463,Intel Core Ultra 7 Lunar Lake - 258V,32,512,Intel Arc 140V,14.0,1.2
+368300,Intel Core 7 Raptor Lake - 240H,16,512,Card tích hợp - Intel Graphics,14.0,1.4
+367899,Intel Core 7 Wildcat Lake - 350,8,512,Card tích hợp - Intel Graphics,15.6,1.637
+351616,AMD Ryzen AI 5 - 330,16,512,Card tích hợp - AMD Radeon Graphics,14.0,1.4
+369748,Intel Core 3 Raptor Lake - 100U,8,512,Intel Graphics,15.6,1.65
+371075,Intel Core 5 Raptor Lake - 210H,16,512,"Card rời - NVIDIA GeForce RTX 4050, 6 GB",16.0,1.95
+369985,Intel Core i5 Raptor Lake - 13420H,16,512,"Card rời - NVIDIA GeForce RTX 4050, 6 GB",15.6,
+369449,Intel Core 5 Wildcat Lake - 320,16,512,,14.0,1.4
+368148,Intel Core 7 Wildcat Lake - 350,16,512,Card tích hợp - Intel Graphics,15.6,1.52
+368658,AMD Ryzen 7 - 7730U,16,512,Card tích hợp - AMD Radeon Graphics,15.6,1.49
+364409,AMD Ryzen 9 - 8940HX,16,512,"Card rời - NVIDIA GeForce RTX 5050, 8 GB",16.0,2.5
+366826,Intel Core Ultra 5 Panther Lake - 325,16,512,Card tích hợp - Intel Graphics,14.0,1.46
+358371,Intel Core i7 Raptor Lake - 13650HX,16,512,"Card rời - NVIDIA GeForce RTX 5050, 8 GB",15.6,2.4
+369464,Intel Core Ultra 5 Lunar Lake - 226V,16,512,Card tích hợp - Intel Arc Graphics 130V,14.0,1.2
+369213,Intel Core i7 Raptor Lake - 13620H,16,512,"Card rời - Intel UHD Graphics (tích hợp) + NVIDIA GeForce RTX 5050 GPU, 8GB - GDDR7",15.6,1.98
+368219,Intel Core 7 Raptor Lake - 240H,16,512,Card tích hợp - Intel Graphics,14.0,1.37
+368149,AMD Ryzen 9 - 8940HX,16,512,"Card rời - NVIDIA GeForce RTX 5060, 8 GB",16.0,2.288
+365113,Intel Core i7 Raptor Lake - 14650HX,16,512,"Card rời - NVIDIA GeForce RTX 5050, 8 GB",16.0,2.2
+362022,Intel Core Ultra 5 Lunar Lake - 226V,16,1024,Card tích hợp - Intel Arc Graphics 130V,16.0,1.87
+345504,Intel Core Ultra 7 Arrow Lake - 255H,16,512,Card tích hợp - Intel Graphics,16.0,1.853
+369467,Intel Core Ultra 5 Arrow Lake - 225H,16,512,Card tích hợp - Intel Graphics,14.0,1.34
+367863,AMD Ryzen 7 - 260,16,512,"Card rời - NVIDIA GeForce RTX 5060, 8 GB",16.0,2.191
+367862,AMD Ryzen 7 - 260,16,512,"Card rời - NVIDIA GeForce RTX 5050, 8 GB",16.0,2.191
+367682,Intel Core Ultra 5 Panther Lake - 322,24,512,Card tích hợp - Intel Graphics,16.0,1.73
+365307,Intel Core 5 Raptor Lake - 120U,16,1024,Card tích hợp - Intel Graphics,16.0,1.98
+365302,AMD Ryzen AI 7 - 350,16,1024,Card tích hợp - AMD Radeon Graphics,14.0,1.69
+364490,AMD Ryzen 7 - 260,16,512,"Card rời - NVIDIA GeForce RTX 5060, 8 GB",16.0,2.2
+370280,Intel Core 7 Raptor Lake - 240H,16,512,"Card rời - NVIDIA GeForce RTX 5050, 8 GB",15.6,2.1
+370863,AMD Ryzen 5 - 3500U,8,512,Card tích hợp - AMD Radeon Vega Mobile Graphics,14.0,1.3
+367864,AMD Ryzen AI 7 - 350,16,1024,"Card rời - NVIDIA GeForce RTX 5060, 8 GB",16.0,1.972
+369461,Intel Core Ultra X7 Panther Lake - 358H,32,1024,Card tích hợp - Intel Arc Graphics,14.0,1.1
+368651,Intel Core 5 Raptor Lake - 210H,16,512,"Card rời - NVIDIA GeForce RTX 5050, 8 GB",16.0,2.1
+368216,Intel Core Ultra 7 Panther Lake - 355,32,1024,Card tích hợp - Intel Graphics,14.0,1.4
+368212,Intel Core Ultra 7 Lunar Lake - 258V,32,512,Card tích hợp - Intel Arc Graphics 140V,14.0,1.21
+368150,AMD Ryzen 9 - 8940HX,16,512,"Card rời - NVIDIA GeForce RTX 5070Ti, 12 GB",16.0,2.34
+367348,Intel Core Ultra 7 Arrow Lake - 255U,32,512,Card tích hợp - Intel Graphics,14.0,1.69
+367015,Intel Core Ultra 7 Panther Lake - 365H,16,512,"Card rời - NVIDIA GeForce RTX 5060, 8 GB",15.3,1.87
+366827,Intel Core Ultra 5 Panther Lake - Đang cập nhật,16,512,Card tích hợp - Intel Graphics,14.0,1.4
+363503,Apple M5,24,512,Card tích hợp - 10 nhân GPU,13.6,1.23
+364488,AMD Ryzen 9 - 8940HX,16,512,"Card rời - NVIDIA GeForce RTX 5070, 8 GB",16.0,2.2
+364389,AMD Ryzen AI Max+ - 395,128,1024,Card tích hợp - AMD Radeon 8060S Graphics,13.4,1.72
+363899,Intel Core Ultra 7 Lunar Lake - 256V,16,512,Card tích hợp - Intel Arc 140V,14.0,0.986
+361539,Intel Core Ultra 9 Lunar Lake - 288V,32,2048,Card tích hợp - Intel Arc Graphics,16.0,1.815
+371301,AMD Ryzen 5 - 7533HS,16,512,"Card rời - NVIDIA GeForce RTX 3050, 6 GB",16.0,
+365617,AMD Ryzen AI 7 - 350,16,512,Card tích hợp - AMD Radeon 860M Graphics,14.0,1.549
+364408,AMD Ryzen AI 9 - 465,32,1024,"Card rời - NVIDIA GeForce RTX 5060, 8 GB",14.0,1.46
+365619,AMD Ryzen AI 5 Pro - 340,32,512,Card tích hợp - AMD Radeon 840M Graphics,14.0,1.39
+365615,AMD Ryzen AI 5 - 340,16,512,Card tích hợp - AMD Radeon 840M Graphics,14.0,1.528
+364868,Intel Core Ultra 9 Panther Lake - 386H,32,1024,Card tích hợp - Intel Graphics,14.0,1.37
+363895,Intel Core Ultra 5 Lunar Lake - 226V,16,512,Card tích hợp - Intel Arc Graphics 130V,14.0,0.986
+342527,AMD Ryzen 7 - 260,16,512,"Card rời - NVIDIA GeForce RTX 5050, 8 GB",15.1,1.9
+335964,Intel Core Ultra 9 Arrow Lake - 275HX,64,1024,"Card rời - NVIDIA GeForce RTX 5080, 16 GB",18.0,3.5
+335963,Intel Core Ultra 9 Arrow Lake - 275HX,192,2048,"Card rời - NVIDIA GeForce RTX 5090, 24 GB",18.0,3.5
+332274,Intel Core Ultra 7 Meteor Lake - 155H,16,1024,"Card rời - NVIDIA GeForce RTX 4060, 8 GB",14.0,1.63
+371302,AMD Ryzen 5 - 7533HS,16,512,"Card rời - NVIDIA GeForce RTX 4050, 6 GB",16.0,
+370583,Intel Core i7 Raptor Lake - 13620H,16,512,"Card rời - NVIDIA GeForce RTX 5060, 8 GB",15.6,2.0
+370355,Intel Core Ultra 7 Arrow Lake - 355,16,512,Card tích hợp - Intel Graphics,14.0,1.14
+370352,Intel Core 7 - 240H,16,512,Card tích hợp - Integrated Intel Graphics,14.0,1.34
+369980,Intel Core 7 Raptor Lake - 240H,16,512,"Card rời - NVIDIA GeForce RTX 5050, 8 GB",16.0,2.4
+370910,Intel Core Ultra 7 Arrow Lake - 255H,16,512,Card tích hợp - Intel Graphics,14.0,2.61
+370866,Intel Core Ultra 9 Meteor Lake - 185H,16,512,Card tích hợp - Intel Arc Graphics,14.0,1.49
+369462,Intel Core Ultra X7 Panther Lake,64,2048,Card tích hợp - Intel Arc Graphics,14.0,1.131
+369460,AMD Ryzen 7 - 445,16,512,Card tích hợp,14.0,1.2
+368659,AMD Ryzen AI 7 - 350,16,512,"Card rời - NVIDIA GeForce RTX 5070, 8 GB",16.0,2.18
+368653,Intel Core Ultra 9 Panther Lake - 386H,16,512,"Card rời - NVIDIA GeForce RTX 5070, 8 GB",16.0,2.2
+368650,AMD Ryzen AI 5 - 340,16,512,"Card rời - NVIDIA GeForce RTX 5050, 8 GB",16.0,2.1
+368214,Intel Core Ultra 7 Panther Lake - 355,16,512,Card tích hợp - Intel Graphics,16.0,1.73
+367897,Intel Core Ultra X7 Panther Lake - 358H,32,512,Card tích hợp - Intel Graphics,14.0,1.65
+367891,Snapdragon X2 Elite - X2E88100,32,1024,Card tích hợp - Qualcomm Adreno GPU,14.0,0.986
+367890,Snapdragon X2 Elite - X2E88100,16,512,Card tích hợp - Qualcomm Adreno GPU,14.0,0.986
+367889,Intel Core Ultra 9 Panther Lake - 386H,32,1024,"Card rời - NVIDIA GeForce RTX 5080, 16 GB",14.0,1.58
+367888,AMD Ryzen AI 9 - 465,16,512,Card tích hợp - AMD Radeon Graphics,16.0,1.5
+367887,Intel Core i5 Raptor Lake - 14450HX,16,512,"Card rời - NVIDIA GeForce RTX 5050, 8 GB",16.0,2.2
+367865,Intel Core Ultra 9 Arrow Lake - 290HX Plus,64,2048,"Card rời - NVIDIA GeForce RTX 5080, 16 GB",16.0,2.6
+367686,Intel Core Ultra 7 Panther Lake - 365H,16,512,"Card rời - NVIDIA GeForce RTX 5060, 8 GB",15.3,2.1
+366744,AMD Ryzen 7 - 250,16,512,"Card rời - NVIDIA GeForce RTX 5060, 8 GB",15.3,1.87
+366093,Intel Core i7 Raptor Lake - 14650HX,16,512,"Card rời - NVIDIA GeForce RTX 5050, 8 GB - GDDR7",16.0,2.5
+371127,Intel Core Ultra 7 Panther Lake - 355,16,512,Card tích hợp - Intel Graphics,16.0,1.846
+371125,AMD Ryzen 7 - 250,16,512,Card tích hợp - AMD Radeon Graphics,16.0,1.783
+371124,AMD Ryzen 7 - 250,16,512,Card tích hợp - AMD Radeon Graphics,14.0,1.465
+371123,Intel Core Ultra 7 Panther Lake - 255U,16,512,Card tích hợp - Intel Graphics,,1.614
+370865,Intel Core 3 Twin Lake - 304,12,512,Card tích hợp - Intel Graphics,14.0,1.19
+370864,Intel Core 5 Wildcat Lake - 320,12,512,Card tích hợp - Đang cập nhật,14.0,1.19
+370582,Intel Core i7 Raptor Lake - 13620H,16,512,"Card rời - NVIDIA GeForce RTX 5050, 8 GB",15.6,2.0
+370358,Intel Core Ultra X9 - 378H,32,1024,Card tích hợp - Intel Arc Graphics,14.0,0.975
+370354,Intel Core Ultra 7 Arrow Lake - 355,16,512,Card tích hợp - Integrated Graphics,14.0,1.14
+370353,Intel Core Ultra 7 Arrow Lake - 255H,16,512,Card tích hợp - Intel Arc Graphics 140T,14.0,1.34
+370279,Intel Core 5 Raptor Lake - 210H,16,512,"Card rời - NVIDIA GeForce RTX 5050, 8 GB - GDDR7",15.6,2.1
+370278,Intel Core Ultra 7 Lunar Lake - 258V,32,512,Card tích hợp - Intel Arc Graphics 140V,14.0,1.24
+369982,AMD Ryzen AI 5 - 340,16,512,"Card rời - NVIDIA GeForce RTX 5060, 8 GB",16.0,2.1
+369981,AMD Ryzen AI 7 - 350,16,512,"Card rời - NVIDIA GeForce RTX 5060, 8 GB",16.0,2.18
+369756,AMD Ryzen AI 9 - Hãng không công bố,64,2048,Card tích hợp - AMD Radeon Graphics,16.0,1.85
+369751,Intel Core 5 Wildcat Lake - 320,16,1024,Card tích hợp - Intel Graphics,14.0,1.45
+371309,Intel Core 5 Wildcat Lake - 320,16,512,Card tích hợp - Intel Graphics,14.0,1.2
+371307,Intel Core 5 - 210H,16,512,"Card rời - NVIDIA GeForce RTX 4050, 6 GB",15.6,2.1
+371306,Intel Core 5 320,12,512,Card tích hợp - Intel Graphics,14.0,1.19
+371293,Intel Core Ultra 9 Panther Lake - 386H,16,512,Card tích hợp - Intel Graphics,14.0,1.2
+371137,Intel Core Ultra 5 Panther Lake - 325,16,512,Card tích hợp - Intel Graphics,16.0,1.848
+371135,Intel Core Ultra 7 Panther Lake - 355,32,512,Card tích hợp - Intel Graphics,14.0,1.398
+371134,Intel Core Ultra 7 Panther Lake - 355,16,512,Card tích hợp - Intel Graphics,14.0,1.296
+371133,Intel Core Ultra 7 Panther Lake - 355,16,512,Card tích hợp - Intel Graphics,14.0,1.296
+371132,Intel Core Ultra 5 Panther Lake - 322,16,512,Card tích hợp - Intel Graphics,14.0,1.337
+371130,Intel Core Ultra 5 Panther Lake - 322,16,512,Card tích hợp - Intel Graphics,14.0,1.337
+371129,Intel Core Ultra 9 Panther Lake - 386H,32,1024,Card tích hợp - Intel Graphics,14.0,1.282
+371128,Intel Core Ultra 7 Panther Lake - 356H,32,1024,Card tích hợp - Intel Graphics,14.0,1.288
+369476,AMD Ryzen 7 - 250,16,512,"NVIDIA GeForce RTX 5050, 8 GB - GDDR7",15.3,1.87
+369466,Intel Core Ultra 7 Arrow Lake - 255H,16,512,Card tích hợp - Intel Graphics,14.0,1.36
+369465,Intel Core Ultra 7 Arrow Lake - 255H,16,512,Card tích hợp - Intel Graphics,14.0,1.36
+366092,Intel Core i7 Raptor Lake - 14650HX,32,512,"Card rời - NVIDIA GeForce RTX 5060, 8 GB",16.0,2.5
+366091,Intel Core i5 Raptor Lake - 14450HX,32,512,"Card rời - NVIDIA GeForce RTX 5050, 8 GB",16.0,2.5
+366066,AMD Ryzen AI Max+ - 392,64,1024,Card tích hợp - AMD Radeon 8060S Graphics,14.0,1.48
+370356,Intel Core Ultra 7 Arrow Lake - 355,32,1024,Card tích hợp - Integrated Graphics,14.0,0.975
+370349,Intel Core Ultra 5 Arrow Lake - 322,16,512,Card tích hợp - Intel Arc Graphics,16.0,1.73
+367347,Intel Core Ultra 5 Arrow Lake - 235U,16,512,Card tích hợp - Intel Graphics,14.0,1.69
+369983,Intel Core i5 Raptor Lake - 13420H,16,512,"Card rời - NVIDIA GeForce RTX 5050, 8 GB",15.6,1.982
+363509,Apple M5,24,512,Card tích hợp - 10 nhân GPU,15.3,1.51
+369749,Intel Core 3 Raptor Lake - 100U,8,512,,15.6,
+368657,Intel Core 5 Raptor Lake - 120U,16,512,Card tích hợp - Intel UHD Graphics,15.6,1.6
+360418,Intel Core 5 Raptor Lake - 120U,16,512,Card tích hợp - Intel Graphics,15.6,1.7
+368146,AMD Ryzen 5 - 40,8,512,Card tích hợp - AMD Radeon Graphics,14.0,1.38
+368301,Intel Core Ultra 5 Arrow Lake - 225H,16,512,Card tích hợp - Intel UHD Graphics,14.0,1.46
+369758,Intel Core 3 Wildcat Lake - 304,8,512,Card tích hợp - Intel Graphics,15.6,1.7
+358795,Intel Core 7 Raptor Lake - 240H,32,512,Card tích hợp - Intel Graphics,16.0,1.91
+341268,Intel Core Ultra 9 Lunar Lake - 288V,32,1024,Card tích hợp - Intel Arc 140V,14.0,1.33
+367021,AMD Ryzen AI 7 - 445,16,512,Card tích hợp - AMD Radeon 840M Graphics,14.0,1.37
+367013,Intel Core Ultra 7 Panther Lake - 355,16,512,Card tích hợp - Intel Graphics,14.0,1.54
+368221,Intel Core i5 Raptor Lake - 13420H,16,512,Card tích hợp - Intel Graphics,14.0,1.36
+362626,AMD Ryzen AI 7 - 445,32,1024,Card tích hợp - AMD Radeon 840M,14.0,1.2
+359928,Intel Core i7 Raptor Lake - 13620H,16,1024,"Card rời - NVIDIA GeForce RTX 5070, 8 GB",16.0,2.268
+368209,AMD Ryzen 7 - 250,16,512,Card tích hợp - AMD Radeon 780M Graphics,16.0,1.7
+363826,Intel Core Ultra 5 Arrow Lake - 235U,16,512,Card tích hợp - Intel Graphics,13.3,1.35
+345506,Intel Core Ultra 5 Arrow Lake - 225U,16,512,Card tích hợp - Intel Graphics,13.3,1.355
+363898,Intel Core Ultra 5 Lunar Lake - 228V,32,512,Card tích hợp - Intel Graphics,14.0,1.32
+359298,Intel Core i7 Raptor Lake - 14650HX,16,1024,"Card rời - NVIDIA GeForce RTX 5070, 8 GB",15.6,2.4
+365305,Intel Core 7 Raptor Lake - 150U,16,512,Card tích hợp - Intel Graphics,14.0,1.83
+332397,Intel Core Ultra 5 Lunar Lake - 226V,16,1024,Card tích hợp - Intel Arc Graphics 130V,14.0,1.26
+335015,Intel Core Ultra 9 Arrow Lake - 275HX,16,1024,"Card rời - NVIDIA GeForce RTX 5080, 16 GB",16.0,2.7
+326280,AMD Ryzen 7 - 8845HS,16,1024,"Card rời - NVIDIA GeForce RTX 4070, 8 GB",15.6,2.25
+340479,Intel Core i7 Raptor Lake - 1355U,16,512,Card tích hợp - Intel Iris Xe Graphics,15.6,1.68
+362408,AMD Ryzen 7 - 445,16,512,Card tích hợp - AMD Radeon Graphics,14.0,1.46
+368555,Intel Core 3 Raptor Lake - 100U,8,512,Card tích hợp - Intel Graphics,15.6,1.65
+364399,AMD Ryzen AI 7 - 445,16,512,Card tích hợp - AMD Radeon Graphics,16.0,1.8
+341564,Intel Core 7 Raptor Lake - 240H,16,1024,"Card rời - NVIDIA GeForce RTX 5050, 8 GB",16.0,2.49
+368220,Intel Core Ultra 5 Arrow Lake - 225U,16,512,Card tích hợp - Intel Graphics,14.0,1.34
+365609,Intel Core 5 Raptor Lake - 120U,8,512,Card tích hợp - Intel Graphics,14.0,1.404
+340560,Intel Core i5 Raptor Lake - 1334U,16,512,Card tích hợp - Intel Iris Xe Graphics,15.6,1.66
+365311,Intel Core i7 Raptor Lake - 1355U,16,1024,Card tích hợp - Intel UHD Graphics,15.6,1.9
+362399,Intel Core Ultra 7 Meteor Lake - 155H,24,512,Card tích hợp - Intel Graphics,15.6,1.613
+341751,Intel Core i5 Raptor Lake - 13420H,16,512,"Card rời - NVIDIA GeForce RTX 5050, 8 GB",16.0,2.227
+368559,Intel Core 7 Raptor Lake - 150U,16,512,Card tích hợp - Intel Graphics,14.0,1.83
+360417,Intel Core 5 Raptor Lake - 120U,16,512,Card tích hợp - Intel Graphics,14.0,1.4
+341611,Intel Core i5 Raptor Lake - 14450HX,16,512,"Card rời - NVIDIA GeForce RTX 5050, 8 GB",15.6,2.4
+339951,AMD Ryzen AI 5 - 340,16,512,Card tích hợp - AMD Radeon Graphics,14.0,1.625
+358080,Intel Core Ultra 5 Lunar Lake - 226V,16,512,Card tích hợp - Intel Arc Graphics 130V,14.0,1.65
+367574,Intel Core Ultra 5 Arrow Lake - 225U,16,512,Card tích hợp - Intel Graphics,15.6,1.65
+368654,Intel Core 3 Twin Lake - N350,8,512,Card tích hợp - Intel Graphics,15.6,1.53
+366741,Intel Core Ultra 5 Panther Lake - 322,16,512,Card tích hợp - Intel Graphics,14.0,1.37
+362020,Intel Core i7 Raptor Lake - 1355U,16,1024,Card tích hợp - Intel UHD Graphics,15.6,1.65
+360691,Intel Core i5 Raptor Lake - 1334U,16,512,Card tích hợp - Intel UHD Graphics,15.6,1.65
+367575,Intel Core Ultra 5 Arrow Lake - 225U,16,512,Card tích hợp - Intel Graphics,15.6,1.65
+338320,Intel Core Ultra 5 Arrow Lake - 225H,16,512,Card tích hợp - Intel UHD Graphics,14.0,1.4
+365624,Intel Core Ultra 5 Meteor Lake - 125H,24,512,Card tích hợp - Intel Arc Graphics,15.6,1.65
+341266,Intel Core Ultra 5 Arrow Lake - 225U,16,512,Card tích hợp - Intel Graphics,16.0,1.734
+364183,AMD Ryzen 5 - 40,16,512,Card tích hợp - AMD Radeon Graphics,14.0,1.38
+362406,AMD Ryzen 5 - 40,16,512,Card tích hợp - AMD Radeon Graphics,15.6,1.63
+368208,Intel Core 5 Wildcat Lake - 320,8,512,Card tích hợp - Integrated Graphics,14.0,1.39
+362410,Intel Core Ultra 5 Arrow Lake - 225H,16,512,Card tích hợp - Intel Arc Graphics,14.0,1.46
+362024,Intel Core 5 Raptor Lake - 120U,16,512,Card tích hợp - Intel UHD Graphics (Iris Xe Graphics chỉ hoạt động với RAM kênh đôi),14.0,1.69
+362621,AMD Ryzen 7 - 170,16,512,"Card rời - NVIDIA GeForce RTX 3050, 4 GB",15.6,2.3
+358078,Intel Core 5 Raptor Lake - 120U,16,512,Card tích hợp - Intel Graphics,14.0,1.638
+338204,Intel Core i5 Raptor Lake - 13420H,16,512,"Card rời - NVIDIA GeForce RTX 3050, 6 GB",15.6,2.29
+360420,Intel Core 7 Raptor Lake - 150U,16,512,Card tích hợp - Intel Graphics,15.6,1.7
+368556,AMD Ryzen 5 - 7530U,16,512,Card tích hợp - AMD Radeon Graphics,15.6,1.65
+358132,Intel Core 5 Raptor Lake - 210H,16,512,Card tích hợp - Intel UHD Graphics,14.0,1.4
+363537,Apple A18 Pro,8,256,Card tích hợp - 5 nhân GPU,13.0,1.23
+361311,AMD Ryzen 5 - 7520U,16,512,Card tích hợp - AMD Radeon 610M Graphics,15.6,1.59
