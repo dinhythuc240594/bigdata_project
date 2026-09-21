@@ -173,7 +173,7 @@ class LaptopSpider(scrapy.Spider):
                 callback=self.parse_product
             )
 
-        # TEST CHỈ ĐẾN PI=3
+        # Tiếp tục phân trang cho đến khi API không còn sản phẩm
         next_pi = pi + 1
         yield self.request_next_page(next_pi)
 
@@ -182,15 +182,18 @@ class LaptopSpider(scrapy.Spider):
     # =========================================================
 
     def parse_product(self, response):
+        product_id = response.xpath(
+            '//section[contains(@class, "detailv2")]/@data-id'
+        ).get()
 
-        try:
-            yield from self.extract_product(response)
-        except Exception as e:
-            self.logger.error(
-                "Lỗi parse sản phẩm %s: %s",
-                response.url,
-                repr(e)
-            )
+        product_code = response.xpath(
+            '//*[@data-proId]/@data-proId'
+        ).get()
+
+        if not product_code:
+            product_code = response.xpath(
+                '//*[@data-proCode]/@data-proCode'
+            ).get()
         product = None
 
         scripts = response.css(
@@ -428,7 +431,11 @@ class LaptopSpider(scrapy.Spider):
         # =====================================================
 
         yield {
+            "product_id":
+                int(product_id) if product_id else None,
 
+            "product_code":
+                product_code,
             "name":
                 product.get("name"),
 

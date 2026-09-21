@@ -17,7 +17,7 @@ OPTIONALLY ENCLOSED BY '"'
 LINES TERMINATED BY '\n'
 IGNORE 1 ROWS
 (
-    name, brand, price_vnd, @old_price_vnd, @discount_percent,
+    product_id, name, brand, price_vnd, @old_price_vnd, @discount_percent,
     @rating, @review_count, @screen_size_inch, cpu, gpu,
     @ram_gb, @storage_gb, @weight_kg, url, source, @crawl_date
 )

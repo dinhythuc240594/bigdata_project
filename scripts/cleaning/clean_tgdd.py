@@ -349,6 +349,8 @@ def clean_weight(value):
 def clean_product(product):
 
     return {
+        "product_id": clean_integer(product.get("product_id")),
+
         "name": clean_text(product.get("name")),
 
         "brand": clean_text(product.get("brand")),
@@ -438,6 +440,13 @@ for product in raw_data:
 
     cleaned_product = clean_product(product)
 
+    if cleaned_product["product_id"] is None:
+        print(
+            f"Loại sản phẩm thiếu product_id: "
+            f"{cleaned_product.get('name')}"
+        )
+        continue
+
     # Chỉ giữ record có tên
     if not cleaned_product["name"]:
         removed_count += 1
@@ -510,6 +519,7 @@ OUTPUT_FILE.parent.mkdir(
 # 17. GHI CSV
 # ============================================================
 fieldnames = [
+    "product_id",
     "name",
     "brand",
     "price_vnd",
