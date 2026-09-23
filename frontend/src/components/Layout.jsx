@@ -1,7 +1,9 @@
 import React from 'react';
+import { Link, useLocation } from 'react-router-dom';
 import { LayoutDashboard, Database, HardDrive, Settings, Search, Bell, User } from 'lucide-react';
 
 const Layout = ({ children }) => {
+  const location = useLocation();
   return (
     <div className="flex h-screen bg-slate-900 text-slate-100 font-sans">
       {/* Sidebar */}
@@ -14,10 +16,10 @@ const Layout = ({ children }) => {
         </div>
         
         <nav className="flex-1 py-6 px-4 flex flex-col gap-2">
-          <NavItem icon={<LayoutDashboard size={20} />} label="Dashboard" active />
-          <NavItem icon={<Database size={20} />} label="Data Table" />
-          <NavItem icon={<HardDrive size={20} />} label="Task Manager" />
-          <NavItem icon={<Settings size={20} />} label="Settings" />
+          <NavItem icon={<LayoutDashboard size={20} />} label="Dashboard" to="/" active={location.pathname === '/'} />
+          <NavItem icon={<Database size={20} />} label="Data Table" to="/data-table" active={location.pathname === '/data-table'} />
+          <NavItem icon={<HardDrive size={20} />} label="Task Manager" to="/task-manager" active={location.pathname === '/task-manager'} />
+          <NavItem icon={<Settings size={20} />} label="Settings" to="/settings" active={location.pathname === '/settings'} />
         </nav>
         
         <div className="p-4 border-t border-slate-800/60">
@@ -68,9 +70,9 @@ const Layout = ({ children }) => {
   );
 };
 
-const NavItem = ({ icon, label, active }) => {
+const NavItem = ({ icon, label, to, active }) => {
   return (
-    <button className={`
+    <Link to={to} className={`
       flex items-center gap-3 px-4 py-3 rounded-xl transition-all duration-300 w-full text-left
       ${active 
         ? 'bg-gradient-to-r from-indigo-500/20 to-purple-500/10 text-indigo-300 border border-indigo-500/20 shadow-[0_0_15px_rgba(99,102,241,0.1)]' 
@@ -78,7 +80,7 @@ const NavItem = ({ icon, label, active }) => {
     `}>
       {icon}
       <span className="font-medium text-sm">{label}</span>
-    </button>
+    </Link>
   );
 };
 

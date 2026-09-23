@@ -1,9 +1,9 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { 
   BarChart, Bar, LineChart, Line, PieChart, Pie, Cell, 
   XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer, AreaChart, Area
 } from 'recharts';
-import { Activity, Users, FileText, Database, ArrowUpRight, ArrowDownRight } from 'lucide-react';
+import { Activity, Users, FileText, Database, ArrowUpRight, ArrowDownRight, CloudDownload } from 'lucide-react';
 
 const COLORS = ['#6366f1', '#10b981', '#f59e0b', '#ec4899', '#8b5cf6'];
 const CHART_TEXT_COLOR = '#94a3b8';
@@ -27,51 +27,76 @@ const CustomTooltip = ({ active, payload, label }) => {
 };
 
 const Dashboard = () => {
-  const [data] = useState({
-    barData: [
-      { name: 'Loại A', total: 4000 }, { name: 'Loại B', total: 3000 },
-      { name: 'Loại C', total: 2000 }, { name: 'Loại D', total: 2780 },
-    ],
-    lineData: [
-      { month: 'T1', success: 240, error: 40 },
-      { month: 'T2', success: 139, error: 30 },
-      { month: 'T3', success: 380, error: 20 },
-      { month: 'T4', success: 390, error: 27 },
-      { month: 'T5', success: 480, error: 18 },
-      { month: 'T6', success: 520, error: 15 },
-    ],
-    pieData1: [
-      { name: 'Đã xử lý', value: 75 }, { name: 'Chờ xử lý', value: 25 }
-    ],
-    pieData2: [
-      { name: 'Hà Nội', value: 45 }, { name: 'TP.HCM', value: 35 }, { name: 'Đà Nẵng', value: 20 }
-    ],
-    areaData: [
-      { time: '00:00', traffic: 1200 }, { time: '04:00', traffic: 800 },
-      { time: '08:00', traffic: 3200 }, { time: '12:00', traffic: 4500 },
-      { time: '16:00', traffic: 3900 }, { time: '20:00', traffic: 2800 },
-    ]
-  });
+  const [data, setData] = useState(null);
+  const [loading, setLoading] = useState(true);
+  const [actionLoading, setActionLoading] = useState(false);
+
+  useEffect(() => {
+    fetch('http://localhost:8000/api/dashboard-stats/')
+      .then(res => res.json())
+      .then(result => {
+        setData(result);
+        setLoading(false);
+      })
+      .catch(err => {
+        console.error("Error fetching dashboard stats", err);
+        setLoading(false);
+      });
+  }, []);
+
+  const handleRunAction = (actionUrl, actionName) => {
+    setActionLoading(true);
+    fetch(`http://localhost:8000/api/${actionUrl}`, { method: 'POST' })
+      .then(res => res.json())
+      .then(result => {
+        setActionLoading(false);
+        if (result.status === 'success') {
+          alert(`${actionName} thành công!\nLogs: ${result.logs || result.message}`);
+        } else {
+          alert(`${actionName} lỗi:\n${result.message}\n${result.error_logs}`);
+        }
+      })
+      .catch(err => {
+        setActionLoading(false);
+        alert(`Lỗi khi gọi API ${actionName}: ${err}`);
+      });
+  };
+
+  if (loading || !data) {
+    return <div className="text-white text-center py-20 text-xl font-medium animate-pulse">Đang tải dữ liệu hệ thống...</div>;
+  }
 
   return (
     <div className="space-y-8 animate-in fade-in duration-500">
-      <div className="flex items-center justify-between">
+      <div className="flex flex-col md:flex-row md:items-center justify-between gap-4">
         <div>
           <h1 className="text-3xl font-bold text-white tracking-tight">Hệ Thống Phân Tích</h1>
           <p className="text-slate-400 mt-1">Tổng quan dữ liệu thời gian thực từ cụm Hadoop.</p>
         </div>
-        <button className="bg-indigo-600 hover:bg-indigo-500 text-white px-5 py-2.5 rounded-lg font-medium transition-all shadow-[0_0_15px_rgba(79,70,229,0.3)] hover:shadow-[0_0_25px_rgba(79,70,229,0.5)] flex items-center gap-2">
-          <Database size={18} />
-          Chạy MapReduce Mới
-        </button>
+        <div className="flex items-center gap-3">
+          <button 
+            onClick={() => handleRunAction('run-sqoop/', 'Sqoop Import')}
+            disabled={actionLoading}
+            className="bg-emerald-600 hover:bg-emerald-500 disabled:opacity-50 text-white px-5 py-2.5 rounded-lg font-medium transition-all shadow-[0_0_15px_rgba(16,185,129,0.3)] hover:shadow-[0_0_25px_rgba(16,185,129,0.5)] flex items-center gap-2">
+            <CloudDownload size={18} />
+            Chạy Sqoop Import
+          </button>
+          <button 
+            onClick={() => handleRunAction('run-mapreduce/', 'MapReduce')}
+            disabled={actionLoading}
+            className="bg-indigo-600 hover:bg-indigo-500 disabled:opacity-50 text-white px-5 py-2.5 rounded-lg font-medium transition-all shadow-[0_0_15px_rgba(79,70,229,0.3)] hover:shadow-[0_0_25px_rgba(79,70,229,0.5)] flex items-center gap-2">
+            <Database size={18} />
+            Chạy MapReduce Mới
+          </button>
+        </div>
       </div>
 
       {/* KPI Cards */}
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-        <StatCard title="Tổng Lượng Dữ Liệu" value="124.5 GB" icon={<Database />} trend="+12.5%" isUp={true} />
-        <StatCard title="Truy Vấn MapReduce" value="1,432" icon={<Activity />} trend="+8.2%" isUp={true} />
-        <StatCard title="Tài Khoản Đang Active" value="8,924" icon={<Users />} trend="-2.4%" isUp={false} />
-        <StatCard title="Báo Cáo Đã Tạo" value="356" icon={<FileText />} trend="+15.3%" isUp={true} />
+        <StatCard title="Tổng Lượng Dữ Liệu" value={data.kpis?.totalData || "0 GB"} icon={<Database />} trend={data.kpis?.totalDataTrend || "+0%"} isUp={data.kpis?.totalDataIsUp ?? true} />
+        <StatCard title="Truy Vấn MapReduce" value={data.kpis?.mapReduceQueries || "0"} icon={<Activity />} trend={data.kpis?.mapReduceTrend || "+0%"} isUp={data.kpis?.mapReduceIsUp ?? true} />
+        <StatCard title="Tài Khoản Đang Active" value={data.kpis?.activeAccounts || "0"} icon={<Users />} trend={data.kpis?.activeAccountsTrend || "0%"} isUp={data.kpis?.activeAccountsIsUp ?? false} />
+        <StatCard title="Báo Cáo Đã Tạo" value={data.kpis?.reportsGenerated || "0"} icon={<FileText />} trend={data.kpis?.reportsTrend || "+0%"} isUp={data.kpis?.reportsIsUp ?? true} />
       </div>
 
       {/* Charts Grid */}
