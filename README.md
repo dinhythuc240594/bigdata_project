@@ -3,7 +3,7 @@
 Dự án này là trang Quản trị Hệ thống (Admin Dashboard) đóng vai trò là giao diện tương tác (GUI) cho hệ sinh thái Big Data (Hadoop, MapReduce, Sqoop) và Cơ sở dữ liệu MySQL.
 
 Hệ thống được thiết kế theo mô hình client-server bao gồm:
-- **Frontend:** ReactJS (Vite), TailwindCSS, Recharts.
+- **Frontend:** ReactJS (Vite), TailwindCSS, Recharts, React Router (SPA).
 - **Backend:** Python Django, Django REST Framework, Paramiko (điều khiển SSH).
 - **Crawler:** Chứa mã nguồn Scrapy (đã có sẵn của bạn).
 
@@ -80,8 +80,13 @@ bigdata_project/
 │
 ├── frontend/                      # Source code ReactJS Frontend
 │   ├── src/                       
-│   │   ├── pages/                 # Chứa các giao diện chính (Dashboard.jsx)
-│   │   ├── App.jsx                # Component gốc
+│   │   ├── pages/                 # Chứa các trang giao diện:
+│   │   │   ├── Dashboard.jsx      # - Tổng quan thống kê
+│   │   │   ├── DataTable.jsx      # - Bảng dữ liệu đã xử lý
+│   │   │   ├── TaskManager.jsx    # - Quản lý tiến trình (MapReduce/Sqoop)
+│   │   │   └── Settings.jsx       # - Cấu hình hệ thống (SSH, MySQL)
+│   │   ├── components/            # Chứa Layout, Menu điều hướng
+│   │   ├── App.jsx                # Component gốc (Thiết lập Routing)
 │   │   └── index.css              # File style chứa Tailwind
 │   ├── package.json               # Quản lý thư viện Node.js
 │   ├── tailwind.config.js         # Cấu hình TailwindCSS
