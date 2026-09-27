@@ -23,6 +23,7 @@ Backend xử lý các logic kết nối đến MySQL và gọi lệnh SSH tới 
 **Bước 1:** Mở terminal (PowerShell hoặc CMD) và trỏ vào thư mục `backend`:
 ```bash
 cd backend
+python -m venv .venv
 ```
 
 **Bước 2:** Kích hoạt môi trường ảo (Virtual Environment):
@@ -32,7 +33,7 @@ cd backend
   ```
 - Trên Windows CMD:
   ```cmd
-  .\venv\Scripts\activate.bat
+  .venv\Scripts\activate.bat
   ```
 
 **Bước 3:** Khởi chạy server Django:
