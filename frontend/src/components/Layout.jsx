@@ -1,9 +1,27 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { LayoutDashboard, Database, HardDrive, Settings, Search, Bell, User } from 'lucide-react';
+import { LayoutDashboard, Database, HardDrive, Settings, Search, Bell, User, RefreshCw } from 'lucide-react';
 
 const Layout = ({ children }) => {
   const location = useLocation();
+  const [activeTasks, setActiveTasks] = useState([]);
+  const [showTasks, setShowTasks] = useState(false);
+
+  useEffect(() => {
+    const fetchTasks = async () => {
+      try {
+        const res = await fetch('http://localhost:8000/api/active-tasks/');
+        if(res.ok) {
+          const data = await res.json();
+          setActiveTasks(data);
+        }
+      } catch (err) {}
+    };
+    fetchTasks();
+    const interval = setInterval(fetchTasks, 3000);
+    return () => clearInterval(interval);
+  }, []);
+
   return (
     <div className="flex h-screen bg-slate-900 text-slate-100 font-sans">
       {/* Sidebar */}
@@ -53,11 +71,50 @@ const Layout = ({ children }) => {
             />
           </div>
           
-          <div className="flex items-center gap-4">
-            <button className="p-2 text-slate-400 hover:text-slate-200 transition-colors relative">
+          <div className="flex items-center gap-4 relative">
+            <button 
+              onClick={() => setShowTasks(!showTasks)}
+              className="p-2 text-slate-400 hover:text-slate-200 transition-colors relative"
+            >
               <Bell className="w-5 h-5" />
-              <span className="absolute top-1 right-1 w-2 h-2 bg-pink-500 rounded-full"></span>
+              {activeTasks.length > 0 && (
+                <span className="absolute top-0 right-0 w-4 h-4 bg-pink-500 rounded-full flex items-center justify-center text-[10px] font-bold text-white shadow-lg animate-pulse">
+                  {activeTasks.length}
+                </span>
+              )}
             </button>
+
+            {/* Dropdown thông báo Task */}
+            {showTasks && (
+              <div className="absolute top-full right-0 mt-2 w-72 bg-slate-800 border border-slate-700 rounded-xl shadow-2xl overflow-hidden z-50">
+                <div className="p-3 border-b border-slate-700 bg-slate-800/80 backdrop-blur-sm flex justify-between items-center">
+                  <span className="text-sm font-semibold text-slate-200">Tiến trình đang chạy</span>
+                  <span className="text-xs bg-indigo-500/20 text-indigo-400 px-2 py-0.5 rounded-full">{activeTasks.length} tasks</span>
+                </div>
+                <div className="max-h-64 overflow-y-auto custom-scrollbar">
+                  {activeTasks.length === 0 ? (
+                    <div className="p-4 text-center text-sm text-slate-400">
+                      Không có tiến trình nào đang chạy.
+                    </div>
+                  ) : (
+                    activeTasks.map(task => (
+                      <div key={task.id} className="p-3 border-b border-slate-700/50 hover:bg-slate-700/30 transition-colors flex items-start gap-3">
+                        <div className="mt-1">
+                          <RefreshCw className="w-4 h-4 text-indigo-400 animate-spin" />
+                        </div>
+                        <div>
+                          <p className="text-sm font-medium text-slate-200 truncate pr-2">{task.name}</p>
+                          <div className="flex items-center gap-2 mt-1">
+                            <span className="text-xs text-slate-400">Bắt đầu: {task.startTime}</span>
+                            <span className="text-[10px] font-mono bg-amber-500/10 text-amber-400 px-1.5 py-0.5 rounded">RUNNING</span>
+                          </div>
+                        </div>
+                      </div>
+                    ))
+                  )}
+                </div>
+              </div>
+            )}
           </div>
         </header>
 

@@ -1,0 +1,141 @@
+TRƯỜNG ĐẠI HỌC SƯ PHẠM KỸ THUẬTTHANG ĐIỂM CHẤM ĐỒ ÁN MÔN HỌC
+THÀNH PHỐ HỒ CHÍ MINHĐỒ ÁN NHẬP MÔN DỮ LIỆU LỚN (BDES333877)
+🙟✵🙝THÔNG TIN NHÓM
+KHOA CÔNG NGHỆ THÔNG TINLỚP:STT:
+BẢNG TỰ CHẤM
+STT
+NỘI DUNG
+ĐIỂM
+CÓ (✔)
+CÓ (✔)
+1
+Dữ liệu
+Đa dạng về nguồn dữ liệu thu thập
+ 
+0.25
+Cài đặt chương trình thu thập
+ 
+0.25
+Lớn (> 1000 records)
+ 
+0.25
+Làm sạch, chuẩn hóa dữ liệu
+ 
+0.25
+2
+Lưu trữ
+Lưu trữ dữ liệu thu thập vào các DBMS
+ 
+0.25
+Tổ chức CSDL quan hệ hoặc phi cấu trúc (NoSQL)
+ 
+0.25
+Có khả năng kết nối với Hadoop System
+ 
+0.25
+3
+Môi trường
+Công cụ
+Triển khai trên môi trường khác nhau (Windows, MacOS)
+ 
+0.25
+Cài đặt công cụ trong Hadoop EcoSystem (trong chương trình) (0.25, max: 1.0)
+ 
+1.00
+Cài đặt công cụ trong Hadoop EcoSystem (ngoài chương trình) (0.25, max: 1.0)
+ 
+1.00
+4
+Chức năng
+Hỗ trợ thực thi truy vấn (query), thao tác với dữ liệu (CRUD)
+ 
+0.50
+Sao lưu, phục hồi dữ liệu
+ 
+0.25
+Trực quan hóa dữ liệu thu thập (tối thiểu 5 biểu đồ, 3 loại)
+ 
+0.25
+Xây dựng chương trình MapReduce (0.25/MR, max: 2.0)
+ 
+2.00
+5
+Giao diện
+Có hỗ trợ giao diện tương tác (GUI)
+ 
+1.00
+6
+Báo cáo
+Bảng phân công công việc, chức năng giữa các thành viên
+ 
+-1.00
+Báo cáo trình bày đúng định dạng (theo mẫu, step-by-step)
+ 
+0.75
+Có soạn slides thuyết trình
+ 
+0.25
+7
+Video
+Theo đúng yêu cầu
+ 
+1.00
+8
+Vấn đáp
+Trả lời các yêu cầu từ GV (đồ án, lý thuyết)
+ 
+-4.00
+9
+Đánh giá
+Độ khó và độ hoàn thiện của đề tài (1-2-3-4) * 0.25
+ 
+1.00
+TỔNG
+ 
+Tp. Hồ Chí Minh, ngày ....... tháng ....... năm .......
+(Trưởng nhóm ký, ghi rõ họ tên)
+TRƯỜNG ĐẠI HỌC SƯ PHẠM KỸ THUẬTTHANG ĐIỂM CHẤM ĐỒ ÁN MÔN HỌC
+THÀNH PHỐ HỒ CHÍ MINHĐỒ ÁN NHẬP MÔN DỮ LIỆU LỚN (BDES333877)
+🙟✵🙝THÔNG TIN NHÓM
+KHOA CÔNG NGHỆ THÔNG TINLỚP:STT:
+BẢNG PHÂN CÔNG
+#
+THÀNH VIÊN
+CÔNG VIỆC
+% DONE
+GHI CHÚ
+KÝ TÊN
+1
+Nguyễn Văn A
+(23112233)
+Thu thập dữ liệu
+Làm sạch dữ liệu
+90
+2
+Trần Thị B
+(2311224)
+Chuẩn hóa dữ liệu
+Vẽ đồ thị
+100
+3
+Phan Kim E
+(23112235)
+Thêm dữ liệu
+Xóa dữ liệu
+80
+4
+Bùi Quang F
+(23112236)
+Chỉnh sửa dữ liệu
+Vẽ biểu đồ
+10
+5
+Phạm Công K
+(23112237)
+Thiết kế giao diện
+Vẽ biểu đồ
+120
+Làm thêm chức năng bạn Quang F
+Tôi xin cam đoan bảng phân công công việc trên đã được thống nhất thông qua giữa các thành viên và phân bổ khối lượng chính xác như bảng trên, đúng với tiến độ được đề cập trong tỷ lệ hoàn thành công việc ./.
+Tp. Hồ Chí Minh, ngày ....... tháng ....... năm .......
+(Trưởng nhóm ký, ghi rõ họ tên)

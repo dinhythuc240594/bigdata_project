@@ -3,14 +3,14 @@ import { Save, Server, Database, Key, Shield } from 'lucide-react';
 
 const Settings = () => {
   const [config, setConfig] = useState({
-    hadoopIp: '192.168.1.100',
-    hadoopUser: 'hadoop',
-    hadoopKeyPath: '/home/hadoop/.ssh/id_rsa',
-    mysqlHost: '127.0.0.1',
+    hadoopIp: '192.168.10.10',
+    hadoopUser: 'hadoopthuc',
+    hadoopKeyPath: '/home/hadoopthuc/.ssh/id_rsa',
+    mysqlHost: '192.168.10.5',
     mysqlPort: '3306',
     mysqlUser: 'root',
-    mysqlPassword: '',
-    mysqlDatabase: 'bigdata_project'
+    mysqlPassword: '123456789',
+    mysqlDatabase: 'bigdata_db'
   });
   const [isSaving, setIsSaving] = useState(false);
 

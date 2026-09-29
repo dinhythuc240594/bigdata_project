@@ -4,10 +4,10 @@ from sqlalchemy import create_engine, types
 
 # 1. Cấu hình kết nối MySQL
 DB_USER = "root"
-DB_PASS = "123456789"
+DB_PASS = "Loc%402005mysql"
 DB_HOST = "localhost"
 DB_PORT = "3306"
-DB_NAME = "bigdata_project"
+DB_NAME = "bigdata_db"
 
 engine = create_engine(
     f"mysql+pymysql://{DB_USER}:{DB_PASS}@{DB_HOST}:{DB_PORT}/{DB_NAME}?charset=utf8mb4"

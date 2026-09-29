@@ -3,7 +3,7 @@ import {
   BarChart, Bar, LineChart, Line, PieChart, Pie, Cell, 
   XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer, AreaChart, Area
 } from 'recharts';
-import { Activity, Users, FileText, Database, ArrowUpRight, ArrowDownRight, CloudDownload } from 'lucide-react';
+import { Activity, Users, FileText, Database, ArrowUpRight, ArrowDownRight, CloudDownload, Server, CheckCircle2, XCircle } from 'lucide-react';
 
 const COLORS = ['#6366f1', '#10b981', '#f59e0b', '#ec4899', '#8b5cf6'];
 const CHART_TEXT_COLOR = '#94a3b8';
@@ -28,20 +28,24 @@ const CustomTooltip = ({ active, payload, label }) => {
 
 const Dashboard = () => {
   const [data, setData] = useState(null);
+  const [clusterData, setClusterData] = useState([]);
   const [loading, setLoading] = useState(true);
   const [actionLoading, setActionLoading] = useState(false);
 
   useEffect(() => {
-    fetch('http://localhost:8000/api/dashboard-stats/')
-      .then(res => res.json())
-      .then(result => {
-        setData(result);
-        setLoading(false);
-      })
-      .catch(err => {
-        console.error("Error fetching dashboard stats", err);
-        setLoading(false);
-      });
+    Promise.all([
+      fetch('http://localhost:8000/api/dashboard-stats/').then(res => res.json()),
+      fetch('http://localhost:8000/api/cluster-status/').then(res => res.json())
+    ])
+    .then(([stats, cluster]) => {
+      setData(stats);
+      setClusterData(cluster.nodes || []);
+      setLoading(false);
+    })
+    .catch(err => {
+      console.error("Error fetching dashboard data", err);
+      setLoading(false);
+    });
   }, []);
 
   const handleRunAction = (actionUrl, actionName) => {
@@ -97,6 +101,35 @@ const Dashboard = () => {
         <StatCard title="Truy Vấn MapReduce" value={data.kpis?.mapReduceQueries || "0"} icon={<Activity />} trend={data.kpis?.mapReduceTrend || "+0%"} isUp={data.kpis?.mapReduceIsUp ?? true} />
         <StatCard title="Tài Khoản Đang Active" value={data.kpis?.activeAccounts || "0"} icon={<Users />} trend={data.kpis?.activeAccountsTrend || "0%"} isUp={data.kpis?.activeAccountsIsUp ?? false} />
         <StatCard title="Báo Cáo Đã Tạo" value={data.kpis?.reportsGenerated || "0"} icon={<FileText />} trend={data.kpis?.reportsTrend || "+0%"} isUp={data.kpis?.reportsIsUp ?? true} />
+      </div>
+
+      {/* Cluster Health Section */}
+      <div className="bg-slate-800/40 backdrop-blur-md border border-slate-700/50 rounded-2xl p-6 shadow-lg">
+        <div className="flex items-center gap-3 mb-6">
+          <Server className="w-6 h-6 text-indigo-400" />
+          <h2 className="text-xl font-semibold text-white">Cluster Health (Hadoop Nodes)</h2>
+        </div>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+          {clusterData.map((node, idx) => (
+            <div key={idx} className="bg-slate-900/50 border border-slate-700 rounded-xl p-5 flex items-center justify-between">
+              <div className="flex items-center gap-4">
+                <div className={`p-3 rounded-full ${node.status === 'Online' ? 'bg-emerald-500/10 text-emerald-400' : 'bg-rose-500/10 text-rose-400'}`}>
+                  {node.status === 'Online' ? <CheckCircle2 className="w-6 h-6" /> : <XCircle className="w-6 h-6" />}
+                </div>
+                <div>
+                  <h3 className="font-semibold text-slate-200 text-lg">{node.name}</h3>
+                  <p className="text-sm text-slate-400 mt-0.5">{node.ip}</p>
+                </div>
+              </div>
+              <div className="text-right">
+                <div className="text-sm font-medium text-slate-300">{node.role}</div>
+                <div className={`text-xs mt-1 font-bold ${node.status === 'Online' ? 'text-emerald-400' : 'text-rose-400'}`}>
+                  {node.status === 'Online' ? 'RUNNING' : 'DOWN'}
+                </div>
+              </div>
+            </div>
+          ))}
+        </div>
       </div>
 
       {/* Charts Grid */}
