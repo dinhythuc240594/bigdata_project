@@ -1,23 +1,19 @@
 #!/usr/bin/env python3
 import sys
 
-# Script Mapper - Phân tích dữ liệu Laptop
-# Cấu trúc bảng: record_id,product_id,sku,name,brand(4),category,price(6),...
+# Script Mapper - Phân tích dữ liệu sản phẩm
+# Cấu trúc bảng: brand, category, date, discount, discount_rate, name, original_price, price, product_id, rating, sku, sold, sold_info, source, url
 
 for line in sys.stdin:
     line = line.strip()
     if not line:
         continue
     
-    parts = line.split(',')
+    parts = line.split('\t')
     
-    # Sqoop xuất dữ liệu không có dấu ngoặc kép bọc chuỗi,
-    # mà cột Tên sản phẩm (ở giữa) lại có chứa rất nhiều dấu phẩy (vd: 16GB, 512GB).
-    # Việc này làm cột phía sau bị lệch index.
-    # Giải pháp: Lấy Tên Hãng từ đầu mảng (index 0) và Giá từ cuối mảng đếm ngược lên (index -8)
-    if len(parts) >= 10:
+    if len(parts) >= 15:
         brand = parts[0].strip().upper()
-        price_str = parts[-8].strip()
+        price_str = parts[7].strip()
         
         try:
             price = float(price_str)

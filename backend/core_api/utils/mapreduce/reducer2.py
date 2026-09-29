@@ -1,32 +1,29 @@
+#!/usr/bin/env python3
 import sys
 
-# Reducer 2: Tổng hợp số lượng sản phẩm theo từng nguồn
-
 current_source = None
-current_count = 0
+count = 0
 
 print("SOURCE\tTOTAL_PRODUCTS")
 print("-" * 30)
 
 for line in sys.stdin:
     line = line.strip()
-    if not line:
-        continue
-        
+    if not line: continue
+    
     try:
-        source, count_str = line.split('\t', 1)
-        count = int(count_str)
+        source, val = line.split('\t', 1)
+        val = int(val)
     except ValueError:
         continue
 
     if current_source == source:
-        current_count += count
+        count += val
     else:
         if current_source:
-            print(f"{current_source}\t{current_count}")
+            print(f"{current_source}\t{count}")
         current_source = source
-        current_count = count
+        count = val
 
-# In ra nguồn cuối cùng
 if current_source == source:
-    print(f"{current_source}\t{current_count}")
+    print(f"{current_source}\t{count}")

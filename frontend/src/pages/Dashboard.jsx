@@ -138,7 +138,7 @@ const Dashboard = () => {
         {/* Main Area Chart - Spans 2 cols */}
         <div className="lg:col-span-2 bg-slate-800/40 backdrop-blur-md border border-slate-700/50 p-6 rounded-2xl shadow-lg relative overflow-hidden group">
           <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-indigo-500 to-purple-500 opacity-0 group-hover:opacity-100 transition-opacity"></div>
-          <h2 className="text-lg font-semibold text-slate-200 mb-6 font-heading">Lưu Lượng Truy Cập Trực Tuyến (Area)</h2>
+          <h2 className="text-lg font-semibold text-slate-200 mb-6 font-heading">Giá Bán Trung Bình Laptop Theo Hãng (Area)</h2>
           <div className="h-80">
             <ResponsiveContainer width="100%" height="100%">
               <AreaChart data={data.areaData}>
@@ -149,46 +149,64 @@ const Dashboard = () => {
                   </linearGradient>
                 </defs>
                 <CartesianGrid strokeDasharray="3 3" vertical={false} stroke={CHART_GRID_COLOR} />
-                <XAxis dataKey="time" stroke={CHART_TEXT_COLOR} tick={{fill: CHART_TEXT_COLOR}} axisLine={false} />
-                <YAxis stroke={CHART_TEXT_COLOR} tick={{fill: CHART_TEXT_COLOR}} axisLine={false} tickLine={false} />
+                <XAxis dataKey="name" stroke={CHART_TEXT_COLOR} tick={{fill: CHART_TEXT_COLOR}} axisLine={false} />
+                <YAxis stroke={CHART_TEXT_COLOR} tick={{fill: CHART_TEXT_COLOR}} axisLine={false} tickLine={false} width={80} tickFormatter={(value) => `${(value / 1000000).toFixed(1)}M`} />
                 <Tooltip content={<CustomTooltip />} />
-                <Area type="monotone" dataKey="traffic" name="Truy cập" stroke="#6366f1" strokeWidth={3} fillOpacity={1} fill="url(#colorTraffic)" />
+                <Area type="monotone" dataKey="value" name="Giá (VNĐ)" stroke="#6366f1" strokeWidth={3} fillOpacity={1} fill="url(#colorTraffic)" />
               </AreaChart>
             </ResponsiveContainer>
           </div>
         </div>
 
-        {/* Status Pie Chart */}
+        {/* Category Pie Chart (Static) */}
         <div className="bg-slate-800/40 backdrop-blur-md border border-slate-700/50 p-6 rounded-2xl shadow-lg group relative overflow-hidden">
-          <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-emerald-500 to-teal-500 opacity-0 group-hover:opacity-100 transition-opacity"></div>
-          <h2 className="text-lg font-semibold text-slate-200 mb-6 font-heading">Tiến Độ Xử Lý HDFS (Pie)</h2>
+          <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-blue-500 to-cyan-500 opacity-0 group-hover:opacity-100 transition-opacity"></div>
+          <h2 className="text-lg font-semibold text-slate-200 mb-6 font-heading">Tỷ Trọng Ngành Hàng (Pie)</h2>
           <div className="h-80">
             <ResponsiveContainer width="100%" height="100%">
               <PieChart>
-                <Pie data={data.pieData1} cx="50%" cy="50%" innerRadius={70} outerRadius={100} dataKey="value" stroke="none">
-                  {data.pieData1.map((entry, index) => (
-                    <Cell key={`cell-${index}`} fill={['#10b981', '#334155'][index % 2]} />
+                <Pie data={data.categoryPie} cx="50%" cy="50%" outerRadius={100} dataKey="value" stroke="none" label>
+                  {data.categoryPie.map((entry, index) => (
+                    <Cell key={`cell-${index}`} fill={COLORS[index % COLORS.length]} />
                   ))}
                 </Pie>
                 <Tooltip content={<CustomTooltip />} />
                 <Legend wrapperStyle={{ color: CHART_TEXT_COLOR }} />
               </PieChart>
             </ResponsiveContainer>
-            <div className="absolute inset-0 flex items-center justify-center pointer-events-none mt-6">
-              <span className="text-3xl font-bold text-white">75%</span>
-            </div>
           </div>
         </div>
 
+        {/* Dynamic Status Pie Charts based on DB tables */}
+        {data.dynamicPieCharts && data.dynamicPieCharts.map((pie, idx) => (
+          <div key={idx} className="bg-slate-800/40 backdrop-blur-md border border-slate-700/50 p-6 rounded-2xl shadow-lg group relative overflow-hidden">
+            <div className={`absolute top-0 left-0 w-full h-1 bg-gradient-to-r opacity-0 group-hover:opacity-100 transition-opacity ${idx % 2 === 0 ? 'from-emerald-500 to-teal-500' : 'from-blue-500 to-cyan-500'}`}></div>
+            <h2 className="text-lg font-semibold text-slate-200 mb-6 font-heading">{pie.title} (Pie)</h2>
+            <div className="h-80">
+              <ResponsiveContainer width="100%" height="100%">
+                <PieChart>
+                  <Pie data={pie.data} cx="50%" cy="50%" innerRadius={idx % 2 === 0 ? 70 : 0} outerRadius={100} dataKey="value" stroke="none" label>
+                    {pie.data.map((entry, index) => (
+                      <Cell key={`cell-${index}`} fill={COLORS[(index + idx) % COLORS.length]} />
+                    ))}
+                  </Pie>
+                  <Tooltip content={<CustomTooltip />} />
+                  <Legend wrapperStyle={{ color: CHART_TEXT_COLOR }} />
+                </PieChart>
+              </ResponsiveContainer>
+            </div>
+          </div>
+        ))}
+
         {/* Double Line Chart */}
-        <div className="bg-slate-800/40 backdrop-blur-md border border-slate-700/50 p-6 rounded-2xl shadow-lg group relative overflow-hidden">
+        <div className="bg-slate-800/40 backdrop-blur-md border border-slate-700/50 p-6 rounded-2xl shadow-lg group relative overflow-hidden lg:col-span-1">
           <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-pink-500 to-rose-500 opacity-0 group-hover:opacity-100 transition-opacity"></div>
-          <h2 className="text-lg font-semibold text-slate-200 mb-6 font-heading">Hiệu Suất Job (Line)</h2>
+          <h2 className="text-lg font-semibold text-slate-200 mb-6 font-heading">Hiệu Suất Job Theo Công Cụ (Line)</h2>
           <div className="h-72">
             <ResponsiveContainer width="100%" height="100%">
               <LineChart data={data.lineData}>
                 <CartesianGrid strokeDasharray="3 3" vertical={false} stroke={CHART_GRID_COLOR} />
-                <XAxis dataKey="month" stroke={CHART_TEXT_COLOR} tick={{fill: CHART_TEXT_COLOR}} axisLine={false} />
+                <XAxis dataKey="name" stroke={CHART_TEXT_COLOR} tick={{fill: CHART_TEXT_COLOR}} axisLine={false} />
                 <YAxis stroke={CHART_TEXT_COLOR} tick={{fill: CHART_TEXT_COLOR}} axisLine={false} tickLine={false} />
                 <Tooltip content={<CustomTooltip />} />
                 <Legend wrapperStyle={{ color: CHART_TEXT_COLOR, paddingTop: '10px' }} />
@@ -199,10 +217,10 @@ const Dashboard = () => {
           </div>
         </div>
 
-        {/* Bar Chart */}
-        <div className="bg-slate-800/40 backdrop-blur-md border border-slate-700/50 p-6 rounded-2xl shadow-lg group relative overflow-hidden">
+        {/* Bar Chart 1 */}
+        <div className="bg-slate-800/40 backdrop-blur-md border border-slate-700/50 p-6 rounded-2xl shadow-lg group relative overflow-hidden lg:col-span-1">
           <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-amber-400 to-orange-500 opacity-0 group-hover:opacity-100 transition-opacity"></div>
-          <h2 className="text-lg font-semibold text-slate-200 mb-6 font-heading">Phân Bổ Dữ Liệu (Bar)</h2>
+          <h2 className="text-lg font-semibold text-slate-200 mb-6 font-heading">Phân Bổ Dữ Liệu Bảng (Bar)</h2>
           <div className="h-72">
             <ResponsiveContainer width="100%" height="100%">
               <BarChart data={data.barData}>
@@ -210,27 +228,25 @@ const Dashboard = () => {
                 <XAxis dataKey="name" stroke={CHART_TEXT_COLOR} tick={{fill: CHART_TEXT_COLOR}} axisLine={false} />
                 <YAxis stroke={CHART_TEXT_COLOR} tick={{fill: CHART_TEXT_COLOR}} axisLine={false} tickLine={false} />
                 <Tooltip content={<CustomTooltip />} cursor={{fill: '#334155', opacity: 0.4}} />
-                <Bar dataKey="total" name="Lượt xem" fill="#f59e0b" radius={[4, 4, 0, 0]} />
+                <Bar dataKey="total" name="Số lượng SP" fill="#f59e0b" radius={[4, 4, 0, 0]} />
               </BarChart>
             </ResponsiveContainer>
           </div>
         </div>
 
-        {/* Pie Chart 2 */}
-        <div className="bg-slate-800/40 backdrop-blur-md border border-slate-700/50 p-6 rounded-2xl shadow-lg group relative overflow-hidden">
-          <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-blue-500 to-cyan-500 opacity-0 group-hover:opacity-100 transition-opacity"></div>
-          <h2 className="text-lg font-semibold text-slate-200 mb-6 font-heading">Khu Vực Máy Chủ (Pie)</h2>
+        {/* Bar Chart 2 (Static Top Brands) */}
+        <div className="bg-slate-800/40 backdrop-blur-md border border-slate-700/50 p-6 rounded-2xl shadow-lg group relative overflow-hidden lg:col-span-1">
+          <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-fuchsia-500 to-purple-500 opacity-0 group-hover:opacity-100 transition-opacity"></div>
+          <h2 className="text-lg font-semibold text-slate-200 mb-6 font-heading">Top 5 Thương Hiệu (Bar)</h2>
           <div className="h-72">
             <ResponsiveContainer width="100%" height="100%">
-              <PieChart>
-                <Pie data={data.pieData2} cx="50%" cy="50%" outerRadius={90} dataKey="value" stroke="none" label>
-                  {data.pieData2.map((entry, index) => (
-                    <Cell key={`cell-${index}`} fill={COLORS[index % COLORS.length]} />
-                  ))}
-                </Pie>
-                <Tooltip content={<CustomTooltip />} />
-                <Legend wrapperStyle={{ color: CHART_TEXT_COLOR }} />
-              </PieChart>
+              <BarChart data={data.topBrandsBar}>
+                <CartesianGrid strokeDasharray="3 3" vertical={false} stroke={CHART_GRID_COLOR} />
+                <XAxis dataKey="name" stroke={CHART_TEXT_COLOR} tick={{fill: CHART_TEXT_COLOR}} axisLine={false} />
+                <YAxis stroke={CHART_TEXT_COLOR} tick={{fill: CHART_TEXT_COLOR}} axisLine={false} tickLine={false} />
+                <Tooltip content={<CustomTooltip />} cursor={{fill: '#334155', opacity: 0.4}} />
+                <Bar dataKey="total" name="Số lượng SP" fill="#8b5cf6" radius={[4, 4, 0, 0]} />
+              </BarChart>
             </ResponsiveContainer>
           </div>
         </div>

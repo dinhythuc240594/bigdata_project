@@ -74,6 +74,57 @@ const TaskManager = () => {
       } catch (error) {
         alert("Lỗi kết nối tới Server: " + error);
       }
+    } else if (task.type === 'Hive') {
+      alert(`Đang bắt đầu chạy: ${task.name}...\nQuá trình xử lý Hive có thể mất vài phút.`);
+      try {
+        const response = await fetch('http://localhost:8000/api/run-hive/', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ table_name: task.tableName })
+        });
+        const data = await response.json();
+        if (data.status === "success") {
+            alert("Chạy Hive thành công!\n\nLogs:\n" + data.logs.substring(0, 500));
+        } else {
+            alert("Lỗi khi chạy Hive:\n\n" + data.error_logs);
+        }
+      } catch (error) {
+        alert("Lỗi kết nối tới Server: " + error);
+      }
+    } else if (task.type === 'Pig') {
+      alert(`Đang bắt đầu chạy: ${task.name}...\nQuá trình xử lý Pig có thể mất vài phút.`);
+      try {
+        const response = await fetch('http://localhost:8000/api/run-pig/', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ table_name: task.tableName })
+        });
+        const data = await response.json();
+        if (data.status === "success") {
+            alert("Chạy Pig thành công!\n\nLogs:\n" + data.logs.substring(0, 500));
+        } else {
+            alert("Lỗi khi chạy Pig:\n\n" + data.error_logs);
+        }
+      } catch (error) {
+        alert("Lỗi kết nối tới Server: " + error);
+      }
+    } else if (task.type === 'Spark') {
+      alert(`Đang bắt đầu chạy: ${task.name}...\nQuá trình xử lý Spark có thể mất vài phút.`);
+      try {
+        const response = await fetch('http://localhost:8000/api/run-spark/', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ table_name: task.tableName })
+        });
+        const data = await response.json();
+        if (data.status === "success") {
+            alert("Chạy Spark thành công!\n\nLogs:\n" + data.logs.substring(0, 500));
+        } else {
+            alert("Lỗi khi chạy Spark:\n\n" + data.error_logs);
+        }
+      } catch (error) {
+        alert("Lỗi kết nối tới Server: " + error);
+      }
     } else {
       alert("Chức năng đang được phát triển!");
     }

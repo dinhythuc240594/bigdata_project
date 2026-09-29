@@ -37,6 +37,7 @@ const Layout = ({ children }) => {
           <NavItem icon={<LayoutDashboard size={20} />} label="Dashboard" to="/" active={location.pathname === '/'} />
           <NavItem icon={<Database size={20} />} label="Data Table" to="/data-table" active={location.pathname === '/data-table'} />
           <NavItem icon={<HardDrive size={20} />} label="Task Manager" to="/task-manager" active={location.pathname === '/task-manager'} />
+          <NavItem icon={<Search size={20} />} label="Query Editor" to="/query-editor" active={location.pathname === '/query-editor'} />
           <NavItem icon={<Settings size={20} />} label="Settings" to="/settings" active={location.pathname === '/settings'} />
         </nav>
         
@@ -61,7 +62,7 @@ const Layout = ({ children }) => {
         <div className="absolute bottom-0 left-0 w-[500px] h-[500px] bg-blue-500/10 blur-[100px] rounded-full -z-10 mix-blend-screen" />
 
         {/* Header */}
-        <header className="h-16 flex items-center justify-between px-8 border-b border-slate-800/30 bg-slate-900/50 backdrop-blur-md z-10">
+        <header className="h-16 flex items-center justify-between px-8 border-b border-slate-800/30 bg-slate-900/50 backdrop-blur-md z-50 relative">
           <div className="flex items-center bg-slate-800/50 border border-slate-700/50 rounded-full px-4 py-2 w-96 focus-within:ring-2 focus-within:ring-indigo-500/50 transition-all">
             <Search className="w-4 h-4 text-slate-400" />
             <input 

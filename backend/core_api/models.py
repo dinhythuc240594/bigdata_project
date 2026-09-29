@@ -5,6 +5,9 @@ class JobHistory(models.Model):
     JOB_TYPES = (
         ('Sqoop', 'Sqoop Import'),
         ('MapReduce', 'MapReduce Analysis'),
+        ('Hive', 'Hive Query'),
+        ('Pig', 'Pig Script'),
+        ('Spark', 'Spark Job'),
     )
     
     STATUS_CHOICES = (

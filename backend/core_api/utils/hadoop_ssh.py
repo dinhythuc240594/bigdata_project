@@ -57,6 +57,8 @@ class HadoopTaskRunner:
         --password {mysql_password} \\
         --table {table_name} \\
         --target-dir {target_dir} \\
+        --delete-target-dir \\
+        --fields-terminated-by '\\t' \\
         -m 1
         """
         return self.execute_command(command)

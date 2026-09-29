@@ -4,7 +4,7 @@ from sqlalchemy import create_engine, types
 
 # 1. Cấu hình kết nối MySQL
 DB_USER = "root"
-DB_PASS = "Loc%402005mysql"
+DB_PASS = "123456789"
 DB_HOST = "localhost"
 DB_PORT = "3306"
 DB_NAME = "bigdata_db"

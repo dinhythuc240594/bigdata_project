@@ -12,18 +12,23 @@ const DataTable = () => {
   const [limit, setLimit] = useState(10);
   const [totalRecords, setTotalRecords] = useState(0);
 
+  // Filter State
+  const [showFilter, setShowFilter] = useState(false);
+  const [searchQuery, setSearchQuery] = useState('');
+  const [filterBrand, setFilterBrand] = useState('');
+
   // Modal State
   const [showModal, setShowModal] = useState(false);
   const [modalMode, setModalMode] = useState('add');
   const [formData, setFormData] = useState({ sku: '', name: '', brand: '', price: '' });
 
   useEffect(() => {
-    setPage(1); // Reset page when tab changes
-  }, [activeTab]);
+    setPage(1); // Reset page when tab or filters change
+  }, [activeTab, searchQuery, filterBrand]);
 
   useEffect(() => {
     setLoadingData(true);
-    fetch(`http://localhost:8000/api/data-table/?category=${activeTab}&page=${page}&limit=${limit}`)
+    fetch(`http://localhost:8000/api/data-table/?category=${activeTab}&page=${page}&limit=${limit}&search=${encodeURIComponent(searchQuery)}&brand=${encodeURIComponent(filterBrand)}`)
       .then(res => res.json())
       .then(data => {
         setTableData(data.data || []);
@@ -34,7 +39,7 @@ const DataTable = () => {
         console.error("Lỗi lấy data-table:", err);
         setLoadingData(false);
       });
-  }, [activeTab, page, limit]);
+  }, [activeTab, page, limit, searchQuery, filterBrand]);
 
   const handleRunSqoop = async () => {
     const tableName = activeTab === 'Laptop' ? 'laptop_products_common' : activeTab === 'Keyboard' ? 'keyboard_products_common' : 'monitor_products_common';
@@ -118,6 +123,75 @@ const DataTable = () => {
           alert("Sao lưu (Sqoop Export) thành công!\nLog: " + data.logs.substring(0, 500));
       } else {
           alert("Lỗi khi Export:\n\n" + data.error_logs);
+      }
+    } catch (error) {
+      setActionLoading(false);
+      alert("Lỗi kết nối tới Server: " + error);
+    }
+  };
+
+  const handleRunHive = async () => {
+    const tableName = activeTab === 'Laptop' ? 'laptop_products_common' : activeTab === 'Keyboard' ? 'keyboard_products_common' : 'monitor_products_common';
+    alert(`Đang bắt đầu chạy Hive Query cho bảng: ${tableName}...\nHệ thống sẽ tạo External Table và đếm số lượng theo Brand bằng Hive.`);
+    setActionLoading(true);
+    try {
+      const response = await fetch('http://localhost:8000/api/run-hive/', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ table_name: tableName })
+      });
+      const data = await response.json();
+      setActionLoading(false);
+      if (data.status === "success") {
+          alert("Chạy Hive thành công!\nLogs:\n" + data.logs.substring(0, 500));
+      } else {
+          alert("Lỗi khi chạy Hive:\n\n" + data.error_logs);
+      }
+    } catch (error) {
+      setActionLoading(false);
+      alert("Lỗi kết nối tới Server: " + error);
+    }
+  };
+
+  const handleRunPig = async () => {
+    const tableName = activeTab === 'Laptop' ? 'laptop_products_common' : activeTab === 'Keyboard' ? 'keyboard_products_common' : 'monitor_products_common';
+    alert(`Đang bắt đầu chạy Pig Script cho bảng: ${tableName}...\nHệ thống sẽ load dữ liệu bằng Apache Pig và lấy mẫu 5 dòng đầu.`);
+    setActionLoading(true);
+    try {
+      const response = await fetch('http://localhost:8000/api/run-pig/', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ table_name: tableName })
+      });
+      const data = await response.json();
+      setActionLoading(false);
+      if (data.status === "success") {
+          alert("Chạy Pig thành công!\nLogs:\n" + data.logs.substring(0, 500));
+      } else {
+          alert("Lỗi khi chạy Pig:\n\n" + data.error_logs);
+      }
+    } catch (error) {
+      setActionLoading(false);
+      alert("Lỗi kết nối tới Server: " + error);
+    }
+  };
+
+  const handleRunSpark = async () => {
+    const tableName = activeTab === 'Laptop' ? 'laptop_products_common' : activeTab === 'Keyboard' ? 'keyboard_products_common' : 'monitor_products_common';
+    alert(`Đang bắt đầu chạy Spark Job cho bảng: ${tableName}...\nHệ thống sẽ dùng PySpark để tính trung bình giá theo từng hãng.`);
+    setActionLoading(true);
+    try {
+      const response = await fetch('http://localhost:8000/api/run-spark/', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ table_name: tableName })
+      });
+      const data = await response.json();
+      setActionLoading(false);
+      if (data.status === "success") {
+          alert("Chạy Spark thành công!\nLogs:\n" + data.logs.substring(0, 500));
+      } else {
+          alert("Lỗi khi chạy Spark:\n\n" + data.error_logs);
       }
     } catch (error) {
       setActionLoading(false);
@@ -216,16 +290,53 @@ const DataTable = () => {
             <Plus size={16} />
             Thêm Mới
           </button>
-          <button className="flex items-center gap-2 px-4 py-2 bg-slate-800 text-slate-300 rounded-lg hover:bg-slate-700 hover:text-white transition-colors border border-slate-700">
+          <button 
+            onClick={() => setShowFilter(!showFilter)}
+            className={`flex items-center gap-2 px-4 py-2 rounded-lg transition-colors border ${showFilter ? 'bg-slate-700 text-white border-slate-600' : 'bg-slate-800 text-slate-300 hover:bg-slate-700 hover:text-white border-slate-700'}`}>
             <Filter size={16} />
             Bộ Lọc
           </button>
-          <button className="flex items-center gap-2 px-4 py-2 bg-indigo-600 text-white rounded-lg hover:bg-indigo-500 transition-colors shadow-[0_0_15px_rgba(79,70,229,0.3)]">
+          <button 
+            onClick={() => window.open(`http://localhost:8000/api/export-excel/?category=${activeTab}&search=${encodeURIComponent(searchQuery)}&brand=${encodeURIComponent(filterBrand)}`, '_blank')}
+            className="flex items-center gap-2 px-4 py-2 bg-indigo-600 text-white rounded-lg hover:bg-indigo-500 transition-colors shadow-[0_0_15px_rgba(79,70,229,0.3)]">
             <Download size={16} />
             Xuất Excel
           </button>
         </div>
       </div>
+
+      {showFilter && (
+        <div className="bg-slate-800/40 backdrop-blur-md border border-slate-700/50 rounded-2xl shadow-lg p-4 flex gap-4 animate-in fade-in slide-in-from-top-4">
+          <div className="flex-1">
+            <label className="block text-xs text-slate-400 mb-1">Tìm kiếm (Tên / SKU)</label>
+            <input 
+              type="text" 
+              value={searchQuery}
+              onChange={(e) => setSearchQuery(e.target.value)}
+              placeholder="Nhập tên sản phẩm hoặc mã SKU..." 
+              className="w-full bg-slate-900 border border-slate-700 rounded-lg px-3 py-2 text-sm text-white focus:outline-none focus:border-indigo-500"
+            />
+          </div>
+          <div className="w-64">
+            <label className="block text-xs text-slate-400 mb-1">Thương hiệu (Brand)</label>
+            <input 
+              type="text" 
+              value={filterBrand}
+              onChange={(e) => setFilterBrand(e.target.value)}
+              placeholder="VD: Asus, Acer, Dell..." 
+              className="w-full bg-slate-900 border border-slate-700 rounded-lg px-3 py-2 text-sm text-white focus:outline-none focus:border-indigo-500"
+            />
+          </div>
+          <div className="flex items-end">
+            <button 
+              onClick={() => { setSearchQuery(''); setFilterBrand(''); }}
+              className="px-4 py-2 bg-slate-700 hover:bg-slate-600 text-white rounded-lg text-sm transition-colors"
+            >
+              Xóa lọc
+            </button>
+          </div>
+        </div>
+      )}
 
       <div className="bg-slate-800/40 backdrop-blur-md border border-slate-700/50 rounded-2xl shadow-lg overflow-hidden">
         {/* Tabs and Actions */}
@@ -247,7 +358,7 @@ const DataTable = () => {
           </div>
           
           {activeTab !== 'All' && (
-            <div className="flex items-center gap-2 mt-2 sm:mt-0 pb-2 sm:pb-0 px-4 sm:px-0">
+            <div className="flex flex-wrap items-center gap-2 mt-2 sm:mt-0 pb-2 sm:pb-0 px-4 sm:px-0">
               <button 
                 onClick={() => handleRunSqoop()}
                 disabled={actionLoading}
@@ -261,6 +372,27 @@ const DataTable = () => {
                 className="flex items-center gap-1.5 px-3 py-1.5 bg-indigo-600/20 text-indigo-400 hover:bg-indigo-600/40 rounded border border-indigo-500/30 transition-colors text-sm font-medium disabled:opacity-50"
               >
                 <Database size={14} /> Chạy MapReduce
+              </button>
+              <button 
+                onClick={() => handleRunHive()}
+                disabled={actionLoading}
+                className="flex items-center gap-1.5 px-3 py-1.5 bg-fuchsia-600/20 text-fuchsia-400 hover:bg-fuchsia-600/40 rounded border border-fuchsia-500/30 transition-colors text-sm font-medium disabled:opacity-50"
+              >
+                <Database size={14} /> Chạy Hive
+              </button>
+              <button 
+                onClick={() => handleRunPig()}
+                disabled={actionLoading}
+                className="flex items-center gap-1.5 px-3 py-1.5 bg-pink-600/20 text-pink-400 hover:bg-pink-600/40 rounded border border-pink-500/30 transition-colors text-sm font-medium disabled:opacity-50"
+              >
+                <Database size={14} /> Chạy Pig
+              </button>
+              <button 
+                onClick={() => handleRunSpark()}
+                disabled={actionLoading}
+                className="flex items-center gap-1.5 px-3 py-1.5 bg-orange-600/20 text-orange-400 hover:bg-orange-600/40 rounded border border-orange-500/30 transition-colors text-sm font-medium disabled:opacity-50"
+              >
+                <Database size={14} /> Chạy Spark
               </button>
               <button 
                 onClick={() => handleRunSqoopExport()}
