@@ -1,25 +1,33 @@
 import React, { useState, useMemo } from 'react';
-import { Play, Database, Terminal, RefreshCw, FileCode, CheckCircle2, XCircle, BarChart3 } from 'lucide-react';
+import { Play, Database, Terminal, RefreshCw, FileCode, CheckCircle2, XCircle, BarChart3, HardDrive } from 'lucide-react';
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, Cell } from 'recharts';
 
 const COLORS = ['#6366f1', '#10b981', '#f59e0b', '#ec4899', '#8b5cf6', '#3b82f6'];
 
+const DATASETS = {
+  laptop: { label: 'Laptop', hive: 'laptop_products_common_hive', hdfs: '/user/hadoopthuc/project/input_laptop_products_common' },
+  keyboard: { label: 'Bàn phím (Keyboard)', hive: 'keyboard_products_common_hive', hdfs: '/user/hadoopthuc/project/input_keyboard_products_common' },
+  monitor: { label: 'Màn hình (Monitor)', hive: 'monitor_products_common_hive', hdfs: '/user/hadoopthuc/project/input_monitor_products_common' }
+};
+
 const QueryEditor = () => {
   const [engine, setEngine] = useState('hive');
+  const [dataset, setDataset] = useState('laptop');
   
   const templates = [
     { name: '1. Khởi tạo bảng Hive (Bắt buộc chạy đầu tiên)', engine: 'hive', query: "CREATE EXTERNAL TABLE IF NOT EXISTS laptop_products_common_hive (\n    brand STRING, category STRING, crawl_date STRING, discount DOUBLE, discount_rate DOUBLE, name STRING, original_price DOUBLE, price DOUBLE, product_id STRING, rating DOUBLE, sku STRING, sold INT, sold_info STRING, source STRING, url STRING\n) ROW FORMAT DELIMITED FIELDS TERMINATED BY '\\t' \nSTORED AS TEXTFILE LOCATION '/user/hadoopthuc/project/input_laptop_products_common';\n\nSHOW TABLES;" },
-    { name: '2. Top 10 thương hiệu laptop nhiều sản phẩm nhất', engine: 'hive', query: 'SELECT brand, COUNT(*) as total_products FROM laptop_products_common_hive GROUP BY brand ORDER BY total_products DESC LIMIT 10;' },
+    { name: '2. Top 10 thương hiệu nhiều sản phẩm nhất', engine: 'hive', query: 'SELECT brand, COUNT(*) as total_products FROM laptop_products_common_hive GROUP BY brand ORDER BY total_products DESC LIMIT 10;' },
     { name: '3. Thống kê giá bán trung bình theo thương hiệu', engine: 'hive', query: 'SELECT brand, ROUND(AVG(price), 0) as avg_price FROM laptop_products_common_hive WHERE price > 0 GROUP BY brand ORDER BY avg_price DESC LIMIT 10;' },
     { name: '4. Top 5 sản phẩm giảm giá sâu nhất', engine: 'hive', query: 'SELECT name, brand, original_price, price, discount_rate FROM laptop_products_common_hive WHERE discount_rate > 0 ORDER BY discount_rate DESC LIMIT 5;' },
     { name: '5. Điểm đánh giá (Rating) trung bình theo hãng', engine: 'hive', query: 'SELECT brand, ROUND(AVG(rating), 2) as avg_rating, sum(sold) as total_sold FROM laptop_products_common_hive WHERE rating > 0 GROUP BY brand ORDER BY avg_rating DESC LIMIT 10;' },
-    { name: '6. Phân tích phân khúc giá Laptop', engine: 'spark', query: "from pyspark.sql import SparkSession\nfrom pyspark.sql.functions import col, when\n\nspark = SparkSession.builder.appName('PriceSegment').getOrCreate()\ndf = spark.read.option('delimiter', '\\t').csv('/user/hadoopthuc/project/input_laptop_products_common')\ndf = df.toDF('brand', 'category', 'date', 'discount', 'discount_rate', 'name', 'original_price', 'price', 'product_id', 'rating', 'sku', 'sold', 'sold_info', 'source', 'url')\n\nsegments = df.withColumn('segment', \n    when(col('price') < 10000000, 'Gia re (<10Tr)')\n    .when((col('price') >= 10000000) & (col('price') <= 20000000), 'Tam trung (10-20Tr)')\n    .otherwise('Cao cap (>20Tr)')\n)\nsegments.groupBy('segment').count().show()\nspark.stop()" },
+    { name: '6. Phân tích phân khúc giá', engine: 'spark', query: "from pyspark.sql import SparkSession\nfrom pyspark.sql.functions import col, when\n\nspark = SparkSession.builder.appName('PriceSegment').getOrCreate()\ndf = spark.read.option('delimiter', '\\t').csv('/user/hadoopthuc/project/input_laptop_products_common')\ndf = df.toDF('brand', 'category', 'date', 'discount', 'discount_rate', 'name', 'original_price', 'price', 'product_id', 'rating', 'sku', 'sold', 'sold_info', 'source', 'url')\n\nsegments = df.withColumn('segment', \n    when(col('price') < 10000000, 'Gia re (<10Tr)')\n    .when((col('price') >= 10000000) & (col('price') <= 20000000), 'Tam trung (10-20Tr)')\n    .otherwise('Cao cap (>20Tr)')\n)\nsegments.groupBy('segment').count().show()\nspark.stop()" },
     { name: '7. Tỷ trọng sản phẩm theo nguồn dữ liệu', engine: 'hive', query: 'SELECT source, COUNT(*) as product_count FROM laptop_products_common_hive GROUP BY source ORDER BY product_count DESC;' },
     { name: '8. Tổng doanh thu ước tính theo thương hiệu', engine: 'hive', query: 'SELECT brand, sum(price * sold) as total_revenue FROM laptop_products_common_hive WHERE sold > 0 AND price > 0 GROUP BY brand ORDER BY total_revenue DESC LIMIT 10;' },
-    { name: '9. Truy vấn bằng Pig: Số lượng Laptop theo hãng', engine: 'pig', query: "data = LOAD '/user/hadoopthuc/project/input_laptop_products_common' USING PigStorage('\\t') AS (brand:chararray, category:chararray, date:chararray, discount:double, discount_rate:double, name:chararray, original_price:double, price:double, product_id:chararray, rating:double, sku:chararray, sold:int, sold_info:chararray, source:chararray, url:chararray);\n\ngrouped = GROUP data BY brand;\ncounts = FOREACH grouped GENERATE group AS brand, COUNT(data) AS total;\nordered = ORDER counts BY total DESC;\ntop10 = LIMIT ordered 10;\nDUMP top10;" },
-    { name: '10. Spark: Top 5 Laptop đắt nhất', engine: 'spark', query: "from pyspark.sql import SparkSession\nfrom pyspark.sql.functions import col\n\nspark = SparkSession.builder.appName('TopExpensive').getOrCreate()\ndf = spark.read.option('delimiter', '\\t').csv('/user/hadoopthuc/project/input_laptop_products_common')\ndf = df.toDF('brand', 'category', 'date', 'discount', 'discount_rate', 'name', 'original_price', 'price', 'product_id', 'rating', 'sku', 'sold', 'sold_info', 'source', 'url')\n\ndf = df.withColumn('price', col('price').cast('double'))\ntop5 = df.filter(col('price') > 0).orderBy(col('price').desc()).select('name', 'price').limit(5)\ntop5.show(truncate=False)\nspark.stop()" },
+    { name: '9. Truy vấn bằng Pig: Số lượng theo hãng', engine: 'pig', query: "data = LOAD '/user/hadoopthuc/project/input_laptop_products_common' USING PigStorage('\\t') AS (brand:chararray, category:chararray, date:chararray, discount:double, discount_rate:double, name:chararray, original_price:double, price:double, product_id:chararray, rating:double, sku:chararray, sold:int, sold_info:chararray, source:chararray, url:chararray);\n\ngrouped = GROUP data BY brand;\ncounts = FOREACH grouped GENERATE group AS brand, COUNT(data) AS total;\nordered = ORDER counts BY total DESC;\ntop10 = LIMIT ordered 10;\nDUMP top10;" },
+    { name: '10. Spark: Top 5 món đắt nhất', engine: 'spark', query: "from pyspark.sql import SparkSession\nfrom pyspark.sql.functions import col\n\nspark = SparkSession.builder.appName('TopExpensive').getOrCreate()\ndf = spark.read.option('delimiter', '\\t').csv('/user/hadoopthuc/project/input_laptop_products_common')\ndf = df.toDF('brand', 'category', 'date', 'discount', 'discount_rate', 'name', 'original_price', 'price', 'product_id', 'rating', 'sku', 'sold', 'sold_info', 'source', 'url')\n\ndf = df.withColumn('price', col('price').cast('double'))\ntop5 = df.filter(col('price') > 0).orderBy(col('price').desc()).select('name', 'price').limit(5)\ntop5.show(truncate=False)\nspark.stop()" },
     { name: '11. Spark: Trung bình giảm giá theo hãng', engine: 'spark', query: "from pyspark.sql import SparkSession\nfrom pyspark.sql.functions import col, avg, round\n\nspark = SparkSession.builder.appName('AvgDiscount').getOrCreate()\ndf = spark.read.option('delimiter', '\\t').csv('/user/hadoopthuc/project/input_laptop_products_common')\ndf = df.toDF('brand', 'category', 'date', 'discount', 'discount_rate', 'name', 'original_price', 'price', 'product_id', 'rating', 'sku', 'sold', 'sold_info', 'source', 'url')\n\ndf = df.withColumn('discount_rate', col('discount_rate').cast('double'))\navg_discount = df.filter(col('discount_rate') > 0).groupBy('brand').agg(round(avg('discount_rate'), 2).alias('avg_discount')).orderBy(col('avg_discount').desc()).limit(10)\navg_discount.show()\nspark.stop()" },
-    { name: '12. Spark: Số lượng máy bán ra theo phân khúc', engine: 'spark', query: "from pyspark.sql import SparkSession\nfrom pyspark.sql.functions import col, sum, when\n\nspark = SparkSession.builder.appName('SoldBySegment').getOrCreate()\ndf = spark.read.option('delimiter', '\\t').csv('/user/hadoopthuc/project/input_laptop_products_common')\ndf = df.toDF('brand', 'category', 'date', 'discount', 'discount_rate', 'name', 'original_price', 'price', 'product_id', 'rating', 'sku', 'sold', 'sold_info', 'source', 'url')\n\ndf = df.withColumn('price', col('price').cast('double')).withColumn('sold', col('sold').cast('int'))\nsegments = df.withColumn('segment', \n    when(col('price') < 10000000, 'Gia re (<10Tr)')\n    .when((col('price') >= 10000000) & (col('price') <= 20000000), 'Tam trung (10-20Tr)')\n    .otherwise('Cao cap (>20Tr)')\n)\nresult = segments.groupBy('segment').agg(sum('sold').alias('total_sold')).orderBy(col('total_sold').desc())\nresult.show()\nspark.stop()" }
+    { name: '12. Spark: Số lượng máy bán ra theo phân khúc', engine: 'spark', query: "from pyspark.sql import SparkSession\nfrom pyspark.sql.functions import col, sum, when\n\nspark = SparkSession.builder.appName('SoldBySegment').getOrCreate()\ndf = spark.read.option('delimiter', '\\t').csv('/user/hadoopthuc/project/input_laptop_products_common')\ndf = df.toDF('brand', 'category', 'date', 'discount', 'discount_rate', 'name', 'original_price', 'price', 'product_id', 'rating', 'sku', 'sold', 'sold_info', 'source', 'url')\n\ndf = df.withColumn('price', col('price').cast('double')).withColumn('sold', col('sold').cast('int'))\nsegments = df.withColumn('segment', \n    when(col('price') < 10000000, 'Gia re (<10Tr)')\n    .when((col('price') >= 10000000) & (col('price') <= 20000000), 'Tam trung (10-20Tr)')\n    .otherwise('Cao cap (>20Tr)')\n)\nresult = segments.groupBy('segment').agg(sum('sold').alias('total_sold')).orderBy(col('total_sold').desc())\nresult.show()\nspark.stop()" },
+    { name: '13. Spark: So sánh Giá trung bình (TGDĐ vs Phong Vũ)', engine: 'spark', query: "from pyspark.sql import SparkSession\nfrom pyspark.sql.functions import col, avg, round, when\n\nspark = SparkSession.builder.appName('CompareStores').getOrCreate()\ndf = spark.read.option('delimiter', '\\t').csv('/user/hadoopthuc/project/input_laptop_products_common')\ndf = df.toDF('brand', 'category', 'date', 'discount', 'discount_rate', 'name', 'original_price', 'price', 'product_id', 'rating', 'sku', 'sold', 'sold_info', 'source', 'url')\n\ndf = df.withColumn('price', col('price').cast('double'))\nstores_df = df.filter(col('source').like('%thegioididong%') | col('source').like('%phongvu%'))\nstores_df = stores_df.withColumn('store', when(col('source').like('%thegioididong%'), 'TGDD').otherwise('PhongVu'))\n\navg_price = stores_df.filter(col('price') > 0).groupBy('store').agg(round(avg('price'), 0).alias('avg_price'))\navg_price.show()\nspark.stop()" }
   ];
 
   const [query, setQuery] = useState(templates[0].query);
@@ -27,6 +35,20 @@ const QueryEditor = () => {
   const [loading, setLoading] = useState(false);
   const [result, setResult] = useState(null);
   const [error, setError] = useState(null);
+
+  const handleDatasetChange = (e) => {
+    const newDatasetKey = e.target.value;
+    const oldDs = DATASETS[dataset];
+    const newDs = DATASETS[newDatasetKey];
+    
+    let updatedQuery = query;
+    // Replace all occurrences of old table/path with new table/path
+    updatedQuery = updatedQuery.replaceAll(oldDs.hive, newDs.hive);
+    updatedQuery = updatedQuery.replaceAll(oldDs.hdfs, newDs.hdfs);
+    
+    setQuery(updatedQuery);
+    setDataset(newDatasetKey);
+  };
 
   const handleRunQuery = async () => {
     if (!query.trim()) return alert("Vui lòng nhập câu truy vấn!");
@@ -54,10 +76,10 @@ const QueryEditor = () => {
     }
   };
 
-  const parsedChartData = useMemo(() => {
-    if (!result) return null;
+  const { chartData } = useMemo(() => {
+    if (!result) return { chartData: null };
     const lines = result.trim().split('\n');
-    const data = [];
+    const cData = [];
     
     const isSpark = lines.some(l => l.includes('|'));
     
@@ -67,19 +89,33 @@ const QueryEditor = () => {
       let parts = [];
       if (isSpark && line.includes('|')) {
         parts = line.split('|').map(s => s.trim()).filter(s => s !== '');
+        // Ignore the header line for spark chart if it matches known column names
+        if (parts.length > 0 && (parts[0] === 'name' || parts[0] === 'brand' || parts[0] === 'store' || parts[0] === 'segment' || parts[0] === 'source')) {
+          continue;
+        }
       } else {
         parts = line.split('\t');
       }
       
       if (parts.length >= 2) {
-        const name = parts[0].trim();
-        const val = parseFloat(parts[1].trim());
-        if (!isNaN(val) && name !== '' && name !== 'brand' && name !== 'segment' && name !== 'source') {
-          data.push({ name: name.substring(0, 20), value: val });
+        let name = parts[0].trim();
+        let valStr = parts[parts.length - 1].trim();
+        let val = parseFloat(valStr.replace(/,/g, ''));
+        
+        // If last column isn't a number, try the second column
+        if (isNaN(val)) {
+             valStr = parts[1].trim();
+             val = parseFloat(valStr.replace(/,/g, ''));
+        }
+
+        if (!isNaN(val) && name !== '' && name !== 'brand' && name !== 'segment' && name !== 'source' && name !== 'store') {
+          cData.push({ name: name.substring(0, 25), value: val });
         }
       }
     }
-    return data.length > 1 ? data.slice(0, 15) : null;
+    return { 
+      chartData: cData.length > 1 ? cData.slice(0, 15) : null
+    };
   }, [result]);
 
   return (
@@ -96,8 +132,25 @@ const QueryEditor = () => {
 
       <div className="bg-white border border-slate-200 rounded-xl shadow-sm overflow-hidden flex flex-col flex-1">
         {/* Toolbar */}
-        <div className="bg-slate-50 border-b border-slate-200 p-4 flex items-center justify-between">
-          <div className="flex items-center gap-4">
+        <div className="bg-slate-50 border-b border-slate-200 p-4 flex flex-wrap items-center justify-between gap-y-3">
+          <div className="flex flex-wrap items-center gap-4">
+            
+            <div className="flex items-center gap-2 text-slate-700">
+              <HardDrive size={18} className="text-orange-600"/>
+              <span className="font-semibold text-sm">Dữ liệu:</span>
+              <select 
+                value={dataset}
+                onChange={handleDatasetChange}
+                className="bg-white border border-slate-300 rounded px-3 py-1.5 text-sm text-slate-800 focus:ring-1 focus:ring-blue-500 outline-none shadow-sm"
+              >
+                <option value="laptop">Laptop</option>
+                <option value="keyboard">Bàn phím (Keyboard)</option>
+                <option value="monitor">Màn hình (Monitor)</option>
+              </select>
+            </div>
+            
+            <div className="w-px h-6 bg-slate-300 mx-2 hidden sm:block"></div>
+
             <div className="flex items-center gap-2 text-slate-700">
               <Database size={18} className="text-blue-600"/>
               <span className="font-semibold text-sm">Engine:</span>
@@ -109,7 +162,15 @@ const QueryEditor = () => {
                   const firstTemplateIdx = templates.findIndex(t => t.engine === newEngine);
                   if (firstTemplateIdx !== -1) {
                     setSelectedTemplate(firstTemplateIdx);
-                    setQuery(templates[firstTemplateIdx].query);
+                    
+                    let newQ = templates[firstTemplateIdx].query;
+                    const baseDs = DATASETS['laptop'];
+                    const targetDs = DATASETS[dataset];
+                    if (dataset !== 'laptop') {
+                      newQ = newQ.replaceAll(baseDs.hive, targetDs.hive);
+                      newQ = newQ.replaceAll(baseDs.hdfs, targetDs.hdfs);
+                    }
+                    setQuery(newQ);
                   }
                 }}
                 className="bg-white border border-slate-300 rounded px-3 py-1.5 text-sm text-slate-800 focus:ring-1 focus:ring-blue-500 outline-none shadow-sm"
@@ -120,20 +181,28 @@ const QueryEditor = () => {
               </select>
             </div>
             
-            <div className="w-px h-6 bg-slate-300 mx-2"></div>
+            <div className="w-px h-6 bg-slate-300 mx-2 hidden sm:block"></div>
             
             <div className="flex items-center gap-2 text-slate-700">
               <FileCode size={18} className="text-emerald-600"/>
-              <span className="font-semibold text-sm">Mẫu Phân Tích:</span>
+              <span className="font-semibold text-sm">Phân Tích:</span>
               <select 
                 value={selectedTemplate}
                 onChange={(e) => {
                   const idx = parseInt(e.target.value);
                   setSelectedTemplate(idx);
                   setEngine(templates[idx].engine);
-                  setQuery(templates[idx].query);
+                  
+                  let newQ = templates[idx].query;
+                  const baseDs = DATASETS['laptop'];
+                  const targetDs = DATASETS[dataset];
+                  if (dataset !== 'laptop') {
+                    newQ = newQ.replaceAll(baseDs.hive, targetDs.hive);
+                    newQ = newQ.replaceAll(baseDs.hdfs, targetDs.hdfs);
+                  }
+                  setQuery(newQ);
                 }}
-                className="bg-white border border-slate-300 rounded px-3 py-1.5 text-sm text-slate-800 focus:ring-1 focus:ring-blue-500 outline-none max-w-sm truncate shadow-sm"
+                className="bg-white border border-slate-300 rounded px-3 py-1.5 text-sm text-slate-800 focus:ring-1 focus:ring-blue-500 outline-none max-w-[200px] sm:max-w-xs lg:max-w-sm truncate shadow-sm"
               >
                 {templates.map((tpl, idx) => (
                   tpl.engine === engine ? <option key={idx} value={idx}>{tpl.name}</option> : null
@@ -145,7 +214,7 @@ const QueryEditor = () => {
           <button 
             onClick={handleRunQuery}
             disabled={loading}
-            className="flex items-center gap-2 bg-blue-600 hover:bg-blue-700 disabled:bg-slate-300 disabled:text-slate-500 text-white px-5 py-2 rounded font-medium transition-colors shadow-sm"
+            className="flex items-center gap-2 bg-blue-600 hover:bg-blue-700 disabled:bg-slate-300 disabled:text-slate-500 text-white px-5 py-2 rounded font-medium transition-colors shadow-sm w-full sm:w-auto justify-center mt-2 sm:mt-0"
           >
             {loading ? <RefreshCw size={18} className="animate-spin" /> : <Play size={18} />}
             {loading ? "Đang chạy..." : "Run Query"}
@@ -188,22 +257,22 @@ const QueryEditor = () => {
               ) : result ? (
                 <>
                   <pre className="text-slate-700 font-mono text-sm whitespace-pre-wrap bg-slate-50 p-4 border border-slate-200 rounded">{result}</pre>
-                  
-                  {parsedChartData && (
+
+                  {chartData && (
                     <div className="border border-indigo-100 bg-indigo-50/30 rounded-lg p-4 animate-in slide-in-from-bottom-4 fade-in duration-500">
                       <h3 className="font-semibold text-indigo-900 mb-4 flex items-center gap-2">
                         <BarChart3 className="text-indigo-600" size={18} />
-                        Auto-generated Chart từ kết quả Hadoop
+                        Chart từ kết quả Hadoop
                       </h3>
                       <div className="h-64 w-full">
                         <ResponsiveContainer width="100%" height="100%">
-                          <BarChart data={parsedChartData}>
+                          <BarChart data={chartData}>
                             <CartesianGrid strokeDasharray="3 3" vertical={false} stroke="#e0e7ff" />
                             <XAxis dataKey="name" stroke="#6366f1" tick={{fontSize: 12}} />
                             <YAxis stroke="#6366f1" tick={{fontSize: 12}} />
                             <Tooltip cursor={{fill: '#e0e7ff', opacity: 0.5}} />
                             <Bar dataKey="value" name="Giá trị" radius={[4, 4, 0, 0]}>
-                              {parsedChartData.map((entry, index) => (
+                              {chartData.map((entry, index) => (
                                 <Cell key={`cell-${index}`} fill={COLORS[index % COLORS.length]} />
                               ))}
                             </Bar>

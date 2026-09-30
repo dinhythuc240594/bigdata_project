@@ -1,4 +1,4 @@
-﻿import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect } from 'react';
 import { 
   BarChart, Bar, LineChart, Line, PieChart, Pie, Cell, 
   Radar, RadarChart, PolarGrid, PolarAngleAxis, PolarRadiusAxis,
@@ -272,6 +272,17 @@ const Dashboard = () => {
           </div>
         </div>
 
+      </div>
+
+      {/* Danger Zone */}
+      <div className="mt-12 pt-8 border-t border-slate-200 flex justify-end">
+        <button 
+          onClick={() => handleRunJob('reset', 'Xóa toàn bộ biểu đồ')}
+          disabled={runningJob !== null}
+          className="bg-red-50 hover:bg-red-100 text-red-600 border border-red-200 disabled:opacity-50 px-5 py-2.5 rounded font-medium transition-all shadow-sm flex items-center gap-2">
+          <XCircle size={18} />
+          Reset Dashboard (Xóa Data)
+        </button>
       </div>
     </div>
   );
