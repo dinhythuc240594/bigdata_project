@@ -1,16 +1,17 @@
 import React, { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { LayoutDashboard, Database, HardDrive, Settings, Search, Bell, User, RefreshCw } from 'lucide-react';
+import { LayoutDashboard, Database, HardDrive, Settings, Search, Bell, User, RefreshCw, Menu } from 'lucide-react';
 
 const Layout = ({ children }) => {
   const location = useLocation();
   const [activeTasks, setActiveTasks] = useState([]);
   const [showTasks, setShowTasks] = useState(false);
+  const [isCollapsed, setIsCollapsed] = useState(false);
 
   useEffect(() => {
     const fetchTasks = async () => {
       try {
-        const res = await fetch('http://localhost:8000/api/active-tasks/');
+        const res = await fetch('http://192.168.10.5:8000/api/active-tasks/');
         if(res.ok) {
           const data = await res.json();
           setActiveTasks(data);
@@ -23,63 +24,68 @@ const Layout = ({ children }) => {
   }, []);
 
   return (
-    <div className="flex h-screen bg-slate-900 text-slate-100 font-sans">
+    <div className="flex h-screen bg-slate-50 text-slate-800 font-sans">
       {/* Sidebar */}
-      <aside className="w-64 bg-slate-950/50 backdrop-blur-xl border-r border-slate-800/60 flex flex-col transition-all duration-300">
-        <div className="h-16 flex items-center px-6 border-b border-slate-800/60">
-          <div className="flex items-center gap-2 text-indigo-400 font-bold text-xl tracking-tight">
-            <Database className="w-6 h-6" />
-            <span>BigData Pro</span>
+      <aside className={`bg-blue-900 text-blue-50 flex flex-col transition-all duration-300 shadow-xl z-20 ${isCollapsed ? 'w-20' : 'w-64'}`}>
+        <div className={`h-16 flex items-center border-b border-blue-800 ${isCollapsed ? 'justify-center px-0' : 'px-6'}`}>
+          <div className="flex items-center gap-2 text-white font-bold text-xl tracking-tight" title={isCollapsed ? "BigData" : undefined}>
+            <Database className="w-6 h-6 flex-shrink-0" />
+            {!isCollapsed && <span>BigData</span>}
           </div>
         </div>
         
-        <nav className="flex-1 py-6 px-4 flex flex-col gap-2">
-          <NavItem icon={<LayoutDashboard size={20} />} label="Dashboard" to="/" active={location.pathname === '/'} />
-          <NavItem icon={<Database size={20} />} label="Data Table" to="/data-table" active={location.pathname === '/data-table'} />
-          <NavItem icon={<HardDrive size={20} />} label="Task Manager" to="/task-manager" active={location.pathname === '/task-manager'} />
-          <NavItem icon={<Search size={20} />} label="Query Editor" to="/query-editor" active={location.pathname === '/query-editor'} />
-          <NavItem icon={<Settings size={20} />} label="Settings" to="/settings" active={location.pathname === '/settings'} />
+        <nav className="flex-1 py-6 px-4 flex flex-col gap-1">
+          <NavItem icon={<LayoutDashboard size={20} />} label="Dashboard" to="/" active={location.pathname === '/'} isCollapsed={isCollapsed} />
+          <NavItem icon={<Database size={20} />} label="Data Table" to="/data-table" active={location.pathname === '/data-table'} isCollapsed={isCollapsed} />
+          <NavItem icon={<HardDrive size={20} />} label="Task Manager" to="/task-manager" active={location.pathname === '/task-manager'} isCollapsed={isCollapsed} />
+          <NavItem icon={<Search size={20} />} label="Query Editor" to="/query-editor" active={location.pathname === '/query-editor'} isCollapsed={isCollapsed} />
+          <NavItem icon={<Settings size={20} />} label="Settings" to="/settings" active={location.pathname === '/settings'} isCollapsed={isCollapsed} />
         </nav>
         
-        <div className="p-4 border-t border-slate-800/60">
-          <div className="flex items-center gap-3 p-2 rounded-lg bg-slate-800/30">
-            <div className="w-10 h-10 rounded-full bg-gradient-to-tr from-indigo-500 to-purple-500 flex items-center justify-center font-bold">
+        <div className="p-4 border-t border-blue-800">
+          <div className={`flex items-center ${isCollapsed ? 'justify-center p-0 w-10 h-10 mx-auto' : 'gap-3 p-2'} rounded-lg bg-blue-800/50 hover:bg-blue-800 transition-colors cursor-pointer`} title={isCollapsed ? "Admin User" : undefined}>
+            <div className="w-10 h-10 rounded-full bg-white text-blue-900 flex items-center justify-center font-bold flex-shrink-0">
               AD
             </div>
-            <div>
-              <p className="text-sm font-medium">Admin User</p>
-              <p className="text-xs text-slate-400">System Admin</p>
-            </div>
+            {!isCollapsed && (
+              <div className="overflow-hidden">
+                <p className="text-sm font-medium text-white whitespace-nowrap">Admin User</p>
+                <p className="text-xs text-blue-300 whitespace-nowrap">System Admin</p>
+              </div>
+            )}
           </div>
         </div>
       </aside>
 
       {/* Main Content */}
-      <main className="flex-1 flex flex-col overflow-hidden relative">
-        {/* Decorative background gradients */}
-        <div className="absolute top-0 inset-x-0 h-64 bg-gradient-to-b from-indigo-900/20 to-transparent -z-10" />
-        <div className="absolute top-0 right-0 w-[500px] h-[500px] bg-purple-500/10 blur-[100px] rounded-full -z-10 mix-blend-screen" />
-        <div className="absolute bottom-0 left-0 w-[500px] h-[500px] bg-blue-500/10 blur-[100px] rounded-full -z-10 mix-blend-screen" />
-
+      <main className="flex-1 flex flex-col overflow-hidden relative bg-slate-50">
         {/* Header */}
-        <header className="h-16 flex items-center justify-between px-8 border-b border-slate-800/30 bg-slate-900/50 backdrop-blur-md z-50 relative">
-          <div className="flex items-center bg-slate-800/50 border border-slate-700/50 rounded-full px-4 py-2 w-96 focus-within:ring-2 focus-within:ring-indigo-500/50 transition-all">
-            <Search className="w-4 h-4 text-slate-400" />
-            <input 
-              type="text" 
-              placeholder="Search data, jobs..." 
-              className="bg-transparent border-none outline-none text-sm text-slate-200 ml-2 w-full placeholder:text-slate-500"
-            />
+        <header className="h-16 flex items-center justify-between px-8 border-b border-slate-200 bg-white z-50 shadow-sm relative">
+          <div className="flex items-center gap-4">
+            <button 
+              onClick={() => setIsCollapsed(!isCollapsed)}
+              className="p-2 text-slate-500 hover:text-slate-800 transition-colors bg-slate-100 hover:bg-slate-200 rounded-lg"
+            >
+              <Menu className="w-5 h-5" />
+            </button>
+            <div className="flex items-center bg-slate-100 border border-slate-200 rounded px-4 py-2 w-80 focus-within:ring-2 focus-within:ring-blue-500/50 transition-all">
+              <Search className="w-4 h-4 text-slate-400" />
+              <input 
+                type="text" 
+                placeholder="Search data, jobs..." 
+                className="bg-transparent border-none outline-none text-sm text-slate-800 ml-2 w-full placeholder:text-slate-500"
+              />
+            </div>
           </div>
           
           <div className="flex items-center gap-4 relative">
             <button 
               onClick={() => setShowTasks(!showTasks)}
-              className="p-2 text-slate-400 hover:text-slate-200 transition-colors relative"
+              className="p-2 text-slate-500 hover:text-slate-800 transition-colors relative"
             >
               <Bell className="w-5 h-5" />
               {activeTasks.length > 0 && (
-                <span className="absolute top-0 right-0 w-4 h-4 bg-pink-500 rounded-full flex items-center justify-center text-[10px] font-bold text-white shadow-lg animate-pulse">
+                <span className="absolute top-0 right-0 w-4 h-4 bg-red-500 rounded-full flex items-center justify-center text-[10px] font-bold text-white shadow-sm animate-pulse">
                   {activeTasks.length}
                 </span>
               )}
@@ -87,27 +93,27 @@ const Layout = ({ children }) => {
 
             {/* Dropdown thông báo Task */}
             {showTasks && (
-              <div className="absolute top-full right-0 mt-2 w-72 bg-slate-800 border border-slate-700 rounded-xl shadow-2xl overflow-hidden z-50">
-                <div className="p-3 border-b border-slate-700 bg-slate-800/80 backdrop-blur-sm flex justify-between items-center">
-                  <span className="text-sm font-semibold text-slate-200">Tiến trình đang chạy</span>
-                  <span className="text-xs bg-indigo-500/20 text-indigo-400 px-2 py-0.5 rounded-full">{activeTasks.length} tasks</span>
+              <div className="absolute top-full right-0 mt-2 w-72 bg-white border border-slate-200 rounded-xl shadow-lg overflow-hidden z-50">
+                <div className="p-3 border-b border-slate-200 bg-slate-50 flex justify-between items-center">
+                  <span className="text-sm font-semibold text-slate-800">Tiến trình đang chạy</span>
+                  <span className="text-xs bg-blue-50 text-blue-600 px-2 py-0.5 rounded-full">{activeTasks.length} tasks</span>
                 </div>
                 <div className="max-h-64 overflow-y-auto custom-scrollbar">
                   {activeTasks.length === 0 ? (
-                    <div className="p-4 text-center text-sm text-slate-400">
+                    <div className="p-4 text-center text-sm text-slate-500">
                       Không có tiến trình nào đang chạy.
                     </div>
                   ) : (
                     activeTasks.map(task => (
-                      <div key={task.id} className="p-3 border-b border-slate-700/50 hover:bg-slate-700/30 transition-colors flex items-start gap-3">
+                      <div key={task.id} className="p-3 border-b border-slate-100 hover:bg-slate-50 transition-colors flex items-start gap-3">
                         <div className="mt-1">
-                          <RefreshCw className="w-4 h-4 text-indigo-400 animate-spin" />
+                          <RefreshCw className="w-4 h-4 text-blue-600 animate-spin" />
                         </div>
                         <div>
-                          <p className="text-sm font-medium text-slate-200 truncate pr-2">{task.name}</p>
+                          <p className="text-sm font-medium text-slate-800 truncate pr-2">{task.name}</p>
                           <div className="flex items-center gap-2 mt-1">
-                            <span className="text-xs text-slate-400">Bắt đầu: {task.startTime}</span>
-                            <span className="text-[10px] font-mono bg-amber-500/10 text-amber-400 px-1.5 py-0.5 rounded">RUNNING</span>
+                            <span className="text-xs text-slate-500">Bắt đầu: {task.startTime}</span>
+                            <span className="text-[10px] font-mono bg-blue-50 text-blue-600 px-1.5 py-0.5 rounded">RUNNING</span>
                           </div>
                         </div>
                       </div>
@@ -128,16 +134,16 @@ const Layout = ({ children }) => {
   );
 };
 
-const NavItem = ({ icon, label, to, active }) => {
+const NavItem = ({ icon, label, to, active, isCollapsed }) => {
   return (
     <Link to={to} className={`
-      flex items-center gap-3 px-4 py-3 rounded-xl transition-all duration-300 w-full text-left
+      flex items-center ${isCollapsed ? 'justify-center px-0' : 'gap-3 px-4'} py-3 rounded transition-all duration-200 w-full text-left
       ${active 
-        ? 'bg-gradient-to-r from-indigo-500/20 to-purple-500/10 text-indigo-300 border border-indigo-500/20 shadow-[0_0_15px_rgba(99,102,241,0.1)]' 
-        : 'text-slate-400 hover:bg-slate-800/50 hover:text-slate-200'}
-    `}>
+        ? 'bg-blue-800/80 text-white font-semibold' 
+        : 'text-blue-200 hover:bg-blue-800/40 hover:text-white'}
+    `} title={isCollapsed ? label : undefined}>
       {icon}
-      <span className="font-medium text-sm">{label}</span>
+      {!isCollapsed && <span className="font-medium text-sm whitespace-nowrap">{label}</span>}
     </Link>
   );
 };

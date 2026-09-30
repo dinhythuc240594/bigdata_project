@@ -34,7 +34,8 @@ class HadoopTaskRunner:
         client = None
         try:
             client = self._get_client()
-            stdin, stdout, stderr = client.exec_command(command)
+            full_command = f"source ~/.bashrc && export JAVA_HOME=/usr/lib/jvm/java-1.8.0-openjdk-amd64 && export HADOOP_CONF_DIR=/home/hadoopthuc/hadoop/etc/hadoop && export HADOOP_HOME=/home/hadoopthuc/hadoop && {command}"
+            stdin, stdout, stderr = client.exec_command(full_command)
             exit_status = stdout.channel.recv_exit_status()
             out = stdout.read().decode('utf-8').strip()
             err = stderr.read().decode('utf-8').strip()

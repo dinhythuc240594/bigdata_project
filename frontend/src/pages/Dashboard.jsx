@@ -1,23 +1,24 @@
-import React, { useState, useEffect } from 'react';
+﻿import React, { useState, useEffect } from 'react';
 import { 
   BarChart, Bar, LineChart, Line, PieChart, Pie, Cell, 
+  Radar, RadarChart, PolarGrid, PolarAngleAxis, PolarRadiusAxis,
   XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer, AreaChart, Area
 } from 'recharts';
-import { Activity, Users, FileText, Database, ArrowUpRight, ArrowDownRight, CloudDownload, Server, CheckCircle2, XCircle } from 'lucide-react';
+import { Activity, Users, FileText, Database, ArrowUpRight, ArrowDownRight, CloudDownload, Server, CheckCircle2, XCircle, Play } from 'lucide-react';
 
 const COLORS = ['#6366f1', '#10b981', '#f59e0b', '#ec4899', '#8b5cf6'];
 const CHART_TEXT_COLOR = '#94a3b8';
-const CHART_GRID_COLOR = '#334155';
+const CHART_GRID_COLOR = '#e2e8f0';
 
 const CustomTooltip = ({ active, payload, label }) => {
   if (active && payload && payload.length) {
     return (
-      <div className="bg-slate-900/90 backdrop-blur-md border border-slate-700 p-3 rounded-xl shadow-xl">
-        <p className="text-slate-300 font-medium mb-1">{label}</p>
+      <div className="bg-white border border-slate-200 p-3 rounded shadow-sm">
+        <p className="text-slate-800 font-medium mb-1">{label}</p>
         {payload.map((entry, index) => (
           <p key={index} style={{ color: entry.color }} className="text-sm font-semibold flex items-center gap-2">
             <span className="w-2 h-2 rounded-full inline-block" style={{ backgroundColor: entry.color }}></span>
-            {entry.name}: {entry.value}
+            {entry.name}: {typeof entry.value === 'number' && entry.value > 1000 ? entry.value.toLocaleString('vi-VN') : entry.value}
           </p>
         ))}
       </div>
@@ -30,12 +31,16 @@ const Dashboard = () => {
   const [data, setData] = useState(null);
   const [clusterData, setClusterData] = useState([]);
   const [loading, setLoading] = useState(true);
-  const [actionLoading, setActionLoading] = useState(false);
+  const [runningJob, setRunningJob] = useState(null);
+
+  const fetchDashboardData = () => {
+    return fetch(`http://${window.location.hostname}:8000/api/dashboard-stats/`).then(res => res.json());
+  };
 
   useEffect(() => {
     Promise.all([
-      fetch('http://localhost:8000/api/dashboard-stats/').then(res => res.json()),
-      fetch('http://localhost:8000/api/cluster-status/').then(res => res.json())
+      fetchDashboardData(),
+      fetch(`http://${window.location.hostname}:8000/api/cluster-status/`).then(res => res.json())
     ])
     .then(([stats, cluster]) => {
       setData(stats);
@@ -48,206 +53,222 @@ const Dashboard = () => {
     });
   }, []);
 
-  const handleRunAction = (actionUrl, actionName) => {
-    setActionLoading(true);
-    fetch(`http://localhost:8000/api/${actionUrl}`, { method: 'POST' })
-      .then(res => res.json())
-      .then(result => {
-        setActionLoading(false);
-        if (result.status === 'success') {
-          alert(`${actionName} thành công!\nLogs: ${result.logs || result.message}`);
-        } else {
-          alert(`${actionName} lỗi:\n${result.message}\n${result.error_logs}`);
-        }
-      })
-      .catch(err => {
-        setActionLoading(false);
-        alert(`Lỗi khi gọi API ${actionName}: ${err}`);
-      });
+  const handleRunJob = (jobId, jobName) => {
+    setRunningJob(jobId);
+    fetch(`http://${window.location.hostname}:8000/api/run-dashboard-job/`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ job_id: jobId })
+    })
+    .then(res => res.json())
+    .then(result => {
+      if (result.status === 'success') {
+        alert(result.message);
+        // Refresh data
+        fetchDashboardData().then(stats => {
+          setData(stats);
+          setRunningJob(null);
+        });
+      } else {
+        alert(`Lỗi chạy Job: ${result.message}`);
+        setRunningJob(null);
+      }
+    })
+    .catch(err => {
+      alert(`Lỗi mạng: ${err}`);
+      setRunningJob(null);
+    });
   };
 
   if (loading || !data) {
-    return <div className="text-white text-center py-20 text-xl font-medium animate-pulse">Đang tải dữ liệu hệ thống...</div>;
+    return <div className="text-slate-800 text-center py-20 text-xl font-medium animate-pulse">Đang tải dữ liệu từ Hadoop...</div>;
   }
 
   return (
-    <div className="space-y-8 animate-in fade-in duration-500">
+    <div className="space-y-8 animate-in fade-in duration-500 pb-10">
       <div className="flex flex-col md:flex-row md:items-center justify-between gap-4">
+
         <div>
-          <h1 className="text-3xl font-bold text-white tracking-tight">Hệ Thống Phân Tích</h1>
-          <p className="text-slate-400 mt-1">Tổng quan dữ liệu thời gian thực từ cụm Hadoop.</p>
-        </div>
-        <div className="flex items-center gap-3">
-          <button 
-            onClick={() => handleRunAction('run-sqoop/', 'Sqoop Import')}
-            disabled={actionLoading}
-            className="bg-emerald-600 hover:bg-emerald-500 disabled:opacity-50 text-white px-5 py-2.5 rounded-lg font-medium transition-all shadow-[0_0_15px_rgba(16,185,129,0.3)] hover:shadow-[0_0_25px_rgba(16,185,129,0.5)] flex items-center gap-2">
-            <CloudDownload size={18} />
-            Chạy Sqoop Import
-          </button>
-          <button 
-            onClick={() => handleRunAction('run-mapreduce/', 'MapReduce')}
-            disabled={actionLoading}
-            className="bg-indigo-600 hover:bg-indigo-500 disabled:opacity-50 text-white px-5 py-2.5 rounded-lg font-medium transition-all shadow-[0_0_15px_rgba(79,70,229,0.3)] hover:shadow-[0_0_25px_rgba(79,70,229,0.5)] flex items-center gap-2">
-            <Database size={18} />
-            Chạy MapReduce Mới
-          </button>
+          <h1 className="text-3xl font-bold text-slate-900 tracking-tight">Trung Tâm Phân Tích Big Data</h1>
+          <p className="text-slate-500 mt-1">Các biểu đồ so sánh đối thủ cạnh tranh (TGDĐ vs Phong Vũ)</p>
         </div>
       </div>
 
       {/* KPI Cards */}
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-        <StatCard title="Tổng Lượng Dữ Liệu" value={data.kpis?.totalData || "0 GB"} icon={<Database />} trend={data.kpis?.totalDataTrend || "+0%"} isUp={data.kpis?.totalDataIsUp ?? true} />
-        <StatCard title="Truy Vấn MapReduce" value={data.kpis?.mapReduceQueries || "0"} icon={<Activity />} trend={data.kpis?.mapReduceTrend || "+0%"} isUp={data.kpis?.mapReduceIsUp ?? true} />
-        <StatCard title="Tài Khoản Đang Active" value={data.kpis?.activeAccounts || "0"} icon={<Users />} trend={data.kpis?.activeAccountsTrend || "0%"} isUp={data.kpis?.activeAccountsIsUp ?? false} />
-        <StatCard title="Báo Cáo Đã Tạo" value={data.kpis?.reportsGenerated || "0"} icon={<FileText />} trend={data.kpis?.reportsTrend || "+0%"} isUp={data.kpis?.reportsIsUp ?? true} />
-      </div>
-
-      {/* Cluster Health Section */}
-      <div className="bg-slate-800/40 backdrop-blur-md border border-slate-700/50 rounded-2xl p-6 shadow-lg">
-        <div className="flex items-center gap-3 mb-6">
-          <Server className="w-6 h-6 text-indigo-400" />
-          <h2 className="text-xl font-semibold text-white">Cluster Health (Hadoop Nodes)</h2>
-        </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-          {clusterData.map((node, idx) => (
-            <div key={idx} className="bg-slate-900/50 border border-slate-700 rounded-xl p-5 flex items-center justify-between">
-              <div className="flex items-center gap-4">
-                <div className={`p-3 rounded-full ${node.status === 'Online' ? 'bg-emerald-500/10 text-emerald-400' : 'bg-rose-500/10 text-rose-400'}`}>
-                  {node.status === 'Online' ? <CheckCircle2 className="w-6 h-6" /> : <XCircle className="w-6 h-6" />}
-                </div>
-                <div>
-                  <h3 className="font-semibold text-slate-200 text-lg">{node.name}</h3>
-                  <p className="text-sm text-slate-400 mt-0.5">{node.ip}</p>
-                </div>
-              </div>
-              <div className="text-right">
-                <div className="text-sm font-medium text-slate-300">{node.role}</div>
-                <div className={`text-xs mt-1 font-bold ${node.status === 'Online' ? 'text-emerald-400' : 'text-rose-400'}`}>
-                  {node.status === 'Online' ? 'RUNNING' : 'DOWN'}
-                </div>
-              </div>
-            </div>
-          ))}
-        </div>
+        <StatCard title="Tổng Dữ Liệu" value={data.kpis?.totalData} icon={<Database />} trend={data.kpis?.totalDataTrend} isUp={true} />
+        <StatCard title="Tiến Trình MapReduce" value={data.kpis?.mapReduceQueries} icon={<Activity />} trend={data.kpis?.mapReduceTrend} isUp={true} />
+        <StatCard title="Phân Tích Đối Thủ" value="TGDĐ / Phong Vũ" icon={<Users />} trend="Real-time" isUp={true} />
+        <StatCard title="Trạng Thái Report" value={data.kpis?.reportsGenerated} icon={<FileText />} trend={data.kpis?.reportsTrend} isUp={true} />
       </div>
 
       {/* Charts Grid */}
-      <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
         
-        {/* Main Area Chart - Spans 2 cols */}
-        <div className="lg:col-span-2 bg-slate-800/40 backdrop-blur-md border border-slate-700/50 p-6 rounded-2xl shadow-lg relative overflow-hidden group">
-          <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-indigo-500 to-purple-500 opacity-0 group-hover:opacity-100 transition-opacity"></div>
-          <h2 className="text-lg font-semibold text-slate-200 mb-6 font-heading">Giá Bán Trung Bình Laptop Theo Hãng (Area)</h2>
-          <div className="h-80">
-            <ResponsiveContainer width="100%" height="100%">
-              <AreaChart data={data.areaData}>
-                <defs>
-                  <linearGradient id="colorTraffic" x1="0" y1="0" x2="0" y2="1">
-                    <stop offset="5%" stopColor="#6366f1" stopOpacity={0.4}/>
-                    <stop offset="95%" stopColor="#6366f1" stopOpacity={0}/>
-                  </linearGradient>
-                </defs>
-                <CartesianGrid strokeDasharray="3 3" vertical={false} stroke={CHART_GRID_COLOR} />
-                <XAxis dataKey="name" stroke={CHART_TEXT_COLOR} tick={{fill: CHART_TEXT_COLOR}} axisLine={false} />
-                <YAxis stroke={CHART_TEXT_COLOR} tick={{fill: CHART_TEXT_COLOR}} axisLine={false} tickLine={false} width={80} tickFormatter={(value) => `${(value / 1000000).toFixed(1)}M`} />
-                <Tooltip content={<CustomTooltip />} />
-                <Area type="monotone" dataKey="value" name="Giá (VNĐ)" stroke="#6366f1" strokeWidth={3} fillOpacity={1} fill="url(#colorTraffic)" />
-              </AreaChart>
-            </ResponsiveContainer>
+        {/* Chart 1: Grouped Bar (Price Comparison) */}
+        <div className="bg-white border border-slate-200 p-6 rounded shadow-sm relative overflow-hidden">
+          <div className="flex justify-between items-center mb-6">
+            <h2 className="text-lg font-semibold text-slate-800">1. So sánh Giá bán (TGDĐ vs Phong Vũ)</h2>
+            <button 
+              onClick={() => handleRunJob(1, 'So sánh Giá bán')}
+              disabled={runningJob !== null}
+              className="bg-orange-500 hover:bg-orange-600 disabled:opacity-50 text-white px-3 py-1.5 rounded text-sm font-medium transition-all flex items-center gap-2">
+              {runningJob === 1 ? <Activity className="animate-spin w-4 h-4" /> : <Play className="w-4 h-4" />}
+              Chạy MapReduce
+            </button>
+          </div>
+          <div className="h-72">
+            {data.chart1 && data.chart1.length > 0 ? (
+              <ResponsiveContainer width="100%" height="100%">
+                <BarChart data={data.chart1}>
+                  <CartesianGrid strokeDasharray="3 3" vertical={false} stroke={CHART_GRID_COLOR} />
+                  <XAxis dataKey="name" stroke="#64748b" tick={{fill: "#64748b"}} />
+                  <YAxis stroke="#64748b" tick={{fill: "#64748b"}} tickFormatter={(val) => `${(val/1000000).toFixed(0)}M`} />
+                  <Tooltip content={<CustomTooltip />} />
+                  <Legend />
+                  <Bar dataKey="tgdd" name="TGDĐ (VNĐ)" fill="#f59e0b" radius={[4, 4, 0, 0]} />
+                  <Bar dataKey="pv" name="Phong Vũ (VNĐ)" fill="#3b82f6" radius={[4, 4, 0, 0]} />
+                </BarChart>
+              </ResponsiveContainer>
+            ) : (
+              <div className="h-full flex items-center justify-center text-slate-400 border-2 border-dashed border-slate-200 rounded">
+                Chưa có dữ liệu. Vui lòng bấm Chạy MapReduce.
+              </div>
+            )}
           </div>
         </div>
 
-        {/* Category Pie Chart (Static) */}
-        <div className="bg-slate-800/40 backdrop-blur-md border border-slate-700/50 p-6 rounded-2xl shadow-lg group relative overflow-hidden">
-          <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-blue-500 to-cyan-500 opacity-0 group-hover:opacity-100 transition-opacity"></div>
-          <h2 className="text-lg font-semibold text-slate-200 mb-6 font-heading">Tỷ Trọng Ngành Hàng (Pie)</h2>
-          <div className="h-80">
-            <ResponsiveContainer width="100%" height="100%">
-              <PieChart>
-                <Pie data={data.categoryPie} cx="50%" cy="50%" outerRadius={100} dataKey="value" stroke="none" label>
-                  {data.categoryPie.map((entry, index) => (
-                    <Cell key={`cell-${index}`} fill={COLORS[index % COLORS.length]} />
-                  ))}
-                </Pie>
-                <Tooltip content={<CustomTooltip />} />
-                <Legend wrapperStyle={{ color: CHART_TEXT_COLOR }} />
-              </PieChart>
-            </ResponsiveContainer>
+        {/* Chart 2: Doughnut (Volume Comparison) */}
+        <div className="bg-white border border-slate-200 p-6 rounded shadow-sm relative overflow-hidden">
+          <div className="flex justify-between items-center mb-6">
+            <h2 className="text-lg font-semibold text-slate-800">2. So sánh Kho Hàng (Sản phẩm)</h2>
+            <button 
+              onClick={() => handleRunJob(2, 'So sánh Kho Hàng')}
+              disabled={runningJob !== null}
+              className="bg-blue-600 hover:bg-blue-700 disabled:opacity-50 text-white px-3 py-1.5 rounded text-sm font-medium transition-all flex items-center gap-2">
+              {runningJob === 2 ? <Activity className="animate-spin w-4 h-4" /> : <Play className="w-4 h-4" />}
+              Chạy MapReduce
+            </button>
           </div>
-        </div>
-
-        {/* Dynamic Status Pie Charts based on DB tables */}
-        {data.dynamicPieCharts && data.dynamicPieCharts.map((pie, idx) => (
-          <div key={idx} className="bg-slate-800/40 backdrop-blur-md border border-slate-700/50 p-6 rounded-2xl shadow-lg group relative overflow-hidden">
-            <div className={`absolute top-0 left-0 w-full h-1 bg-gradient-to-r opacity-0 group-hover:opacity-100 transition-opacity ${idx % 2 === 0 ? 'from-emerald-500 to-teal-500' : 'from-blue-500 to-cyan-500'}`}></div>
-            <h2 className="text-lg font-semibold text-slate-200 mb-6 font-heading">{pie.title} (Pie)</h2>
-            <div className="h-80">
+          <div className="h-72">
+            {data.chart2 && data.chart2.length > 0 ? (
               <ResponsiveContainer width="100%" height="100%">
                 <PieChart>
-                  <Pie data={pie.data} cx="50%" cy="50%" innerRadius={idx % 2 === 0 ? 70 : 0} outerRadius={100} dataKey="value" stroke="none" label>
-                    {pie.data.map((entry, index) => (
-                      <Cell key={`cell-${index}`} fill={COLORS[(index + idx) % COLORS.length]} />
+                  <Pie data={data.chart2} cx="50%" cy="50%" innerRadius={70} outerRadius={110} dataKey="value" paddingAngle={5}>
+                    {data.chart2.map((entry, index) => (
+                      <Cell key={`cell-${index}`} fill={index === 0 ? '#f59e0b' : '#3b82f6'} />
                     ))}
                   </Pie>
                   <Tooltip content={<CustomTooltip />} />
-                  <Legend wrapperStyle={{ color: CHART_TEXT_COLOR }} />
+                  <Legend />
                 </PieChart>
               </ResponsiveContainer>
-            </div>
-          </div>
-        ))}
-
-        {/* Double Line Chart */}
-        <div className="bg-slate-800/40 backdrop-blur-md border border-slate-700/50 p-6 rounded-2xl shadow-lg group relative overflow-hidden lg:col-span-1">
-          <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-pink-500 to-rose-500 opacity-0 group-hover:opacity-100 transition-opacity"></div>
-          <h2 className="text-lg font-semibold text-slate-200 mb-6 font-heading">Hiệu Suất Job Theo Công Cụ (Line)</h2>
-          <div className="h-72">
-            <ResponsiveContainer width="100%" height="100%">
-              <LineChart data={data.lineData}>
-                <CartesianGrid strokeDasharray="3 3" vertical={false} stroke={CHART_GRID_COLOR} />
-                <XAxis dataKey="name" stroke={CHART_TEXT_COLOR} tick={{fill: CHART_TEXT_COLOR}} axisLine={false} />
-                <YAxis stroke={CHART_TEXT_COLOR} tick={{fill: CHART_TEXT_COLOR}} axisLine={false} tickLine={false} />
-                <Tooltip content={<CustomTooltip />} />
-                <Legend wrapperStyle={{ color: CHART_TEXT_COLOR, paddingTop: '10px' }} />
-                <Line type="monotone" dataKey="success" name="Thành công" stroke="#10b981" strokeWidth={3} dot={{r: 4, strokeWidth: 2}} activeDot={{r: 6}} />
-                <Line type="monotone" dataKey="error" name="Lỗi" stroke="#ec4899" strokeWidth={3} dot={{r: 4, strokeWidth: 2}} activeDot={{r: 6}} />
-              </LineChart>
-            </ResponsiveContainer>
+            ) : (
+              <div className="h-full flex items-center justify-center text-slate-400 border-2 border-dashed border-slate-200 rounded">
+                Chưa có dữ liệu. Vui lòng bấm Chạy MapReduce.
+              </div>
+            )}
           </div>
         </div>
 
-        {/* Bar Chart 1 */}
-        <div className="bg-slate-800/40 backdrop-blur-md border border-slate-700/50 p-6 rounded-2xl shadow-lg group relative overflow-hidden lg:col-span-1">
-          <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-amber-400 to-orange-500 opacity-0 group-hover:opacity-100 transition-opacity"></div>
-          <h2 className="text-lg font-semibold text-slate-200 mb-6 font-heading">Phân Bổ Dữ Liệu Bảng (Bar)</h2>
-          <div className="h-72">
-            <ResponsiveContainer width="100%" height="100%">
-              <BarChart data={data.barData}>
-                <CartesianGrid strokeDasharray="3 3" vertical={false} stroke={CHART_GRID_COLOR} />
-                <XAxis dataKey="name" stroke={CHART_TEXT_COLOR} tick={{fill: CHART_TEXT_COLOR}} axisLine={false} />
-                <YAxis stroke={CHART_TEXT_COLOR} tick={{fill: CHART_TEXT_COLOR}} axisLine={false} tickLine={false} />
-                <Tooltip content={<CustomTooltip />} cursor={{fill: '#334155', opacity: 0.4}} />
-                <Bar dataKey="total" name="Số lượng SP" fill="#f59e0b" radius={[4, 4, 0, 0]} />
-              </BarChart>
-            </ResponsiveContainer>
+        {/* Chart 3: Area Chart (Rating Trend) */}
+        <div className="bg-white border border-slate-200 p-6 rounded shadow-sm relative overflow-hidden lg:col-span-2">
+          <div className="flex justify-between items-center mb-6">
+            <h2 className="text-lg font-semibold text-slate-800">3. Xu Hướng Điểm Đánh Giá (Rating) Theo Hãng</h2>
+            <button 
+              onClick={() => handleRunJob(3, 'Rating Trend')}
+              disabled={runningJob !== null}
+              className="bg-emerald-600 hover:bg-emerald-700 disabled:opacity-50 text-white px-3 py-1.5 rounded text-sm font-medium transition-all flex items-center gap-2">
+              {runningJob === 3 ? <Activity className="animate-spin w-4 h-4" /> : <Play className="w-4 h-4" />}
+              Chạy MapReduce
+            </button>
+          </div>
+          <div className="h-80">
+            {data.chart3 && data.chart3.length > 0 ? (
+              <ResponsiveContainer width="100%" height="100%">
+                <AreaChart data={data.chart3}>
+                  <defs>
+                    <linearGradient id="colorRating" x1="0" y1="0" x2="0" y2="1">
+                      <stop offset="5%" stopColor="#10b981" stopOpacity={0.5}/>
+                      <stop offset="95%" stopColor="#10b981" stopOpacity={0}/>
+                    </linearGradient>
+                  </defs>
+                  <CartesianGrid strokeDasharray="3 3" vertical={false} stroke={CHART_GRID_COLOR} />
+                  <XAxis dataKey="name" stroke="#64748b" />
+                  <YAxis stroke="#64748b" domain={[0, 5]} />
+                  <Tooltip content={<CustomTooltip />} />
+                  <Area type="monotone" dataKey="value" name="Điểm Đánh Giá (Sao)" stroke="#10b981" fillOpacity={1} fill="url(#colorRating)" />
+                </AreaChart>
+              </ResponsiveContainer>
+            ) : (
+              <div className="h-full flex items-center justify-center text-slate-400 border-2 border-dashed border-slate-200 rounded">
+                Chưa có dữ liệu. Vui lòng bấm Chạy MapReduce.
+              </div>
+            )}
           </div>
         </div>
 
-        {/* Bar Chart 2 (Static Top Brands) */}
-        <div className="bg-slate-800/40 backdrop-blur-md border border-slate-700/50 p-6 rounded-2xl shadow-lg group relative overflow-hidden lg:col-span-1">
-          <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-fuchsia-500 to-purple-500 opacity-0 group-hover:opacity-100 transition-opacity"></div>
-          <h2 className="text-lg font-semibold text-slate-200 mb-6 font-heading">Top 5 Thương Hiệu (Bar)</h2>
+        {/* Chart 4: Radar (Top Brands) */}
+        <div className="bg-white border border-slate-200 p-6 rounded shadow-sm relative overflow-hidden">
+          <div className="flex justify-between items-center mb-6">
+            <h2 className="text-lg font-semibold text-slate-800">4. Độ Phủ Thương Hiệu (Radar)</h2>
+            <button 
+              onClick={() => handleRunJob(4, 'Độ Phủ Thương Hiệu')}
+              disabled={runningJob !== null}
+              className="bg-indigo-600 hover:bg-indigo-700 disabled:opacity-50 text-white px-3 py-1.5 rounded text-sm font-medium transition-all flex items-center gap-2">
+              {runningJob === 4 ? <Activity className="animate-spin w-4 h-4" /> : <Play className="w-4 h-4" />}
+              Chạy MapReduce
+            </button>
+          </div>
           <div className="h-72">
-            <ResponsiveContainer width="100%" height="100%">
-              <BarChart data={data.topBrandsBar}>
-                <CartesianGrid strokeDasharray="3 3" vertical={false} stroke={CHART_GRID_COLOR} />
-                <XAxis dataKey="name" stroke={CHART_TEXT_COLOR} tick={{fill: CHART_TEXT_COLOR}} axisLine={false} />
-                <YAxis stroke={CHART_TEXT_COLOR} tick={{fill: CHART_TEXT_COLOR}} axisLine={false} tickLine={false} />
-                <Tooltip content={<CustomTooltip />} cursor={{fill: '#334155', opacity: 0.4}} />
-                <Bar dataKey="total" name="Số lượng SP" fill="#8b5cf6" radius={[4, 4, 0, 0]} />
-              </BarChart>
-            </ResponsiveContainer>
+            {data.chart4 && data.chart4.length > 0 ? (
+              <ResponsiveContainer width="100%" height="100%">
+                <RadarChart cx="50%" cy="50%" outerRadius="70%" data={data.chart4}>
+                  <PolarGrid />
+                  <PolarAngleAxis dataKey="name" />
+                  <PolarRadiusAxis />
+                  <Radar name="Số Lượng Mẫu Mã" dataKey="value" stroke="#6366f1" fill="#6366f1" fillOpacity={0.6} />
+                  <Tooltip />
+                </RadarChart>
+              </ResponsiveContainer>
+            ) : (
+              <div className="h-full flex items-center justify-center text-slate-400 border-2 border-dashed border-slate-200 rounded">
+                Chưa có dữ liệu. Vui lòng bấm Chạy MapReduce.
+              </div>
+            )}
+          </div>
+        </div>
+
+        {/* Chart 5: Category Dist */}
+        <div className="bg-white border border-slate-200 p-6 rounded shadow-sm relative overflow-hidden">
+          <div className="flex justify-between items-center mb-6">
+            <h2 className="text-lg font-semibold text-slate-800">5. Tỷ Trọng Danh Mục Toàn Cụm</h2>
+            <button 
+              onClick={() => handleRunJob(5, 'Danh Mục')}
+              disabled={runningJob !== null}
+              className="bg-pink-600 hover:bg-pink-700 disabled:opacity-50 text-white px-3 py-1.5 rounded text-sm font-medium transition-all flex items-center gap-2">
+              {runningJob === 5 ? <Activity className="animate-spin w-4 h-4" /> : <Play className="w-4 h-4" />}
+              Chạy MapReduce
+            </button>
+          </div>
+          <div className="h-72">
+            {data.chart5 && data.chart5.length > 0 ? (
+              <ResponsiveContainer width="100%" height="100%">
+                <PieChart>
+                  <Pie data={data.chart5} cx="50%" cy="50%" outerRadius={100} dataKey="value" label>
+                    {data.chart5.map((entry, index) => (
+                      <Cell key={`cell-${index}`} fill={COLORS[index % COLORS.length]} />
+                    ))}
+                  </Pie>
+                  <Tooltip content={<CustomTooltip />} />
+                  <Legend />
+                </PieChart>
+              </ResponsiveContainer>
+            ) : (
+              <div className="h-full flex items-center justify-center text-slate-400 border-2 border-dashed border-slate-200 rounded">
+                Chưa có dữ liệu. Vui lòng bấm Chạy MapReduce.
+              </div>
+            )}
           </div>
         </div>
 
@@ -257,24 +278,24 @@ const Dashboard = () => {
 };
 
 const StatCard = ({ title, value, icon, trend, isUp }) => (
-  <div className="bg-slate-800/40 backdrop-blur-md border border-slate-700/50 p-6 rounded-2xl shadow-lg group hover:bg-slate-800/60 transition-all cursor-default">
+  <div className="bg-white border border-slate-200 p-6 rounded shadow-sm">
     <div className="flex items-start justify-between">
       <div>
-        <p className="text-slate-400 font-medium mb-1">{title}</p>
-        <h3 className="text-3xl font-bold text-white font-heading">{value}</h3>
+        <p className="text-slate-500 font-medium mb-1">{title}</p>
+        <h3 className="text-3xl font-bold text-slate-900 font-heading">{value || '0'}</h3>
       </div>
-      <div className="p-3 bg-slate-700/50 text-indigo-400 rounded-xl group-hover:scale-110 transition-transform">
+      <div className="p-3 bg-blue-50 text-blue-600 rounded">
         {icon}
       </div>
     </div>
     <div className="mt-4 flex items-center gap-1">
-      <span className={`flex items-center text-sm font-medium ${isUp ? 'text-emerald-400' : 'text-rose-400'}`}>
+      <span className={`flex items-center text-sm font-semibold ${isUp ? 'text-emerald-600' : 'text-red-600'}`}>
         {isUp ? <ArrowUpRight size={16} /> : <ArrowDownRight size={16} />}
         {trend}
       </span>
-      <span className="text-slate-500 text-sm ml-1">so với tháng trước</span>
     </div>
   </div>
 );
 
 export default Dashboard;
+

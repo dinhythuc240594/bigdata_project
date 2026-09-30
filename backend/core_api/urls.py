@@ -1,5 +1,5 @@
 from django.urls import path
-from .views import RunMapReduceView, RunSqoopView, DashboardStatsView, JobHistoryView, DataTableDataView, DataRecordView, RunSqoopExportView, ActiveTasksView, ClusterStatusView, RunHiveView, RunPigView, RunSparkView, RunCustomQueryView, ExportExcelView
+from .views import RunMapReduceView, RunSqoopView, DashboardStatsView, JobHistoryView, DataTableDataView, DataRecordView, RunSqoopExportView, ActiveTasksView, ClusterStatusView, RunHiveView, RunPigView, RunSparkView, RunCustomQueryView, ExportExcelView, RunDashboardJobView
 
 urlpatterns = [
     path('run-mapreduce/', RunMapReduceView.as_view(), name='run-mapreduce'),
@@ -16,4 +16,5 @@ urlpatterns = [
     path('run-spark/', RunSparkView.as_view(), name='run-spark'),
     path('run-custom-query/', RunCustomQueryView.as_view(), name='run-custom-query'),
     path('export-excel/', ExportExcelView.as_view(), name='export-excel'),
+    path('run-dashboard-job/', RunDashboardJobView.as_view(), name='run-dashboard-job'),
 ]

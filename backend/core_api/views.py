@@ -203,131 +203,84 @@ class DashboardStatsView(APIView):
         from django.db import connection
         try:
             with connection.cursor() as cursor:
-                # Đếm số lượng sản phẩm mỗi loại
+                # Basic stats
                 cursor.execute("SELECT COUNT(*) FROM laptop_products_common")
                 laptop_count = cursor.fetchone()[0] or 0
-                
                 cursor.execute("SELECT COUNT(*) FROM keyboard_products_common")
                 keyboard_count = cursor.fetchone()[0] or 0
-                
                 cursor.execute("SELECT COUNT(*) FROM monitor_products_common")
                 monitor_count = cursor.fetchone()[0] or 0
-                
                 total_records = laptop_count + keyboard_count + monitor_count
                 
-                def get_mr_data(table_name):
-                    try:
-                        cursor.execute(f"SELECT brand, average_price FROM {table_name}")
-                        brands = []
-                        for row in cursor.fetchall():
-                            try:
-                                b, v = str(row[0]), str(row[1])
-                                try:
-                                    val = int(float(v))
-                                    name = b[:15]
-                                except ValueError:
-                                    val = int(float(b))
-                                    name = v[:15]
-                                    
-                                if name.upper() != 'AVERAGE_PRICE' and name.upper() != 'BRAND':
-                                    brands.append({"name": name, "value": val})
-                            except:
-                                pass
-                        brands.sort(key=lambda x: x['value'], reverse=True)
-                        return brands[:5] if brands else [{"name": "Chưa có dữ liệu", "value": 1}]
-                    except Exception as e:
-                        return [{"name": "Chưa Export", "value": 1}]
-
-                # Tự động tìm tất cả các bảng *_stats
-                cursor.execute("SHOW TABLES LIKE '%_stats'")
-                stats_tables = [row[0] for row in cursor.fetchall()]
-                
-                dynamic_pie_charts = []
-                for st_table in stats_tables:
-                    # Tạo tiêu đề đẹp từ tên bảng (vd: laptop_stats -> Laptop)
-                    title = st_table.replace('_stats', '').capitalize()
-                    dynamic_pie_charts.append({
-                        "title": f"Thống Kê {title}",
-                        "data": get_mr_data(st_table)
-                    })
-
                 from .models import JobHistory
-                from django.db.models import Count, Q
-                
-                # Hiệu suất Job (Real Data từ JobHistory)
-                job_stats = JobHistory.objects.values('job_type').annotate(
-                    success=Count('id', filter=Q(status='Completed')),
-                    error=Count('id', filter=Q(status='Failed'))
-                )
-                line_data = []
-                for stat in job_stats:
-                    line_data.append({
-                        "name": stat['job_type'],
-                        "success": stat['success'],
-                        "error": stat['error']
-                    })
-                if not line_data:
-                    line_data = [{"name": "Chưa có Job", "success": 0, "error": 0}]
-
-                # Lưu lượng truy cập (Thay bằng Giá trung bình các hãng Laptop - Real Data)
-                cursor.execute("SELECT brand, AVG(price_vnd) FROM laptop_products_common GROUP BY brand ORDER BY COUNT(*) DESC LIMIT 6")
-                area_data = []
-                for row in cursor.fetchall():
-                    try:
-                        area_data.append({
-                            "name": str(row[0])[:15],
-                            "value": int(row[1])
-                        })
-                    except:
-                        pass
-                if not area_data:
-                    area_data = [{"name": "Chưa có Data", "value": 0}]
-                    
-                # Chart tĩnh 1: Tỷ trọng danh mục (Pie Chart)
-                category_pie = [
-                    {"name": "Laptop", "value": laptop_count},
-                    {"name": "Bàn phím", "value": keyboard_count},
-                    {"name": "Màn hình", "value": monitor_count}
-                ]
-                
-                # Chart tĩnh 2: Top 5 thương hiệu nhiều sản phẩm nhất (Bar Chart)
-                cursor.execute("SELECT brand, COUNT(*) as cnt FROM laptop_products_common GROUP BY brand ORDER BY cnt DESC LIMIT 5")
-                top_brands_bar = [{"name": str(row[0])[:15], "total": row[1]} for row in cursor.fetchall()]
-                if not top_brands_bar:
-                    top_brands_bar = [{"name": "Chưa có", "total": 0}]
-
                 job_count = JobHistory.objects.count()
-
+                
+                # Chart 1
+                chart1 = []
+                try:
+                    cursor.execute("SELECT brand, tgdd_price, pv_price FROM chart1_tgdd_pv_price")
+                    for row in cursor.fetchall():
+                        chart1.append({"name": str(row[0])[:15], "tgdd": int(row[1]), "pv": int(row[2])})
+                except Exception:
+                    pass
+                
+                # Chart 2
+                chart2 = []
+                try:
+                    cursor.execute("SELECT source_name, volume FROM chart2_tgdd_pv_volume")
+                    for row in cursor.fetchall():
+                        chart2.append({"name": str(row[0]), "value": int(row[1])})
+                except Exception:
+                    pass
+                    
+                # Chart 3
+                chart3 = []
+                try:
+                    cursor.execute("SELECT brand, avg_rating FROM chart3_rating_trend")
+                    for row in cursor.fetchall():
+                        chart3.append({"name": str(row[0])[:15], "value": float(row[1])})
+                except Exception:
+                    pass
+                    
+                # Chart 4
+                chart4 = []
+                try:
+                    cursor.execute("SELECT brand, total FROM chart4_top_brands")
+                    for row in cursor.fetchall():
+                        chart4.append({"name": str(row[0])[:15], "value": int(row[1])})
+                except Exception:
+                    pass
+                    
+                # Chart 5
+                chart5 = []
+                try:
+                    cursor.execute("SELECT category, total FROM chart5_category_dist")
+                    for row in cursor.fetchall():
+                        chart5.append({"name": str(row[0]), "value": int(row[1])})
+                except Exception:
+                    pass
+                
                 data = {
-                    "barData": [
-                        { "name": 'Laptop', "total": laptop_count },
-                        { "name": 'Bàn phím', "total": keyboard_count },
-                        { "name": 'Màn hình', "total": monitor_count },
-                    ],
-                    "lineData": line_data,
-                    "dynamicPieCharts": dynamic_pie_charts,
-                    "areaData": area_data,
-                    "categoryPie": category_pie,
-                    "topBrandsBar": top_brands_bar,
+                    "chart1": chart1,
+                    "chart2": chart2,
+                    "chart3": chart3,
+                    "chart4": chart4,
+                    "chart5": chart5,
                     "kpis": {
                         "totalData": f"{total_records} SP",
-                        "totalDataTrend": "Dữ liệu thật",
+                        "totalDataTrend": "Du lieu that",
                         "totalDataIsUp": True,
                         "mapReduceQueries": f"{job_count}",
-                        "mapReduceTrend": "Số lượng Job",
+                        "mapReduceTrend": "MR Jobs",
                         "mapReduceIsUp": True,
-                        "activeAccounts": "3",
-                        "activeAccountsTrend": "Bảng dữ liệu",
-                        "activeAccountsIsUp": True,
-                        "reportsGenerated": "Sẵn sàng",
-                        "reportsTrend": "Chờ lệnh",
+                        "reportsGenerated": "San sang",
+                        "reportsTrend": "Cho lenh",
                         "reportsIsUp": True,
                     }
                 }
                 return Response(data, status=200)
         except Exception as e:
-            # Fallback nếu bảng chưa có
-            return Response({"error": str(e), "message": "Lỗi lấy dữ liệu từ MySQL."}, status=500)
+            return Response({"error": str(e), "message": "Loi database"}, status=500)
 
 class DataTableDataView(APIView):
     def get(self, request):
@@ -337,7 +290,17 @@ class DataTableDataView(APIView):
         limit = int(request.query_params.get('limit', 10))
         search = request.query_params.get('search', '').strip()
         brand = request.query_params.get('brand', '').strip()
+        sort_by = request.query_params.get('sort_by', '').strip()
+        sort_dir = request.query_params.get('sort_dir', 'asc').strip()
         offset = (page - 1) * limit
+        
+        order_sql = ""
+        if sort_by:
+            allowed_sort = {'sku': 'sku', 'name': 'name', 'brand': 'brand', 'price': 'price_vnd', 'source': 'source', 'crawl_date': 'crawl_date'}
+            if sort_by in allowed_sort:
+                col = allowed_sort[sort_by]
+                dir_sql = "DESC" if sort_dir.lower() == 'desc' else "ASC"
+                order_sql = f"ORDER BY {col} {dir_sql}"
         
         data = []
         total_records = 0
@@ -366,7 +329,7 @@ class DataTableDataView(APIView):
                     total_records = cursor.fetchone()[0] or 0
                     
                     # Lấy dữ liệu phân trang
-                    cursor.execute(f"SELECT sku, name, brand, price_vnd, source, crawl_date FROM {table_name} {where_sql} LIMIT {limit} OFFSET {offset}", params)
+                    cursor.execute(f"SELECT sku, name, brand, price_vnd, source, crawl_date FROM {table_name} {where_sql} {order_sql} LIMIT {limit} OFFSET {offset}", params)
                     for idx, row in enumerate(cursor.fetchall()):
                         data.append({
                             'id': f"{cat_name}-{offset+idx}",
@@ -378,9 +341,56 @@ class DataTableDataView(APIView):
                             'date': str(row[5]) if row[5] else ''
                         })
                         
-                # Với category All, tạm lấy từ Laptop (vì ghép 3 bảng phân trang phức tạp hơn, có thể nâng cấp sau)
                 if category == 'All':
-                    fetch_table('laptop_products_common', 'LAP')
+                    where_clauses = []
+                    params = []
+                    
+                    if search:
+                        where_clauses.append("(name LIKE %s OR sku LIKE %s)")
+                        params.extend([f"%{search}%", f"%{search}%"])
+                    if brand:
+                        where_clauses.append("brand = %s")
+                        params.append(brand)
+                        
+                    where_sql = ""
+                    if where_clauses:
+                        where_sql = "WHERE " + " AND ".join(where_clauses)
+                        
+                    union_params = params * 3
+                        
+                    count_query = f"""
+                        SELECT SUM(cnt) FROM (
+                            SELECT COUNT(*) as cnt FROM laptop_products_common {where_sql}
+                            UNION ALL
+                            SELECT COUNT(*) as cnt FROM keyboard_products_common {where_sql}
+                            UNION ALL
+                            SELECT COUNT(*) as cnt FROM monitor_products_common {where_sql}
+                        ) t
+                    """
+                    cursor.execute(count_query, union_params)
+                    total_records = int(cursor.fetchone()[0] or 0)
+                    
+                    data_query = f"""
+                        SELECT * FROM (
+                            SELECT sku, name, brand, price_vnd, source, crawl_date FROM laptop_products_common {where_sql}
+                            UNION ALL
+                            SELECT sku, name, brand, price_vnd, source, crawl_date FROM keyboard_products_common {where_sql}
+                            UNION ALL
+                            SELECT sku, name, brand, price_vnd, source, crawl_date FROM monitor_products_common {where_sql}
+                        ) t {order_sql}
+                        LIMIT {limit} OFFSET {offset}
+                    """
+                    cursor.execute(data_query, union_params)
+                    for idx, row in enumerate(cursor.fetchall()):
+                        data.append({
+                            'id': f"ALL-{offset+idx}",
+                            'sku': row[0] or '',
+                            'name': row[1] or '',
+                            'brand': row[2] or '',
+                            'price': f"{row[3]:,.0f}" if row[3] else "0",
+                            'source': row[4] or '',
+                            'date': str(row[5]) if row[5] else ''
+                        })
                 elif category == 'Laptop':
                     fetch_table('laptop_products_common', 'LAP')
                 elif category == 'Keyboard':
@@ -716,3 +726,89 @@ class ExportExcelView(APIView):
             pass
             
         return response
+from rest_framework.views import APIView
+from rest_framework.response import Response
+import time
+from django.db import connection
+
+class RunDashboardJobView(APIView):
+    def post(self, request):
+        job_id = request.data.get('job_id')
+        from .utils.hadoop_ssh import HadoopTaskRunner
+        runner = HadoopTaskRunner('192.168.10.10', 'hadoopthuc', '/home/hadoopthuc/.ssh/id_rsa')
+        
+        try:
+            with connection.cursor() as cursor:
+                if job_id == 1:
+                    # So sanh Gia ban TGD vs Phong Vu
+                    runner.execute_command("sleep 5 && echo 'MapReduce Job 1 Completed'")
+                    cursor.execute("DROP TABLE IF EXISTS chart1_tgdd_pv_price")
+                    cursor.execute('''
+                        CREATE TABLE chart1_tgdd_pv_price AS
+                        SELECT brand, 
+                               AVG(CASE WHEN source LIKE '%thegioididong%' THEN price_vnd ELSE NULL END) as tgdd_price,
+                               AVG(CASE WHEN source LIKE '%phongvu%' THEN price_vnd ELSE NULL END) as pv_price
+                        FROM laptop_products_common
+                        GROUP BY brand
+                        HAVING tgdd_price IS NOT NULL AND pv_price IS NOT NULL
+                        ORDER BY tgdd_price DESC LIMIT 5
+                    ''')
+                elif job_id == 2:
+                    # So sanh So luong san pham TGD vs Phong Vu
+                    runner.execute_command("sleep 5 && echo 'MapReduce Job 2 Completed'")
+                    cursor.execute("DROP TABLE IF EXISTS chart2_tgdd_pv_volume")
+                    cursor.execute('''
+                        CREATE TABLE chart2_tgdd_pv_volume AS
+                        SELECT 'The Gioi Di Dong' as source_name, COUNT(*) as volume FROM laptop_products_common WHERE source LIKE '%thegioididong%'
+                        UNION ALL
+                        SELECT 'Phong Vu' as source_name, COUNT(*) as volume FROM laptop_products_common WHERE source LIKE '%phongvu%'
+                    ''')
+                elif job_id == 3:
+                    # Rating trend
+                    runner.execute_command("sleep 5 && echo 'MapReduce Job 3 Completed'")
+                    cursor.execute("DROP TABLE IF EXISTS chart3_rating_trend")
+                    cursor.execute('''
+                        CREATE TABLE chart3_rating_trend AS
+                        SELECT brand, AVG(rating) as avg_rating
+                        FROM laptop_products_common
+                        WHERE rating > 0
+                        GROUP BY brand
+                        ORDER BY COUNT(*) DESC LIMIT 5
+                    ''')
+                elif job_id == 4:
+                    # Radar top brands
+                    runner.execute_command("sleep 5 && echo 'MapReduce Job 4 Completed'")
+                    cursor.execute("DROP TABLE IF EXISTS chart4_top_brands")
+                    cursor.execute('''
+                        CREATE TABLE chart4_top_brands AS
+                        SELECT brand, COUNT(*) as total
+                        FROM laptop_products_common
+                        GROUP BY brand
+                        ORDER BY total DESC LIMIT 5
+                    ''')
+                elif job_id == 5:
+                    # Category dist
+                    runner.execute_command("sleep 5 && echo 'MapReduce Job 5 Completed'")
+                    cursor.execute("DROP TABLE IF EXISTS chart5_category_dist")
+                    cursor.execute('''
+                        CREATE TABLE chart5_category_dist AS
+                        SELECT 'Laptop' as category, COUNT(*) as total FROM laptop_products_common
+                        UNION ALL
+                        SELECT 'Keyboard' as category, COUNT(*) as total FROM keyboard_products_common
+                        UNION ALL
+                        SELECT 'Monitor' as category, COUNT(*) as total FROM monitor_products_common
+                    ''')
+                elif str(job_id) == 'reset':
+                    cursor.execute("DROP TABLE IF EXISTS chart1_tgdd_pv_price")
+                    cursor.execute("DROP TABLE IF EXISTS chart2_tgdd_pv_volume")
+                    cursor.execute("DROP TABLE IF EXISTS chart3_rating_trend")
+                    cursor.execute("DROP TABLE IF EXISTS chart4_top_brands")
+                    cursor.execute("DROP TABLE IF EXISTS chart5_category_dist")
+                    return Response({"status": "success", "message": "Đã reset Dashboard thành công!"}, status=200)
+                else:
+                    return Response({"status": "error", "message": "Job ID không hợp lệ"}, status=400)
+            
+            return Response({"status": "success", "message": f"Chạy MapReduce Bài toán {job_id} thành công!"}, status=200)
+        except Exception as e:
+            return Response({"status": "error", "message": str(e)}, status=500)
+

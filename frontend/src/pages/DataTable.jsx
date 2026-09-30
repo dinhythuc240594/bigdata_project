@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Database, Filter, Download, MoreHorizontal, RefreshCw, Plus, Edit2, Trash2 } from 'lucide-react';
+import { Database, Filter, Download, MoreHorizontal, RefreshCw, Plus, Edit2, Trash2, ArrowUpDown } from 'lucide-react';
 
 
 const DataTable = () => {
@@ -12,6 +12,21 @@ const DataTable = () => {
   const [limit, setLimit] = useState(10);
   const [totalRecords, setTotalRecords] = useState(0);
 
+  // Sorting State
+  const [sortConfig, setSortConfig] = useState({ key: null, direction: 'asc' });
+
+  const handleSort = (key) => {
+    if (sortConfig.key === key) {
+      if (sortConfig.direction === 'asc') {
+        setSortConfig({ key, direction: 'desc' });
+      } else {
+        setSortConfig({ key: null, direction: 'asc' });
+      }
+    } else {
+      setSortConfig({ key, direction: 'asc' });
+    }
+  };
+
   // Filter State
   const [showFilter, setShowFilter] = useState(false);
   const [searchQuery, setSearchQuery] = useState('');
@@ -23,12 +38,16 @@ const DataTable = () => {
   const [formData, setFormData] = useState({ sku: '', name: '', brand: '', price: '' });
 
   useEffect(() => {
-    setPage(1); // Reset page when tab or filters change
-  }, [activeTab, searchQuery, filterBrand]);
+    setPage(1); // Reset page when tab, filters, or sorting change
+  }, [activeTab, searchQuery, filterBrand, sortConfig]);
 
   useEffect(() => {
     setLoadingData(true);
-    fetch(`http://localhost:8000/api/data-table/?category=${activeTab}&page=${page}&limit=${limit}&search=${encodeURIComponent(searchQuery)}&brand=${encodeURIComponent(filterBrand)}`)
+    let sortQuery = '';
+    if (sortConfig.key) {
+        sortQuery = `&sort_by=${sortConfig.key}&sort_dir=${sortConfig.direction}`;
+    }
+    fetch(`http://192.168.10.5:8000/api/data-table/?category=${activeTab}&page=${page}&limit=${limit}&search=${encodeURIComponent(searchQuery)}&brand=${encodeURIComponent(filterBrand)}${sortQuery}`)
       .then(res => res.json())
       .then(data => {
         setTableData(data.data || []);
@@ -39,7 +58,7 @@ const DataTable = () => {
         console.error("Lỗi lấy data-table:", err);
         setLoadingData(false);
       });
-  }, [activeTab, page, limit, searchQuery, filterBrand]);
+  }, [activeTab, page, limit, searchQuery, filterBrand, sortConfig]);
 
   const handleRunSqoop = async () => {
     const tableName = activeTab === 'Laptop' ? 'laptop_products_common' : activeTab === 'Keyboard' ? 'keyboard_products_common' : 'monitor_products_common';
@@ -47,7 +66,7 @@ const DataTable = () => {
     setActionLoading(true);
     try {
       const settings = JSON.parse(localStorage.getItem('bigdata_settings')) || {};
-      const response = await fetch('http://localhost:8000/api/run-sqoop/', {
+      const response = await fetch('http://192.168.10.5:8000/api/run-sqoop/', {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify({
@@ -81,7 +100,7 @@ const DataTable = () => {
     setActionLoading(true);
     try {
       const settings = JSON.parse(localStorage.getItem('bigdata_settings')) || {};
-      const response = await fetch('http://localhost:8000/api/run-mapreduce/', {
+      const response = await fetch('http://192.168.10.5:8000/api/run-mapreduce/', {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify({
@@ -109,7 +128,7 @@ const DataTable = () => {
     alert(`Đang bắt đầu sao lưu dữ liệu (Sqoop Export) từ HDFS về MySQL cho bảng: ${tableName}...\nVui lòng chờ, quá trình này có thể mất vài phút.`);
     setActionLoading(true);
     try {
-      const response = await fetch('http://localhost:8000/api/run-sqoop-export/', {
+      const response = await fetch('http://192.168.10.5:8000/api/run-sqoop-export/', {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify({
@@ -135,7 +154,7 @@ const DataTable = () => {
     alert(`Đang bắt đầu chạy Hive Query cho bảng: ${tableName}...\nHệ thống sẽ tạo External Table và đếm số lượng theo Brand bằng Hive.`);
     setActionLoading(true);
     try {
-      const response = await fetch('http://localhost:8000/api/run-hive/', {
+      const response = await fetch('http://192.168.10.5:8000/api/run-hive/', {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify({ table_name: tableName })
@@ -158,7 +177,7 @@ const DataTable = () => {
     alert(`Đang bắt đầu chạy Pig Script cho bảng: ${tableName}...\nHệ thống sẽ load dữ liệu bằng Apache Pig và lấy mẫu 5 dòng đầu.`);
     setActionLoading(true);
     try {
-      const response = await fetch('http://localhost:8000/api/run-pig/', {
+      const response = await fetch('http://192.168.10.5:8000/api/run-pig/', {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify({ table_name: tableName })
@@ -181,7 +200,7 @@ const DataTable = () => {
     alert(`Đang bắt đầu chạy Spark Job cho bảng: ${tableName}...\nHệ thống sẽ dùng PySpark để tính trung bình giá theo từng hãng.`);
     setActionLoading(true);
     try {
-      const response = await fetch('http://localhost:8000/api/run-spark/', {
+      const response = await fetch('http://192.168.10.5:8000/api/run-spark/', {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify({ table_name: tableName })
@@ -201,7 +220,7 @@ const DataTable = () => {
 
   const loadData = () => {
     setLoadingData(true);
-    fetch(`http://localhost:8000/api/data-table/?category=${activeTab}&page=${page}&limit=${limit}`)
+    fetch(`http://192.168.10.5:8000/api/data-table/?category=${activeTab}&page=${page}&limit=${limit}`)
       .then(res => res.json())
       .then(data => {
         setTableData(data.data || []);
@@ -239,7 +258,7 @@ const DataTable = () => {
     
     setActionLoading(true);
     try {
-      const res = await fetch('http://localhost:8000/api/data-record/', {
+      const res = await fetch('http://192.168.10.5:8000/api/data-record/', {
         method: modalMode === 'add' ? 'POST' : 'PUT',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ 
@@ -263,7 +282,7 @@ const DataTable = () => {
     
     setActionLoading(true);
     try {
-      const res = await fetch('http://localhost:8000/api/data-record/', {
+      const res = await fetch('http://192.168.10.5:8000/api/data-record/', {
         method: 'DELETE',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ category: activeTab, sku: row.sku })
@@ -279,26 +298,26 @@ const DataTable = () => {
     <div className="space-y-6 animate-in fade-in duration-500">
       <div className="flex flex-col md:flex-row md:items-center justify-between gap-4">
         <div>
-          <h1 className="text-3xl font-bold text-white tracking-tight">Dữ Liệu Thu Thập (Data Table)</h1>
-          <p className="text-slate-400 mt-1">Danh sách sản phẩm được thu thập từ các nguồn (HDFS/Hive).</p>
+          <h1 className="text-3xl font-bold text-slate-900 tracking-tight">Dữ Liệu Thu Thập (Data Table)</h1>
+          <p className="text-slate-500 mt-1">Danh sách sản phẩm được thu thập từ các nguồn (HDFS/Hive).</p>
         </div>
         <div className="flex gap-3">
           <button 
             onClick={handleAdd}
             disabled={actionLoading || activeTab === 'All'}
-            className="flex items-center gap-2 px-4 py-2 bg-emerald-600/20 text-emerald-400 rounded-lg hover:bg-emerald-600/30 transition-colors border border-emerald-500/30 shadow-[0_0_10px_rgba(16,185,129,0.2)] disabled:opacity-50">
+            className="flex items-center gap-2 px-4 py-2 bg-blue-50 text-blue-700 rounded transition-colors border border-blue-200 hover:bg-blue-100 shadow-sm disabled:opacity-50">
             <Plus size={16} />
             Thêm Mới
           </button>
           <button 
             onClick={() => setShowFilter(!showFilter)}
-            className={`flex items-center gap-2 px-4 py-2 rounded-lg transition-colors border ${showFilter ? 'bg-slate-700 text-white border-slate-600' : 'bg-slate-800 text-slate-300 hover:bg-slate-700 hover:text-white border-slate-700'}`}>
+            className={`flex items-center gap-2 px-4 py-2 rounded transition-colors border shadow-sm ${showFilter ? 'bg-slate-100 text-slate-800 border-slate-300' : 'bg-white text-slate-600 hover:bg-slate-50 hover:text-slate-900 border-slate-200'}`}>
             <Filter size={16} />
             Bộ Lọc
           </button>
           <button 
-            onClick={() => window.open(`http://localhost:8000/api/export-excel/?category=${activeTab}&search=${encodeURIComponent(searchQuery)}&brand=${encodeURIComponent(filterBrand)}`, '_blank')}
-            className="flex items-center gap-2 px-4 py-2 bg-indigo-600 text-white rounded-lg hover:bg-indigo-500 transition-colors shadow-[0_0_15px_rgba(79,70,229,0.3)]">
+            onClick={() => window.open(`http://192.168.10.5:8000/api/export-excel/?category=${activeTab}&search=${encodeURIComponent(searchQuery)}&brand=${encodeURIComponent(filterBrand)}`, '_blank')}
+            className="flex items-center gap-2 px-4 py-2 bg-blue-700 text-white rounded hover:bg-blue-800 transition-colors shadow-sm">
             <Download size={16} />
             Xuất Excel
           </button>
@@ -306,31 +325,31 @@ const DataTable = () => {
       </div>
 
       {showFilter && (
-        <div className="bg-slate-800/40 backdrop-blur-md border border-slate-700/50 rounded-2xl shadow-lg p-4 flex gap-4 animate-in fade-in slide-in-from-top-4">
+        <div className="bg-white border border-slate-200 rounded shadow-sm p-4 flex gap-4 animate-in fade-in slide-in-from-top-4">
           <div className="flex-1">
-            <label className="block text-xs text-slate-400 mb-1">Tìm kiếm (Tên / SKU)</label>
+            <label className="block text-xs font-semibold text-slate-500 mb-1 uppercase tracking-wider">Tìm kiếm</label>
             <input 
               type="text" 
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
               placeholder="Nhập tên sản phẩm hoặc mã SKU..." 
-              className="w-full bg-slate-900 border border-slate-700 rounded-lg px-3 py-2 text-sm text-white focus:outline-none focus:border-indigo-500"
+              className="w-full bg-slate-50 border border-slate-200 rounded px-3 py-2 text-sm text-slate-800 focus:outline-none focus:border-blue-500 focus:ring-1 focus:ring-blue-500"
             />
           </div>
           <div className="w-64">
-            <label className="block text-xs text-slate-400 mb-1">Thương hiệu (Brand)</label>
+            <label className="block text-xs font-semibold text-slate-500 mb-1 uppercase tracking-wider">Thương hiệu</label>
             <input 
               type="text" 
               value={filterBrand}
               onChange={(e) => setFilterBrand(e.target.value)}
               placeholder="VD: Asus, Acer, Dell..." 
-              className="w-full bg-slate-900 border border-slate-700 rounded-lg px-3 py-2 text-sm text-white focus:outline-none focus:border-indigo-500"
+              className="w-full bg-slate-50 border border-slate-200 rounded px-3 py-2 text-sm text-slate-800 focus:outline-none focus:border-blue-500 focus:ring-1 focus:ring-blue-500"
             />
           </div>
           <div className="flex items-end">
             <button 
               onClick={() => { setSearchQuery(''); setFilterBrand(''); }}
-              className="px-4 py-2 bg-slate-700 hover:bg-slate-600 text-white rounded-lg text-sm transition-colors"
+              className="px-4 py-2 bg-white border border-slate-200 hover:bg-slate-50 text-slate-700 rounded text-sm transition-colors"
             >
               Xóa lọc
             </button>
@@ -338,18 +357,18 @@ const DataTable = () => {
         </div>
       )}
 
-      <div className="bg-slate-800/40 backdrop-blur-md border border-slate-700/50 rounded-2xl shadow-lg overflow-hidden">
+      <div className="bg-white border border-slate-200 rounded shadow-sm overflow-hidden">
         {/* Tabs and Actions */}
-        <div className="flex flex-col sm:flex-row sm:items-center justify-between border-b border-slate-700/50 pr-4">
+        <div className="flex flex-col sm:flex-row sm:items-center justify-between border-b border-slate-200 bg-slate-50 pr-4">
           <div className="flex">
             {['All', 'Laptop', 'Keyboard', 'Monitor'].map(tab => (
               <button 
                 key={tab}
                 onClick={() => setActiveTab(tab)}
-                className={`px-6 py-4 text-sm font-medium transition-colors border-b-2 ${
+                className={`px-6 py-3.5 text-sm font-semibold transition-colors border-b-2 ${
                   activeTab === tab 
-                    ? 'border-indigo-500 text-indigo-400 bg-indigo-500/5' 
-                    : 'border-transparent text-slate-400 hover:text-slate-200 hover:bg-slate-800/50'
+                    ? 'border-blue-600 text-blue-700 bg-blue-50' 
+                    : 'border-transparent text-slate-600 hover:text-slate-900 hover:bg-slate-100'
                 }`}
               >
                 {tab}
@@ -407,22 +426,22 @@ const DataTable = () => {
 
         {/* Table */}
         <div className="overflow-x-auto">
-          <table className="w-full text-left text-sm text-slate-300">
-            <thead className="text-xs text-slate-400 uppercase bg-slate-800/50 border-b border-slate-700/50">
+          <table className="w-full text-left text-sm text-slate-700">
+            <thead className="text-xs text-slate-600 uppercase bg-slate-100 border-b border-slate-200">
               <tr>
-                <th className="px-6 py-4">Mã SKU</th>
-                <th className="px-6 py-4">Tên Sản Phẩm</th>
-                <th className="px-6 py-4">Thương Hiệu</th>
-                <th className="px-6 py-4">Giá (VNĐ)</th>
-                <th className="px-6 py-4">Nguồn</th>
-                <th className="px-6 py-4">Ngày Crawl</th>
-                <th className="px-6 py-4 text-center">Thao tác</th>
+                <th className="px-6 py-3 cursor-pointer hover:bg-slate-200 transition-colors" onClick={() => handleSort('sku')}><div className="flex items-center justify-between">Mã SKU <ArrowUpDown size={14} className={sortConfig.key === 'sku' ? "text-blue-600" : "text-slate-400"}/></div></th>
+                <th className="px-6 py-3 cursor-pointer hover:bg-slate-200 transition-colors" onClick={() => handleSort('name')}><div className="flex items-center justify-between">Tên Sản Phẩm <ArrowUpDown size={14} className={sortConfig.key === 'name' ? "text-blue-600" : "text-slate-400"}/></div></th>
+                <th className="px-6 py-3 cursor-pointer hover:bg-slate-200 transition-colors" onClick={() => handleSort('brand')}><div className="flex items-center justify-between">Thương Hiệu <ArrowUpDown size={14} className={sortConfig.key === 'brand' ? "text-blue-600" : "text-slate-400"}/></div></th>
+                <th className="px-6 py-3 cursor-pointer hover:bg-slate-200 transition-colors" onClick={() => handleSort('price')}><div className="flex items-center justify-between">Giá (VNĐ) <ArrowUpDown size={14} className={sortConfig.key === 'price' ? "text-blue-600" : "text-slate-400"}/></div></th>
+                <th className="px-6 py-3 cursor-pointer hover:bg-slate-200 transition-colors" onClick={() => handleSort('source')}><div className="flex items-center justify-between">Nguồn <ArrowUpDown size={14} className={sortConfig.key === 'source' ? "text-blue-600" : "text-slate-400"}/></div></th>
+                <th className="px-6 py-3 cursor-pointer hover:bg-slate-200 transition-colors" onClick={() => handleSort('crawl_date')}><div className="flex items-center justify-between">Ngày Crawl <ArrowUpDown size={14} className={sortConfig.key === 'crawl_date' ? "text-blue-600" : "text-slate-400"}/></div></th>
+                <th className="px-6 py-3 text-center border-l border-slate-200">Thao tác</th>
               </tr>
             </thead>
             <tbody>
               {loadingData ? (
                 <tr>
-                  <td colSpan="7" className="px-6 py-10 text-center text-slate-400">
+                  <td colSpan="7" className="px-6 py-10 text-center text-slate-500">
                     <RefreshCw className="animate-spin inline-block mr-2" size={20} />
                     Đang tải dữ liệu từ CSDL...
                   </td>
@@ -435,28 +454,28 @@ const DataTable = () => {
                 </tr>
               ) : (
                 tableData.map((row, i) => (
-                  <tr key={row.id} className={`border-b border-slate-700/50 hover:bg-slate-800/50 transition-colors ${i % 2 === 0 ? 'bg-transparent' : 'bg-slate-800/20'}`}>
-                    <td className="px-6 py-4 font-medium text-slate-200">{row.sku}</td>
-                    <td className="px-6 py-4 max-w-xs truncate" title={row.name}>{row.name}</td>
-                    <td className="px-6 py-4">
-                      <span className="px-2.5 py-1 bg-slate-700/50 rounded-full text-xs font-medium border border-slate-600/50">
+                  <tr key={row.id} className={`border-b border-slate-200 hover:bg-blue-50 transition-colors ${i % 2 === 0 ? 'bg-white' : 'bg-slate-50'}`}>
+                    <td className="px-6 py-3 font-medium text-slate-900">{row.sku || '-'}</td>
+                    <td className="px-6 py-3 max-w-xs truncate" title={row.name}>{row.name}</td>
+                    <td className="px-6 py-3">
+                      <span className="px-2.5 py-1 bg-white rounded border border-slate-300 text-xs font-semibold text-slate-700">
                         {row.brand}
                       </span>
                     </td>
-                    <td className="px-6 py-4 font-mono text-emerald-400">{row.price}</td>
-                    <td className="px-6 py-4">
-                      <div className="flex items-center gap-2">
-                        <Database size={14} className="text-slate-500" />
+                    <td className="px-6 py-3 font-mono text-blue-700 font-medium">{row.price}</td>
+                    <td className="px-6 py-3">
+                      <div className="flex items-center gap-1 text-slate-600">
+                        <Database size={12} />
                         {row.source}
                       </div>
                     </td>
-                    <td className="px-6 py-4 text-slate-400">{row.date}</td>
-                    <td className="px-6 py-4 text-center">
-                      <div className="flex items-center justify-center gap-2">
-                        <button onClick={() => handleEdit(row)} className="p-1.5 text-indigo-400 hover:text-indigo-300 hover:bg-indigo-500/20 rounded-md transition-colors" title="Sửa">
+                    <td className="px-6 py-3 text-slate-500">{row.date}</td>
+                    <td className="px-6 py-3 text-center border-l border-slate-200">
+                      <div className="flex items-center justify-center gap-1">
+                        <button onClick={() => handleEdit(row)} className="p-1 text-blue-600 hover:bg-blue-100 rounded transition-colors" title="Sửa">
                           <Edit2 size={16} />
                         </button>
-                        <button onClick={() => handleDelete(row)} className="p-1.5 text-rose-400 hover:text-rose-300 hover:bg-rose-500/20 rounded-md transition-colors" title="Xóa">
+                        <button onClick={() => handleDelete(row)} className="p-1 text-red-600 hover:bg-red-100 rounded transition-colors" title="Xóa">
                           <Trash2 size={16} />
                         </button>
                       </div>
@@ -469,17 +488,17 @@ const DataTable = () => {
         </div>
         
         {/* Pagination */}
-        <div className="p-4 border-t border-slate-700/50 flex flex-col md:flex-row items-center justify-between gap-4 text-sm text-slate-400">
+        <div className="p-3 border-t border-slate-200 bg-slate-50 flex flex-col md:flex-row items-center justify-between gap-4 text-sm text-slate-600">
           <div className="flex items-center gap-4">
             <div>
-              Hiển thị {totalRecords > 0 ? (page - 1) * limit + 1 : 0} đến {Math.min(page * limit, totalRecords)} trong số <span className="font-medium text-slate-200">{totalRecords.toLocaleString()}</span> kết quả
+              Hiển thị {totalRecords > 0 ? (page - 1) * limit + 1 : 0} đến {Math.min(page * limit, totalRecords)} trong số <span className="font-semibold text-slate-900">{totalRecords.toLocaleString()}</span> kết quả
             </div>
             <div className="flex items-center gap-2">
-              <span>Số dòng/trang:</span>
+              <span>Số dòng:</span>
               <select 
                 value={limit} 
                 onChange={(e) => { setLimit(Number(e.target.value)); setPage(1); }}
-                className="bg-slate-800 border border-slate-700 text-slate-300 rounded px-2 py-1 outline-none focus:border-indigo-500"
+                className="bg-white border border-slate-300 text-slate-700 rounded px-2 py-1 outline-none focus:border-blue-500 focus:ring-1 focus:ring-blue-500"
               >
                 <option value={10}>10</option>
                 <option value={20}>20</option>
@@ -492,15 +511,15 @@ const DataTable = () => {
             <button 
               onClick={() => setPage(p => Math.max(1, p - 1))}
               disabled={page === 1}
-              className="px-3 py-1 rounded bg-slate-800 hover:bg-slate-700 transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
+              className="px-3 py-1.5 rounded bg-white border border-slate-200 text-slate-700 hover:bg-slate-50 transition-colors disabled:opacity-50"
             >
               Trang trước
             </button>
-            <button className="px-3 py-1 rounded bg-indigo-600 text-white shadow-[0_0_10px_rgba(79,70,229,0.3)]">{page}</button>
+            <button className="px-3 py-1.5 rounded bg-blue-700 text-white font-medium shadow-sm">{page}</button>
             <button 
               onClick={() => setPage(p => p + 1)}
               disabled={page * limit >= totalRecords}
-              className="px-3 py-1 rounded bg-slate-800 hover:bg-slate-700 transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
+              className="px-3 py-1.5 rounded bg-white border border-slate-200 text-slate-700 hover:bg-slate-50 transition-colors disabled:opacity-50"
             >
               Trang sau
             </button>
