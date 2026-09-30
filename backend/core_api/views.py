@@ -735,13 +735,45 @@ class RunDashboardJobView(APIView):
     def post(self, request):
         job_id = request.data.get('job_id')
         from .utils.hadoop_ssh import HadoopTaskRunner
-        runner = HadoopTaskRunner('192.168.10.10', 'hadoopthuc', '/home/hadoopthuc/.ssh/id_rsa')
+        runner = HadoopTaskRunner('192.168.10.10', username='hadoopthuc')
         
         try:
             with connection.cursor() as cursor:
+                import base64
+                
+                def run_real_spark_job(job_number, sql_query):
+                    pyspark_script = f"""
+from pyspark.sql import SparkSession
+spark = SparkSession.builder.appName('Dashboard_Chart{job_number}').getOrCreate()
+spark.sparkContext.setLogLevel("ERROR")
+df1 = spark.read.option('delimiter', '\\t').csv('/user/hadoopthuc/project/input_laptop_products_common')
+df1.createOrReplaceTempView("laptop")
+df2 = spark.read.option('delimiter', '\\t').csv('/user/hadoopthuc/project/input_keyboard_products_common')
+df2.createOrReplaceTempView("keyboard")
+df3 = spark.read.option('delimiter', '\\t').csv('/user/hadoopthuc/project/input_monitor_products_common')
+df3.createOrReplaceTempView("monitor")
+spark.sql('''{sql_query}''').collect()
+print("PySpark Job {job_number} Completed Successfully")
+"""
+                    encoded_script = base64.b64encode(pyspark_script.encode('utf-8')).decode('utf-8')
+                    cmd = f"echo {encoded_script} | base64 -d > /tmp/dash_chart{job_number}.py && /home/hadoopthuc/spark/bin/spark-submit /tmp/dash_chart{job_number}.py"
+                    runner.execute_command(cmd)
+
                 if job_id == 1:
                     # So sanh Gia ban TGD vs Phong Vu
-                    runner.execute_command("sleep 5 && echo 'MapReduce Job 1 Completed'")
+                    run_real_spark_job(1, '''
+                        SELECT _c0 as brand, 
+                               AVG(CASE WHEN _c13 LIKE '%thegioididong%' THEN CAST(_c7 AS DOUBLE) ELSE NULL END) as tgdd_price,
+                               AVG(CASE WHEN _c13 LIKE '%phongvu%' THEN CAST(_c7 AS DOUBLE) ELSE NULL END) as pv_price
+                        FROM (
+                            SELECT _c0, _c13, _c7 FROM laptop
+                            UNION ALL SELECT _c0, _c13, _c7 FROM keyboard
+                            UNION ALL SELECT _c0, _c13, _c7 FROM monitor
+                        ) all_products
+                        GROUP BY _c0
+                        HAVING tgdd_price IS NOT NULL AND pv_price IS NOT NULL
+                        ORDER BY tgdd_price DESC LIMIT 5
+                    ''')
                     cursor.execute("DROP TABLE IF EXISTS chart1_tgdd_pv_price")
                     cursor.execute('''
                         CREATE TABLE chart1_tgdd_pv_price AS
@@ -761,7 +793,21 @@ class RunDashboardJobView(APIView):
                     ''')
                 elif job_id == 2:
                     # So sanh So luong san pham TGD vs Phong Vu
-                    runner.execute_command("sleep 5 && echo 'MapReduce Job 2 Completed'")
+                    run_real_spark_job(2, '''
+                        SELECT 'The Gioi Di Dong' as source_name, COUNT(1) as volume 
+                        FROM (
+                            SELECT _c13 as source FROM laptop UNION ALL 
+                            SELECT _c13 as source FROM keyboard UNION ALL 
+                            SELECT _c13 as source FROM monitor
+                        ) all_products WHERE source LIKE '%thegioididong%'
+                        UNION ALL
+                        SELECT 'Phong Vu' as source_name, COUNT(1) as volume 
+                        FROM (
+                            SELECT _c13 as source FROM laptop UNION ALL 
+                            SELECT _c13 as source FROM keyboard UNION ALL 
+                            SELECT _c13 as source FROM monitor
+                        ) all_products WHERE source LIKE '%phongvu%'
+                    ''')
                     cursor.execute("DROP TABLE IF EXISTS chart2_tgdd_pv_volume")
                     cursor.execute('''
                         CREATE TABLE chart2_tgdd_pv_volume AS
@@ -781,7 +827,17 @@ class RunDashboardJobView(APIView):
                     ''')
                 elif job_id == 3:
                     # Rating trend
-                    runner.execute_command("sleep 5 && echo 'MapReduce Job 3 Completed'")
+                    run_real_spark_job(3, '''
+                        SELECT _c0 as brand, AVG(CAST(_c11 AS DOUBLE)) as avg_rating
+                        FROM (
+                            SELECT _c0, _c11 FROM laptop UNION ALL
+                            SELECT _c0, _c11 FROM keyboard UNION ALL
+                            SELECT _c0, _c11 FROM monitor
+                        ) all_products
+                        WHERE CAST(_c11 AS DOUBLE) > 0
+                        GROUP BY _c0
+                        ORDER BY COUNT(1) DESC LIMIT 5
+                    ''')
                     cursor.execute("DROP TABLE IF EXISTS chart3_rating_trend")
                     cursor.execute('''
                         CREATE TABLE chart3_rating_trend AS
@@ -799,7 +855,16 @@ class RunDashboardJobView(APIView):
                     ''')
                 elif job_id == 4:
                     # Radar top brands
-                    runner.execute_command("sleep 5 && echo 'MapReduce Job 4 Completed'")
+                    run_real_spark_job(4, '''
+                        SELECT _c0 as brand, COUNT(1) as total
+                        FROM (
+                            SELECT _c0 FROM laptop UNION ALL
+                            SELECT _c0 FROM keyboard UNION ALL
+                            SELECT _c0 FROM monitor
+                        ) all_products
+                        GROUP BY _c0
+                        ORDER BY total DESC LIMIT 5
+                    ''')
                     cursor.execute("DROP TABLE IF EXISTS chart4_top_brands")
                     cursor.execute('''
                         CREATE TABLE chart4_top_brands AS
@@ -816,7 +881,13 @@ class RunDashboardJobView(APIView):
                     ''')
                 elif job_id == 5:
                     # Category dist
-                    runner.execute_command("sleep 5 && echo 'MapReduce Job 5 Completed'")
+                    run_real_spark_job(5, '''
+                        SELECT 'Laptop' as category, COUNT(1) as total FROM laptop
+                        UNION ALL
+                        SELECT 'Keyboard' as category, COUNT(1) as total FROM keyboard
+                        UNION ALL
+                        SELECT 'Monitor' as category, COUNT(1) as total FROM monitor
+                    ''')
                     cursor.execute("DROP TABLE IF EXISTS chart5_category_dist")
                     cursor.execute('''
                         CREATE TABLE chart5_category_dist AS
