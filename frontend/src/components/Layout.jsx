@@ -27,11 +27,20 @@ const Layout = ({ children }) => {
     <div className="flex h-screen bg-slate-50 text-slate-800 font-sans">
       {/* Sidebar */}
       <aside className={`bg-blue-900 text-blue-50 flex flex-col transition-all duration-300 shadow-xl z-20 ${isCollapsed ? 'w-20' : 'w-64'}`}>
-        <div className={`h-16 flex items-center border-b border-blue-800 ${isCollapsed ? 'justify-center px-0' : 'px-6'}`}>
-          <div className="flex items-center gap-2 text-white font-bold text-xl tracking-tight" title={isCollapsed ? "BigData" : undefined}>
-            <Database className="w-6 h-6 flex-shrink-0" />
-            {!isCollapsed && <span>BigData</span>}
-          </div>
+        <div className={`h-16 flex items-center border-b border-blue-800 ${isCollapsed ? 'justify-center px-0' : 'px-4 justify-between'}`}>
+          {!isCollapsed && (
+            <div className="flex items-center gap-2 text-white font-bold text-xl tracking-tight">
+              <Database className="w-6 h-6 flex-shrink-0" />
+              <span>BigData</span>
+            </div>
+          )}
+          <button 
+            onClick={() => setIsCollapsed(!isCollapsed)}
+            className="p-1.5 text-blue-200 hover:text-white hover:bg-blue-800 rounded-lg transition-colors"
+            title="Toggle Menu"
+          >
+            <Menu className="w-5 h-5" />
+          </button>
         </div>
         
         <nav className="flex-1 py-6 px-4 flex flex-col gap-1">
@@ -60,23 +69,7 @@ const Layout = ({ children }) => {
       {/* Main Content */}
       <main className="flex-1 flex flex-col overflow-hidden relative bg-slate-50">
         {/* Header */}
-        <header className="h-16 flex items-center justify-between px-8 border-b border-slate-200 bg-white z-50 shadow-sm relative">
-          <div className="flex items-center gap-4">
-            <button 
-              onClick={() => setIsCollapsed(!isCollapsed)}
-              className="p-2 text-slate-500 hover:text-slate-800 transition-colors bg-slate-100 hover:bg-slate-200 rounded-lg"
-            >
-              <Menu className="w-5 h-5" />
-            </button>
-            <div className="flex items-center bg-slate-100 border border-slate-200 rounded px-4 py-2 w-80 focus-within:ring-2 focus-within:ring-blue-500/50 transition-all">
-              <Search className="w-4 h-4 text-slate-400" />
-              <input 
-                type="text" 
-                placeholder="Search data, jobs..." 
-                className="bg-transparent border-none outline-none text-sm text-slate-800 ml-2 w-full placeholder:text-slate-500"
-              />
-            </div>
-          </div>
+        <header className="h-16 flex items-center justify-end px-8 border-b border-slate-200 bg-white z-50 shadow-sm relative">
           
           <div className="flex items-center gap-4 relative">
             <button 

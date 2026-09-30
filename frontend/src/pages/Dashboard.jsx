@@ -96,10 +96,10 @@ const Dashboard = () => {
 
       {/* KPI Cards */}
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-        <StatCard title="Tổng Dữ Liệu" value={data.kpis?.totalData} icon={<Database />} trend={data.kpis?.totalDataTrend} isUp={true} />
-        <StatCard title="Tiến Trình MapReduce" value={data.kpis?.mapReduceQueries} icon={<Activity />} trend={data.kpis?.mapReduceTrend} isUp={true} />
-        <StatCard title="Phân Tích Đối Thủ" value="TGDĐ / Phong Vũ" icon={<Users />} trend="Real-time" isUp={true} />
-        <StatCard title="Trạng Thái Report" value={data.kpis?.reportsGenerated} icon={<FileText />} trend={data.kpis?.reportsTrend} isUp={true} />
+        <StatCard title="Tổng Sản Phẩm" value={data.kpis?.totalData} icon={<Database />} />
+        <StatCard title="Lịch Sử Truy Vấn (Jobs)" value={data.kpis?.mapReduceQueries} icon={<Activity />} />
+        <StatCard title="Nguồn Dữ Liệu" value="TGDĐ / Phong Vũ" icon={<CloudDownload />} />
+        <StatCard title="Cụm Hadoop" value="Sẵn Sàng" icon={<Server />} />
       </div>
 
       {/* Charts Grid */}
@@ -298,12 +298,6 @@ const StatCard = ({ title, value, icon, trend, isUp }) => (
       <div className="p-3 bg-blue-50 text-blue-600 rounded">
         {icon}
       </div>
-    </div>
-    <div className="mt-4 flex items-center gap-1">
-      <span className={`flex items-center text-sm font-semibold ${isUp ? 'text-emerald-600' : 'text-red-600'}`}>
-        {isUp ? <ArrowUpRight size={16} /> : <ArrowDownRight size={16} />}
-        {trend}
-      </span>
     </div>
   </div>
 );

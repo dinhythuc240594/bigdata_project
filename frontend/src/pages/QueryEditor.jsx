@@ -76,9 +76,16 @@ const QueryEditor = () => {
     }
   };
 
-  const { chartData } = useMemo(() => {
-    if (!result) return { chartData: null };
-    const lines = result.trim().split('\n');
+  const { chartData, formattedText } = useMemo(() => {
+    if (!result) return { chartData: null, formattedText: null };
+    
+    // Fix scientific notation (e.g. 4.80775E7 -> 48077500)
+    const fixedResult = result.replace(/\b(\d+(?:\.\d+)?)[eE]([-+]?\d+)\b/g, (match) => {
+      const num = Number(match);
+      return isNaN(num) ? match : num.toString();
+    });
+
+    const lines = fixedResult.trim().split('\n');
     const cData = [];
     
     const isSpark = lines.some(l => l.includes('|'));
@@ -114,7 +121,8 @@ const QueryEditor = () => {
       }
     }
     return { 
-      chartData: cData.length > 1 ? cData.slice(0, 15) : null
+      chartData: cData.length > 1 ? cData.slice(0, 15) : null,
+      formattedText: fixedResult
     };
   }, [result]);
 
@@ -256,7 +264,7 @@ const QueryEditor = () => {
                 <pre className="text-red-600 font-mono text-sm whitespace-pre-wrap">{error}</pre>
               ) : result ? (
                 <>
-                  <pre className="text-slate-700 font-mono text-sm whitespace-pre-wrap bg-slate-50 p-4 border border-slate-200 rounded">{result}</pre>
+                  <pre className="text-slate-700 font-mono text-sm whitespace-pre-wrap bg-slate-50 p-4 border border-slate-200 rounded">{formattedText}</pre>
 
                   {chartData && (
                     <div className="border border-indigo-100 bg-indigo-50/30 rounded-lg p-4 animate-in slide-in-from-bottom-4 fade-in duration-500">

@@ -748,7 +748,13 @@ class RunDashboardJobView(APIView):
                         SELECT brand, 
                                AVG(CASE WHEN source LIKE '%thegioididong%' THEN price_vnd ELSE NULL END) as tgdd_price,
                                AVG(CASE WHEN source LIKE '%phongvu%' THEN price_vnd ELSE NULL END) as pv_price
-                        FROM laptop_products_common
+                        FROM (
+                            SELECT brand, source, price_vnd FROM laptop_products_common
+                            UNION ALL
+                            SELECT brand, source, price_vnd FROM keyboard_products_common
+                            UNION ALL
+                            SELECT brand, source, price_vnd FROM monitor_products_common
+                        ) as all_products
                         GROUP BY brand
                         HAVING tgdd_price IS NOT NULL AND pv_price IS NOT NULL
                         ORDER BY tgdd_price DESC LIMIT 5
@@ -759,9 +765,19 @@ class RunDashboardJobView(APIView):
                     cursor.execute("DROP TABLE IF EXISTS chart2_tgdd_pv_volume")
                     cursor.execute('''
                         CREATE TABLE chart2_tgdd_pv_volume AS
-                        SELECT 'The Gioi Di Dong' as source_name, COUNT(*) as volume FROM laptop_products_common WHERE source LIKE '%thegioididong%'
+                        SELECT 'The Gioi Di Dong' as source_name, COUNT(*) as volume 
+                        FROM (
+                            SELECT source FROM laptop_products_common UNION ALL 
+                            SELECT source FROM keyboard_products_common UNION ALL 
+                            SELECT source FROM monitor_products_common
+                        ) as all_products WHERE source LIKE '%thegioididong%'
                         UNION ALL
-                        SELECT 'Phong Vu' as source_name, COUNT(*) as volume FROM laptop_products_common WHERE source LIKE '%phongvu%'
+                        SELECT 'Phong Vu' as source_name, COUNT(*) as volume 
+                        FROM (
+                            SELECT source FROM laptop_products_common UNION ALL 
+                            SELECT source FROM keyboard_products_common UNION ALL 
+                            SELECT source FROM monitor_products_common
+                        ) as all_products WHERE source LIKE '%phongvu%'
                     ''')
                 elif job_id == 3:
                     # Rating trend
@@ -770,7 +786,13 @@ class RunDashboardJobView(APIView):
                     cursor.execute('''
                         CREATE TABLE chart3_rating_trend AS
                         SELECT brand, AVG(rating) as avg_rating
-                        FROM laptop_products_common
+                        FROM (
+                            SELECT brand, rating FROM laptop_products_common
+                            UNION ALL
+                            SELECT brand, rating FROM keyboard_products_common
+                            UNION ALL
+                            SELECT brand, rating FROM monitor_products_common
+                        ) as all_products
                         WHERE rating > 0
                         GROUP BY brand
                         ORDER BY COUNT(*) DESC LIMIT 5
@@ -782,7 +804,13 @@ class RunDashboardJobView(APIView):
                     cursor.execute('''
                         CREATE TABLE chart4_top_brands AS
                         SELECT brand, COUNT(*) as total
-                        FROM laptop_products_common
+                        FROM (
+                            SELECT brand FROM laptop_products_common
+                            UNION ALL
+                            SELECT brand FROM keyboard_products_common
+                            UNION ALL
+                            SELECT brand FROM monitor_products_common
+                        ) as all_products
                         GROUP BY brand
                         ORDER BY total DESC LIMIT 5
                     ''')
