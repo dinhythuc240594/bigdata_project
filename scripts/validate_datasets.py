@@ -6,20 +6,25 @@ Validate cleaned datasets: Thế Giới Di Động + Phong Vũ
 
 Kiểm tra:
 1. File tồn tại và đọc được
-2. Số lượng record
-3. Duplicate record_id / product_id / sku
-4. Missing values
-5. Giá sản phẩm không hợp lệ
-6. Discount hợp lệ
-7. Source hợp lệ
-8. Category hợp lệ
-9. Tính nhất quán common <-> specs
-10. Kiểm tra dữ liệu merged
+2. Schema
+3. Số lượng record
+4. Duplicate record_id / product_id / sku
+5. Missing values
+6. Giá sản phẩm không hợp lệ
+7. Discount hợp lệ
+8. Tính nhất quán discount
+9. Rating và review_count
+10. Source hợp lệ
+11. Category hợp lệ
+12. Tính nhất quán Common <-> Specs
+13. Record_id
+14. Thống kê giá
+15. Phân bố dữ liệu theo nguồn
+16. Tổng kết
 """
 
 from pathlib import Path
 import csv
-import sys
 from collections import Counter
 
 
@@ -32,6 +37,7 @@ BASE_DIR = Path(__file__).resolve().parents[1]
 CLEANED_DIR = BASE_DIR / "data" / "cleaned"
 
 TGDD_DIR = CLEANED_DIR / "tgdd"
+PHONGVU_DIR = CLEANED_DIR / "phongvu"
 MERGED_DIR = CLEANED_DIR / "merged"
 
 
@@ -39,6 +45,7 @@ VALID_SOURCES = {
     "thegioididong",
     "phongvu",
 }
+
 
 VALID_CATEGORIES = {
     "laptop",
@@ -51,17 +58,16 @@ DATASETS = {
     "laptop": {
         "common": MERGED_DIR / "laptop_products_common.csv",
         "specs": MERGED_DIR / "laptop_specs.csv",
-        "key": "record_id",
     },
+
     "keyboard": {
         "common": MERGED_DIR / "keyboard_products_common.csv",
         "specs": MERGED_DIR / "keyboard_specs.csv",
-        "key": "record_id",
     },
+
     "monitor": {
         "common": MERGED_DIR / "monitor_products_common.csv",
         "specs": MERGED_DIR / "monitor_specs.csv",
-        "key": "record_id",
     },
 }
 
@@ -88,7 +94,9 @@ COMMON_COLUMNS = [
     "crawl_date",
 ]
 
+
 SPEC_COLUMNS = {
+
     "laptop": [
         "record_id",
         "product_id",
@@ -134,31 +142,61 @@ def print_line(char="=", length=75):
 
 
 def load_csv(path):
-    """Đọc CSV UTF-8 và trả về list[dict]."""
+    """
+    Đọc CSV UTF-8 và trả về list[dict].
+    """
 
     if not path.exists():
-        print(f"[ERROR] Không tìm thấy file: {path}")
+
+        print(
+            f"[ERROR] Không tìm thấy file: {path}"
+        )
+
         return []
 
+
     try:
-        with open(path, "r", encoding="utf-8-sig", newline="") as f:
+
+        with open(
+            path,
+            "r",
+            encoding="utf-8-sig",
+            newline=""
+        ) as f:
+
             reader = csv.DictReader(f)
 
             if reader.fieldnames is None:
-                print(f"[ERROR] File không có header: {path}")
+
+                print(
+                    f"[ERROR] File không có header: {path}"
+                )
+
                 return []
+
 
             rows = list(reader)
 
-        print(f"[OK] {path.relative_to(BASE_DIR)} -> {len(rows):,} records")
+
+        print(
+            f"[OK] {path.relative_to(BASE_DIR)} "
+            f"-> {len(rows):,} records"
+        )
+
         return rows
 
+
     except Exception as e:
-        print(f"[ERROR] Không thể đọc {path}: {e}")
+
+        print(
+            f"[ERROR] Không thể đọc {path}: {e}"
+        )
+
         return []
 
 
 def missing_count(rows, field):
+
     return sum(
         1
         for row in rows
@@ -167,6 +205,7 @@ def missing_count(rows, field):
 
 
 def duplicate_count(rows, field):
+
     values = [
         str(row.get(field, "")).strip()
         for row in rows
@@ -183,6 +222,7 @@ def duplicate_count(rows, field):
 
 
 def duplicate_values(rows, field):
+
     values = [
         str(row.get(field, "")).strip()
         for row in rows
@@ -199,7 +239,9 @@ def duplicate_values(rows, field):
 
 
 def to_float(value):
+
     try:
+
         value = str(value).strip()
 
         if value == "":
@@ -208,11 +250,14 @@ def to_float(value):
         return float(value)
 
     except (ValueError, TypeError):
+
         return None
 
 
 def to_int(value):
+
     try:
+
         value = str(value).strip()
 
         if value == "":
@@ -221,34 +266,64 @@ def to_int(value):
         return int(float(value))
 
     except (ValueError, TypeError):
+
         return None
 
 
 def check_columns(rows, expected, file_name):
+
     if not rows:
+
         return False
 
+
     actual = set(rows[0].keys())
+
     expected_set = set(expected)
 
+
     missing = expected_set - actual
+
     extra = actual - expected_set
+
 
     ok = True
 
+
     if missing:
-        print(f"[ERROR] {file_name}: thiếu cột:")
+
+        print(
+            f"[ERROR] {file_name}: thiếu cột:"
+        )
+
         for col in sorted(missing):
-            print(f"        - {col}")
+
+            print(
+                f"        - {col}"
+            )
+
         ok = False
 
+
     if extra:
-        print(f"[INFO] {file_name}: cột dư:")
+
+        print(
+            f"[INFO] {file_name}: cột dư:"
+        )
+
         for col in sorted(extra):
-            print(f"        + {col}")
+
+            print(
+                f"        + {col}"
+            )
+
 
     if ok:
-        print(f"[OK] Schema {file_name}: đầy đủ cột")
+
+        print(
+            f"[OK] Schema {file_name}: đầy đủ cột"
+        )
+
 
     return ok
 
@@ -258,28 +333,55 @@ def check_columns(rows, expected, file_name):
 # ============================================================
 
 print_line()
-print("VALIDATE DATASETS - BIG DATA PROJECT")
-print("Nguồn: Thế Giới Di Động + Phong Vũ")
+
+print(
+    "VALIDATE DATASETS - BIG DATA PROJECT"
+)
+
+print(
+    "Nguồn: Thế Giới Di Động + Phong Vũ"
+)
+
 print_line()
 
-print(f"Project root: {BASE_DIR}")
-print(f"Cleaned data: {CLEANED_DIR}")
+
+print(
+    f"Project root: {BASE_DIR}"
+)
+
+print(
+    f"Cleaned data: {CLEANED_DIR}"
+)
+
 print()
 
+
 datasets = {}
+
 
 for category, config in DATASETS.items():
 
     print_line("-")
-    print(f"LOAD DATA: {category.upper()}")
 
-    common = load_csv(config["common"])
-    specs = load_csv(config["specs"])
+    print(
+        f"LOAD DATA: {category.upper()}"
+    )
+
+
+    common = load_csv(
+        config["common"]
+    )
+
+    specs = load_csv(
+        config["specs"]
+    )
+
 
     datasets[category] = {
         "common": common,
         "specs": specs,
     }
+
 
 print()
 
@@ -289,24 +391,43 @@ print()
 # ============================================================
 
 print_line()
-print("1. KIỂM TRA SCHEMA")
+
+print(
+    "1. KIỂM TRA SCHEMA"
+)
+
 print_line()
+
+
+schema_errors = 0
+
 
 for category, data in datasets.items():
 
-    print(f"\n[{category.upper()}]")
+    print(
+        f"\n[{category.upper()}]"
+    )
 
-    check_columns(
+
+    common_ok = check_columns(
         data["common"],
         COMMON_COLUMNS,
         f"{category}_products_common.csv"
     )
 
-    check_columns(
+
+    specs_ok = check_columns(
         data["specs"],
         SPEC_COLUMNS[category],
         f"{category}_specs.csv"
     )
+
+
+    if not common_ok:
+        schema_errors += 1
+
+    if not specs_ok:
+        schema_errors += 1
 
 
 # ============================================================
@@ -314,15 +435,27 @@ for category, data in datasets.items():
 # ============================================================
 
 print_line()
-print("2. THỐNG KÊ SỐ LƯỢNG RECORD")
+
+print(
+    "2. THỐNG KÊ SỐ LƯỢNG RECORD"
+)
+
 print_line()
+
 
 total_products = 0
 
+
 for category, data in datasets.items():
 
-    common_count = len(data["common"])
-    specs_count = len(data["specs"])
+    common_count = len(
+        data["common"]
+    )
+
+    specs_count = len(
+        data["specs"]
+    )
+
 
     print(
         f"{category.capitalize():10s} | "
@@ -330,20 +463,37 @@ for category, data in datasets.items():
         f"specs = {specs_count:>5,}"
     )
 
+
     if common_count != specs_count:
+
         print(
-            f"  [WARNING] Common và Specs không bằng nhau!"
+            "  [WARNING] Common và Specs "
+            "không bằng nhau!"
         )
+
 
     total_products += common_count
 
+
 print("-" * 75)
-print(f"TỔNG PRODUCTS: {total_products:,}")
+
+
+print(
+    f"TỔNG PRODUCTS: {total_products:,}"
+)
+
 
 if total_products >= 1000:
-    print("[OK] Đạt yêu cầu > 1000 records.")
+
+    print(
+        "[OK] Đạt yêu cầu >= 1000 records."
+    )
+
 else:
-    print("[WARNING] Chưa đạt 1000 records.")
+
+    print(
+        "[WARNING] Chưa đạt 1000 records."
+    )
 
 
 # ============================================================
@@ -351,26 +501,105 @@ else:
 # ============================================================
 
 print_line()
-print("3. KIỂM TRA DUPLICATE")
+
+print(
+    "3. KIỂM TRA DUPLICATE"
+)
+
 print_line()
+
 
 for category, data in datasets.items():
 
-    print(f"\n[{category.upper()}]")
+    print(
+        f"\n[{category.upper()}]"
+    )
+
 
     common = data["common"]
+
     specs = data["specs"]
 
-    for field in ["record_id", "product_id", "sku"]:
 
-        common_dup = duplicate_count(common, field)
-        specs_dup = duplicate_count(specs, field)
+    # --------------------------------------------------------
+    # RECORD_ID
+    # --------------------------------------------------------
+
+    common_record_dup = duplicate_count(
+        common,
+        "record_id"
+    )
+
+    specs_record_dup = duplicate_count(
+        specs,
+        "record_id"
+    )
+
+
+    print(
+        f"record_id   | "
+        f"common duplicate = "
+        f"{common_record_dup:>5,} | "
+        f"specs duplicate = "
+        f"{specs_record_dup:>5,}"
+    )
+
+
+    # --------------------------------------------------------
+    # PRODUCT_ID
+    # --------------------------------------------------------
+
+    common_product_dup = duplicate_count(
+        common,
+        "product_id"
+    )
+
+    specs_product_dup = duplicate_count(
+        specs,
+        "product_id"
+    )
+
+
+    print(
+        f"product_id  | "
+        f"common duplicate = "
+        f"{common_product_dup:>5,} | "
+        f"specs duplicate = "
+        f"{specs_product_dup:>5,}"
+    )
+
+
+    if common_product_dup > 0:
 
         print(
-            f"{field:12s} | "
-            f"common duplicate = {common_dup:>5,} | "
-            f"specs duplicate = {specs_dup:>5,}"
+            "  [INFO] product_id có giá trị trùng. "
+            "Không xem đây là lỗi vì product_id "
+            "không phải khóa duy nhất của toàn bộ nguồn."
         )
+
+
+    # --------------------------------------------------------
+    # SKU
+    # --------------------------------------------------------
+
+    common_sku_dup = duplicate_count(
+        common,
+        "sku"
+    )
+
+    specs_sku_dup = duplicate_count(
+        specs,
+        "sku"
+    )
+
+
+    print(
+        f"sku         | "
+        f"common duplicate = "
+        f"{common_sku_dup:>5,} | "
+        f"specs duplicate = "
+        f"{specs_sku_dup:>5,}"
+    )
 
 
 # ============================================================
@@ -378,21 +607,35 @@ for category, data in datasets.items():
 # ============================================================
 
 print_line()
-print("4. MISSING VALUES - COMMON")
+
+print(
+    "4. MISSING VALUES - COMMON"
+)
+
 print_line()
+
 
 for category, data in datasets.items():
 
     rows = data["common"]
 
-    print(f"\n[{category.upper()}]")
+
+    print(
+        f"\n[{category.upper()}]"
+    )
+
 
     for field in COMMON_COLUMNS:
 
-        count = missing_count(rows, field)
+        count = missing_count(
+            rows,
+            field
+        )
+
 
         print(
-            f"{field:22s}: {count:>5,}"
+            f"{field:22s}: "
+            f"{count:>5,}"
         )
 
 
@@ -401,21 +644,35 @@ for category, data in datasets.items():
 # ============================================================
 
 print_line()
-print("5. MISSING VALUES - SPECS")
+
+print(
+    "5. MISSING VALUES - SPECS"
+)
+
 print_line()
+
 
 for category, data in datasets.items():
 
     rows = data["specs"]
 
-    print(f"\n[{category.upper()}]")
+
+    print(
+        f"\n[{category.upper()}]"
+    )
+
 
     for field in SPEC_COLUMNS[category]:
 
-        count = missing_count(rows, field)
+        count = missing_count(
+            rows,
+            field
+        )
+
 
         print(
-            f"{field:22s}: {count:>5,}"
+            f"{field:22s}: "
+            f"{count:>5,}"
         )
 
 
@@ -424,67 +681,123 @@ for category, data in datasets.items():
 # ============================================================
 
 print_line()
-print("6. KIỂM TRA GIÁ")
+
+print(
+    "6. KIỂM TRA GIÁ"
+)
+
 print_line()
+
 
 for category, data in datasets.items():
 
     rows = data["common"]
 
+
     invalid_price = 0
+
     invalid_old_price = 0
+
     invalid_discount_amount = 0
+
     invalid_discount_percent = 0
+
 
     for row in rows:
 
-        price = to_float(row.get("price_vnd"))
-        old_price = to_float(row.get("old_price_vnd"))
+        price = to_float(
+            row.get("price_vnd")
+        )
+
+
+        old_price = to_float(
+            row.get("old_price_vnd")
+        )
+
+
         discount_amount = to_float(
             row.get("discount_amount_vnd")
         )
+
+
         discount_percent = to_float(
             row.get("discount_percent")
         )
 
-        # price phải > 0 nếu có giá
-        if price is not None and price <= 0:
-            invalid_price += 1
 
-        # old_price phải > 0 nếu có
-        if old_price is not None and old_price <= 0:
-            invalid_old_price += 1
+        # ----------------------------------------------------
+        # PRICE
+        # ----------------------------------------------------
 
-        # discount amount không được âm
-        if discount_amount is not None and discount_amount < 0:
-            invalid_discount_amount += 1
+        if price is not None:
 
-        # discount percent phải nằm trong 0-100
-        if (
-            discount_percent is not None
-            and (
+            if price <= 0:
+
+                invalid_price += 1
+
+
+        # ----------------------------------------------------
+        # OLD PRICE
+        # ----------------------------------------------------
+
+        if old_price is not None:
+
+            if old_price <= 0:
+
+                invalid_old_price += 1
+
+
+        # ----------------------------------------------------
+        # DISCOUNT AMOUNT
+        # ----------------------------------------------------
+
+        if discount_amount is not None:
+
+            if discount_amount < 0:
+
+                invalid_discount_amount += 1
+
+
+        # ----------------------------------------------------
+        # DISCOUNT PERCENT
+        # ----------------------------------------------------
+
+        if discount_percent is not None:
+
+            if (
                 discount_percent < 0
                 or discount_percent > 100
-            )
-        ):
-            invalid_discount_percent += 1
+            ):
 
-    print(f"\n[{category.upper()}]")
+                invalid_discount_percent += 1
+
 
     print(
-        f"price <= 0                  : {invalid_price}"
+        f"\n[{category.upper()}]"
     )
 
-    print(
-        f"old_price <= 0              : {invalid_old_price}"
-    )
 
     print(
-        f"discount_amount < 0         : {invalid_discount_amount}"
+        f"price <= 0                  : "
+        f"{invalid_price}"
     )
 
+
     print(
-        f"discount_percent ngoài 0-100: {invalid_discount_percent}"
+        f"old_price <= 0              : "
+        f"{invalid_old_price}"
+    )
+
+
+    print(
+        f"discount_amount < 0         : "
+        f"{invalid_discount_amount}"
+    )
+
+
+    print(
+        f"discount_percent ngoài 0-100: "
+        f"{invalid_discount_percent}"
     )
 
 
@@ -493,23 +806,40 @@ for category, data in datasets.items():
 # ============================================================
 
 print_line()
-print("7. KIỂM TRA TÍNH NHẤT QUÁN DISCOUNT")
+
+print(
+    "7. KIỂM TRA TÍNH NHẤT QUÁN DISCOUNT"
+)
+
 print_line()
+
 
 for category, data in datasets.items():
 
     rows = data["common"]
 
+
     invalid = 0
+
     checked = 0
+
 
     for row in rows:
 
-        price = to_float(row.get("price_vnd"))
-        old_price = to_float(row.get("old_price_vnd"))
+        price = to_float(
+            row.get("price_vnd")
+        )
+
+
+        old_price = to_float(
+            row.get("old_price_vnd")
+        )
+
+
         discount_amount = to_float(
             row.get("discount_amount_vnd")
         )
+
 
         if (
             price is not None
@@ -519,11 +849,19 @@ for category, data in datasets.items():
 
             checked += 1
 
-            expected = old_price - price
 
-            # sai lệch cho phép 1 VND
-            if abs(expected - discount_amount) > 1:
+            expected = (
+                old_price - price
+            )
+
+
+            # Cho phép sai lệch 1 VND
+            if abs(
+                expected - discount_amount
+            ) > 1:
+
                 invalid += 1
+
 
     print(
         f"{category.capitalize():10s} | "
@@ -537,37 +875,67 @@ for category, data in datasets.items():
 # ============================================================
 
 print_line()
-print("8. KIỂM TRA RATING")
+
+print(
+    "8. KIỂM TRA RATING"
+)
+
 print_line()
+
 
 for category, data in datasets.items():
 
     rows = data["common"]
 
+
     invalid_rating = 0
+
     invalid_review_count = 0
+
 
     for row in rows:
 
-        rating = to_float(row.get("rating"))
-        review_count = to_int(row.get("review_count"))
+        rating = to_float(
+            row.get("rating")
+        )
+
+
+        review_count = to_int(
+            row.get("review_count")
+        )
+
 
         if rating is not None:
-            if rating < 0 or rating > 5:
+
+            if (
+                rating < 0
+                or rating > 5
+            ):
+
                 invalid_rating += 1
 
+
         if review_count is not None:
+
             if review_count < 0:
+
                 invalid_review_count += 1
 
-    print(f"\n[{category.upper()}]")
 
     print(
-        f"rating ngoài 0-5 : {invalid_rating}"
+        f"\n[{category.upper()}]"
     )
 
+
     print(
-        f"review_count < 0  : {invalid_review_count}"
+        f"rating ngoài 0-5 : "
+        f"{invalid_rating}"
+    )
+
+
+    print(
+        f"review_count < 0  : "
+        f"{invalid_review_count}"
     )
 
 
@@ -576,31 +944,58 @@ for category, data in datasets.items():
 # ============================================================
 
 print_line()
-print("9. KIỂM TRA SOURCE")
+
+print(
+    "9. KIỂM TRA SOURCE"
+)
+
 print_line()
+
+
+source_errors = 0
+
 
 for category, data in datasets.items():
 
     rows = data["common"]
 
+
     source_counter = Counter(
-        str(row.get("source", "")).strip()
+        str(
+            row.get("source", "")
+        ).strip()
         for row in rows
     )
 
-    print(f"\n[{category.upper()}]")
+
+    print(
+        f"\n[{category.upper()}]"
+    )
+
 
     for source, count in source_counter.items():
 
-        print(
-            f"{source or '[EMPTY]':25s}: {count:>5,}"
+        display_source = (
+            source
+            if source
+            else "[EMPTY]"
         )
 
+
+        print(
+            f"{display_source:25s}: "
+            f"{count:>5,}"
+        )
+
+
         if source not in VALID_SOURCES:
+
             print(
-                f"  [WARNING] Source không nằm trong danh sách "
-                f"nguồn dự kiến."
+                "  [ERROR] Source không nằm "
+                "trong danh sách hợp lệ."
             )
+
+            source_errors += 1
 
 
 # ============================================================
@@ -608,14 +1003,24 @@ for category, data in datasets.items():
 # ============================================================
 
 print_line()
-print("10. KIỂM TRA CATEGORY")
+
+print(
+    "10. KIỂM TRA CATEGORY"
+)
+
 print_line()
+
+
+category_errors = 0
+
 
 for category, data in datasets.items():
 
     rows = data["common"]
 
+
     invalid_category = 0
+
 
     for row in rows:
 
@@ -623,13 +1028,22 @@ for category, data in datasets.items():
             row.get("category", "")
         ).strip().lower()
 
+
         if row_category not in VALID_CATEGORIES:
+
             invalid_category += 1
+
 
     print(
         f"{category.capitalize():10s} | "
-        f"invalid category = {invalid_category}"
+        f"invalid category = "
+        f"{invalid_category}"
     )
+
+
+    if invalid_category > 0:
+
+        category_errors += invalid_category
 
 
 # ============================================================
@@ -637,49 +1051,106 @@ for category, data in datasets.items():
 # ============================================================
 
 print_line()
-print("11. KIỂM TRA COMMON <-> SPECS")
+
+print(
+    "11. KIỂM TRA COMMON <-> SPECS"
+)
+
 print_line()
+
+
+relation_errors = 0
+
 
 for category, data in datasets.items():
 
     common_ids = {
-        str(row.get("record_id", "")).strip()
+
+        str(
+            row.get("record_id", "")
+        ).strip()
+
         for row in data["common"]
-        if str(row.get("record_id", "")).strip()
+
+        if str(
+            row.get("record_id", "")
+        ).strip()
     }
+
 
     specs_ids = {
-        str(row.get("record_id", "")).strip()
+
+        str(
+            row.get("record_id", "")
+        ).strip()
+
         for row in data["specs"]
-        if str(row.get("record_id", "")).strip()
+
+        if str(
+            row.get("record_id", "")
+        ).strip()
     }
 
-    common_missing_specs = common_ids - specs_ids
-    specs_missing_common = specs_ids - common_ids
 
-    print(f"\n[{category.upper()}]")
+    common_missing_specs = (
+        common_ids - specs_ids
+    )
+
+
+    specs_missing_common = (
+        specs_ids - common_ids
+    )
+
+
+    print(
+        f"\n[{category.upper()}]"
+    )
+
 
     print(
         f"Common không có Specs : "
         f"{len(common_missing_specs):>5,}"
     )
 
+
     print(
         f"Specs không có Common : "
         f"{len(specs_missing_common):>5,}"
     )
 
-    if not common_missing_specs and not specs_missing_common:
-        print("[OK] Quan hệ Common <-> Specs đầy đủ.")
+
+    if (
+        not common_missing_specs
+        and not specs_missing_common
+    ):
+
+        print(
+            "[OK] Quan hệ Common <-> Specs đầy đủ."
+        )
+
+    else:
+
+        relation_errors += (
+            len(common_missing_specs)
+            + len(specs_missing_common)
+        )
 
 
 # ============================================================
-# 16. RECORD_ID EMPTY CHECK
+# 16. RECORD_ID VALIDATION
 # ============================================================
 
 print_line()
-print("12. KIỂM TRA RECORD_ID")
+
+print(
+    "12. KIỂM TRA RECORD_ID"
+)
+
 print_line()
+
+
+record_id_errors = 0
+
 
 for category, data in datasets.items():
 
@@ -687,15 +1158,57 @@ for category, data in datasets.items():
 
         rows = data[table_name]
 
-        empty = missing_count(rows, "record_id")
-        duplicates = duplicate_count(rows, "record_id")
+
+        empty = missing_count(
+            rows,
+            "record_id"
+        )
+
+
+        duplicates = duplicate_count(
+            rows,
+            "record_id"
+        )
+
 
         print(
             f"{category:10s} | "
             f"{table_name:6s} | "
-            f"empty = {empty:>4} | "
-            f"duplicate = {duplicates:>4}"
+            f"record_id trống = {empty:>4} | "
+            f"record_id trùng = {duplicates:>4}"
         )
+
+
+        if empty > 0:
+
+            print(
+                f"  [ERROR] Có {empty} "
+                f"record chưa có record_id."
+            )
+
+            record_id_errors += empty
+
+
+        if duplicates > 0:
+
+            print(
+                f"  [ERROR] Có {duplicates} "
+                f"record_id bị trùng."
+            )
+
+            record_id_errors += duplicates
+
+
+        if (
+            empty == 0
+            and duplicates == 0
+        ):
+
+            print(
+                f"  [OK] {table_name} có "
+                f"{len(rows):,} record_id "
+                f"hợp lệ và duy nhất."
+            )
 
 
 # ============================================================
@@ -703,58 +1216,110 @@ for category, data in datasets.items():
 # ============================================================
 
 print_line()
-print("13. THỐNG KÊ GIÁ SẢN PHẨM")
+
+print(
+    "13. THỐNG KÊ GIÁ SẢN PHẨM"
+)
+
 print_line()
+
 
 for category, data in datasets.items():
 
     prices = []
 
+
     for row in data["common"]:
 
-        price = to_float(row.get("price_vnd"))
+        price = to_float(
+            row.get("price_vnd")
+        )
 
-        if price is not None and price > 0:
+
+        if (
+            price is not None
+            and price > 0
+        ):
+
             prices.append(price)
 
+
     if not prices:
-        print(f"{category}: không có dữ liệu giá.")
+
+        print(
+            f"{category}: không có dữ liệu giá."
+        )
+
         continue
 
-    prices_sorted = sorted(prices)
 
-    n = len(prices_sorted)
+    prices_sorted = sorted(
+        prices
+    )
+
+
+    n = len(
+        prices_sorted
+    )
+
 
     if n % 2 == 1:
-        median = prices_sorted[n // 2]
+
+        median = prices_sorted[
+            n // 2
+        ]
+
     else:
+
         median = (
-            prices_sorted[n // 2 - 1]
-            + prices_sorted[n // 2]
+            prices_sorted[
+                n // 2 - 1
+            ]
+            +
+            prices_sorted[
+                n // 2
+            ]
         ) / 2
 
-    average = sum(prices) / len(prices)
 
-    print(f"\n[{category.upper()}]")
-
-    print(
-        f"Số sản phẩm có giá : {len(prices):,}"
+    average = (
+        sum(prices)
+        / len(prices)
     )
 
-    print(
-        f"Giá thấp nhất      : {min(prices):,.0f} VND"
-    )
 
     print(
-        f"Giá cao nhất       : {max(prices):,.0f} VND"
+        f"\n[{category.upper()}]"
     )
 
-    print(
-        f"Giá trung bình     : {average:,.0f} VND"
-    )
 
     print(
-        f"Giá trung vị       : {median:,.0f} VND"
+        f"Số sản phẩm có giá : "
+        f"{len(prices):,}"
+    )
+
+
+    print(
+        f"Giá thấp nhất      : "
+        f"{min(prices):,.0f} VND"
+    )
+
+
+    print(
+        f"Giá cao nhất       : "
+        f"{max(prices):,.0f} VND"
+    )
+
+
+    print(
+        f"Giá trung bình     : "
+        f"{average:,.0f} VND"
+    )
+
+
+    print(
+        f"Giá trung vị       : "
+        f"{median:,.0f} VND"
     )
 
 
@@ -763,83 +1328,187 @@ for category, data in datasets.items():
 # ============================================================
 
 print_line()
-print("14. PHÂN BỐ DỮ LIỆU THEO NGUỒN")
+
+print(
+    "14. PHÂN BỐ DỮ LIỆU THEO NGUỒN"
+)
+
 print_line()
+
 
 for category, data in datasets.items():
 
     counter = Counter(
-        str(row.get("source", "")).strip()
+        str(
+            row.get("source", "")
+        ).strip()
         for row in data["common"]
     )
 
-    print(f"\n[{category.upper()}]")
+
+    print(
+        f"\n[{category.upper()}]"
+    )
+
 
     for source, count in counter.items():
 
+        display_source = (
+            source
+            if source
+            else "[EMPTY]"
+        )
+
+
         print(
-            f"{source:25s}: {count:>5,}"
+            f"{display_source:25s}: "
+            f"{count:>5,}"
         )
 
 
 # ============================================================
-# 19. SUMMARY
+# 19. FINAL SUMMARY
 # ============================================================
 
 print()
+
 print_line()
-print("TỔNG KẾT")
+
+print(
+    "TỔNG KẾT"
+)
+
 print_line()
+
 
 print(
     f"Tổng số sản phẩm sau cleaning/merge: "
     f"{total_products:,}"
 )
 
+
 print()
+
+
+overall_status = "PASS"
+
 
 for category, data in datasets.items():
 
-    common_count = len(data["common"])
-    specs_count = len(data["specs"])
+    common_count = len(
+        data["common"]
+    )
 
-    common_ids = {
-        str(row.get("record_id", "")).strip()
-        for row in data["common"]
-        if str(row.get("record_id", "")).strip()
-    }
 
-    specs_ids = {
-        str(row.get("record_id", "")).strip()
-        for row in data["specs"]
-        if str(row.get("record_id", "")).strip()
-    }
+    specs_count = len(
+        data["specs"]
+    )
+
+
+    # --------------------------------------------------------
+    # RECORD ID
+    # --------------------------------------------------------
+
+    common_empty = missing_count(
+        data["common"],
+        "record_id"
+    )
+
+
+    specs_empty = missing_count(
+        data["specs"],
+        "record_id"
+    )
+
 
     common_dup = duplicate_count(
         data["common"],
         "record_id"
     )
 
+
     specs_dup = duplicate_count(
         data["specs"],
         "record_id"
     )
 
+
+    # --------------------------------------------------------
+    # COMMON <-> SPECS
+    # --------------------------------------------------------
+
+    common_ids = {
+
+        str(
+            row.get("record_id", "")
+        ).strip()
+
+        for row in data["common"]
+
+        if str(
+            row.get("record_id", "")
+        ).strip()
+    }
+
+
+    specs_ids = {
+
+        str(
+            row.get("record_id", "")
+        ).strip()
+
+        for row in data["specs"]
+
+        if str(
+            row.get("record_id", "")
+        ).strip()
+    }
+
+
     missing_relation = (
         len(common_ids - specs_ids)
-        + len(specs_ids - common_ids)
+        +
+        len(specs_ids - common_ids)
     )
+
+
+    # --------------------------------------------------------
+    # STATUS
+    # --------------------------------------------------------
 
     status = "PASS"
 
+
     if common_count != specs_count:
+
         status = "CHECK"
 
-    if common_dup > 0 or specs_dup > 0:
+
+    if (
+        common_empty > 0
+        or specs_empty > 0
+    ):
+
         status = "CHECK"
+
+
+    if (
+        common_dup > 0
+        or specs_dup > 0
+    ):
+
+        status = "CHECK"
+
 
     if missing_relation > 0:
+
         status = "CHECK"
+
+
+    if status != "PASS":
+
+        overall_status = "CHECK"
+
 
     print(
         f"{category.capitalize():10s} | "
@@ -848,13 +1517,101 @@ for category, data in datasets.items():
         f"Status={status}"
     )
 
+
 print()
+
+
+# ============================================================
+# OVERALL VALIDATION
+# ============================================================
 
 if total_products >= 1000:
-    print("[PASS] Dataset đạt yêu cầu số lượng > 1000 records.")
+
+    print(
+        "[PASS] Dataset đạt yêu cầu "
+        ">= 1000 records."
+    )
+
 else:
-    print("[WARNING] Dataset chưa đạt 1000 records.")
+
+    print(
+        "[WARNING] Dataset chưa đạt "
+        "1000 records."
+    )
+
+    overall_status = "CHECK"
+
+
+if schema_errors > 0:
+
+    print(
+        f"[CHECK] Có {schema_errors} "
+        f"file chưa đúng schema."
+    )
+
+    overall_status = "CHECK"
+
+
+if source_errors > 0:
+
+    print(
+        f"[CHECK] Có {source_errors} "
+        f"lỗi source."
+    )
+
+    overall_status = "CHECK"
+
+
+if category_errors > 0:
+
+    print(
+        f"[CHECK] Có {category_errors} "
+        f"record có category không hợp lệ."
+    )
+
+    overall_status = "CHECK"
+
+
+if relation_errors > 0:
+
+    print(
+        f"[CHECK] Có {relation_errors} "
+        f"record không khớp Common <-> Specs."
+    )
+
+    overall_status = "CHECK"
+
+
+if record_id_errors > 0:
+
+    print(
+        f"[CHECK] Có {record_id_errors} "
+        f"lỗi record_id."
+    )
+
+    overall_status = "CHECK"
+
 
 print()
-print("Validation hoàn tất.")
+
+
+if overall_status == "PASS":
+
+    print(
+        "[PASS] DATASET VALIDATION PASSED."
+    )
+
+else:
+
+    print(
+        "[CHECK] DATASET CẦN KIỂM TRA LẠI."
+    )
+
+
+print()
+
+print(
+    "Validation hoàn tất."
+)
+
 print_line()
