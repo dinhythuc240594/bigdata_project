@@ -743,18 +743,18 @@ class RunDashboardJobView(APIView):
                 
                 def run_real_spark_job(job_number, sql_query):
                     pyspark_script = f"""
-from pyspark.sql import SparkSession
-spark = SparkSession.builder.appName('Dashboard_Chart{job_number}').getOrCreate()
-spark.sparkContext.setLogLevel("ERROR")
-df1 = spark.read.option('delimiter', '\\t').csv('/user/hadoopthuc/project/input_laptop_products_common')
-df1.createOrReplaceTempView("laptop")
-df2 = spark.read.option('delimiter', '\\t').csv('/user/hadoopthuc/project/input_keyboard_products_common')
-df2.createOrReplaceTempView("keyboard")
-df3 = spark.read.option('delimiter', '\\t').csv('/user/hadoopthuc/project/input_monitor_products_common')
-df3.createOrReplaceTempView("monitor")
-spark.sql('''{sql_query}''').collect()
-print("PySpark Job {job_number} Completed Successfully")
-"""
+                    from pyspark.sql import SparkSession
+                    spark = SparkSession.builder.appName('Dashboard_Chart{job_number}').getOrCreate()
+                    spark.sparkContext.setLogLevel("ERROR")
+                    df1 = spark.read.option('delimiter', '\\t').csv('/user/hadoopthuc/project/input_laptop_products_common')
+                    df1.createOrReplaceTempView("laptop")
+                    df2 = spark.read.option('delimiter', '\\t').csv('/user/hadoopthuc/project/input_keyboard_products_common')
+                    df2.createOrReplaceTempView("keyboard")
+                    df3 = spark.read.option('delimiter', '\\t').csv('/user/hadoopthuc/project/input_monitor_products_common')
+                    df3.createOrReplaceTempView("monitor")
+                    spark.sql('''{sql_query}''').collect()
+                    print("PySpark Job {job_number} Completed Successfully")
+                    """
                     encoded_script = base64.b64encode(pyspark_script.encode('utf-8')).decode('utf-8')
                     cmd = f"echo {encoded_script} | base64 -d > /tmp/dash_chart{job_number}.py && /home/hadoopthuc/spark/bin/spark-submit /tmp/dash_chart{job_number}.py"
                     runner.execute_command(cmd)
